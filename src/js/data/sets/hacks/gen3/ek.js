@@ -21373,7 +21373,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Volt Tackle",
 				"Surf",
-				"Petal Dance",
+				"Hidden Power Grass",
 				"Submission"
 			],
 			"nature": "Brave"
