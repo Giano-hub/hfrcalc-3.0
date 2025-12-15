@@ -2453,7 +2453,7 @@ var ADV_PATCH = {
         types: ['Water', 'Dark'],
         bs: { hp: 70, at: 120, df: 40, sa: 95, sd: 40, sp: 95 },
         weightkg: 88.8,
-        abilities: { 0: 'Rough Skin' }
+        abilities: { 0: 'Swift Swim' }
     },
     Shedinja: {
         types: ['Bug', 'Ghost'],
