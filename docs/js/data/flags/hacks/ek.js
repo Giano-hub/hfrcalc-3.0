@@ -57,7 +57,12 @@ var CUSTOMHACKFLAGS_EK = {
     },
     "badge": {
         "none": [
-            // V Forest
+           // Rt 22
+			  "Rival Terry Squirtle",
+			  "Rival Terry Charmander",
+			  "Rival Terry Bulbasaur",
+			  
+			  // V Forest
             "Bug Catcher Anthony",
             "Bug Catcher Charlie",
             "Bug Catcher Sammy",
