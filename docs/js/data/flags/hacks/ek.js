@@ -1,6 +1,6 @@
 var CUSTOMHACKFLAGS_EK = {
     "ai": {
-        // FULLY RANDOM AI WHY WOULD SAMU DO THIS
+        // FULLY RANDOM AI
         0: [
             "Channeler Angelica"
         ],
@@ -58,9 +58,9 @@ var CUSTOMHACKFLAGS_EK = {
     "badge": {
         "none": [
            // Rt 22
-			  "Rival Terry Squirtle",
-			  "Rival Terry Charmander",
-			  "Rival Terry Bulbasaur",
+			  "Rival Terry r22 Squirtle",
+			  "Rival Terry r22 Charmander",
+			  "Rival Terry r22 Bulbasaur",
 			  
 			  // V Forest
             "Bug Catcher Anthony",
