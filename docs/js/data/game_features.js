@@ -22,5 +22,9 @@ const GAME_FEATURES = {
     "Emerald Kaizo": {
         sync: true,
         upload: true
-    }
-};
+    },
+	 "Hellfire Red": {
+        sync: true,
+		  upload: true
+	 }	 
+};			 
