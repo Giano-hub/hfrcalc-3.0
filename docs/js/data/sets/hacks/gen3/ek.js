@@ -20854,7 +20854,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Sing",
 				"Thunder",
-				"Petal Dance",
+				"Submission",
 				"Hidden Power Grass"
 			],
 			"nature": "Relaxed"
@@ -23177,7 +23177,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Explosion",
 				"Flash Cannon",
-				"Ancientpower",
+				"Rock Slide",
 				"Earthquake"
 			],
 			"nature": "Bold"
