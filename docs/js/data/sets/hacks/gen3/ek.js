@@ -2736,7 +2736,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 38,
 			"moves": [
-				"Petal Dance",
+				"Leaf Blade",
 				"Sleep Powder",
 				"Hidden Power Fire",
 				"Gunk Shot"
@@ -13002,7 +13002,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Sleep Powder",
 				"Sludge Bomb",
-				"Petal Dance",
+				"Needle Arm",
 				"Hidden Power Fire"
 			],
 			"nature": "Careful"
@@ -17139,7 +17139,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ancientpower",
 				"Earthquake",
 				"Sleep Powder",
-				"Petal Dance"
+				"Leaf Blade"
 			],
 			"nature": "Modest"
 		},
