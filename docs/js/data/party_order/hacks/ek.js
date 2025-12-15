@@ -1821,6 +1821,18 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Smeargle (4)",
 		"Smeargle (5)"
 	],
+   "Rival Terry Squirtle": [
+		"Pidgey",
+		"Bulbasaur"
+	],
+	"Rival Terry Charmander": [
+		"Pidgey",
+		"Squirtle"
+	],
+	"Rival Terry Bulbasaur": [
+		"Pidgey",
+		"Charmander"
+	],	
 	"Bug Catcher Anthony": [
 		"Paras",
 		"Beedrill",
