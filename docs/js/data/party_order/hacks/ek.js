@@ -792,11 +792,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Arcanine",
 		"Donphan"
 	],
-	"Swimmer-F Tiffany": [
-		"Ludicolo",
-		"Politoed",
-		"Delcatty",
-		"Gorebyss"
+	"Picnicker Irene": [
+		"Sneasel",
+		"Raichu",
+		"Ursaring",
+		"Heracross"
 	],
 	"Swimmer-F Nora": [
 		"Granbull",
@@ -1648,11 +1648,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Typhlosion",
 		"Nidoking"
 	],
-	"Picnicker Irene": [
-		"Sneasel",
-		"Raichu",
-		"Ursaring",
-		"Heracross"
+	"Swimmer-F Tiffany": [
+		"Ludicolo",
+		"Politoed",
+		"Delcatty",
+		"Gorebyss"
 	],
 	"Picnicker Dana": [
 		"Blissey"
