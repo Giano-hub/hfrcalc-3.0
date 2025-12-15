@@ -25133,7 +25133,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Gentle"
 		},
 		"Biker William": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -25153,7 +25153,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Brave"
 		},
 		"Channeler Paula": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -25173,7 +25173,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Lax"
 		},
 		"Fisherman Hank": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Black Glasses",
 			"ivs": {
 				"at": 31,
@@ -25193,7 +25193,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Jolly"
 		},
 		"Fisherman Wade": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Hard Stone",
 			"ivs": {
 				"at": 31,
@@ -25213,7 +25213,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Modest"
 		},
 		"Rocket Admin Petrel 2": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
@@ -25233,7 +25233,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Gentle"
 		},
 		"Rocket Grunt Route 7": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -25253,7 +25253,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Modest"
 		},
 		"Rocket Grunt 1 Silph": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Bright Powder",
 			"ivs": {
 				"at": 31,
@@ -25273,7 +25273,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Gentle"
 		},
 		"Rocket Grunt 15 Silph": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -25293,7 +25293,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Rash"
 		},
 		"Sailor Edmond": {
-			"ability": "Rough Skin",
+			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
