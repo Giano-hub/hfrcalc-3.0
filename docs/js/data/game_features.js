@@ -20,7 +20,7 @@ const GAME_FEATURES = {
     "S/V": {},
     
    
-	 "Emerald Kaizo": {
+	 "Hellfire Red": {
         sync: true,
         upload: true
     }
