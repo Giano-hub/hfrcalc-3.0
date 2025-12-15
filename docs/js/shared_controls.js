@@ -461,7 +461,7 @@ $(".move-selector").change(function () {
 		var pokeObj = $(this).closest(".poke-info");
 		var pokemon = createPokemon(pokeObj);
 		var actual = calc.Stats.getHiddenPower(GENERATION, pokemon.ivs);
-		if (actual.type !== m[1] && !["Emerald Kaizo"].includes(game)) {
+		if (actual.type !== m[1] && !["Hellfire Red"].includes(game)) {
 			var hpIVs = calc.Stats.getHiddenPowerIVs(GENERATION, m[1]);
 			if (hpIVs && gen < 7) {
 				for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
@@ -879,7 +879,7 @@ $(".set-selector").change(function () {
 				break;
 			}
 		}
-		if (["Emerald Kaizo"].includes(game)) {
+		if (["Hellfire Red"].includes(game)) {
 			if (ai == 0) {
 				$("#ai-help").html(`AI: COMPLETELY RANDOM`);
 			}
@@ -1087,7 +1087,7 @@ $(".forme").change(function () {
 });
 
 function correctHiddenPower(pokemon) {
-	if (["Emerald Kaizo"].includes(game)) return pokemon;
+	if (["Hellfire Red"].includes(game)) return pokemon;
 	// After Gen 7 bottlecaps means you can have a HP without perfect IVs
 	// Level 100 is elided from sets so if its undefined its level 100
 	if (gen >= 7 && (!pokemon.level || pokemon.level >= 100)) return pokemon;
@@ -1853,7 +1853,7 @@ function getTrainerNames() {
 			allPokemon = CUSTOMSETDEX_SV;
 			break;
 		
-		case "Emerald Kaizo":
+		case "Hellfire Red":
 			allPokemon = CUSTOMHACKSETDEX_EK;
 			break;
 		
@@ -2327,12 +2327,12 @@ $(document).ready(function () {
 	
 	$('#trainer-nav-help').click(() => {
 		alert("This section displays the enemy party in the correct in-game order. Note that that is not always the order Pokémon are sent out. Click on a Pokémon sprite to load that Pokémon." + 
-			  (["Emerald Kaizo"].includes(game) ? "\n\nIf a Pokémon is marked with a red outline, there is a chance that the enemy will make a switch to that Pokémon the turn after you use a move that is also be marked with a red background. In case of multiple outlined Pokémon, the switch will only happen to a Pokémon that resists that move." : ""));
+			  (["Hellfire Red"].includes(game) ? "\n\nIf a Pokémon is marked with a red outline, there is a chance that the enemy will make a switch to that Pokémon the turn after you use a move that is also be marked with a red background. In case of multiple outlined Pokémon, the switch will only happen to a Pokémon that resists that move." : ""));
 	});
 	$('#bait-help').click(() => {
 		alert("This section predicts what will Pokémon will be sent out after your Pokémon defeats each member of the enemy party.\n\n" + 
 			  "Click a Pokémon sprite to mark it as dead, excluding it from the list of possible next Pokémon.\n\n" + 
-			  (["Emerald Kaizo"].includes(game) ? "In very rare cases such as damage overflow, you can use the slower but more accurate \"Advanced Bait\" option.\n\n" : "") + 
+			  (["Hellfire Red"].includes(game) ? "In very rare cases such as damage overflow, you can use the slower but more accurate \"Advanced Bait\" option.\n\n" : "") + 
 			  "In case of an incorrect result, please DM me on Discord at @anastarawneh, or open a GitHub issue.");
 	});
 	$('#ai-help').click(() => {
