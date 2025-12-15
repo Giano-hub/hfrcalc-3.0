@@ -1973,12 +1973,12 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Snorlax",
 		"Mantine"
 	],
-	"Twins Joy & Meg": [
+	"Aroma Lady Kayoko": [
 		"Jynx",
 		"Starmie",
-		"Miltank",
-		"Linoone",
-		"Arcanine"
+		"Arcanine",
+		"Sceptile",
+		"Miltank"
 	],
 	"Swimmer-F Tisha": [
 		"Slowking"
