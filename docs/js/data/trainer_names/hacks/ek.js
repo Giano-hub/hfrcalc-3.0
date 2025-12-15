@@ -256,8 +256,8 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Bird Keeper Roger",
 	"Swimmer-F Nora",
 	"Swimmer-F Shirley",
-	"Picnicker Tiffany",
-	"Swimmer-F Irene",
+	"Swimmer-F Tiffany",
+	"Picnicker Irene",
 	// Route 19
 	"Swimmer-M Axle",
 	"Swimmer-F Anya",
