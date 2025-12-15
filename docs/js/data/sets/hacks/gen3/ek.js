@@ -1881,7 +1881,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Serious"
 		},
-		"Twins Joy & Meg": {
+		"Aroma Lady Kayoko": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -1892,12 +1892,12 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 79,
 			"moves": [
+				"Fire Blast",
 				"Extreme Speed",
-				"Heat Wave",
-				"Wild Charge",
-				"Hidden Power Grass"
+				"Hidden Power Grass",
+				"Wild Charge"
 			],
 			"nature": "Impish"
 		},
@@ -10259,7 +10259,7 @@ var CUSTOMHACKSETDEX_EK = {
 	"Girafarig": {
 		"Lass Andrea": {
 			"ability": "Inner Focus",
-			"item": "Twistedspoon",
+			"item": "Twisted Spoon",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -13672,7 +13672,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Gentle"
 		},
-		"Twins Joy & Meg": {
+		"Aroma Lady Kayoko": {
 			"ability": "Oblivious",
 			"item": "Lum Berry",
 			"ivs": {
@@ -13683,14 +13683,14 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 79,
 			"moves": [
 				"Ice Beam",
 				"Psychic",
-				"Lovely Kiss",
-				"Fake Out"
+				"Hidden Power Water",
+				"Lovely Kiss"
 			],
-			"nature": "Gentle"
+			"nature": "Brave"
 		},
 		"Young Couple Eve & Jon": {
 			"ability": "Oblivious",
@@ -15362,23 +15362,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Belly Drum"
 			],
 			"nature": "Impish"
-		},
-		"Twins Joy & Meg": {
-			"ability": "Run Away",
-			"item": "Choice Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 78,
-			"moves": [
-				"Extreme Speed"
-			],
-			"nature": "Quirky"
 		}
 	},
 	"Ludicolo": {
@@ -18565,7 +18548,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-		"Twins Joy & Meg": {
+		"Aroma Lady Kayoko": {
 			"ability": "Thick Fat",
 			"item": "Leftovers",
 			"ivs": {
@@ -18576,14 +18559,14 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 79,
 			"moves": [
-				"Double-Edge",
-				"Iron Tail",
-				"Superpower",
-				"Curse"
+				"Curse",
+				"Amnesia",
+				"Milk Drink",
+				"Iron Tail"
 			],
-			"nature": "Quiet"
+			"nature": "Brave"
 		}
 	},
 	"Minun": {
@@ -24468,6 +24451,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naughty"
 		},
+		"Aroma Lady Kayoko": {
+			"ability": "Shed Skin",
+			"item": "Petaya Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 79,
+			"moves": [
+				"Leaf Blade",
+				"Thunder Punch",
+				"Dragon Claw",
+				"Hidden Power Fire"
+			],
+			"nature": "Gentle"
+		},
 		"Scientist Ed": {
 			"ability": "Shed Skin",
 			"item": "Hard Stone",
@@ -27505,9 +27508,9 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Twins Joy & Meg": {
+		"Aroma Lady Kayoko": {
 			"ability": "Natural Cure",
-			"item": "Lum Berry",
+			"item": "Twisted Spoon",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -27516,14 +27519,14 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 79,
 			"moves": [
 				"Waterfall",
-				"Ice Beam",
+				"Psychic",
 				"Thunderbolt",
-				"Psychic"
+				"Ice Beam"
 			],
-			"nature": "Lax"
+			"nature": "Jolly"
 		}
 	},
 	"Staryu": {
