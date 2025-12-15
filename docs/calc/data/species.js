@@ -3159,7 +3159,7 @@ var EK_PATCH = {
         bs: { hp: 91, at: 134, df: 95, sa: 100, sd: 100, sp: 80 }
     },
     Mewtwo: {
-        bs: { hp: 106, at: 120, df: 90, sa: 160, sd: 90, sp: 140 }
+        bs: { hp: 106, at: 120, df: 90, sa: 160, sd: 90, sp: 150 }
     },
     Mew: {
         bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 }
