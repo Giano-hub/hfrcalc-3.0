@@ -518,7 +518,6 @@ var CUSTOMHACKFLAGS_EK = {
             "Cue Ball Raul",
             "Cool Couple Ray & Tyra",
             "Cool Couple Tama & Shi",
-            "Crush Kin Mik & Kia",
             "Painter Celina",
             "Twins Miu & Mia",
             "Young Couple Eve & Jon",
