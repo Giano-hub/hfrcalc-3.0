@@ -166,11 +166,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 	],
 	"Cooltrainer Fuschia": [
 		"Forretress",
-		"Muk",
 		"Crobat",
 		"Gengar",
 		"Absol",
-		"Ninjask"
+		"Ninjask",
+		"Beedrill"
 	],
 	"Cooltrainer Saffron": [
 		"Hypno",
