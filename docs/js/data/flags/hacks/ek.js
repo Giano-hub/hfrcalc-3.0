@@ -235,7 +235,6 @@ var CUSTOMHACKFLAGS_EK = {
             "Camper Benny",
             "Bird Keeper Beck",
             "Biker Lukas",
-            "Twins Kiri & Jan",
             "Biker Ernest",
             "Biker Alex",
             "Crush Girl Makoto",
@@ -514,6 +513,7 @@ var CUSTOMHACKFLAGS_EK = {
     },
     "battleType": {
         "doubles": [
+			   "Twins Kiri & Jan",
             "Cue Ball Raul",
             "Scientist Braydon",
             "Cool Couple Ray & Tyra",
