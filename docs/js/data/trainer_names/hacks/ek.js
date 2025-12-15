@@ -284,6 +284,13 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Cooltrainer Hotshot",
 	"Leader Blaine",
 
+   // Bond Bridge
+	"Twins Joy & Meg",
+	"Aroma Lady Nikki",
+	"Aroma Lady Violet",
+	"Tuber Amira",
+	"Tuber Alexis",
+	
 	// Sevii Isles - Kindle Road
 	"Swimmer-F Abigail",
 	"Picnicker Saya",
@@ -298,13 +305,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Pokemon Ranger Beth",
 	"Crush Girl Jocelyn",
 	"Pokemon Ranger Logan",
-
-	// Bond Bridge
-	"Twins Joy & Meg",
-	"Aroma Lady Nikki",
-	"Aroma Lady Violet",
-	"Tuber Amira",
-	"Tuber Alexis",
 
 	// Viridian Gym
 	"Rocket Admin Proton 3",
