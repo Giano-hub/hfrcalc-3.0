@@ -1287,7 +1287,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 80,
 			"moves": [
 				"Thunderbolt",
 				"Ice Punch",
@@ -2896,7 +2896,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 80,
+			"level": 81,
 			"moves": [
 				"Dragon Dance",
 				"Earthquake",
@@ -4087,7 +4087,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 81,
+			"level": 80,
 			"moves": [
 				"Ice Beam",
 				"Thunderbolt",
@@ -5168,7 +5168,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 80,
 			"moves": [
 				"Ancientpower",
 				"Earthquake",
@@ -8829,7 +8829,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 80,
+			"level": 81,
 			"moves": [
 				"Superpower",
 				"Sky Attack",
@@ -13847,7 +13847,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 80,
+			"level": 81,
 			"moves": [
 				"Ancientpower",
 				"Rain Dance",
@@ -15536,7 +15536,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 80,
+			"level": 81,
 			"moves": [
 				"Surf",
 				"Leaf Blade",
@@ -16960,7 +16960,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 80,
 			"moves": [
 				"Sleep Powder",
 				"Ancientpower",
@@ -19753,7 +19753,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 80,
 			"moves": [
 				"Overheat",
 				"Hypnosis",
@@ -24786,7 +24786,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 78,
 			"moves": [
 				"Silver Wind",
 				"Air Slash",
@@ -26838,7 +26838,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 80,
+			"level": 81,
 			"moves": [
 				"Double-Edge",
 				"Fire Blast",
@@ -28857,7 +28857,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Ancientpower",
 				"Baton Pass"
@@ -30285,7 +30285,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 80,
 			"moves": [
 				"Gunk Shot",
 				"Swords Dance",
@@ -30519,7 +30519,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Aroma Lady Nikki": {
 			"ability": "Chlorophyll",
-			"item": "Lum Berry",
+			"item": "Bright Powder",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -30528,7 +30528,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 80,
 			"moves": [
 				"Gunk Shot",
 				"Hidden Power Grass",
@@ -31280,7 +31280,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 80,
+			"level": 81,
 			"moves": [
 				"Double Team",
 				"Rest",
