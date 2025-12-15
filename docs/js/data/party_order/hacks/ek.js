@@ -1561,13 +1561,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Alakazam",
 		"Zapdos"
 	],
-	"Channeler Patricia": [
-		"Haunter",
-		"Kadabra",
-		"Banette",
-		"Misdreavus",
-		"Hypno"
-	],
 	"Channeler Paula": [
 		"Duskull",
 		"Omastar",
