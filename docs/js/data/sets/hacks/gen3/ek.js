@@ -21233,7 +21233,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 9,
 			"moves": [
 				"Tackle",
-				"Sand-Attack"
+				"Sand Attack"
 			],
 			"nature": "Bashful"
       },
@@ -21250,7 +21250,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 9,
 			"moves": [
 				"Tackle",
-				"Sand-Attack"
+				"Sand Attack"
 			],
 			"nature": "Bashful"
       },
@@ -21267,7 +21267,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 9,
 			"moves": [
 				"Tackle",
-				"Sand-Attack"
+				"Sand Attack"
 			],
 			"nature": "Bashful"
       }	
