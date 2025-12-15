@@ -28895,23 +28895,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Bird Keeper Sebastian": {
-			"ability": "Serene Grace",
-			"item": "Leftovers",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 55,
-			"moves": [
-				"Metronome"
-			],
-			"nature": "Timid"
-		},
 		"Cool Couple Ray & Tyra": {
 			"ability": "Serene Grace",
 			"item": "Lum Berry",
