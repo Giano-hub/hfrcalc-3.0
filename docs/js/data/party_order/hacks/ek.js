@@ -663,8 +663,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Miltank",
 		"Jynx",
 		"Lanturn",
-		"Wailord",
-		"Lapras"
+		"Wailord"
 	],
 	"Fisherman Wade": [
 		"Scyther",
