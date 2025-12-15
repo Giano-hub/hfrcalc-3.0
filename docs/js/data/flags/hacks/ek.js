@@ -2,7 +2,6 @@ var CUSTOMHACKFLAGS_EK = {
     "ai": {
         // FULLY RANDOM AI WHY WOULD SAMU DO THIS
         0: [
-            "Channeler Patricia",
             "Channeler Angelica"
         ],
         // Check Bad Move
