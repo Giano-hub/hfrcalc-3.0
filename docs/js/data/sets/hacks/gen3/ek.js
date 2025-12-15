@@ -4804,26 +4804,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-		"Crush Kin Mik & Kia": {
-			"ability": "Cute Charm",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 77,
-			"moves": [
-				"Ice Beam",
-				"Hyper Beam",
-				"Psychic",
-				"Flamethrower"
-			],
-			"nature": "Sassy"
-		},
 		"Lass Dawn": {
 			"ability": "Cute Charm",
 			"item": "Leftovers",
@@ -6887,12 +6867,32 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 32,
 			"moves": [
-				"Ancientpower",
+				"Ancient Power",
 				"Earthquake"
 			],
 			"nature": "Brave"
 		},
-		"Rocket Boss Giovanni 2": {
+		"Crush Kin Mik & Kia": {
+			"ability": "Arena Trap",
+			"item": "Choice Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 81,
+			"moves": [
+				"Sky Attack",
+				"Earthquake",
+				"Rock Slide",
+				"Hidden Power Flying"
+			],
+			"nature": "Adamant"
+		},
+      "Rocket Boss Giovanni 2": {
 			"ability": "Arena Trap",
 			"item": "Sharp Beak",
 			"ivs": {
@@ -8911,14 +8911,14 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 77,
+			"level": 81,
 			"moves": [
 				"Hydro Pump",
 				"Ancientpower",
 				"Ice Beam",
 				"Aerial Ace"
 			],
-			"nature": "Naughty"
+			"nature": "Timid"
 		},
 		"Pokemon Trainer May": {
 			"ability": "Torrent",
@@ -15853,7 +15853,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Crush Kin Mik & Kia": {
 			"ability": "Guts",
-			"item": "Lum Berry",
+			"item": "Hard Stone",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -15862,14 +15862,14 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 77,
+			"level": 81,
 			"moves": [
 				"Superpower",
 				"Earth Power",
 				"Hidden Power Ghost",
 				"Head Smash"
 			],
-			"nature": "Naughty"
+			"nature": "Serious"
 		},
 		"Crush Kin Ron & Mya": {
 			"ability": "Guts",
@@ -19551,26 +19551,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Surf"
 			],
 			"nature": "Quiet"
-		},
-		"Crush Kin Mik & Kia": {
-			"ability": "Poison Point",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 77,
-			"moves": [
-				"Thunderbolt",
-				"Flamethrower",
-				"Ice Beam",
-				"Mud Shot"
-			],
-			"nature": "Calm"
 		},
 		"Cue Ball Zeek": {
 			"ability": "Poison Point",
@@ -28540,6 +28520,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
+		"Crush Kin Mik & Kia": {
+			"ability": "Intimidate",
+			"item": "White Herb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 81,
+			"moves": [
+				"Double-Edge",
+				"Earthquake",
+				"Blizzard",
+				"Fire Blast"
+			],
+			"nature": "Timid"
+		},
 		"Burglar Rob": {
 			"ability": "Intimidate",
 			"item": "Black Glasses",
@@ -28929,7 +28929,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 95,
+			"level": 90,
 			"moves": [
 				"Metronome"
 			],
@@ -29133,23 +29133,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Wild Charge"
 			],
 			"nature": "Naughty"
-		},
-		"Crush Kin Mik & Kia": {
-			"ability": "Flame Body",
-			"item": "Charcoal",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 77,
-			"moves": [
-				"Overheat"
-			],
-			"nature": "Sassy"
 		},
 		"Picnicker Missy": {
 			"ability": "Flame Body",
@@ -32051,7 +32034,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 80,
 			"moves": [
 				"Psychic",
 				"Sky Attack",
