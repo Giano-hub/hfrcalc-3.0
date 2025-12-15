@@ -225,7 +225,6 @@ var CUSTOMHACKFLAGS_EK = {
             "Fisherman Andrew",
             "Beauty Lola",
             "Picnicker Susie",
-            "Bird Keeper Sebastian",
             "Bird Keeper Perry",
             "Biker Jared",
             "Picnicker Valerie",
