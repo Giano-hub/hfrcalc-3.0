@@ -24480,7 +24480,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Leaf Blade",
 				"Psychic",
-				"Thunderpunch",
+				"Thunder Punch",
 				"Hidden Power Fire"
 			],
 			"nature": "Naughty"
