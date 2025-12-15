@@ -1,4 +1,9 @@
 var CUSTOMHACKTRAINERNAMES_EK = [
+	// 22
+	"Rival Terry Squirtle",
+	"Rival Terry Charmander",
+	"Rival Terry Ivysaur,
+	
 	// V Forest
 	"Bug Catcher Anthony",
 	"Bug Catcher Charlie",
