@@ -93,7 +93,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 74,
+			"level": 75,
 			"moves": [
 				"Shadow Ball",
 				"Swords Dance",
@@ -290,7 +290,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Ancientpower",
 				"Earthquake",
@@ -1732,7 +1732,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 77,
+			"level": 78,
 			"moves": [
 				"Overheat",
 				"Extreme Speed",
@@ -1772,7 +1772,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Overheat",
 				"Extreme Speed",
@@ -2473,7 +2473,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Brick Break",
 				"Will-O-Wisp"
 			],
-			"nature": "Bold"
+			"nature": "Sassy"
 		}
 	},
 	"Bayleef": {
@@ -3116,7 +3116,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 77,
+			"level": 78,
 			"moves": [
 				"Fire Blast",
 				"Superpower",
@@ -3156,7 +3156,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Overheat",
 				"Superpower",
@@ -4269,7 +4269,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Sky Attack",
 				"Overheat",
@@ -4329,7 +4329,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Overheat",
 				"Hidden Power Grass",
@@ -6979,7 +6979,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Earthquake",
 				"Rock Slide",
@@ -8008,7 +8008,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Grass",
 				"Light Screen"
 			],
-			"nature": "Sassy"
+			"nature": "Naive"
 		}
 	},
 	"Elekid": {
@@ -8085,7 +8085,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 77,
+			"level": 78,
 			"moves": [
 				"Sacred Fire",
 				"Hidden Power Grass",
@@ -9035,7 +9035,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Overheat",
 				"Superpower",
@@ -9177,7 +9177,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Draco Meteor",
 				"Earthquake",
@@ -9864,7 +9864,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 72,
+			"level": 75,
 			"moves": [
 				"Explosion",
 				"Hidden Power Water",
@@ -10211,7 +10211,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Fire Punch",
 				"Psychic"
 			],
-			"nature": "Hardy"
+			"nature": "Quiet"
 		}
 	},
 	"Geodude": {
@@ -10732,7 +10732,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Head Smash",
 				"Thunder Punch"
@@ -12311,7 +12311,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 77,
+			"level": 78,
 			"moves": [
 				"Overheat",
 				"Crunch",
@@ -12882,7 +12882,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball",
 				"Hypnosis"
 			],
-			"nature": "Careful"
+			"nature": "Modest"
 		}
 	},
 	"Illumise": {
@@ -14722,7 +14722,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Thunderbolt",
 				"Ice Beam",
@@ -15839,7 +15839,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 74,
 			"moves": [
 				"Fire Blast",
 				"Superpower",
@@ -16447,7 +16447,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Overheat",
 				"Thunderbolt",
@@ -18919,7 +18919,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 77,
+			"level": 78,
 			"moves": [
 				"Sky Attack",
 				"Sacred Fire",
@@ -19123,7 +19123,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Explosion",
 				"Gunk Shot",
@@ -19245,7 +19245,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 61,
 			"moves": [
-				"Gunk Shot",
+				"Sludge Bomb",
 				"Giga Drain",
 				"Flamethrower",
 				"Explosion"
@@ -19930,7 +19930,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 77,
+			"level": 78,
 			"moves": [
 				"Sunny Day",
 				"Sacred Fire",
@@ -20723,7 +20723,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Double-Edge",
 				"Pursuit",
@@ -22069,12 +22069,12 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 73,
 			"moves": [
 				"Thunderbolt",
 				"Ice Beam",
 				"Psychic",
-				"Return"
+				"Body Slam"
 			],
 			"nature": "Careful"
 		},
@@ -22861,7 +22861,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Wild Charge",
 				"Overheat",
@@ -24399,7 +24399,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Grasswhistle",
 				"Leaf Blade",
@@ -27767,7 +27767,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Flash Cannon",
 				"Explosion"
 			],
-			"nature": "Gentle"
+			"nature": "Jolly"
 		}
 	},
 	"Sudowoodo": {
@@ -28548,7 +28548,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Double-Edge",
 				"Earthquake",
@@ -29179,7 +29179,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Overheat",
 				"Earthquake",
@@ -29397,7 +29397,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Ancientpower",
 				"Earthquake",
