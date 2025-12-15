@@ -237,7 +237,7 @@ var RBY = {
     },
     Electrode: {
         types: ['Electric'],
-        bs: { hp: 60, at: 65, df: 70, sp: 140, sl: 80 },
+        bs: { hp: 60, at: 65, df: 70, sp: 150, sl: 80 },
         weightkg: 66.6
     },
     Exeggcute: {
@@ -3012,7 +3012,7 @@ var EK_PATCH = {
         bs: { hp: 40, at: 30, df: 50, sa: 55, sd: 55, sp: 100 }
     },
     Electrode: {
-        bs: { hp: 60, at: 65, df: 70, sa: 80, sd: 80, sp: 140 }
+        bs: { hp: 60, at: 65, df: 70, sa: 80, sd: 80, sp: 150 }
     },
     Exeggcute: {
         bs: { hp: 60, at: 40, df: 80, sa: 60, sd: 45, sp: 40 }
