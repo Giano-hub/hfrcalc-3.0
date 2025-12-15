@@ -3647,6 +3647,25 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Relaxed"
 		}
 	},
+  "Bulbasaur": {
+		"Rival Terry Squirtle": {
+			"ability": "Overgrow",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 9,
+			"moves": [
+				"Tackle",
+				"Growl"
+			],
+			"nature": "Bashful"
+		}
+   },
 	"Butterfree": {
 		"Bug Catcher Anthony": {
 			"ability": "Compoundeyes",
@@ -4419,6 +4438,25 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Modest"
 		}
 	},
+  "Charmander": {
+		"Rival Terry Bulbasaur": {
+			"ability": "Blaze",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 9,
+			"moves": [
+				"Scratch",
+				"Growl"
+			],
+			"nature": "Bashful"
+       }
+    },
 	"Charmeleon": {
 		"Rival Terry Boat Zard": {
 			"ability": "Blaze",
@@ -21181,7 +21219,58 @@ var CUSTOMHACKSETDEX_EK = {
 				"Aeroblast"
 			],
 			"nature": "Quiet"
-		}
+		},
+		"Rival Terry Squirtle": {
+			"ability": "Keen Eye",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 9,
+			"moves": [
+				"Tackle",
+				"Sand-Attack"
+			],
+			"nature": "Bashful"
+      },
+      "Rival Terry Charmander": {
+			"ability": "Keen Eye",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 9,
+			"moves": [
+				"Tackle",
+				"Sand-Attack"
+			],
+			"nature": "Bashful"
+      },
+     "Rival Terry Bulbasaur": {
+			"ability": "Keen Eye",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 9,
+			"moves": [
+				"Tackle",
+				"Sand-Attack"
+			],
+			"nature": "Bashful"
+      }	
 	},
 	"Pikachu": {
 		"Gentleman Brooks": {
@@ -26986,6 +27075,25 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Punch"
 			],
 			"nature": "Naughty"
+		}
+	},
+   "Squirtle": {
+	 "Rival Terry Charmander": {		
+		"ability": "Shell Armor",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 9,
+			"moves": [
+				"Tackle",
+				"Tail Whip"
+			],
+			"nature": "Bashful"
 		}
 	},
 	"Stantler": {
