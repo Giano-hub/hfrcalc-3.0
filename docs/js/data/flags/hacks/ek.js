@@ -515,7 +515,6 @@ var CUSTOMHACKFLAGS_EK = {
         "doubles": [
 			   "Twins Kiri & Jan",
             "Cue Ball Raul",
-            "Scientist Braydon",
             "Cool Couple Ray & Tyra",
             "Cool Couple Tama & Shi",
             "Crush Kin Mik & Kia",
