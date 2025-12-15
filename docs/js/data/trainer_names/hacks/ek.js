@@ -147,7 +147,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Rival Terry Tower Venu",
 	"Rival Terry Tower Zard",
 
-	"Channeler Patricia",
 	"Channeler Laurel",
 	"Channeler Paula",
 	"Channeler Karina",
