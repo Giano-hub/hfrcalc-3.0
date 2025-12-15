@@ -2,7 +2,7 @@ var game, gameId, generation, isHack;
 $(".game").change(function() {
 	game = $("input[name='game']:checked + label").html();
     gameId = ~~$(this).val();
-	isHack = ["Emerald Kaizo"].includes(game);
+	isHack = ["Hellfire Red"].includes(game);
     var params = new URLSearchParams(window.location.search);
 	if (game == "None") {
 		params.delete('game');
@@ -457,7 +457,7 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
 
 function vanillaDamageCalc(attacker, defender, move, field) {
 	switch (game) {
-		case "Emerald Kaizo":
+		case "Hellfire Red":
 			return vanillaDamageCalcEmerald(attacker, defender, move, field);
 	}
 }
@@ -868,7 +868,7 @@ function predictSwitchOrder() {
 		case "Platinum":
 			predictSwitchOrderPlatinum();
 			break;
-		case "Emerald Kaizo":
+		case "Hellfire Red":
 			predictSwitchOrderEmerald();
 			break;
 	}
@@ -931,7 +931,7 @@ function predictMidTurnSwitchEmerald(p1, p2) {
 
 function predictMidTurnSwitch(p1, p2) {
 	switch (game) {
-		case "Emerald Kaizo":
+		case "Hellfire Red":
 			predictMidTurnSwitchEmerald(p1, p2);
 			break;
 	}
