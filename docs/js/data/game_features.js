@@ -19,10 +19,7 @@ const GAME_FEATURES = {
     "BD/SP": {},
     "S/V": {},
     
-    "Emerald Kaizo": {
-        sync: true,
-        upload: true
-    },
+   
 	 "Hellfire Red": {
         sync: true,
 		  upload: true
