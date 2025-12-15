@@ -285,7 +285,7 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Leader Blaine",
 
    // Bond Bridge
-	"Twins Joy & Meg",
+	"Aroma Lady Kayoko",
 	"Aroma Lady Nikki",
 	"Aroma Lady Violet",
 	"Tuber Amira",
