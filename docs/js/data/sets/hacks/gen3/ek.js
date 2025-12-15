@@ -16666,7 +16666,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 99,
+			"level": 75,
 			"moves": [
 				"Metronome"
 			],
@@ -28526,7 +28526,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 63,
 			"moves": [
 				"Ancientpower",
-				"Petal Dance",
+				"Giga Drain",
 				"Hidden Power Fire",
 				"Sleep Powder"
 			],
@@ -30705,7 +30705,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 64,
 			"moves": [
 				"Gunk Shot",
-				"Petal Dance",
+				"Leaf Blade",
 				"Hidden Power Fire",
 				"Sleep Powder"
 			],
@@ -30889,7 +30889,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 65,
 			"moves": [
 				"Sleep Powder",
-				"Petal Dance",
+				"Leaf Blade",
 				"Hidden Power Fire",
 				"Gunk Shot"
 			],
@@ -30968,7 +30968,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 63,
 			"moves": [
-				"Petal Dance",
+				"Leaf Blade",
 				"Sleep Powder",
 				"Sludge Bomb",
 				"Hidden Power Fire"
