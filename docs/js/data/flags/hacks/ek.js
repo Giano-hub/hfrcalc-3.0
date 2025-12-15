@@ -533,7 +533,7 @@ var CUSTOMHACKFLAGS_EK = {
             ["Biker Jaren", "Biker Ricardo"],
             ["Biker Ernest", "Biker Alex"],
             ["Crush Girl Makoto", "Black Belt Gouki"],
-            ["Picnicker Celia", "Picnicker Kindra"],
+            ["Picnicker Kindra", "Picnicker Celia"],
             ["Rocket Grunt 15 Silph", "Scientist Jose"],
             ["Swimmer-M Jack", "Swimmer-M Roland"],
             ["Burglar Simon", "Scientist Braydon"],
