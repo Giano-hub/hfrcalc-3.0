@@ -113,7 +113,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Pursuit",
 				"Swords Dance",
@@ -1347,7 +1347,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Thunder",
 				"Fire Punch",
@@ -2539,7 +2539,27 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Bug Catcher Cale": {
+      "Cooltrainer Fuschia": {
+			"ability": "Swarm",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 84,
+			"moves": [
+				"Gunk Shot",
+				"Drill Run",
+				"Shadow Ball",
+				"Explosion"
+			],
+			"nature": "Hardy"
+      },	
+   	"Bug Catcher Cale": {
 			"ability": "Swarm",
 			"item": "Lum Berry",
 			"ivs": {
@@ -5487,7 +5507,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Sky Attack",
 				"Gunk Shot",
@@ -7683,7 +7703,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Thunderbolt",
 				"Hidden Power Grass",
@@ -9494,9 +9514,9 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
-				"Explosion",
+				"Flash Cannon",
 				"Spikes",
 				"Hidden Power Ghost",
 				"Earthquake"
@@ -9982,7 +10002,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Shadow Ball",
 				"Flamethrower",
@@ -14740,7 +14760,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Thunderbolt",
 				"Ice Beam",
@@ -16448,7 +16468,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Thunderbolt",
 				"Hidden Power Ice",
@@ -19113,26 +19133,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Docile"
 		},
-		"Cooltrainer Fuschia": {
-			"ability": "Stench",
-			"item": "Focus Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 83,
-			"moves": [
-				"Gunk Shot",
-				"Earthquake",
-				"Shadow Ball",
-				"Explosion"
-			],
-			"nature": "Hardy"
-		},
 		"Cooltrainer Hotshot": {
 			"ability": "Stench",
 			"item": "Lum Berry",
@@ -20109,7 +20109,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Swords Dance",
 				"Substitute",
@@ -22101,7 +22101,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Recover",
 				"Ice Beam",
@@ -24673,7 +24673,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"X-Scissor",
 				"Hidden Power Ghost",
@@ -31209,7 +31209,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 82,
 			"moves": [
 				"Surf",
 				"Ice Beam",
