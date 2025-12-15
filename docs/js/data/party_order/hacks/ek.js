@@ -1675,11 +1675,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Primeape",
 		"Ampharos"
 	],
-	"Picnicker Kindra": [
-		"Dragonite",
-		"Vileplume",
-		"Shuckle",
-		"Miltank"
+	"Picnicker Celia": [
+		"Blissey",
+		"Camerupt",
+		"Gardevoir",
+		"Exeggutor"
 	],
 	"Picnicker Becky": [
 		"Pikachu",
@@ -1688,11 +1688,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Illumise",
 		"Volbeat"
 	],
-	"Picnicker Celia": [
-		"Blissey",
-		"Camerupt",
-		"Gardevoir",
-		"Exeggutor"
+	"Picnicker Kindra": [
+		"Dragonite",
+		"Vileplume",
+		"Shuckle",
+		"Miltank"
 	],
 	"Gentleman Brooks": [
 		"Pikachu",
