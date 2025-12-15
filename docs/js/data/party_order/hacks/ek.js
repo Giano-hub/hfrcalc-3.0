@@ -1954,11 +1954,10 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Lapras"
 	],
 	"Crush Kin Mik & Kia": [
-		"Clefable",
 		"Machamp",
-		"Typhlosion",
+		"Dugtrio",
 		"Feraligatr",
-		"Nidoking"
+		"Tauros"
 	],
 	"Aroma Lady Violet": [
 		"Meganium",
