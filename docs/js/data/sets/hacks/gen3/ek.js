@@ -16200,7 +16200,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 48,
+			"level": 46,
 			"moves": [
 				"Fire Punch",
 				"Thunder Punch",
@@ -16220,7 +16220,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 79,
+			"level": 77,
 			"moves": [
 				"Fire Blast",
 				"Thunder Punch",
@@ -16240,7 +16240,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 76,
 			"moves": [
 				"Fire Blast",
 				"Thunder Punch",
@@ -16260,11 +16260,11 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 34,
+			"level": 31,
 			"moves": [
-				"Flamethrower",
-				"Thunder Punch",
-				"Superpower",
+				"Flame Wheel",
+				"Shock Wave",
+				"Submission",
 				"Hidden Power Grass"
 			],
 			"nature": "Mild"
@@ -16279,7 +16279,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 23,
+			"level": 21,
 			"moves": [
 				"Ember",
 				"Thunder Shock",
@@ -16299,9 +16299,9 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 65,
+			"level": 63,
 			"moves": [
-				"Overheat",
+				"Flamethrower",
 				"Thunderbolt",
 				"Cross Chop",
 				"Hidden Power Grass"
@@ -18702,7 +18702,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Sing",
 				"Tail Glow"
 			],
-			"nature": "Quirky"
+			"nature": "Naive"
 		},
 		"Pokemon Ranger Logan": {
 			"ability": "Minus",
