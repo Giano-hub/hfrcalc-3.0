@@ -239,8 +239,8 @@ var CUSTOMHACKFLAGS_EK = {
             "Biker Alex",
             "Crush Girl Makoto",
             "Black Belt Gouki",
-            "Picnicker Celia",
             "Picnicker Kindra",
+            "Picnicker Celia",
             
             // Fuschia Gym
             "Juggler Kayden",
