@@ -2395,26 +2395,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Channeler Patricia": {
-			"ability": "Insomnia",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 44,
-			"moves": [
-				"Shadow Ball",
-				"Shadow Sneak",
-				"Brick Break",
-				"Will-O-Wisp"
-			],
-			"nature": "Adamant"
-		},
 		"Pokemon Ranger Morty": {
 			"ability": "Insomnia",
 			"item": "Lum Berry",
@@ -11469,26 +11449,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Haunter": {
-		"Channeler Patricia": {
-			"ability": "Levitate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 44,
-			"moves": [
-				"Psychic",
-				"Thunderbolt",
-				"Ice Punch",
-				"Fire Punch"
-			],
-			"nature": "Rash"
-		},
 		"Gentleman Tucker": {
 			"ability": "Levitate",
 			"item": "Lum Berry",
@@ -12784,26 +12744,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Channeler Patricia": {
-			"ability": "Insomnia",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 44,
-			"moves": [
-				"Psychic",
-				"Thunderbolt",
-				"Shadow Ball",
-				"Superpower"
-			],
-			"nature": "Brave"
-		},
 		"Cooltrainer Saffron": {
 			"ability": "Insomnia",
 			"item": "Lum Berry",
@@ -13937,26 +13877,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Kadabra": {
-		"Channeler Patricia": {
-			"ability": "Inner Focus",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 44,
-			"moves": [
-				"Psychic",
-				"Thunder Punch",
-				"Fire Punch",
-				"Ice Punch"
-			],
-			"nature": "Quirky"
-		},
 		"Gamer Dirk": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
@@ -18785,26 +18705,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball"
 			],
 			"nature": "Docile"
-		},
-		"Channeler Patricia": {
-			"ability": "Shadow Tag",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 43,
-			"moves": [
-				"Shock Wave",
-				"Aurora Beam",
-				"Shadow Ball",
-				"Confuse Ray"
-			],
-			"nature": "Naive"
 		},
 		"Cooltrainer Michelle": {
 			"ability": "Shadow Tag",
