@@ -567,7 +567,7 @@ var ADV_PATCH = {
     'Magical Leaf': { bp: 60, type: 'Grass' },
     'Mud Shot': { bp: 60, type: 'Ground' },
     'Poison Tail': { bp: 120, type: 'Poison', makesContact: true },
-    'Shadow Punch': { bp: 70, type: 'Ghost', makesContact: true },
+    'Shadow Punch': { bp: 60, type: 'Ghost', makesContact: true },
     'Shock Wave': { bp: 60, type: 'Electric' },
     Superpower: { bp: 120, type: 'Fighting', recoil: [1, 3], makesContact: true },
     'Water Pulse': { bp: 80, type: 'Water' },
