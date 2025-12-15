@@ -341,7 +341,7 @@ var CUSTOMHACKFLAGS_EK = {
         ],
         "mindBadge": [
             // Bond Bridge
-            "Twins Joy & Meg",
+            "Aroma Lady Kayoko",
             "Aroma Lady Nikki",
             "Aroma Lady Violet",
             "Tuber Amira",
@@ -519,7 +519,6 @@ var CUSTOMHACKFLAGS_EK = {
             "Cool Couple Ray & Tyra",
             "Cool Couple Tama & Shi",
             "Crush Kin Mik & Kia",
-            "Twins Joy & Meg",
             "Painter Celina",
             "Twins Miu & Mia",
             "Young Couple Eve & Jon",
