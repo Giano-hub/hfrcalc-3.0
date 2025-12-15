@@ -1111,7 +1111,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 74,
+			"level": 76,
 			"moves": [
 				"Draco Meteor",
 				"Blizzard",
@@ -2776,7 +2776,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 74,
+			"level": 76,
 			"moves": [
 				"Hydro Pump",
 				"Ice Beam",
@@ -8368,7 +8368,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 71,
 			"moves": [
 				"Psychic",
 				"Egg Bomb",
@@ -9297,7 +9297,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 71,
 			"moves": [
 				"Earthquake",
 				"Dragon Claw",
@@ -13080,7 +13080,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 74,
+			"level": 76,
 			"moves": [
 				"Thunderbolt",
 				"Tail Glow",
@@ -14312,7 +14312,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 71,
 			"moves": [
 				"Hydro Pump",
 				"Dragon Breath",
@@ -14884,7 +14884,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 74,
+			"level": 76,
 			"moves": [
 				"Surf",
 				"Ice Beam",
@@ -14892,23 +14892,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Earthquake"
 			],
 			"nature": "Calm"
-		},
-		"Fisherman Claude": {
-			"ability": "Shell Armor",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 77,
-			"moves": [
-				"Sheer Cold"
-			],
-			"nature": "Naughty"
 		},
 		"Elite Four Lorelei": {
 			"ability": "Shell Armor",
@@ -18114,7 +18097,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 71,
 			"moves": [
 				"Hydro Pump",
 				"Mirror Coat",
@@ -18414,7 +18397,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 74,
+			"level": 76,
 			"moves": [
 				"Surf",
 				"Ice Beam",
@@ -23390,10 +23373,10 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 74,
+			"level": 76,
 			"moves": [
 				"Gunk Shot",
-				"Leaf Blade",
+				"Petal Dance",
 				"Hidden Power Electric"
 			],
 			"nature": "Sassy"
@@ -27233,7 +27216,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 71,
 			"moves": [
 				"Hydro Pump",
 				"Psychic",
