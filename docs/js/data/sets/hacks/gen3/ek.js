@@ -3584,7 +3584,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Giga Drain",
 				"Rock Slide"
 			],
-			"nature": "Brave"
+			"nature": "Jolly"
 		},
 		"Cooltrainer Mary": {
 			"ability": "Natural Cure",
@@ -5399,7 +5399,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Super Fang",
 				"Giga Drain"
 			],
-			"nature": "Careful"
+			"nature": "Modest"
 		},
 		"Biker Virtue": {
 			"ability": "Inner Focus",
@@ -12842,7 +12842,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Submission",
 				"Hypnosis"
 			],
-			"nature": "Jolly"
+			"nature": "Hardy"
 		},
 		"Scientist Connor": {
 			"ability": "Insomnia",
@@ -19090,7 +19090,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball",
 				"Giga Drain"
 			],
-			"nature": "Calm"
+			"nature": "Docile"
 		},
 		"Cooltrainer Fuschia": {
 			"ability": "Stench",
@@ -19821,7 +19821,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Burglar Arnie": {
 			"ability": "Pressure",
-			"item": "Bright Powder",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -19837,7 +19837,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Grass",
 				"Hypnosis"
 			],
-			"nature": "Careful"
+			"nature": "Lax"
 		},
 		"Channeler Amanda": {
 			"ability": "Pressure",
@@ -24224,7 +24224,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ancientpower",
 				"Superpower"
 			],
-			"nature": "Modest"
+			"nature": "Lonely"
 		},
 		"Camper Benny": {
 			"ability": "Battle Armor",
