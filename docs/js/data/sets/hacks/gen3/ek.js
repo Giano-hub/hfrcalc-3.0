@@ -709,7 +709,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Psychic",
 				"Thunderbolt",
@@ -1653,7 +1653,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Extreme Speed",
 				"Wild Charge",
@@ -3668,7 +3668,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
   "Bulbasaur": {
-		"Rival Terry Squirtle": {
+		"Rival Terry r22 Squirtle": {
 			"ability": "Overgrow",
 			"ivs": {
 				"at": 31,
@@ -4459,7 +4459,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
   "Charmander": {
-		"Rival Terry Bulbasaur": {
+		"Rival Terry r22 Bulbasaur": {
 			"ability": "Blaze",
 			"ivs": {
 				"at": 31,
@@ -6378,7 +6378,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 84,
+			"level": 85,
 			"moves": [
 				"Earthquake",
 				"Ancientpower",
@@ -6619,7 +6619,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 84,
+			"level": 85,
 			"moves": [
 				"Draco Meteor",
 				"Air Slash",
@@ -7017,7 +7017,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Earthquake",
 				"Ancientpower",
@@ -7334,7 +7334,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 82,
+			"level": 85,
 			"moves": [
 				"Shadow Ball",
 				"Brick Break",
@@ -9275,7 +9275,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 84,
+			"level": 85,
 			"moves": [
 				"Earthquake",
 				"Draco Meteor",
@@ -9718,7 +9718,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Hypnosis",
 				"Psychic",
@@ -12289,7 +12289,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Overheat",
 				"Crunch",
@@ -12813,7 +12813,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Hypnosis",
 				"Psychic",
@@ -13198,7 +13198,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Thunderbolt",
 				"Hidden Power Grass",
@@ -13602,7 +13602,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Ice Beam",
 				"Psychic",
@@ -17331,7 +17331,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Meteor Mash",
 				"Earthquake",
@@ -18761,7 +18761,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Shadow Ball",
 				"Hypnosis",
@@ -19164,7 +19164,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 84,
+			"level": 85,
 			"moves": [
 				"Explosion",
 				"Gunk Shot",
@@ -19891,7 +19891,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Hypnosis",
 				"Confuse Ray",
@@ -21220,7 +21220,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry Squirtle": {
+		"Rival Terry r22 Squirtle": {
 			"ability": "Keen Eye",
 			"ivs": {
 				"at": 31,
@@ -21237,7 +21237,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
       },
-      "Rival Terry Charmander": {
+      "Rival Terry r22 Charmander": {
 			"ability": "Keen Eye",
 			"ivs": {
 				"at": 31,
@@ -21254,7 +21254,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
       },
-     "Rival Terry Bulbasaur": {
+     "Rival Terry r22 Bulbasaur": {
 			"ability": "Keen Eye",
 			"ivs": {
 				"at": 31,
@@ -23946,7 +23946,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 83,
+			"level": 84,
 			"moves": [
 				"Flamethrower",
 				"Air Slash",
@@ -26787,7 +26787,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 84,
+			"level": 85,
 			"moves": [
 				"Body Slam",
 				"Earthquake",
@@ -27078,7 +27078,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
    "Squirtle": {
-	 "Rival Terry Charmander": {		
+	 "Rival Terry r22 Charmander": {		
 		"ability": "Shell Armor",
 			"ivs": {
 				"at": 31,
