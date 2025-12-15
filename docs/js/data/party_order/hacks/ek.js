@@ -896,8 +896,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 	"Bird Keeper Sebastian": [
 		"Noctowl",
 		"Pidgeot",
-		"Xatu",
-		"Togetic"
+		"Xatu"
 	],
 	"Bird Keeper Perry": [
 		"Pidgeot",
