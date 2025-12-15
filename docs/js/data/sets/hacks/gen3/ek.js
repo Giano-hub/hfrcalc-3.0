@@ -16124,7 +16124,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Fire Punch",
 				"Thunder Punch",
-				"Submission ",
+				"Submission",
 				"Hidden Power Grass"
 			],
 			"nature": "Impish"
