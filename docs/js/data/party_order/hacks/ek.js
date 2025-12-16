@@ -716,14 +716,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Slowbro",
 		"Gyarados"
 	],
-	"Cue Ball Raul": [
-		"Wobbuffet",
-		"Alakazam",
-		"Dusclops",
-		"Slaking",
-		"Tangela",
-		"Fearow"
-	],
 	"Cue Ball Zeek": [
 		"Golem",
 		"Murkrow",
