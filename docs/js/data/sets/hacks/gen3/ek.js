@@ -6929,7 +6929,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Rock Slide",
 				"Earthquake"
 			],
-			"nature": "Quirky"
+			"nature": "Hardy"
 		},
 		"Biker Ricardo": {
 			"ability": "Arena Trap",
@@ -12274,7 +12274,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Crunch",
 				"Pursuit"
 			],
-			"nature": "Impish"
+			"nature": "Hardy"
 		},
 		"Champion Terry": {
 			"ability": "Intimidate",
@@ -14273,7 +14273,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Draco Meteor",
 				"Ice Beam"
 			],
-			"nature": "Bold"
+			"nature": "Hardy"
 		},
 		"Cooltrainer Cerulean": {
 			"ability": "Swift Swim",
@@ -23968,7 +23968,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Air Slash",
 				"Hydro Pump"
 			],
-			"nature": "Calm"
+			"nature": "Hardy"
 		},
 		"Bird Keeper Milo": {
 			"ability": "Intimidate",
@@ -24533,7 +24533,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Rock Slide",
 				"Thunder Punch"
 			],
-			"nature": "Lax"
+			"nature": "Hardy"
 		},
 		"Burglar Dash": {
 			"ability": "Shed Skin",
@@ -24695,7 +24695,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Superpower",
 				"Air Slash"
 			],
-			"nature": "Calm"
+			"nature": "Hardy"
 		},
 		"Biker Steering": {
 			"ability": "Swarm",
