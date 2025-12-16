@@ -737,26 +737,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Cue Ball Raul": {
-			"ability": "Inner Focus",
-			"item": "Scope Lens",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Psychic",
-				"Thunderbolt",
-				"Flamethrower",
-				"Ice Beam"
-			],
-			"nature": "Careful"
-		},
 		"Elite Four Agatha Rematch": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
@@ -7382,26 +7362,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
-		"Cue Ball Raul": {
-			"ability": "Pressure",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 84,
-			"moves": [
-				"Shadow Ball",
-				"Brick Break",
-				"Shadow Sneak",
-				"Destiny Bond"
-			],
-			"nature": "Docile"
-		},
 		"Elite Four Agatha": {
 			"ability": "Pressure",
 			"item": "Lum Berry",
@@ -8891,25 +8851,6 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 89,
 			"moves": [
 				"Sky Attack"
-			],
-			"nature": "Timid"
-		},
-		"Cue Ball Raul": {
-			"ability": "Intimidate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 88,
-			"moves": [
-				"Sky Attack",
-				"Double-Edge",
-				"Superpower"
 			],
 			"nature": "Timid"
 		},
@@ -26070,26 +26011,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bold"
 		},
-		"Cue Ball Raul": {
-			"ability": "Truant",
-			"item": "Choice Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Hyper Beam",
-				"Shadow Ball",
-				"Hidden Power Ground",
-				"Superpower"
-			],
-			"nature": "Relaxed"
-		},
 		"Lass Whitney": {
 			"ability": "Truant",
 			"item": "Leftovers",
@@ -28679,26 +28600,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Sleep Powder"
 			],
 			"nature": "Adamant"
-		},
-		"Cue Ball Raul": {
-			"ability": "Chlorophyll",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Petal Dance",
-				"Hidden Power Fire",
-				"Sleep Powder",
-				"Ancientpower"
-			],
-			"nature": "Bold"
 		},
 		"Gentleman Brooks": {
 			"ability": "Chlorophyll",
@@ -32158,26 +32059,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Safeguard"
 			],
 			"nature": "Brave"
-		},
-		"Cue Ball Raul": {
-			"ability": "Shadow Tag",
-			"item": "Leftovers",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Counter",
-				"Mirror Coat",
-				"Destiny Bond",
-				"Encore"
-			],
-			"nature": "Careful"
 		},
 		"Pokemon Ranger Jackson": {
 			"ability": "Shadow Tag",
