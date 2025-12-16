@@ -23690,7 +23690,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-		"Cue Ball Optional (1)": {
+		"Cue Ball Optional": {
 			"ability": "Keen Eye",
 			"item": "Leppa Berry",
 			"ivs": {
@@ -23710,7 +23710,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Cue Ball Optional (2)": {
+		"Cue Ball Optional": {
 			"ability": "Keen Eye",
 			"item": "Leppa Berry",
 			"ivs": {
@@ -23730,7 +23730,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
-		"Cue Ball Optional (3)": {
+		"Cue Ball Optional": {
 			"ability": "Keen Eye",
 			"item": "Leppa Berry",
 			"ivs": {
@@ -23750,7 +23750,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Cue Ball Optional (4)": {
+		"Cue Ball Optional": {
 			"ability": "Keen Eye",
 			"item": "Leppa Berry",
 			"ivs": {
@@ -23770,7 +23770,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Mild"
 		},
-		"Cue Ball Optional (5)": {
+		"Cue Ball Optional": {
 			"ability": "Keen Eye",
 			"item": "Leppa Berry",
 			"ivs": {
