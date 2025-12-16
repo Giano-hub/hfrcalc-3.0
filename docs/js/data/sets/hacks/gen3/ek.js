@@ -23569,6 +23569,138 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Naughty"
 		}
 	},
+   "Sableye (n6)": {
+      "Cue Ball Optional": {
+			"ability": "Keen Eye",
+			"item": "Leppa Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Rest",
+				"Recover",
+				"Slack Off",
+				"Refresh"
+			],
+			"nature": "Hardy"
+      }
+	},
+   "Sableye (n1)": { 
+      "Cue Ball Optional": {
+			"ability": "Keen Eye",
+			"item": "Leppa Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Rest",
+				"Recover",
+				"Slack Off",
+				"Refresh"
+			],
+			"nature": "Bashful"
+      }
+   }, 
+   "Sableye (n2)": { 
+      "Cue Ball Optional": {
+			"ability": "Keen Eye",
+			"item": "Leppa Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Rest",
+				"Recover",
+				"Slack Off",
+				"Refresh"
+			],
+			"nature": "Lax"  
+      }
+   },
+   "Sableye (n3)": { 
+      "Cue Ball Optional": {
+			"ability": "Keen Eye",
+			"item": "Leppa Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Rest",
+				"Recover",
+				"Slack Off",
+				"Refresh"
+			],
+			"nature": "Hardy"    
+      }
+   },
+   "Sableye (n4)": { 
+      "Cue Ball Optional": {
+			"ability": "Keen Eye",
+			"item": "Leppa Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Rest",
+				"Recover",
+				"Slack Off",
+				"Refresh"
+			],
+			"nature": "Mild"
+		}
+	},	
+   "Sableye (n5)": {
+      "Cue Ball Optional": {
+			"ability": "Keen Eye",
+			"item": "Leppa Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Rest",
+				"Recover",
+				"Slack Off",
+				"Refresh"
+			],
+			"nature": "Relaxed"
+		}
+	},	
 	"Sableye": {
 		"Biker Virgil": {
 			"ability": "Keen Eye",
