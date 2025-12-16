@@ -3317,7 +3317,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 100,
+			"level": 90,
 			"moves": [
 				"Metronome"
 			],
@@ -3334,7 +3334,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 85,
+			"level": 87,
 			"moves": [
 				"Thunderbolt",
 				"Ice Beam",
@@ -3414,7 +3414,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 86,
+			"level": 88,
 			"moves": [
 				"Thunderbolt",
 				"Ice Beam",
@@ -7497,7 +7497,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Shadow Ball",
 				"Shadow Sneak",
-				"Earthquake",
+				"Strength",
 				"Brick Break"
 			],
 			"nature": "Quirky"
@@ -15651,7 +15651,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 92,
 			"moves": [
-				"Magical Leaf",
+				"Rock Smash",
 				"Giga Drain",
 				"Fake Out",
 				"Surf"
@@ -24205,7 +24205,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Air Slash",
 				"Rock Slide",
 				"Flamethrower",
-				"Dragon Claw"
+				"Fly"
 			],
 			"nature": "Adamant"
 		},
