@@ -714,6 +714,15 @@ table.field {
     color: rgb(15, 14, 14);
 }
 
+#builtin-calculator {
+	position: fixed;
+	bottom: 0px;
+	right: 10%;
+	background-color: #2e2e2ee6;
+	border-radius: 10px 10px 0 0;
+	padding: 0.5em;
+}
+
 .info-paragraph > b:hover {
     background: var(--fieldset-color);
     color: unset;
