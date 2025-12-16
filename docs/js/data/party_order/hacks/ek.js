@@ -836,7 +836,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Magneton",
 		"Porygon2"
 	],
-	"Juggler Yuri": [
+	"Cooltrainer Yuri": [
 		"Dragonite",
 		"Tyranitar",
 		"Salamence",
