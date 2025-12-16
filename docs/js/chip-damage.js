@@ -1,41 +1,33 @@
-// Funzione per aggiornare i danni percentuali per i Pokémon attivi
+// Funzione per aggiornare automaticamente le frazioni di HP
 function updateChipDamage() {
-    if (!window.PC) return;
+    // ID dei Pokémon selezionati (modifica se necessario)
+    const playerSelect = document.querySelector("#player-mon-select");
+    const opponentSelect = document.querySelector("#opponent-mon-select");
 
-    // Funzione per calcolare le frazioni di HP
-    function calcFractions(hp) {
-        return {
-            sixteenth: Math.floor(hp / 16),
-            eighth:     Math.floor(hp / 8),
-            sixth:      Math.floor(hp / 6),
-            fourth:     Math.floor(hp / 4)
-        };
-    }
+    if (!playerSelect || !opponentSelect) return;
 
-    // Aggiorna la tabella solo per il primo Pokémon attivo del giocatore
-    const playerPokemon = PC.player[0];  // Cambia [0] con l'indice del Pokémon che vuoi usare
-    if (playerPokemon) {
-        const fractions = calcFractions(playerPokemon.hp || 0);
+    const playerName = playerSelect.value;
+    const opponentName = opponentSelect.value;
 
-        // Aggiorna la tabella del giocatore
-        document.getElementById('player-sixteenth').textContent = fractions.sixteenth;
-        document.getElementById('player-eighth').textContent = fractions.eighth;
-        document.getElementById('player-sixth').textContent = fractions.sixth;
-        document.getElementById('player-fourth').textContent = fractions.fourth;
-    }
+    // Prendi gli HP base dal file species.js
+    const playerHP = SPECIES[playerName].hp;
+    const opponentHP = SPECIES[opponentName].hp;
 
-    // Aggiorna la tabella solo per il primo Pokémon attivo dell'avversario
-    const opponentPokemon = PC.opponent[0];  // Cambia [0] con l'indice del Pokémon che vuoi usare
-    if (opponentPokemon) {
-        const fractions = calcFractions(opponentPokemon.hp || 0);
+    // Aggiorna i valori nel DOM
+    document.getElementById("player-sixteenth").textContent = Math.floor(playerHP / 16);
+    document.getElementById("player-eighth").textContent = Math.floor(playerHP / 8);
+    document.getElementById("player-sixth").textContent = Math.floor(playerHP / 6);
+    document.getElementById("player-fourth").textContent = Math.floor(playerHP / 4);
 
-        // Aggiorna la tabella dell'avversario
-        document.getElementById('opposing-sixteenth').textContent = fractions.sixteenth;
-        document.getElementById('opposing-eighth').textContent = fractions.eighth;
-        document.getElementById('opposing-sixth').textContent = fractions.sixth;
-        document.getElementById('opposing-fourth').textContent = fractions.fourth;
-    }
+    document.getElementById("opposing-sixteenth").textContent = Math.floor(opponentHP / 16);
+    document.getElementById("opposing-eighth").textContent = Math.floor(opponentHP / 8);
+    document.getElementById("opposing-sixth").textContent = Math.floor(opponentHP / 6);
+    document.getElementById("opposing-fourth").textContent = Math.floor(opponentHP / 4);
 }
 
-// Aggiorna ogni 500ms per sincronizzarsi con la selezione del Pokémon
-setInterval(updateChipDamage, 500);
+// Aggiornamento automatico quando cambi Pokémon
+document.querySelector("#player-mon-select").addEventListener("change", updateChipDamage);
+document.querySelector("#opponent-mon-select").addEventListener("change", updateChipDamage);
+
+// Aggiornamento immediato all'apertura del calcolatore
+updateChipDamage();
