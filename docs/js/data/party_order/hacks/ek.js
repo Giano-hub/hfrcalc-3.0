@@ -734,11 +734,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 	],
 	"Cue Ball Optional": [
 		"Sableye",
-		"Sableye (1)",
-		"Sableye (2)",
-		"Sableye (3)",
-		"Sableye (4)",
-		"Sableye (5)"
+		"Sableye",
+		"Sableye",
+		"Sableye",
+		"Sableye",
+		"Sableye"
 	],
 	"Gamer Hugo": [
 		"Dewgong"
