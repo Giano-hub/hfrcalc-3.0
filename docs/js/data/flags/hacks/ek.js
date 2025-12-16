@@ -389,6 +389,17 @@ var CUSTOMHACKFLAGS_EK = {
             "Cooltrainer Cinnebar",
             "Cooltrainer Viridian",
 
+            // Victory Road
+            "Cooltrainer Naomi",
+            "Cooltrainer Daisuke",
+            "Cooltrainer Alexa",
+            "Cooltrainer Caroline",
+            "Cooltrainer Yuri",
+            "Cool Couple Ray & Tyra",
+			   "Cooltrainer Night",
+			   "Cooltrainer Day",
+            "Pokemon Trainer Brendan 2",
+	  
             // Route 17 Balling Route
             "Biker William",
             "Biker Jaxon",
@@ -399,15 +410,6 @@ var CUSTOMHACKFLAGS_EK = {
             "Biker Steering",
             "Biker Virtue",
             "Biker Balling",
-
-            // Victory Road
-            "Cooltrainer Naomi",
-            "Cooltrainer Daisuke",
-            "Cooltrainer Alexa",
-            "Cooltrainer Caroline",
-            "Juggler Yuri",
-            "Cool Couple Ray & Tyra",
-            "Pokemon Trainer Brendan 2",
 
             // THE ELITE 4
             "Elite Four Lorelei",
@@ -542,6 +544,7 @@ var CUSTOMHACKFLAGS_EK = {
             ["Burglar Simon", "Scientist Braydon"],
             ["Burglar Lewis", "Scientist Ivan"],
             ["Tuber Amira", "Tuber Alexis"],
+			   ["Cooltrainer Night", "Cooltrainer Day"],
             ["Cue Ball Jamal", "Cue Ball Zeek"],
             ["Swimmer-F Denise", "Swimmer-M Samir"],
             ["Hiker Earl", "Juggler Edward"],
