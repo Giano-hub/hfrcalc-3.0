@@ -715,12 +715,29 @@ table.field {
 }
 
 #builtin-calculator {
-	position: fixed;
-	bottom: 0px;
-	right: 10%;
-	background-color: #2e2e2ee6;
-	border-radius: 10px 10px 0 0;
-	padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+    background-color: #2e2e2ee6;
+    border-radius: 10px 10px 0 0;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#calc-input {
+    width: 100px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+#calc-result {
+    font-weight: bold;
 }
 
 .info-paragraph > b:hover {
