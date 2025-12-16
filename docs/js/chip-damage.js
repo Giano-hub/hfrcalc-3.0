@@ -1,8 +1,8 @@
-// Funzione per aggiornare i danni percentuali per tutti i Pokémon attivi
-function updateChipDamageMulti() {
+// Funzione per aggiornare i danni percentuali per i Pokémon attivi
+function updateChipDamage() {
     if (!window.PC) return;
 
-    // Funzione interna per calcolare le frazioni di HP
+    // Funzione per calcolare le frazioni di HP
     function calcFractions(hp) {
         return {
             sixteenth: Math.floor(hp / 16),
@@ -12,46 +12,30 @@ function updateChipDamageMulti() {
         };
     }
 
-    // Aggiorna la tabella per i Pokémon del giocatore
-    PC.player.forEach((poke, index) => {
-        if (!poke) return;
-        const fractions = calcFractions(poke.hp || 0);
-        const suffix = index > 0 ? `-${index+1}` : '';
+    // Aggiorna la tabella solo per il primo Pokémon attivo del giocatore
+    const playerPokemon = PC.player[0];  // Cambia [0] con l'indice del Pokémon che vuoi usare
+    if (playerPokemon) {
+        const fractions = calcFractions(playerPokemon.hp || 0);
 
-        const mapping = {
-            'player-sixteenth': fractions.sixteenth,
-            'player-eighth': fractions.eighth,
-            'player-sixth': fractions.sixth,
-            'player-fourth': fractions.fourth
-        };
+        // Aggiorna la tabella del giocatore
+        document.getElementById('player-sixteenth').textContent = fractions.sixteenth;
+        document.getElementById('player-eighth').textContent = fractions.eighth;
+        document.getElementById('player-sixth').textContent = fractions.sixth;
+        document.getElementById('player-fourth').textContent = fractions.fourth;
+    }
 
-        for (const id in mapping) {
-            const elem = document.getElementById(id + suffix);
-            if (elem) elem.textContent = mapping[id];
-        }
-    });
+    // Aggiorna la tabella solo per il primo Pokémon attivo dell'avversario
+    const opponentPokemon = PC.opponent[0];  // Cambia [0] con l'indice del Pokémon che vuoi usare
+    if (opponentPokemon) {
+        const fractions = calcFractions(opponentPokemon.hp || 0);
 
-    // Aggiorna la tabella per i Pokémon dell'avversario
-    PC.opponent.forEach((poke, index) => {
-        if (!poke) return;
-        const fractions = calcFractions(poke.hp || 0);
-        const suffix = index > 0 ? `-${index+1}` : '';
-
-        const mapping = {
-            'opposing-sixteenth': fractions.sixteenth,
-            'opposing-eighth': fractions.eighth,
-            'opposing-sixth': fractions.sixth,
-            'opposing-fourth': fractions.fourth
-        };
-
-        for (const id in mapping) {
-            const elem = document.getElementById(id + suffix);
-            if (elem) elem.textContent = mapping[id];
-        }
-    });
+        // Aggiorna la tabella dell'avversario
+        document.getElementById('opposing-sixteenth').textContent = fractions.sixteenth;
+        document.getElementById('opposing-eighth').textContent = fractions.eighth;
+        document.getElementById('opposing-sixth').textContent = fractions.sixth;
+        document.getElementById('opposing-fourth').textContent = fractions.fourth;
+    }
 }
 
-// Aggiorna ogni 500ms per sincronizzarsi con le selezioni
-setInterval(updateChipDamageMulti, 500);
-
-
+// Aggiorna ogni 500ms per sincronizzarsi con la selezione del Pokémon
+setInterval(updateChipDamage, 500);
