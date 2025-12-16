@@ -4154,7 +4154,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-      "Chansey": {
 		"Cooltrainer Night": {
 			"ability": "Natural Cure",
 			"item": "Lax Incense",
