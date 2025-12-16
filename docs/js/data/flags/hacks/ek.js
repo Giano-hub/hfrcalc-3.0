@@ -546,6 +546,7 @@ var CUSTOMHACKFLAGS_EK = {
             ["Tuber Amira", "Tuber Alexis"],
 			   ["Cooltrainer Night", "Cooltrainer Day"],
             ["Cue Ball Jamal", "Cue Ball Zeek"],
+			   ["Biker Steering", "Biker Virtue", "Biker Balling"],
             ["Swimmer-F Denise", "Swimmer-M Samir"],
             ["Hiker Earl", "Juggler Edward"],
             ["Ruin Maniac Stanly", "Ruin Maniac Foster"],
