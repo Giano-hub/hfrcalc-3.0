@@ -448,10 +448,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Cool Couple Lex & Nya",
 	"Cooltrainer Claire",
 
-	// Route 19 Kyogre
-	"Swimmer-F Aqua",
-	"Cool Couple Tama & Shi",
-
 	// Samu
 	"Secret Trainer Samu",
 	
