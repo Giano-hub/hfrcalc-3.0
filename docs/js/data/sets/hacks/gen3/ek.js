@@ -23570,6 +23570,26 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
    "Sableye": {
+      "Biker Virgil": {
+			"ability": "Keen Eye",
+			"item": "Lum Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 82,
+			"moves": [
+				"Shadow Punch",
+				"Crunch",
+				"Brick Break",
+				"Recover"
+			],
+			"nature": "Impish"
+		},
 		"Channeler Amanda": {
 			"ability": "Keen Eye",
 			"item": "Lum Berry",
@@ -23589,26 +23609,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Brick Break"
 			],
 			"nature": "Hasty"
-		},
-      "Biker Virgil": {
-			"ability": "Keen Eye",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 82,
-			"moves": [
-				"Shadow Punch",
-				"Crunch",
-				"Recover",
-				"Brick Break"
-			],
-			"nature": "Impish"
       },		
 		"Channeler Emilia": {
 			"ability": "Keen Eye",
