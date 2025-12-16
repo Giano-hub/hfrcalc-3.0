@@ -544,7 +544,6 @@ var CUSTOMHACKFLAGS_EK = {
             ["Burglar Simon", "Scientist Braydon"],
             ["Burglar Lewis", "Scientist Ivan"],
             ["Tuber Amira", "Tuber Alexis"],
-			   ["Cooltrainer Night", "Cooltrainer Day"],
             ["Cue Ball Jamal", "Cue Ball Zeek"],
             ["Swimmer-F Denise", "Swimmer-M Samir"],
             ["Hiker Earl", "Juggler Edward"],
