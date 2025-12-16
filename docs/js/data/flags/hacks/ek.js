@@ -403,10 +403,10 @@ var CUSTOMHACKFLAGS_EK = {
             // Route 17 Balling Route
             "Biker William",
             "Biker Jaxon",
+			   "Biker Virgil",
             "Cue Ball Jamal",
             "Cue Ball Zeek",
-            "Biker Virgil",
-            "Cue Ball Raul",
+            "Cue Ball Optional",
             "Biker Steering",
             "Biker Virtue",
             "Biker Balling",
@@ -522,7 +522,6 @@ var CUSTOMHACKFLAGS_EK = {
     "battleType": {
         "doubles": [
 			   "Twins Kiri & Jan",
-            "Cue Ball Raul",
             "Cool Couple Ray & Tyra",
             "Cool Couple Tama & Shi",
             "Painter Celina",
