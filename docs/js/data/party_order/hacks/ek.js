@@ -733,12 +733,12 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Shedinja"
 	],
 	"Cue Ball Optional": [
-		"Sableye (n1)",
-		"Sableye (n2)",
-		"Sableye (n3)",
-		"Sableye (n4)",
-		"Sableye (n5)",
-		"Sableye (n6)"
+		"Sableye",
+		"Sableye (1)",
+		"Sableye (2)",
+		"Sableye (3)",
+		"Sableye (4)",
+		"Sableye (5)"
 	],
 	"Gamer Hugo": [
 		"Dewgong"
