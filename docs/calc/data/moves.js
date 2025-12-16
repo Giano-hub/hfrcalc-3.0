@@ -126,7 +126,7 @@ var RBY = {
     'Stun Spore': { bp: 0, category: 'Status', type: 'Grass' },
     Submission: { bp: 90, type: 'Fighting', recoil: [1, 4] },
     Substitute: { bp: 0, category: 'Status', type: 'Normal' },
-    'Super Fang': { bp: 1, type: 'Normal' },
+    'Super Fang': { bp: 1, type: 'Dark' },
     Swift: { bp: 60, type: 'Normal' },
     'Take Down': { bp: 90, type: 'Normal', recoil: [1, 4] },
     Thrash: { bp: 120, type: 'Normal' },
