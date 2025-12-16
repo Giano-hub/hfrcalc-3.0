@@ -347,10 +347,10 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	// Route 17 Balling Route
 	"Biker William",
 	"Biker Jaxon",
+	"Biker Virgil",
 	"Cue Ball Jamal",
 	"Cue Ball Zeek",
-	"Biker Virgil",
-	"Cue Ball Raul",
+	"Cue Ball Optional",
 	"Biker Steering",
 	"Biker Virtue",
 	"Biker Balling",
