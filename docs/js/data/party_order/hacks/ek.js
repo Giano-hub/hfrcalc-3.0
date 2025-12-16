@@ -1713,6 +1713,22 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Togetic",
 		"Sneasel"
 	],
+   "Cooltrainer Night": [
+		"Jynx",
+		"Exeggutor",
+		"Tauros",
+		"Alakazam",
+		"Chansey",
+		"Vaporeon"
+	],
+	"Cooltrainer Day": [
+		"Hypno",
+		"Jolteon",
+		"Starmie",
+		"Rhydon",
+		"Exeggutor",
+		"Tauros"
+   ],	
 	"Gamer Slick": [
 		"Dodrio",
 		"Wobbuffet",
