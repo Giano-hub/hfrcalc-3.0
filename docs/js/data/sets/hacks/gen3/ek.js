@@ -658,6 +658,25 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Sassy"
 		},
+      "Cooltrainer Night": {
+			"ability": "Inner Focus",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 88,
+			"moves": [
+				"Psychic",
+				"Thunder Wave",
+				"Recover"
+			],
+			"nature": "Rash"
+      },	
 		"Champion Terry": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
@@ -3384,7 +3403,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Mild"
 		},
-		"Juggler Yuri": {
+		"Cooltrainer Yuri": {
 			"ability": "Natural Cure",
 			"item": "Lum Berry",
 			"ivs": {
@@ -4135,6 +4154,27 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
+      "Chansey": {
+		"Cooltrainer Night": {
+			"ability": "Natural Cure",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 88,
+			"moves": [
+				"Thunder Wave",
+				"Soft-Boiled",
+				"Ice Beam",
+				"Thunderbolt"
+			],
+			"nature": "Lax"
+      },		
 		"Cooltrainer Mary": {
 			"ability": "Natural Cure",
 			"item": "Leftovers",
@@ -6668,7 +6708,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Sassy"
 		},
-		"Juggler Yuri": {
+		"Cooltrainer Yuri": {
 			"ability": "Thick Fat",
 			"item": "Lum Berry",
 			"ivs": {
@@ -8335,6 +8375,44 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Sassy"
 		},
+      "Cooltrainer Night": {
+			"ability": "Chlorophyll",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 88,
+			"moves": [
+				"Sleep Powder",
+				"Stun Spore",
+				"Psychic"
+			],
+			"nature": "Naughty"
+      },
+      "Cooltrainer Day": {
+			"ability": "Chlorophyll",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 90,
+			"moves": [
+				"Sleep Powder",
+				"Stun Spore",
+				"Psychic"
+			],
+			"nature": "Naive"
+      },		
 		"Channeler Karina": {
 			"ability": "Chlorophyll",
 			"item": "Lum Berry",
@@ -12802,6 +12880,25 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
+      "Cooltrainer Day": {
+			"ability": "Insomnia",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 90,
+			"moves": [
+				"Psychic",
+				"Hypnosis",
+				"Thunder Wave"
+			],
+			"nature": "Gentle"
+      },		
 		"Cooltrainer Saffron": {
 			"ability": "Insomnia",
 			"item": "Lum Berry",
@@ -13109,6 +13206,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
+      "Cooltrainer Day": {
+			"ability": "Static",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 90,
+			"moves": [
+				"Thunder Wave",
+				"Sand Attack",
+				"Thunderbolt",
+				"Body Slam"
+			],
+			"nature": "Relaxed"
+      },		
 		"Swimmer-F Connie": {
 			"ability": "Static",
 			"item": "Magnet",
@@ -13591,6 +13708,25 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
+      "Cooltrainer Night": {
+			"ability": "Oblivious",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 88,
+			"moves": [
+				"Psychic",
+				"Lovely Kiss",
+				"Blizzard"
+			],
+			"nature": "Hardy"
+      },
 		"Cooltrainer Saffron": {
 			"ability": "Oblivious",
 			"item": "Twisted Spoon",
@@ -17360,7 +17496,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Careful"
 		},
-		"Juggler Yuri": {
+		"Cooltrainer Yuri": {
 			"ability": "Clear Body",
 			"item": "Hard Stone",
 			"ivs": {
@@ -23310,6 +23446,25 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
+      "Cooltrainer Day": {
+			"ability": "Lightningrod",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 90,
+			"moves": [
+				"Body Slam",
+				"Earthquake",
+				"Rock Slide"
+			],
+			"nature": "Timid"
+      },		
 		"Rocket Boss Giovanni": {
 			"ability": "Lightningrod",
 			"item": "Quick Claw",
@@ -23715,7 +23870,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Juggler Yuri": {
+		"Cooltrainer Yuri": {
 			"ability": "Keen Eye",
 			"item": "Black Glasses",
 			"ivs": {
@@ -24015,7 +24170,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Gentle"
 		},
-		"Juggler Yuri": {
+		"Cooltrainer Yuri": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -27156,6 +27311,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Careful"
 		},
+		"Cooltrainer Day": {
+			"ability": "Natural Cure",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 90,
+			"moves": [
+				"Recover",
+				"Thunderbolt",
+				"Thunder Wave",
+				"Blizzard"
+			],
+			"nature": "Relaxed"
+		},		
 		"Cooltrainer Cerulean": {
 			"ability": "Natural Cure",
 			"item": "Lum Berry",
@@ -28628,6 +28803,44 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
+      "Cooltrainer Night": {
+			"ability": "Intimidate",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 88,
+			"moves": [
+				"Body Slam",
+				"Hyper Beam",
+				"Earthquake"
+			],
+			"nature": "hardy"
+      },
+      "Cooltrainer Day": {
+			"ability": "Intimidate",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 90,
+			"moves": [
+				"Body Slam",
+				"Hyper Beam",
+				"Earthquake"
+			],
+			"nature": "Brave"
+      },		
 		"Crush Kin Mik & Kia": {
 			"ability": "Intimidate",
 			"item": "White Herb",
@@ -29599,7 +29812,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bold"
 		},
-		"Juggler Yuri": {
+		"Cooltrainer Yuri": {
 			"ability": "Intimidate",
 			"item": "Black Glasses",
 			"ivs": {
@@ -30119,6 +30332,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naughty"
 		},
+   	"Cooltrainer Night": {
+			"ability": "Swift Swim",
+			"item": "Lax Incense",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 88,
+			"moves": [
+				"Sand Attack",
+				"Hydro Pump",
+				"Body Slam",
+				"Blizzard"
+			],
+			"nature": "Lonely"
+		},		
 		"Lady Gillian": {
 			"ability": "Swift Swim",
 			"item": "Never-Melt Ice",
