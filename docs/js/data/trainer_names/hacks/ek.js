@@ -333,6 +333,17 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Cooltrainer Cinnebar",
 	"Cooltrainer Viridian",
 
+// Victory Road
+	"Cooltrainer Naomi",
+	"Cooltrainer Daisuke",
+	"Cooltrainer Alexa",
+	"Cooltrainer Caroline",
+	"Cooltrainer Yuri",
+	"Cool Couple Ray & Tyra",
+	"Cooltrainer Night",
+	"Cooltrainer Day",
+	"Pokemon Trainer Brendan 2",
+	
 	// Route 17 Balling Route
 	"Biker William",
 	"Biker Jaxon",
@@ -343,15 +354,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Biker Steering",
 	"Biker Virtue",
 	"Biker Balling",
-
-	// Victory Road
-	"Cooltrainer Naomi",
-	"Cooltrainer Daisuke",
-	"Cooltrainer Alexa",
-	"Cooltrainer Caroline",
-	"Juggler Yuri",
-	"Cool Couple Ray & Tyra",
-	"Pokemon Trainer Brendan 2",
 
 	// THE ELITE 4
 	"Elite Four Lorelei",
