@@ -3361,7 +3361,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Soft-Boiled",
 				"Cosmic Power"
 			],
-			"nature": "Serious"
+			"nature": "Quiet"
 		},
 		"Hiker Dudley": {
 			"ability": "Natural Cure",
@@ -10490,7 +10490,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Explosion",
 				"Hidden Power Electric"
 			],
-			"nature": "Brave"
+			"nature": "Mild"
 		},
 		"Gamer Rich": {
 			"ability": "Intimidate",
@@ -27349,7 +27349,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Psychic",
 				"Blizzard"
 			],
-			"nature": "Sassy"
+			"nature": "Lonely"
 		},
 		"Fisherman Dale": {
 			"ability": "Natural Cure",
