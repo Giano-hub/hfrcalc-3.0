@@ -924,10 +924,12 @@ function updateTickedHP() {
 	playtotal = $(".poke-info").find(".hp .total")[0].textContent;
 	optotal = $(".poke-info").find(".hp .total")[1].textContent;
 
+	$("#opposing-third")[0].textContent = Math.max(1, Math.trunc(optotal / 3));
 	$("#opposing-fourth")[0].textContent = Math.max(1, Math.trunc(optotal / 4));
 	$("#opposing-sixth")[0].textContent = Math.max(1, Math.trunc(optotal / 6));
 	$("#opposing-eighth")[0].textContent = Math.max(1, Math.trunc(optotal / 8));
 	$("#opposing-sixteenth")[0].textContent = Math.max(1, Math.trunc(optotal / 16));
+	$("#player-third")[0].textContent = Math.max(1, Math.trunc(playtotal / 3));
 	$("#player-fourth")[0].textContent = Math.max(1, Math.trunc(playtotal / 4));
 	$("#player-sixth")[0].textContent = Math.max(1, Math.trunc(playtotal / 6));
 	$("#player-eighth")[0].textContent = Math.max(1, Math.trunc(playtotal / 8));
