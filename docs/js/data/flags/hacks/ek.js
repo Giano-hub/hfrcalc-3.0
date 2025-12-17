@@ -528,8 +528,11 @@ var CUSTOMHACKFLAGS_EK = {
             "Twins Miu & Mia",
             "Young Couple Eve & Jon",
             "Cool Couple Lex & Nya"
-        ],
-        "tag": [
+       ],
+       "triple": [
+		         ["Biker Steering", "Biker Virtue", "Biker Balling"]
+		 ],
+		 "tag": [
             ["Picnicker Kelsey", "Camper Flint"],
             ["Picnicker Isabelle", "Camper Jeff"],
             ["Sailor Trevor", "Sailor Edmond"],
