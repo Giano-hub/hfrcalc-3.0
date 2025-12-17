@@ -639,65 +639,93 @@ $(".set-selector").change(function () {
 			}
 
 			var battleType = "singles-format";
-			$(".tag-container").hide();
-			if (flags["battleType"]) {
-				if (flags["battleType"]["doubles"].includes(window.CURRENT_TRAINER)) {
-					battleType = "doubles-format";
+
+$(".tag-container").hide();
+$(".triple-container").hide();
+
+if (flags["battleType"]) {
+
+	if (flags["battleType"]["doubles"] &&
+		flags["battleType"]["doubles"].includes(window.CURRENT_TRAINER)) {
+		battleType = "doubles-format";
+	}
+
+	if (flags["battleType"]["tag"]) {
+		for (var i in flags["battleType"]["tag"]) {
+
+			if (flags["battleType"]["tag"][i].includes(window.CURRENT_TRAINER)) {
+
+				$(".tag-container").show();
+
+				var tag = flags["battleType"]["tag"][i];
+				trainerHTML = "";
+				tagHTML = "";
+
+				var nextTrainerPokemon = getTrainerPokemon(` (${tag[0]})`);
+				for (var j in nextTrainerPokemon) {
+
+					if (nextTrainerPokemon[j][0].includes($('input.opposing').val())) continue;
+
+					var pokemonName = nextTrainerPokemon[j].split(" (")[0];
+					trainerHTML += `<img class="trainer-poke right-side"
+						src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png"
+						data-id="${nextTrainerPokemon[j]}"
+						title="${nextTrainerPokemon[j]}">`;
 				}
-				for (var i in flags["battleType"]["tag"]) {
-					if (flags["battleType"]["tag"][i].includes(window.CURRENT_TRAINER)) {
-						//battleType = "doubles-format"; 
-						$(".tag-container").show();
-						var tag = flags["battleType"]["tag"][i];
-						trainerHTML = "";
-						var nextTrainerPokemon = getTrainerPokemon(` (${tag[0]})`);
-						for (var i in nextTrainerPokemon) {
-							if (nextTrainerPokemon[i][0].includes($('input.opposing').val())) {
-								continue;
-							}
-							var pokemonName = nextTrainerPokemon[i].split(" (")[0];
-							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTrainerPokemon[i]}" title="${nextTrainerPokemon[i]}">`;
-							trainerHTML += pokemonHTML;
-						}
-						var nextTagPokemon = getTrainerPokemon(` (${tag[1]})`);
-						for (var i in nextTagPokemon) {
-							if (nextTagPokemon[i][0].includes($('input.opposing').val())) {
-								continue;
-							}
-							var pokemonName = nextTagPokemon[i].split(" (")[0];
-							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTagPokemon[i]}" title="${nextTagPokemon[i]}">`;
-							tagHTML += pokemonHTML;
-						}
-						getTrainerPokemon(fullSetName);
-						break;
-					}
-			 }			
-			 for (var i in flags["battleType"]["triple"]) {
-              if (flags["battleType"]["triple"][i].includes(window.CURRENT_TRAINER)) {
-                  $(".triple-container").show();
-                  var triple = flags["battleType"]["triple"][i];
-                  tripleHTML = "";
-                  triple.forEach(name => {
-                      var nextPokemon = getTrainerPokemon(` (${name})`);
-                      for (var j in nextPokemon) {
-                          if (nextPokemon[j][0].includes($('input.opposing').val())) continue;
-                          var pokeName = nextPokemon[j].split(" (")[0];
-                          var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokeName}.png" data-id="${nextPokemon[j]}" title="${nextPokemon[j]}">`;
-                          tripleHTML += pokemonHTML;
-                      }
-                  });
-                  $(".triple-poke-list-opposing").html(tripleHTML);
-                  break;				
-					}
+
+				var nextTagPokemon = getTrainerPokemon(` (${tag[1]})`);
+				for (var k in nextTagPokemon) {
+
+					if (nextTagPokemon[k][0].includes($('input.opposing').val())) continue;
+
+					var pokemonName = nextTagPokemon[k].split(" (")[0];
+					tagHTML += `<img class="trainer-poke right-side"
+						src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png"
+						data-id="${nextTagPokemon[k]}"
+						title="${nextTagPokemon[k]}">`;
 				}
+
+				break;
 			}
-			$(`#${battleType}`).prop("checked", true).change();
 		}
 	}
 
-	$('.trainer-poke-list-opposing').html(trainerHTML);
-	$('.tag-poke-list-opposing').html(tagHTML);
-	$('.triple-poke-list-opposing').html(tripleHTML);
+	if (flags["battleType"]["triple"]) {
+		for (var i in flags["battleType"]["triple"]) {
+
+			if (flags["battleType"]["triple"][i].includes(window.CURRENT_TRAINER)) {
+
+				$(".triple-container").show();
+				tripleHTML = "";
+
+				var triple = flags["battleType"]["triple"][i];
+
+				for (var t = 0; t < triple.length; t++) {
+
+					var triplePokemon = getTrainerPokemon(` (${triple[t]})`);
+
+					for (var j in triplePokemon) {
+
+						if (triplePokemon[j][0].includes($('input.opposing').val())) continue;
+
+						var pokeName = triplePokemon[j].split(" (")[0];
+						tripleHTML += `<img class="trainer-poke right-side"
+							src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokeName}.png"
+							data-id="${triplePokemon[j]}"
+							title="${triplePokemon[j]}">`;
+					}
+				}
+				break;
+			}
+		}
+	}
+}
+
+$(`#${battleType}`).prop("checked", true).change();
+
+$('.trainer-poke-list-opposing').html(trainerHTML);
+$('.tag-poke-list-opposing').html(tagHTML);
+$('.triple-poke-list-opposing').html(tripleHTML);
 	if (oldTrainer !== window.CURRENT_TRAINER) $('.trainer-poke-switch-list').html(switchHTML);
 
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
