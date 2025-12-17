@@ -931,9 +931,11 @@ function updateTickedHP() {
 	$("#player-fourth")[0].textContent = Math.max(1, Math.trunc(playtotal / 4));
 	$("#player-sixth")[0].textContent = Math.max(1, Math.trunc(playtotal / 6));
 	$("#player-eighth")[0].textContent = Math.max(1, Math.trunc(playtotal / 8));
-	$("#player-sixteenth")[0].textContent = Math.max(1, Math.trunc(playtotal / 16));
-   }  
-}
+	$("#player-sixteenth")[0].textContent = Math.max(1, Math.trunc(playtotal / 16));                                    
+} 
+$(document).on("change keyup click", function () {
+  updateTickedHP();
+});
 
 function trySendRiskyAlert() {
 	if (!localStorage.sentRiskyAlert && SETTINGS.riskyAI) {
