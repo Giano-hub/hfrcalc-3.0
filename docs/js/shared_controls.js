@@ -578,6 +578,7 @@ $(".set-selector").change(function () {
 		var nextPokemon = getTrainerPokemon(fullSetName);
 		var trainerHTML = "";
 		var tagHTML = "";
+		var tripleHTML = "";
 		var switchHTML = "";
 		for (var i in nextPokemon) {
 			if (nextPokemon[i][0].includes($('input.opposing').val())) {
