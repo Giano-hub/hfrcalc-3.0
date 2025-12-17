@@ -696,6 +696,7 @@ $(".set-selector").change(function () {
 
 	$('.trainer-poke-list-opposing').html(trainerHTML);
 	$('.tag-poke-list-opposing').html(tagHTML);
+	$(".triple-poke-list-opposing").html(tripleHTML);
 	if (oldTrainer !== window.CURRENT_TRAINER) $('.trainer-poke-switch-list').html(switchHTML);
 
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
