@@ -230,53 +230,54 @@ $(".result-move").change(function () {
 	}
 });
 
-function aggregateRolls(rolls){
-		var resultString = "";
-	var prevDamage = rolls[0];
-		var rollCount = 1;
-	resultString += rolls[0];
-	for (var i = 1; i < rolls.length; i++) {
-		if (rolls[i] == prevDamage) {
-				rollCount++;
-			} else {
-				resultString +=
-					rollCount > 1
-					? " [x" + rollCount + "], " + rolls[i]
-					: ", " + rolls[i];
-				rollCount = 1;
-			prevDamage = rolls[i];
-			}
-		}
-		if (rollCount > 1) {
-			resultString += " [x" + rollCount + "])";
-		}
-	return resultString;
+function aggregateRolls(rolls){ 
+    var resultString = "";
+    var prevDamage = rolls[0];
+    var rollCount = 1;
+    resultString += rolls[0];
+    for (var i = 1; i < rolls.length; i++) {
+        if (rolls[i] == prevDamage) {
+            rollCount++;
+        } else {
+            resultString += rollCount > 1
+                ? " [x" + rollCount + "], " + rolls[i]
+                : ", " + rolls[i];
+            rollCount = 1;
+            prevDamage = rolls[i];
+        }
+    }
+    if (rollCount > 1) {
+        resultString += " [x" + rollCount + "]";
+    }
+    return resultString;
 }
+
 function displayDamageHits(damage) {
-	// Fixed Damage
-	if (typeof damage === 'number') return damage;
-	// Standard Damage
-	if (damage.length > 2) return damage.join(', ');
-	// Fixed Parental Bond Damage
-	if (typeof damage[0] === 'number' && typeof damage[1] === 'number') {
-		return '1st Hit: ' + damage[0] + '; 2nd Hit: ' + damage[1];
-	}
-	// Parental Bond Damage
-	return '1st Hit: ' + damage[0].join(', ') + '; 2nd Hit: ' + damage[1].join(', ');
+    // Fixed Damage
+    if (typeof damage === 'number') return damage;
+    // Standard Damage
+    if (damage.length > 2) return aggregateRolls(damage);
+    // Fixed Parental Bond Damage
+    if (typeof damage[0] === 'number' && typeof damage[1] === 'number') {
+        return '1st Hit: ' + damage[0] + '; 2nd Hit: ' + damage[1];
+    }
+    // Parental Bond Damage
+    return '1st Hit: ' + aggregateRolls(damage[0]) + '; 2nd Hit: ' + aggregateRolls(damage[1]);
 }
 
 function displayRecoilHits(damage, recoil) {
-	// Fixed Damage
-	if (typeof damage === 'number') return Math.max(Math.floor(Math.min(damage, createPokemon($("#p2")).rawStats.hp) * recoil[0] / recoil[1]), 1);
-	// Standard Damage
-	if (damage.length > 2) return damage.map(x => Math.max(Math.floor(Math.min(x, createPokemon($("#p2")).rawStats.hp) * recoil[0] / recoil[1]), 1)).join(', ');
+    // Fixed Damage
+    if (typeof damage === 'number') return Math.max(Math.floor(Math.min(damage, createPokemon($("#p2")).rawStats.hp) * recoil[0] / recoil[1]), 1);
+    // Standard Damage
+    return aggregateRolls(damage.map(x => Math.max(Math.floor(Math.min(x, createPokemon($("#p2")).rawStats.hp) * recoil[0] / recoil[1]), 1)));
 }
 
 function displayDrainHits(damage, drain) {
-	// Fixed Damage
-	if (typeof damage === 'number') return Math.max(Math.floor(Math.min(damage, createPokemon($("#p2")).rawStats.hp) * drain[0] / drain[1]), 1);
-	// Standard Damage
-	if (damage.length > 2) return damage.map(x => Math.max(Math.floor(Math.min(x, createPokemon($("#p2")).rawStats.hp) * drain[0] / drain[1]), 1)).join(', ');
+    // Fixed Damage
+    if (typeof damage === 'number') return Math.max(Math.floor(Math.min(damage, createPokemon($("#p2")).rawStats.hp) * drain[0] / drain[1]), 1);
+    // Standard Damage
+    return aggregateRolls(damage.map(x => Math.max(Math.floor(Math.min(x, createPokemon($("#p2")).rawStats.hp) * drain[0] / drain[1]), 1)));
+
 }
 
 function findDamageResult(resultMoveObj) {
