@@ -713,19 +713,19 @@ $(".set-selector").change(function () {
 							                src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokeName}.png"
 							                data-id="${triplePokemon[j]}"
 							                title="${triplePokemon[j]}">`;
-					         }
-				         }
-				         break;
-			        }
-		       }
-	      }
-     }
+					              }
+				             }
+				             break;
+			            }
+		           }
+	          }
+         }
 
-     $(`#${battleType}`).prop("checked", true).change();
+         $(`#${battleType}`).prop("checked", true).change();
 
-     $('.trainer-poke-list-opposing').html(trainerHTML);
-     $('.tag-poke-list-opposing').html(tagHTML);
-     $('.triple-poke-list-opposing').html(tripleHTML);
+         $('.trainer-poke-list-opposing').html(trainerHTML);
+         $('.tag-poke-list-opposing').html(tagHTML);
+         $('.triple-poke-list-opposing').html(tripleHTML);
 	if (oldTrainer !== window.CURRENT_TRAINER) $('.trainer-poke-switch-list').html(switchHTML);
 
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
