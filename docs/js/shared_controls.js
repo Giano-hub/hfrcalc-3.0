@@ -669,6 +669,24 @@ $(".set-selector").change(function () {
 						getTrainerPokemon(fullSetName);
 						break;
 					}
+			 }			
+			 for (var i in flags["battleType"]["triple"]) {
+              if (flags["battleType"]["triple"][i].includes(window.CURRENT_TRAINER)) {
+                  $(".triple-container").show();
+                  var triple = flags["battleType"]["triple"][i];
+                  tripleHTML = "";
+                  triple.forEach(name => {
+                      var nextPokemon = getTrainerPokemon(` (${name})`);
+                      for (var j in nextPokemon) {
+                          if (nextPokemon[j][0].includes($('input.opposing').val())) continue;
+                          var pokeName = nextPokemon[j].split(" (")[0];
+                          var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokeName}.png" data-id="${nextPokemon[j]}" title="${nextPokemon[j]}">`;
+                          tripleHTML += pokemonHTML;
+                      }
+                  });
+                  $(".triple-poke-list-opposing").html(tripleHTML);
+                  break;				
+					}
 				}
 			}
 			$(`#${battleType}`).prop("checked", true).change();
