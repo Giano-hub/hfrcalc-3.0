@@ -8370,7 +8370,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Stun Spore",
 				"Psychic"
 			],
-			"nature": "Naive"
+			"nature": "Bold"
       },		
 		"Channeler Karina": {
 			"ability": "Chlorophyll",
@@ -12837,7 +12837,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hypnosis",
 				"Thunder Wave"
 			],
-			"nature": "Gentle"
+			"nature": "Serious"
       },		
 		"Cooltrainer Saffron": {
 			"ability": "Insomnia",
@@ -13164,7 +13164,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Thunderbolt",
 				"Body Slam"
 			],
-			"nature": "Relaxed"
+			"nature": "Careful"
       },		
 		"Swimmer-F Connie": {
 			"ability": "Static",
@@ -23403,7 +23403,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Earthquake",
 				"Rock Slide"
 			],
-			"nature": "Timid"
+			"nature": "Lonely"
       },		
 		"Rocket Boss Giovanni": {
 			"ability": "Lightningrod",
@@ -27249,7 +27249,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Thunder Wave",
 				"Blizzard"
 			],
-			"nature": "Relaxed"
+			"nature": "Careful"
 		},		
 		"Cooltrainer Cerulean": {
 			"ability": "Natural Cure",
@@ -28720,7 +28720,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hyper Beam",
 				"Earthquake"
 			],
-			"nature": "hardy"
+			"nature": "Quiet"
       },
       "Cooltrainer Day": {
 			"ability": "Intimidate",
@@ -28739,7 +28739,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hyper Beam",
 				"Earthquake"
 			],
-			"nature": "Brave"
+			"nature": "Bashful"
       },		
 		"Crush Kin Mik & Kia": {
 			"ability": "Intimidate",
