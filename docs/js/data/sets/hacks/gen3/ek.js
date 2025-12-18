@@ -120,7 +120,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Superpower",
 				"Extreme Speed"
 			],
-			"nature": "Quirky"
+			"nature": "Quiet"
 		},
 		"Cue Ball Zeek": {
 			"ability": "Pressure",
@@ -2472,7 +2472,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Brick Break",
 				"Will-O-Wisp"
 			],
-			"nature": "Sassy"
+			"nature": "Bold"
 		}
 	},
 	"Bayleef": {
@@ -2556,7 +2556,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball",
 				"Explosion"
 			],
-			"nature": "Hardy"
+			"nature": "Bold"
       },	
    	"Bug Catcher Cale": {
 			"ability": "Swarm",
@@ -3361,7 +3361,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Soft-Boiled",
 				"Cosmic Power"
 			],
-			"nature": "Quiet"
+			"nature": "Serious"
 		},
 		"Hiker Dudley": {
 			"ability": "Natural Cure",
@@ -3603,7 +3603,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Giga Drain",
 				"Rock Slide"
 			],
-			"nature": "Jolly"
+			"nature": "Brave"
 		},
 		"Cooltrainer Mary": {
 			"ability": "Natural Cure",
@@ -5456,7 +5456,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Super Fang",
 				"Giga Drain"
 			],
-			"nature": "Modest"
+			"nature": "Careful"
 		},
 		"Biker Virtue": {
 			"ability": "Inner Focus",
@@ -5533,7 +5533,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Ground",
 				"Heat Wave"
 			],
-			"nature": "Naive"
+			"nature": "Relaxed"
 		},
 		"Elite Four Agatha": {
 			"ability": "Inner Focus",
@@ -6929,7 +6929,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Rock Slide",
 				"Earthquake"
 			],
-			"nature": "Hardy"
+			"nature": "Quirky"
 		},
 		"Biker Ricardo": {
 			"ability": "Arena Trap",
@@ -6967,7 +6967,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Rock Slide",
 				"Hidden Power Flying"
 			],
-			"nature": "Adamant"
+			"nature": "Lax"
 		},
       "Rocket Boss Giovanni 2": {
 			"ability": "Arena Trap",
@@ -7808,7 +7808,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ice Punch",
 				"Psychic"
 			],
-			"nature": "Calm"
+			"nature": "Adamant"
 		}
 	},
 	"Electrode": {
@@ -8065,7 +8065,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Grass",
 				"Light Screen"
 			],
-			"nature": "Naive"
+			"nature": "Sassy"
 		}
 	},
 	"Elekid": {
@@ -8994,7 +8994,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ice Beam",
 				"Aerial Ace"
 			],
-			"nature": "Timid"
+			"nature": "Mild"
 		},
 		"Pokemon Trainer May": {
 			"ability": "Torrent",
@@ -10027,7 +10027,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ice Beam",
 				"Thunderbolt"
 			],
-			"nature": "Hasty"
+			"nature": "Naughty"
 		},
 		"Elite Four Agatha": {
 			"ability": "Levitate",
@@ -10287,7 +10287,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Fire Punch",
 				"Psychic"
 			],
-			"nature": "Quiet"
+			"nature": "Hardy"
 		}
 	},
 	"Geodude": {
@@ -10490,7 +10490,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Explosion",
 				"Hidden Power Electric"
 			],
-			"nature": "Mild"
+			"nature": "Brave"
 		},
 		"Gamer Rich": {
 			"ability": "Intimidate",
@@ -12274,7 +12274,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Crunch",
 				"Pursuit"
 			],
-			"nature": "Hardy"
+			"nature": "Impish"
 		},
 		"Champion Terry": {
 			"ability": "Intimidate",
@@ -12937,7 +12937,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Submission",
 				"Hypnosis"
 			],
-			"nature": "Hardy"
+			"nature": "Gentle"
 		},
 		"Scientist Connor": {
 			"ability": "Insomnia",
@@ -12977,7 +12977,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball",
 				"Hypnosis"
 			],
-			"nature": "Modest"
+			"nature": "Careful"
 		}
 	},
 	"Illumise": {
@@ -14273,7 +14273,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Draco Meteor",
 				"Ice Beam"
 			],
-			"nature": "Hardy"
+			"nature": "Bold"
 		},
 		"Cooltrainer Cerulean": {
 			"ability": "Swift Swim",
@@ -16003,7 +16003,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Ghost",
 				"Head Smash"
 			],
-			"nature": "Serious"
+			"nature": "Bashful"
 		},
 		"Crush Kin Ron & Mya": {
 			"ability": "Guts",
@@ -19207,7 +19207,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball",
 				"Giga Drain"
 			],
-			"nature": "Docile"
+			"nature": "Calm"
 		},
 		"Cooltrainer Hotshot": {
 			"ability": "Stench",
@@ -19914,7 +19914,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Grass",
 				"Hypnosis"
 			],
-			"nature": "Lax"
+			"nature": "Careful"
 		},
 		"Channeler Amanda": {
 			"ability": "Pressure",
@@ -20192,7 +20192,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Drill Run",
 				"Air Slash"
 			],
-			"nature": "Bashful"
+			"nature": "Hasty"
 		},
 		"Cooltrainer Michelle": {
 			"ability": "Speed Boost",
@@ -23016,7 +23016,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Wild Charge",
 				"Drill Run"
 			],
-			"nature": "Careful"
+			"nature": "Docile"
 		}
 	},
 	"Raticate": {
@@ -23968,7 +23968,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Air Slash",
 				"Hydro Pump"
 			],
-			"nature": "Hardy"
+			"nature": "Calm"
 		},
 		"Bird Keeper Milo": {
 			"ability": "Intimidate",
@@ -24371,7 +24371,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ancientpower",
 				"Superpower"
 			],
-			"nature": "Lonely"
+			"nature": "Modest"
 		},
 		"Camper Benny": {
 			"ability": "Battle Armor",
@@ -24533,7 +24533,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Rock Slide",
 				"Thunder Punch"
 			],
-			"nature": "Hardy"
+			"nature": "Lax"
 		},
 		"Burglar Dash": {
 			"ability": "Shed Skin",
@@ -24695,7 +24695,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Superpower",
 				"Air Slash"
 			],
-			"nature": "Hardy"
+			"nature": "Calm"
 		},
 		"Biker Steering": {
 			"ability": "Swarm",
@@ -25989,7 +25989,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Flash Cannon",
 				"Drill Run"
 			],
-			"nature": "Naughty"
+			"nature": "Serious"
 		}
 	},
 	"Slaking": {
@@ -27349,7 +27349,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Psychic",
 				"Blizzard"
 			],
-			"nature": "Lonely"
+			"nature": "Sassy"
 		},
 		"Fisherman Dale": {
 			"ability": "Natural Cure",
@@ -27953,7 +27953,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Flash Cannon",
 				"Explosion"
 			],
-			"nature": "Jolly"
+			"nature": "Gentle"
 		}
 	},
 	"Sudowoodo": {
@@ -28759,7 +28759,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Blizzard",
 				"Fire Blast"
 			],
-			"nature": "Timid"
+			"nature": "Mild"
 		},
 		"Burglar Rob": {
 			"ability": "Intimidate",
