@@ -649,6 +649,7 @@ $(".set-selector").change(function () {
 					if (flags["battleType"]["tag"][i].includes(window.CURRENT_TRAINER)) {
 						//battleType = "doubles-format"; 
 						$(".tag-container").show();
+						$(".triple-container").hide();
 						var tag = flags["battleType"]["tag"][i];
 						trainerHTML = "";
 						var nextTrainerPokemon = getTrainerPokemon(` (${tag[0]})`);
@@ -676,6 +677,7 @@ $(".set-selector").change(function () {
             for (var i in flags["battleType"]["triple"]) {
 					if (flags["battleType"]["triple"][i].includes(window.CURRENT_TRAINER)) {
 						//battleType = "doubles-format"; 
+						$(".tag-container").show();
 						$(".triple-container").show();
 						var triple = flags["battleType"]["triple"][i];
 						trainerHTML = "";
