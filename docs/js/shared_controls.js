@@ -690,7 +690,16 @@ $(".set-selector").change(function () {
 							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTrainerPokemon[i]}" title="${nextTrainerPokemon[i]}">`;
 							trainerHTML += pokemonHTML;
 						}
-						var nextTriplePokemon = getTrainerPokemon(` (${triple[1]})`);
+						var nextTagPokemon = getTrainerPokemon(` (${triple[1]})`);
+						for (var i in nextTagPokemon) {
+							if (nextTagPokemon[i][0].includes($('input.opposing').val())) {
+								continue;
+							}
+							var pokemonName = nextTagPokemon[i].split(" (")[0];
+							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTagPokemon[i]}" title="${nextTagPokemon[i]}">`;
+							tagHTML += pokemonHTML;
+						}
+						var nextTriplePokemon = getTrainerPokemon(` (${triple[2]})`);
 						for (var i in nextTriplePokemon) {
 							if (nextTriplePokemon[i][0].includes($('input.opposing').val())) {
 								continue;
