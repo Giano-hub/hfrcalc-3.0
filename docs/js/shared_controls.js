@@ -1985,56 +1985,17 @@ function addBoxed(poke) {
 }
 
 function getSrcImgPokemon(poke) {
-    if (!poke || !poke.name) return "";  // evita crash
-    let name = poke.name;
-
-    // edge cases
-    if (name === "Aegislash-Shield") name = "Aegislash";
-    if (name === "Zygarde-10%") name = "Zygarde-10%25";
-
-    return `https://raw.githubusercontent.com/May8th1995/sprites/master/${name}.png`;
+	//edge case
+	if (!poke) {
+		return
+	}
+	if (poke.name == "Aegislash-Shield") {
+		return `https://raw.githubusercontent.com/May8th1995/sprites/master/Aegislash.png`
+	} else {
+		return `https://raw.githubusercontent.com/May8th1995/sprites/master/${poke.name}.png`
+	}
 }
 
-// Funzione per aggiornare lo sprite
-function updatePokemonSprite(pokeNameOrObj, elementId) {
-    if (!pokeNameOrObj || !elementId) return;  // evita crash
-
-    let url = "";
-    if (typeof pokeNameOrObj === "string") {
-        url = getSrcImgPokemon({name: pokeNameOrObj});
-    } else if (pokeNameOrObj && pokeNameOrObj.name) {
-        url = getSrcImgPokemon(pokeNameOrObj);
-    }
-
-    const img = document.getElementById(elementId);
-    if (img) img.src = url;
-}
-
-// ===========================
-// Listener con delegazione
-// ===========================
-$(document).on('change', '.player', function() {
-    const fullSetName = $(this).val();
-    if (fullSetName) updatePokemonSprite(fullSetName, "p1mon");
-});
-
-$(document).on('change', '.opposing', function() {
-    const fullSetNameP2 = $(this).val();
-    if (fullSetNameP2) updatePokemonSprite(fullSetNameP2, "p2mon");
-});
-
-// ===========================
-// Aggiornamento iniziale sicuro
-// ===========================
-$(document).ready(function() {
-    const playerVal = $('.player').val();
-    if (playerVal) updatePokemonSprite(playerVal, "p1mon");
-
-    const opposingVal = $('.opposing').val();
-    if (opposingVal) updatePokemonSprite(opposingVal, "p2mon");
-});
-
-}
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
