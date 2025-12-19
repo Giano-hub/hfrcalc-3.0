@@ -426,17 +426,23 @@ var CUSTOMHACKFLAGS_EK = {
             "Gamer Pryce",
 			   "Rocket Grunt Icefall",
 
-            // Ruin Valley
+            // Water Path
             "Swimmer-F Denise",
             "Swimmer-M Samir",
             "Aroma Lady Rose",
             "Twins Miu & Mia",
             "Hiker Earl",
             "Juggler Edward",
-            "Black Belt Chuck",
-            "Pokemaniac Hector",
+           
+			  // Ruin Valley
+			   "Picnicker Yuzu",
+			   "Black Belt Breaker",
+			   "Black Belt Chuck",
+            "Hiker Dusty",
+			   "Pokemaniac Hector",
+            "Cooltrainer Shinu",
+			   "Ruin Maniac Foster",
             "Ruin Maniac Stanly",
-            "Ruin Maniac Foster",
             "Cooltrainer Daniel",
 
             // 5 Island
@@ -548,7 +554,7 @@ var CUSTOMHACKFLAGS_EK = {
             ["Cue Ball Jamal", "Cue Ball Zeek"],
             ["Swimmer-F Denise", "Swimmer-M Samir"],
             ["Hiker Earl", "Juggler Edward"],
-            ["Ruin Maniac Stanly", "Ruin Maniac Foster"],
+            ["Ruin Maniac Foster", "Ruin Maniac Stanly"],
             ["Youngster Cordell", "Ruin Maniac Layton"],
             ["Youngster Nash", "Pokemon Breeder Allison"],
             ["Lady Gillian", "Painter Celina"],
@@ -577,7 +583,16 @@ var CUSTOMHACKFLAGS_EK = {
             "Secret Trainer Samu"
         ],
         "sand": [
-            "Pokemon Ranger Katelyn",
+            "Picnicker Yuzu",
+			   "Black Belt Breaker",
+			   "Black Belt Chuck",
+            "Hiker Dusty",
+			   "Pokemaniac Hector",
+            "Cooltrainer Shinu",
+			   "Ruin Maniac Foster",
+            "Ruin Maniac Stanly",
+            "Cooltrainer Daniel",
+			   "Pokemon Ranger Katelyn",
             "Pokemon Ranger Jackson",
             "Tamer Evan",
             "Crush Girl Cyndy",
