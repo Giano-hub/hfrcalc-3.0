@@ -423,7 +423,8 @@ var CUSTOMHACKFLAGS_EK = {
             "Rocket Grunt 2 Ember",
 
             // Icefall
-            "Rocket Grunt Icefall",
+            "Gamer Pryce",
+			   "Rocket Grunt Icefall",
 
             // Ruin Valley
             "Swimmer-F Denise",
@@ -482,9 +483,6 @@ var CUSTOMHACKFLAGS_EK = {
 
             // Lost Cave HoOh/Lugia
             "Pokemon Ranger Morty",
-            
-            // Icefall
-            "Gamer Pyrce",
 
             // Trainer Tower
             "Lady Jasmine",
