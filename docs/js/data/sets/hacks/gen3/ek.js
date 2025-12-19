@@ -2228,7 +2228,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Gamer Pyrce": {
+		"Gamer Pryce": {
 			"ability": "Marvel Scale",
 			"item": "Lum Berry",
 			"ivs": {
@@ -13707,7 +13707,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Gamer Pyrce": {
+		"Gamer Pryce": {
 			"ability": "Oblivious",
 			"item": "Lum Berry",
 			"ivs": {
@@ -15067,7 +15067,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Careful"
 		},
-		"Gamer Pyrce": {
+		"Gamer Pryce": {
 			"ability": "Shell Armor",
 			"item": "Lum Berry",
 			"ivs": {
@@ -21511,7 +21511,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Piloswine": {
-		"Gamer Pyrce": {
+		"Gamer Pryce": {
 			"ability": "Oblivious",
 			"item": "Bright Powder",
 			"ivs": {
@@ -23204,7 +23204,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Gamer Pyrce": {
+		"Gamer Pryce": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -26589,7 +26589,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Gamer Pyrce": {
+		"Gamer Pryce": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
