@@ -714,6 +714,10 @@ table.field {
     color: rgb(15, 14, 14);
 }
 
+#p2mon, #p1mon {
+    min-height: 30px;
+}
+
 #builtin-calculator {
     position: fixed;
     bottom: 0;
