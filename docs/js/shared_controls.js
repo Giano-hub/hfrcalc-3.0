@@ -1995,6 +1995,36 @@ function getSrcImgPokemon(poke) {
 		return `https://raw.githubusercontent.com/May8th1995/sprites/master/${poke.name}.png`
 	}
 }
+function updatePokemonSprite(pokeNameOrObj, elementId) {
+    let url;
+
+    // supporta sia stringa che oggetto {name: ...}
+    if (typeof pokeNameOrObj === "string") {
+        url = getSrcImgPokemon({name: pokeNameOrObj});
+    } else if (pokeNameOrObj && pokeNameOrObj.name) {
+        url = getSrcImgPokemon(pokeNameOrObj);
+    } else {
+        url = ""; // nessuno sprite
+    }
+
+    const img = document.getElementById(elementId);
+    if (img) {
+        img.src = url;
+    }
+}
+
+updatePokemonSprite(fullSetName, "p1mon");
+updatePokemonSprite(fullSetNameP2, "p2mon");
+$('#player1Select').on('change', function() {
+    const selected = $(this).val();
+    updatePokemonSprite(selected, "p1mon");
+});
+
+$('#player2Select').on('change', function() {
+    const selected = $(this).val();
+    updatePokemonSprite(selected, "p2mon");
+});
+
 
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
