@@ -1996,6 +1996,33 @@ function getSrcImgPokemon(poke) {
 	}
 }
 
+function updatePokemonIcon(inputSelector, imgId) {
+    const val = $(inputSelector).val(); // legge il valore dell'input
+    if (!val) return;                    // niente valore → niente crash
+
+    const img = document.getElementById(imgId);
+    if (img) img.src = getSrcImgPokemon({name: val});
+}
+
+// ===========================
+// Aggiornamento quando cambia la selezione
+// ===========================
+$(document).on('change', '.player', function() {
+    updatePokemonIcon(this, "p1mon");
+});
+
+$(document).on('change', '.opposing', function() {
+    updatePokemonIcon(this, "p2mon");
+});
+
+// ===========================
+// Aggiornamento iniziale se gli input hanno già un valore
+// ===========================
+$(document).ready(function() {
+    updatePokemonIcon('.player', "p1mon");
+    updatePokemonIcon('.opposing', "p2mon");
+});
+
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
