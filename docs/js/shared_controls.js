@@ -1985,18 +1985,21 @@ function addBoxed(poke) {
 }
 
 function getSrcImgPokemon(poke) {
-    if (!poke || !poke.name) return "";
-    // edge case Aegislash-Shield
-    if (poke.name === "Aegislash-Shield") {
-        return "https://raw.githubusercontent.com/May8th1995/sprites/master/Aegislash.png";
-    }
-    return `https://raw.githubusercontent.com/May8th1995/sprites/master/${poke.name}.png`;
+    if (!poke || !poke.name) return "";  // evita crash
+    let name = poke.name;
+
+    // edge cases
+    if (name === "Aegislash-Shield") name = "Aegislash";
+    if (name === "Zygarde-10%") name = "Zygarde-10%25";
+
+    return `https://raw.githubusercontent.com/May8th1995/sprites/master/${name}.png`;
 }
 
 // Funzione per aggiornare lo sprite
 function updatePokemonSprite(pokeNameOrObj, elementId) {
-    let url = "";
+    if (!pokeNameOrObj || !elementId) return;  // evita crash
 
+    let url = "";
     if (typeof pokeNameOrObj === "string") {
         url = getSrcImgPokemon({name: pokeNameOrObj});
     } else if (pokeNameOrObj && pokeNameOrObj.name) {
@@ -2008,20 +2011,20 @@ function updatePokemonSprite(pokeNameOrObj, elementId) {
 }
 
 // ===========================
-// Listener per input dinamici (delegazione)
+// Listener con delegazione
 // ===========================
 $(document).on('change', '.player', function() {
-    const fullSetName = $(this).val();           
-    updatePokemonSprite(fullSetName, "p1mon");   
+    const fullSetName = $(this).val();
+    if (fullSetName) updatePokemonSprite(fullSetName, "p1mon");
 });
 
 $(document).on('change', '.opposing', function() {
-    const fullSetNameP2 = $(this).val();         
-    updatePokemonSprite(fullSetNameP2, "p2mon"); 
+    const fullSetNameP2 = $(this).val();
+    if (fullSetNameP2) updatePokemonSprite(fullSetNameP2, "p2mon");
 });
 
 // ===========================
-// Aggiornamento iniziale se gli input hanno già un valore
+// Aggiornamento iniziale sicuro
 // ===========================
 $(document).ready(function() {
     const playerVal = $('.player').val();
