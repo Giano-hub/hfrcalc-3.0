@@ -278,7 +278,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Earthquake",
 				"Double-Edge"
 			],
-			"nature": "Hasty"
+			"nature": "Lax"
 		},
 		"Cooltrainer Alexa": {
 			"ability": "Rock Head",
@@ -2061,7 +2061,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Silver Wind",
 				"Superpower"
 			],
-			"nature": "Docile"
+			"nature": "Naive"
 		},
 		"Bug Catcher Bugsy": {
 			"ability": "Battle Armor",
@@ -7066,7 +7066,7 @@ var CUSTOMHACKSETDEX_EK = {
 			   "X-Scissor",
 			   "Double-Edge"
 			],
-			"nature": "Quirky"
+			"nature": "Lonely"
 		},
 		"Crush Kin Mik & Kia": {
 			"ability": "Arena Trap",
@@ -16181,7 +16181,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Earthquake",
 				"Hidden Power Ghost"
 			],
-			"nature": "Adamant"
+			"nature": "Gentle"
 		},
 		"Black Belt Koichi": {
 			"ability": "Guts",
