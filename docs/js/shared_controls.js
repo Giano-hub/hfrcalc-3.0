@@ -2013,19 +2013,17 @@ function updatePokemonSprite(pokeNameOrObj, elementId) {
     }
 }
 
-updatePokemonSprite(fullSetName, "p1mon");
-updatePokemonSprite(fullSetNameP2, "p2mon");
-$('#player1Select').on('change', function() {
-    const selected = $(this).val();
-    updatePokemonSprite(selected, "p1mon");
-});
+$('.player').on('change', function() {
+        const fullSetName = $(this).val();           // aggiorna Player1
+        updatePokemonSprite(fullSetName, "p1mon");   // aggiorna lo sprite
+    });
 
-$('#player2Select').on('change', function() {
-    const selected = $(this).val();
-    updatePokemonSprite(selected, "p2mon");
-});
+    $('.opposing').on('change', function() {
+        const fullSetNameP2 = $(this).val();         // aggiorna Player2
+        updatePokemonSprite(fullSetNameP2, "p2mon"); // aggiorna lo sprite
+    });
 
-
+}
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
