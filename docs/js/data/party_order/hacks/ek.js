@@ -2142,6 +2142,21 @@ var CUSTOMHACKPARTYORDER_EK = {
 	   "Armaldo",
 	   "Kabutops"
 	],
+	"Hiker Dusty": [
+	   "Dusclops",
+	   "Golem",
+	   "Swampert",
+	   "Dragonite",
+	   "Dugtrio"
+	],
+	"Cooltrainer Shinu": [
+	   "Gengar",
+	   "Salamence",
+	   "Flygon",
+	   "Starmie",
+	   "Misdreavus",
+	   "Aerodactyl"
+	],
 	"Black Belt Chuck": [
 		"Machamp",
 		"Poliwrath",
