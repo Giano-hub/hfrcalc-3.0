@@ -299,6 +299,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Serious"
 		},
+		"Cooltrainer Shinu": {
+			"ability": "Rock Head",
+			"item": "Sharp Beak",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Ancientpower",
+				"Earthquake",
+				"Air Slash",
+				"Double-Edge"
+			],
+			"nature": "Hasty"
+		},
 		"Cooltrainer Leroy": {
 			"ability": "Rock Head",
 			"item": "Choice Band",
@@ -676,7 +696,27 @@ var CUSTOMHACKSETDEX_EK = {
 				"Recover"
 			],
 			"nature": "Rash"
-      },	
+      },	 
+		"Picnicker Yuzu": {
+			"ability": "Inner Focus",
+			"item": "Twisted Spoon",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Psychic",
+				"Flamethrower",
+				"Ice Beam",
+			   "Thunderbolt"
+			],
+			"nature": "Impish"
+		},	
 		"Champion Terry": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
@@ -2004,6 +2044,25 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
+		"Black Belt Breaker": {
+			"ability": "Battle Armor",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Ancientpower",
+				"Silver Wind",
+				"Superpower"
+			],
+			"nature": "Docile"
+		},
 		"Bug Catcher Bugsy": {
 			"ability": "Battle Armor",
 			"item": "Lum Berry",
@@ -2823,6 +2882,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Electric"
 			],
 			"nature": "Hardy"
+		},
+		"Black Belt Breaker": {
+			"ability": "Shell Armor",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Water Spout",
+				"Earthquake",
+				"Blizzard",
+				"Hidden Power Electric"
+			],
+			"nature": "Naive"
 		},
 		"Rival Terry": {
 			"ability": "Shell Armor",
@@ -6587,6 +6666,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Calm"
 		},
+		"Hiker Dusty": {
+			"ability": "Thick Fat",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Superpower",
+				"Sky Attack",
+				"Earthquake",
+				"Draco Meteor"
+			],
+			"nature": "Hasty"
+		},
 		"Cooltrainer Caroline": {
 			"ability": "Thick Fat",
 			"item": "Lum Berry",
@@ -6944,7 +7043,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 32,
 			"moves": [
-				"Ancient Power",
+				"Ancientpower",
 				"Earthquake"
 			],
 			"nature": "Brave"
@@ -6968,6 +7067,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Flying"
 			],
 			"nature": "Lax"
+		},
+		"Hiker Dusty": {
+			"ability": "Arena Trap",
+			"item": "Choice Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"X-Scissor",
+				"Earthquake",
+				"Double-Edge",
+				"Sky Attack"
+			],
+			"nature": "Quirky"
 		},
       "Rocket Boss Giovanni 2": {
 			"ability": "Arena Trap",
@@ -7321,6 +7440,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Will-O-Wisp"
 			],
 			"nature": "Calm"
+		},
+		"Hiker Dusty": {
+			"ability": "Pressure",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Superpower",
+				"Shadow Ball",
+				"Earthquake",
+				"Will-O-Wisp"
+			],
+			"nature": "Relaxed"
 		},
 		"Cool Couple Lex & Nya": {
 			"ability": "Pressure",
@@ -8334,6 +8473,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Sassy"
 		},
+		"Picnicker Yuzu": {
+			"ability": "Chlorophyll",
+			"item": "Lum Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Explosion",
+				"Egg Bomb",
+				"Psychic",
+				"Hidden Power Fire"
+			],
+			"nature": "Lax"	
+		},
       "Cooltrainer Night": {
 			"ability": "Chlorophyll",
 			"item": "Lax Incense",
@@ -9222,6 +9381,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
+		"Cooltrainer Shinu": {
+			"ability": "Levitate",
+			"item": "Lum Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Earthquake",
+				"Sky Attack",
+				"Draco Meteor",
+				"Fire Blast"
+			],
+			"nature": "Naive"
+		},
 		"Cooltrainer Daisuke": {
 			"ability": "Levitate",
 			"item": "Liechi Berry",
@@ -9928,6 +10107,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Explosion"
 			],
 			"nature": "Bold"
+		},
+		"Cooltrainer Shinu": {
+			"ability": "Levitate",
+			"item": "Scope Lens",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Thunderbolt",
+				"Ice Beam",
+				"Gunk Shot",
+				"Explosion"
+			],
+			"nature": "Hardy"
 		},
 		"Burglar Dash": {
 			"ability": "Levitate",
@@ -10851,6 +11050,25 @@ var CUSTOMHACKSETDEX_EK = {
 				"Explosion"
 			],
 			"nature": "Lonely"
+		},
+		"Hiker Dusty": {
+			"ability": "Rock Head",
+			"item": "Quick Claw",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Head Smash",
+				"Earthquake",
+				"Explosion"
+			],
+			"nature": "Jolly"
 		},
 		"Ruin Maniac Foster": {
 			"ability": "Rock Head",
@@ -13910,6 +14128,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
+		"Black Belt Breaker": {
+			"ability": "Battle Armor",
+			"item": "Quick Claw",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Ancientpower",
+				"Hydro Pump",
+				"Earthquake",
+				"Head Smash"
+			],
+			"nature": "Rash"
+		},
 		"Hiker Alan": {
 			"ability": "Battle Armor",
 			"item": "Lum Berry",
@@ -15905,6 +16143,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
+		"Black Belt Breaker": {
+			"ability": "Guts",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Superpower",
+				"Ancientpower",
+				"Earthquake",
+				"Hidden Power Ghost"
+			],
+			"nature": "Adamant"
+		},
 		"Black Belt Chuck": {
 			"ability": "Guts",
 			"item": "Quick Claw",
@@ -17335,6 +17593,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Sludge Bomb"
 			],
 			"nature": "Bashful"
+		},
+		"Black Belt Breaker": {
+			"ability": "Clear Body",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Meteor Mash",
+				"Rock Slide",
+				"Earth Power",
+				"Hidden Power Grass"
+			],
+			"nature": "Relaxed"
 		},
 		"Champion Terry": {
 			"ability": "Clear Body",
@@ -18805,6 +19083,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball"
 			],
 			"nature": "Docile"
+		},
+		"Cooltrainer Shinu": {
+			"ability": "Shadow Tag",
+			"item": "Lum Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Thunderbolt",
+				"Psychic",
+				"Ice Beam",
+				"Psychic"
+			],
+			"nature": "Rash"
 		},
 		"Cooltrainer Michelle": {
 			"ability": "Shadow Tag",
@@ -23950,6 +24248,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bold"
 		},
+		"Cooltrainer Shinu": {
+			"ability": "Intimidate",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Draco Meteor",
+				"Dragon Dance",
+				"Sky Attack",
+				"Earthquake"
+			],
+			"nature": "Jolly"
+		},
 		"Biker Jaxon": {
 			"ability": "Intimidate",
 			"item": "Scope Lens",
@@ -24390,6 +24708,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ancientpower",
 				"X-Scissor",
 				"Submission"
+			],
+			"nature": "Serious"
+		},
+		"Picnicker Yuzu": {
+			"ability": "Battle Armor",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Earth Power",
+				"Ancientpower",
+				"Rock Slide",
+				"Rest"
 			],
 			"nature": "Serious"
 		},
@@ -25731,6 +26069,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Rest"
 			],
 			"nature": "Quirky"
+		},
+		"Picnicker Yuzu": {
+			"ability": "Shell Armor",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Baton Pass",
+				"Wrap",
+				"Cosmic Power",
+				"Rest"
+			],
+			"nature": "Naive"
 		},
 		"Juggler Mason": {
 			"ability": "Shell Armor",
@@ -27270,6 +27628,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ice Beam"
 			],
 			"nature": "Quiet"
+		},		
+		"Cooltrainer Shinu": {
+			"ability": "Natural Cure",
+			"item": "Twisted Spoon",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Water Spout",
+				"Psychic",
+				"Thunder",
+				"Blizzard"
+			],
+			"nature": "Quiet"
 		},
 		"Cooltrainer Michelle": {
 			"ability": "Natural Cure",
@@ -28323,6 +28701,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Yawn"
 			],
 			"nature": "Serious"
+		},
+		"Hiker Dusty": {
+			"ability": "Torrent",
+			"item": "Quick Claw",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 94,
+			"moves": [
+				"Earthquake",
+				"Head Smash",
+				"Hydro Pump",
+				"Blizzard"
+			],
+			"nature": "Calm"
 		},
 		"Fisherman Andrew": {
 			"ability": "Torrent",
@@ -29439,7 +29837,7 @@ var CUSTOMHACKSETDEX_EK = {
 	"Tyranitar": {
 		"Pokemon Trainer Shyohei": {
 			"ability": "Intimidate",
-			"item": "Blackglasses",
+			"item": "Black Glasses",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -29459,7 +29857,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Youngster Modnar": {
 			"ability": "Intimidate",
-			"item": "Blackglasses",
+			"item": "Black Glasses",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -29476,6 +29874,38 @@ var CUSTOMHACKSETDEX_EK = {
 				"Earthquake"
 			],
 			"nature": "Quiet"
+		},
+		"Picnicker Yuzu": {
+			"ability": "Intimidate",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Ancientpower",
+				"Dragon Dance",
+				"Superpower",
+				"Earthquake"
+			],
+			"nature": "Docile"
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		},
 		"Rocket Boss Giovanni": {
 			"ability": "Intimidate",
