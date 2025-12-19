@@ -173,7 +173,11 @@
 
     <div aria-label="Pok&eacute;mon 1" class="panel" role="region">
         <fieldset class="poke-info" id="p1">
-            <legend align="center">Pok&eacute;mon 1</legend>
+            <legend align="center">
+                    <button id="save-change" hidden>Save Changes</button>
+                    Pok&eacute;mon 1
+                    <img id="p1mon" src="" alt="">
+                </legend>
             <input type="text" class="set-selector calc-trigger player" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
@@ -1315,7 +1319,9 @@
     </div>
     <div aria-label="Pok&eacute;mon 2" role="region" class="panel">
         <fieldset class="poke-info" id="p2">
-            <legend align="center">Pok&eacute;mon 2</legend>
+            <legend align="center">Pok&eacute;mon 2
+                    <img id="p2mon" src="" alt="">
+                </legend>
             <input type="text" class="set-selector calc-trigger opposing" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets
