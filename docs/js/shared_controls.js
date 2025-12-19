@@ -1996,49 +1996,49 @@ function getSrcImgPokemon(poke) {
 	}
 }
 
-function updatePokemonIcon(inputSelector, imgId) {
-    const val = $(inputSelector).val();
-    if (!val) return;
+///////////////////////////////////////////////////////////
+//  SPRITE P1 / P2 — VERSIONE COMPATIBILE GEN3
+//  Stessa logica usata dagli sprite dell'Opposing Team
+///////////////////////////////////////////////////////////
+
+function updateTopSprite(fullSetName, imgId) {
+    if (!fullSetName) return;
+
+    // Pulisce il nome come fa l'opposing team
+    // Es: "Gardevoir (Calm Mind)" → "Gardevoir"
+    const cleanName = fullSetName.split(" (")[0].trim();
+
+    // URL sprite (identico all'opposing team)
+    const url = `https://raw.githubusercontent.com/May8th1995/sprites/master/${cleanName}.png`;
+
     const img = document.getElementById(imgId);
-    if (img) img.src = getSrcImgPokemon({name: val});
+    if (img) {
+        img.src = url;
+    }
 }
 
-// 3. Listener per aggiornare le icone al cambio input
+///////////////////////////////////////////////////////////
+//  LISTENER PLAYER 1
+///////////////////////////////////////////////////////////
 $(document).on('change', '.player', function() {
-    updatePokemonIcon(this, "p1mon");
+    const fullSetName = $(this).val();
+    updateTopSprite(fullSetName, "p1mon");
 });
+
+///////////////////////////////////////////////////////////
+//  LISTENER PLAYER 2
+///////////////////////////////////////////////////////////
 $(document).on('change', '.opposing', function() {
-    updatePokemonIcon(this, "p2mon");
+    const fullSetName = $(this).val();
+    updateTopSprite(fullSetName, "p2mon");
 });
 
-// 4. Click sulle miniature (questo è il blocco da incollare)
-const spriteMap = {
-    "Aegislash-Shield": "Aegislash",
-    "Zygarde-10%": "Zygarde-10%25"
-};
-
-$(document).on('click', '.left-side', function() {
-    let set = $(this).attr('data-id');
-    if (!set) return;
-    set = spriteMap[set] || set;
-    set = set.trim();
-    $('.player').val(set).change();
-    $('.player .select2-chosen').text(set);
-});
-
-$(document).on('click', '.right-side', function() {
-    let set = $(this).attr('data-id');
-    if (!set) return;
-    set = spriteMap[set] || set;
-    set = set.trim();
-    $('.opposing').val(set).change();
-    $('.opposing .select2-chosen').text(set);
-});
-
-// 5. Aggiornamento iniziale al caricamento pagina
+///////////////////////////////////////////////////////////
+//  AUTO-AGGIORNA SPRITE SE UN VALORE ESISTE GIÀ
+///////////////////////////////////////////////////////////
 $(document).ready(function() {
-    updatePokemonIcon('.player', "p1mon");
-    updatePokemonIcon('.opposing', "p2mon");
+    updateTopSprite($('.player').val(), "p1mon");
+    updateTopSprite($('.opposing').val(), "p2mon");
 });
 
 function getTrainerPokemon(trainerName) {
