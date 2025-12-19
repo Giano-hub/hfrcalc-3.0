@@ -1996,6 +1996,51 @@ function getSrcImgPokemon(poke) {
 	}
 }
 
+function updatePokemonIcon(inputSelector, imgId) {
+    const val = $(inputSelector).val();
+    if (!val) return;
+    const img = document.getElementById(imgId);
+    if (img) img.src = getSrcImgPokemon({name: val});
+}
+
+// 3. Listener per aggiornare le icone al cambio input
+$(document).on('change', '.player', function() {
+    updatePokemonIcon(this, "p1mon");
+});
+$(document).on('change', '.opposing', function() {
+    updatePokemonIcon(this, "p2mon");
+});
+
+// 4. Click sulle miniature (questo è il blocco da incollare)
+const spriteMap = {
+    "Aegislash-Shield": "Aegislash",
+    "Zygarde-10%": "Zygarde-10%25"
+};
+
+$(document).on('click', '.left-side', function() {
+    let set = $(this).attr('data-id');
+    if (!set) return;
+    set = spriteMap[set] || set;
+    set = set.trim();
+    $('.player').val(set).change();
+    $('.player .select2-chosen').text(set);
+});
+
+$(document).on('click', '.right-side', function() {
+    let set = $(this).attr('data-id');
+    if (!set) return;
+    set = spriteMap[set] || set;
+    set = set.trim();
+    $('.opposing').val(set).change();
+    $('.opposing .select2-chosen').text(set);
+});
+
+// 5. Aggiornamento iniziale al caricamento pagina
+$(document).ready(function() {
+    updatePokemonIcon('.player', "p1mon");
+    updatePokemonIcon('.opposing', "p2mon");
+});
+
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
