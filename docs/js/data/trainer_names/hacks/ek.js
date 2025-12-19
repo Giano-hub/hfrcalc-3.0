@@ -380,11 +380,8 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	
 	// Ruin Valley
 	"Picnicker Yuzu",
-	"Black Belt Breaker",
 	"Black Belt Chuck",
-   "Hiker Dusty",
 	"Pokemaniac Hector",
-   "Cooltrainer Shinu",
 	"Ruin Maniac Foster",
    "Ruin Maniac Stanly",
    "Cooltrainer Daniel",
