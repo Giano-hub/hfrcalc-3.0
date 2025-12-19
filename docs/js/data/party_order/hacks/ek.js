@@ -1816,10 +1816,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Scyther",
 		"Cradily"
 	],
-	"Ruin Maniac Stanly": [
-		"Gengar",
-		"Steelix",
-		"Dusclops"
+	"Ruin Maniac Foster": [
+		"Metagross",
+		"Golem",
+		"Swampert",
+		"Ursaring"
 	],
 	"Painter Daisy": [
 		"Smeargle",
@@ -2114,11 +2115,10 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Misdreavus",
 		"Xatu"
 	],
-	"Ruin Maniac Foster": [
-		"Metagross",
-		"Golem",
-		"Swampert",
-		"Ursaring"
+	"Ruin Maniac Stanly": [
+		"Gengar",
+		"Steelix",
+		"Dusclops"
 	],
 	"Cooltrainer Daniel": [
 		"Tyranitar",
