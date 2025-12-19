@@ -714,8 +714,13 @@ table.field {
     color: rgb(15, 14, 14);
 }
 
-#p2mon, #p1mon, #monSingle, #monDouble{ 
-    min-height: 30px;
+#p1mon, #p2mon {
+    display: inline-block;
+    width: 40px;            /* larghezza sprite */
+    height: 40px;           /* altezza sprite */
+    object-fit: contain;    /* mantiene proporzioni */
+    vertical-align: middle; /* allinea con il testo */
+    margin-left: 5px;       /* spazio tra immagine e nome */
 }
 
 #builtin-calculator {
