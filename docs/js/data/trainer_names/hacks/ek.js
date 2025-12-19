@@ -367,6 +367,7 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Rocket Grunt 2 Ember",
 
 	// Icefall
+	"Gamer Pryce",
 	"Rocket Grunt Icefall",
 
 	// Ruin Valley
@@ -426,9 +427,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 
 	// Lost Cave HoOh/Lugia
 	"Pokemon Ranger Morty",
-	
-	// Icefall
-	"Gamer Pyrce",
 
 	// Trainer Tower
 	"Lady Jasmine",
