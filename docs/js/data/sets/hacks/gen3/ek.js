@@ -2024,6 +2024,25 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
+		"Black Belt Breaker": {
+			"ability": "Battle Armor",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Ancientpower",
+				"Silver Wind",
+				"Superpower"
+			],
+			"nature": "Docile"
+		},
 		"Bug Catcher Bugsy": {
 			"ability": "Battle Armor",
 			"item": "Lum Berry",
@@ -2863,6 +2882,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Electric"
 			],
 			"nature": "Docile"
+		},
+		"Black Belt Breaker": {
+			"ability": "Shell Armor",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Water Spout",
+				"Blizzard",
+				"Earthquake",
+				"Hidden Power Electric"
+			],
+			"nature": "Naive"
 		},
 		"Rival Terry 22 Turtle": {
 			"ability": "Shell Armor",
@@ -13950,6 +13989,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
+		"Black Belt Breaker": {
+			"ability": "Battle Armor",
+			"item": "Quick Claw",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Ancientpower",
+				"Head Smash",
+				"Earthquake",
+				"Hydro Pump"
+			],
+			"nature": "Rash"
+		},
 		"Hiker Alan": {
 			"ability": "Battle Armor",
 			"item": "Lum Berry",
@@ -15965,6 +16024,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
+		"Black Belt Breaker": {
+			"ability": "Guts",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Superpower",
+				"Ancientpower",
+				"Earthquake",
+				"Hidden Power Ghost"
+			],
+			"nature": "Adamant"
+		},
 		"Black Belt Koichi": {
 			"ability": "Guts",
 			"item": "Black Belt",
@@ -17395,6 +17474,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Explosion"
 			],
 			"nature": "Adamant"
+		},
+		"Black Belt Breaker": {
+			"ability": "Clear Body",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 95,
+			"moves": [
+				"Meteor Mash",
+				"Rock Slide",
+				"Earthquake",
+				"Hidden Power Grass"
+			],
+			"nature": "Relaxed"
 		},
 		"Cooltrainer Caroline": {
 			"ability": "Clear Body",
