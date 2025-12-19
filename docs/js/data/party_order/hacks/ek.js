@@ -2128,6 +2128,35 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Houndoom",
 		"Typhlosion"
 	],
+	"Picnicker Yuzu": [
+	   "Exeggutor", 
+	   "Tyranitar",
+	   "Shuckle",
+	   "Sandslash",
+	   "Alakazam"
+	],
+	"Black Belt Breaker": [
+	   "Blastoise",
+	   "Metagross",
+	   "Machamp",
+	   "Armaldo",
+	   "Kabutops"
+	],
+	"Hiker Dusty": [
+	   "Dusclops",
+	   "Golem",
+	   "Swampert",
+	   "Dragonite",
+	   "Dugtrio"
+	]
+	"Cooltrainer Shinu": [
+	   "Gengar",
+	   "Salamence",
+	   "Flygon",
+	   "Starmie",
+	   "Misdreavus",
+	   "Aerodactyl"
+	],
 	"Black Belt Chuck": [
 		"Machamp",
 		"Poliwrath",
