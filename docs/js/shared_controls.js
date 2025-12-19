@@ -2063,6 +2063,29 @@ $(document).on('click', '.trainer-poke-switch.right-side', function() {
 	predictSwitchOrder();
 })
 
+function topPokemonIcon(fullname, node) {
+	var mon = { name: fullname.split(" (")[0] };
+	var src = getSrcImgPokemon(mon);
+	node.src = src;
+}
+
+$(document).on('click', '.right-side', function () {
+	var set = $(this).attr('data-id');
+	topPokemonIcon(set, $("#p2mon")[0])
+	$('.opposing').val(set);
+	$('.opposing').change();
+	$('.opposing .select2-chosen').text(set);
+})
+
+$(document).on('click', '.left-side', function () {
+	var set = $(this).attr('data-id');
+	topPokemonIcon(set, $("#p1mon")[0]);
+	$('#save-change').attr("hidden", true);
+	$('.player').val(set);
+	$('.player').change();
+	$('.player .select2-chosen').text(set);
+})
+
 function selectFirstMon() {
 	var pMons = document.getElementsByClassName("trainer-poke left-side");
 	let set = pMons[0].getAttribute("data-id");
