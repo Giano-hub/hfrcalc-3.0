@@ -244,7 +244,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Salamence",
 		"Latias"
 	],
-	"Gamer Pyrce": [
+	"Gamer Pryce": [
 		"Regice",
 		"Sneasel",
 		"Jynx",
