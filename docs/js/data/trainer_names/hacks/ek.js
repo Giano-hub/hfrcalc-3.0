@@ -380,6 +380,7 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	
 	// Ruin Valley
 	"Picnicker Yuzu",
+	"Black Belt Breaker",
 	"Black Belt Chuck",
 	"Pokemaniac Hector",
 	"Ruin Maniac Foster",
