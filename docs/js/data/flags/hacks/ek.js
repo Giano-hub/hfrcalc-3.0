@@ -583,6 +583,15 @@ var CUSTOMHACKFLAGS_EK = {
             "Secret Trainer Samu"
         ],
         "sand": [
+			   "Picnicker Yuzu",
+			   "Black Belt Breaker",
+			   "Black Belt Chuck",
+            "Hiker Dusty",
+			   "Pokemaniac Hector",
+            "Cooltrainer Shinu",
+			   "Ruin Maniac Foster",
+            "Ruin Maniac Stanly",
+            "Cooltrainer Daniel",
 			   "Pokemon Ranger Katelyn",
             "Pokemon Ranger Jackson",
             "Tamer Evan",
