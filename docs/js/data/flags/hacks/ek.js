@@ -588,6 +588,7 @@ var CUSTOMHACKFLAGS_EK = {
 			   "Black Belt Chuck",
 			   "Hiker Dusty",
 			   "Pokemaniac Hector",
+			   "Cooltrainer Shinu",
 			   "Ruin Maniac Foster",
             "Ruin Maniac Stanly",
             "Cooltrainer Daniel",
