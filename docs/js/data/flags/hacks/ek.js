@@ -436,11 +436,8 @@ var CUSTOMHACKFLAGS_EK = {
            
 			  // Ruin Valley
 			   "Picnicker Yuzu",
-			   "Black Belt Breaker",
 			   "Black Belt Chuck",
-            "Hiker Dusty",
 			   "Pokemaniac Hector",
-            "Cooltrainer Shinu",
 			   "Ruin Maniac Foster",
             "Ruin Maniac Stanly",
             "Cooltrainer Daniel",
@@ -584,11 +581,8 @@ var CUSTOMHACKFLAGS_EK = {
         ],
         "sand": [
 			   "Picnicker Yuzu",
-			   "Black Belt Breaker",
 			   "Black Belt Chuck",
-            "Hiker Dusty",
-			   "Pokemaniac Hector",
-            "Cooltrainer Shinu",
+			   "Pokemaniac Hector",,
 			   "Ruin Maniac Foster",
             "Ruin Maniac Stanly",
             "Cooltrainer Daniel",
