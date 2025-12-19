@@ -370,18 +370,24 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Gamer Pryce",
 	"Rocket Grunt Icefall",
 
-	// Ruin Valley
+	// Water Path
 	"Swimmer-F Denise",
 	"Swimmer-M Samir",
 	"Aroma Lady Rose",
 	"Twins Miu & Mia",
 	"Hiker Earl",
 	"Juggler Edward",
+	
+	// Ruin Valley
+	"Picnicker Yuzu",
+	"Black Belt Breaker",
 	"Black Belt Chuck",
+   "Hiker Dusty",
 	"Pokemaniac Hector",
-	"Ruin Maniac Stanly",
+   "Cooltrainer Shinu",
 	"Ruin Maniac Foster",
-	"Cooltrainer Daniel",
+   "Ruin Maniac Stanly",
+   "Cooltrainer Daniel",
 
 	// 5 Island
 	"Rocket Grunt 1 Five Island",
