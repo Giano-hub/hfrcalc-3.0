@@ -714,7 +714,7 @@ table.field {
     color: rgb(15, 14, 14);
 }
 
-#p2mon, #p1mon {
+#p2mon, #p1mon, #monSingle, #monDouble{ 
     min-height: 30px;
 }
 
