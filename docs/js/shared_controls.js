@@ -1985,43 +1985,51 @@ function addBoxed(poke) {
 }
 
 function getSrcImgPokemon(poke) {
-	//edge case
-	if (!poke) {
-		return
-	}
-	if (poke.name == "Aegislash-Shield") {
-		return `https://raw.githubusercontent.com/May8th1995/sprites/master/Aegislash.png`
-	} else {
-		return `https://raw.githubusercontent.com/May8th1995/sprites/master/${poke.name}.png`
-	}
+    if (!poke || !poke.name) return "";
+    // edge case Aegislash-Shield
+    if (poke.name === "Aegislash-Shield") {
+        return "https://raw.githubusercontent.com/May8th1995/sprites/master/Aegislash.png";
+    }
+    return `https://raw.githubusercontent.com/May8th1995/sprites/master/${poke.name}.png`;
 }
-function updatePokemonSprite(pokeNameOrObj, elementId) {
-    let url;
 
-    // supporta sia stringa che oggetto {name: ...}
+// Funzione per aggiornare lo sprite
+function updatePokemonSprite(pokeNameOrObj, elementId) {
+    let url = "";
+
     if (typeof pokeNameOrObj === "string") {
         url = getSrcImgPokemon({name: pokeNameOrObj});
     } else if (pokeNameOrObj && pokeNameOrObj.name) {
         url = getSrcImgPokemon(pokeNameOrObj);
-    } else {
-        url = ""; // nessuno sprite
     }
 
     const img = document.getElementById(elementId);
-    if (img) {
-        img.src = url;
-    }
+    if (img) img.src = url;
 }
 
-$('.player').on('change', function() {
-        const fullSetName = $(this).val();           // aggiorna Player1
-        updatePokemonSprite(fullSetName, "p1mon");   // aggiorna lo sprite
-    });
+// ===========================
+// Listener per input dinamici (delegazione)
+// ===========================
+$(document).on('change', '.player', function() {
+    const fullSetName = $(this).val();           
+    updatePokemonSprite(fullSetName, "p1mon");   
+});
 
-    $('.opposing').on('change', function() {
-        const fullSetNameP2 = $(this).val();         // aggiorna Player2
-        updatePokemonSprite(fullSetNameP2, "p2mon"); // aggiorna lo sprite
-    });
+$(document).on('change', '.opposing', function() {
+    const fullSetNameP2 = $(this).val();         
+    updatePokemonSprite(fullSetNameP2, "p2mon"); 
+});
+
+// ===========================
+// Aggiornamento iniziale se gli input hanno già un valore
+// ===========================
+$(document).ready(function() {
+    const playerVal = $('.player').val();
+    if (playerVal) updatePokemonSprite(playerVal, "p1mon");
+
+    const opposingVal = $('.opposing').val();
+    if (opposingVal) updatePokemonSprite(opposingVal, "p2mon");
+});
 
 }
 function getTrainerPokemon(trainerName) {
