@@ -2135,6 +2135,13 @@ var CUSTOMHACKPARTYORDER_EK = {
 	   "Sandslash",
 	   "Alakazam"
 	],
+	"Black Belt Breaker": [
+      "Blastoise",
+	   "Metagross",
+	   "Machamp",
+	   "Armaldo",
+	   "Kabutops"
+	],
 	"Black Belt Chuck": [
 		"Machamp",
 		"Poliwrath",
