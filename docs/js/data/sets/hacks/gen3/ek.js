@@ -3345,26 +3345,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Cool Couple Lex & Nya": {
-			"ability": "Natural Cure",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Thunderbolt",
-				"Ice Beam",
-				"Flamethrower",
-				"Psychic"
-			],
-			"nature": "Modest"
-		},
 		"Cooltrainer Alexa": {
 			"ability": "Natural Cure",
 			"item": "Leftovers",
@@ -3401,6 +3381,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Psychic"
 			],
 			"nature": "Impish"
+		},
+		"Cooltrainer Nya": {
+			"ability": "Natural Cure",
+			"item": "Never-Melt Ice",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Thunderbolt",
+				"Ice Beam",
+				"Flamethrower",
+				"Psychic"
+			],
+			"nature": "Hardy"
 		},
 		"Cooltrainer Naomi": {
 			"ability": "Natural Cure",
@@ -4394,6 +4394,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Air Slash"
 			],
 			"nature": "Serious"
+		},
+		"Cooltrainer Nya": {
+			"ability": "Blaze",
+			"item": "Salac Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Sacred Fire",
+				"Hidden Power Grass",
+				"Earthquake",
+				"Sky Attack"
+			],
+			"nature": "Modest"
 		},
 		"Cooltrainer Hotshot": {
 			"ability": "Blaze",
@@ -6666,6 +6686,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 		   "nature": "Hasty"
 		},
+		"Cooltrainer Lex": {
+			"ability": "Thick Fat",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Draco Meteor",
+				"Reflect",
+				"Light Screen",
+				"Fire Blast"
+			],
+		   "nature": "Hasty"
+		},
 		"Bird Keeper Chaz": {
 			"ability": "Thick Fat",
 			"item": "Lum Berry",
@@ -7441,6 +7481,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
+		"Cooltrainer Nya": {
+			"ability": "Pressure",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Double Team",
+				"Shadow Ball",
+				"Brick Break",
+				"Hidden Power Rock"
+			],
+			"nature": "Lax"
+		},
 		"Channeler Emilia": {
 			"ability": "Pressure",
 			"item": "Leftovers",
@@ -7460,26 +7520,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Will-O-Wisp"
 			],
 			"nature": "Calm"
-		},
-		"Cool Couple Lex & Nya": {
-			"ability": "Pressure",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Shadow Ball",
-				"Brick Break",
-				"Earth Power",
-				"Shadow Sneak"
-			],
-			"nature": "Gentle"
 		},
 		"Cooltrainer Viridian": {
 			"ability": "Pressure",
@@ -9380,6 +9420,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Fire Blast"
 			],
 			"nature": "Naive"
+		},
+		"Cooltrainer Nya": {
+			"ability": "Levitate",
+			"item": "Soft Sand",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Earthquake",
+				"Draco Meteor",
+				"Ancientpower",
+				"Fire Blast"
+			],
+			"nature": "Adamant"
 		},
 		"Cooltrainer Claire": {
 			"ability": "Levitate",
@@ -13422,6 +13482,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Mild"
 		},
+		"Cooltrainer Lex": {
+			"ability": "Static",
+			"item": "Lum Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Thunderbolt",
+				"Protect",
+				"Hidden Power Ice",
+				"Substitute"
+			],
+			"nature": "Docile"
+		},
 		"Biker Virtue": {
 			"ability": "Static",
 			"item": "Lum Berry",
@@ -13441,26 +13521,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Baton Pass"
 			],
 			"nature": "Careful"
-		},
-		"Cool Couple Lex & Nya": {
-			"ability": "Static",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Volt Tackle",
-				"Hidden Power Ice",
-				"Tail Glow",
-				"Crunch"
-			],
-			"nature": "Serious"
 		},
 		"Cooltrainer Cinnebar": {
 			"ability": "Static",
@@ -17654,6 +17714,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Timid"
 		},
+		"Cooltrainer Nya": {
+			"ability": "Clear Body",
+			"item": "Lum Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Flash Cannon",
+				"Rock Slide",
+				"Psychic",
+				"Earthquake"
+			],
+			"nature": "Docile"
+		},
 		"Cooltrainer Michelle": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
@@ -18361,6 +18441,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
+		"Cooltrainer Nya": {
+			"ability": "Swift Swim",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Protect",
+				"Surf",
+				"Ice Beam",
+				"Hidden Power Electric"
+			],
+			"nature": "Naive"
+		},
 		"Champion Terry": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
@@ -18380,26 +18480,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Recover"
 			],
 			"nature": "Hardy"
-		},
-		"Cool Couple Lex & Nya": {
-			"ability": "Swift Swim",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Hydro Pump",
-				"Ice Beam",
-				"Hidden Power Electric",
-				"Protect"
-			],
-			"nature": "Brave"
 		},
 		"Cool Couple Tama & Shi": {
 			"ability": "Swift Swim",
@@ -19963,6 +20043,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Surf"
 			],
 			"nature": "Quiet"
+		},
+		"Cooltrainer Lex": {
+			"ability": "Poison Point",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Gunk Shot",
+				"Earthquake",
+				"Head Smash",
+				"Blizzard"
+			],
+			"nature": "Naughty"
 		},
 		"Cue Ball Zeek": {
 			"ability": "Poison Point",
@@ -29158,6 +29258,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Fire Blast"
 			],
 			"nature": "Mild"
+		},		
+		"Cooltrainer Lex": {
+			"ability": "Intimidate",
+			"item": "White Herb",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Double-Edge",
+				"Earthquake",
+				"Blizzard",
+				"Iron Tail"
+			],
+			"nature": "Brave"
 		},
 		"Burglar Rob": {
 			"ability": "Intimidate",
@@ -29178,26 +29298,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Pursuit"
 			],
 			"nature": "Careful"
-		},
-		"Cool Couple Lex & Nya": {
-			"ability": "Intimidate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Double-Edge",
-				"Hidden Power Ghost",
-				"Earth Power",
-				"Head Smash"
-			],
-			"nature": "Brave"
 		},
 		"Cue Ball Jamal": {
 			"ability": "Intimidate",
@@ -29894,18 +29994,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Earthquake"
 			],
 			"nature": "Docile"
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		},
+		"Cooltrainer Lex": {
+			"ability": "Intimidate",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Head Smash",
+				"Dragon Dance",
+				"Ice Beam",
+				"Earthquake"
+			],
+			"nature": "Hardy"
 		},
 		"Rocket Boss Giovanni": {
 			"ability": "Intimidate",
@@ -29943,26 +30051,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Pursuit"
 			],
 			"nature": "Quirky"
-		},
-		"Cool Couple Lex & Nya": {
-			"ability": "Intimidate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Head Smash",
-				"Earth Power",
-				"Crunch",
-				"Fire Blast"
-			],
-			"nature": "Bold"
 		},
 		"Cooltrainer Alexa": {
 			"ability": "Intimidate",
@@ -31800,6 +31888,25 @@ var CUSTOMHACKSETDEX_EK = {
 				"Blizzard"
 			],
 			"nature": "Gentle"
+		},
+		"Cooltrainer Lex": {
+			"ability": "Water Veil",
+			"item": "Mystic Water",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 96,
+			"moves": [
+				"Surf",
+				"Double-Edge",
+				"Ice Beam"
+			],
+			"nature": "Lax"
 		},
 		"Fisherman Claude": {
 			"ability": "Water Veil",
