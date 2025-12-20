@@ -585,7 +585,7 @@ $(".set-selector").change(function () {
 			if (nextPokemon[i][0].includes($('input.opposing').val())) {
 				continue;
 			}
-			var pokemonName = extractPokemonName(nextPokemon[i]);
+			var pokemonName = nextPokemon[i].split(" (")[0];;
 			var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextPokemon[i]}" title="${nextPokemon[i]}">`;
 			trainerHTML += pokemonHTML;
 			switchHTML += `<span style="width: 100%;"><img class="trainer-poke-switch right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextPokemon[i]}" title="${nextPokemon[i]}"><label style="width: 60%;" class="trainer-poke-switch-explain" data-id="${nextPokemon[i]}"></label><label class="trainer-poke-switch-xp" data-id="${nextPokemon[i]}"></label></span>`;
@@ -657,7 +657,7 @@ $(".set-selector").change(function () {
 							if (nextTrainerPokemon[i][0].includes($('input.opposing').val())) {
 								continue;
 							}
-							var pokemonName = extractPokemonName(nextTrainerPokemon[i]);
+							var pokemonName = nextTrainerPokemon[i].split(" (")[0];
 							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTrainerPokemon[i]}" title="${nextTrainerPokemon[i]}">`;
 							trainerHTML += pokemonHTML;
 						}
@@ -666,7 +666,7 @@ $(".set-selector").change(function () {
 							if (nextTagPokemon[i][0].includes($('input.opposing').val())) {
 								continue;
 							}
-							var pokemonName = extractPokemonName(nextTagPokemon[i]);
+							var pokemonName = nextTagPokemon[i].split(" (")[0];
 							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTagPokemon[i]}" title="${nextTagPokemon[i]}">`;
 							tagHTML += pokemonHTML;
 						}
@@ -686,7 +686,7 @@ $(".set-selector").change(function () {
 							if (nextTrainerPokemon[i][0].includes($('input.opposing').val())) {
 								continue;
 							}
-							var pokemonName = extractPokemonName(nextTrainerPokemon[i]);
+							var pokemonName = nextTrainerPokemon[i].split(" (")[0];
 							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTrainerPokemon[i]}" title="${nextTrainerPokemon[i]}">`;
 							trainerHTML += pokemonHTML;
 						}
@@ -695,7 +695,7 @@ $(".set-selector").change(function () {
 							if (nextTagPokemon[i][0].includes($('input.opposing').val())) {
 								continue;
 							}
-							var pokemonName = extractPokemonName(nextTagPokemon[i]);
+							var pokemonName = nextTagPokemon[i].split(" (")[0];
 							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTagPokemon[i]}" title="${nextTagPokemon[i]}">`;
 							tagHTML += pokemonHTML;
 						}
@@ -704,7 +704,7 @@ $(".set-selector").change(function () {
 							if (nextTriplePokemon[i][0].includes($('input.opposing').val())) {
 								continue;
 							}
-							var pokemonName = extractPokemonName(nextTriplePokemon[i]);
+							var pokemonName = nextTriplePokemon[i].split(" (")[0];
 							var pokemonHTML = `<img class="trainer-poke right-side" src="https://raw.githubusercontent.com/May8th1995/sprites/master/${pokemonName}.png" data-id="${nextTriplePokemon[i]}" title="${nextTriplePokemon[i]}">`;
 							tripleHTML += pokemonHTML;
 						}
@@ -2114,21 +2114,6 @@ function selectFirstMon() {
 	$('.player').val(set);
 	$('.player').change();
 	$('.player .select2-chosen').text(set);
-}
-
-function extractPokemonName(fullString) {
-    let s = fullString.trim();
-
-    // Rimuove eventualissimo "[123]"
-    if (s.includes("]")) s = s.split("]")[1].trim();
-
-    // Se c’è " (qualcosa)" → rimuove
-    if (s.includes(" (")) s = s.split(" (")[0].trim();
-
-    // Se ci sono suffissi tipo "- 1", "- 2", "- A"
-    if (s.includes(" - ")) s = s.split(" - ")[0].trim();
-
-    return s;
 }
 
 function hideShowCCSettings() {
