@@ -1823,12 +1823,12 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Ursaring"
 	],
 	"Painter Daisy": [
-		"Smeargle",
 		"Smeargle - 1",
 		"Smeargle - 2",
 		"Smeargle - 3",
 		"Smeargle - 4",
-		"Smeargle - 5"
+		"Smeargle - 5",
+		"Smeargle - 6"
 	],
    "Rival Terry r22 Squirtle": [
 		"Pidgey",
