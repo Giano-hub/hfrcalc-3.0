@@ -2056,6 +2056,22 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Togetic",
 		"Jumpluff"
 	],
+	"Cooltrainer Potter": [
+		"Ninjask",
+		"Aerodactyl",
+		"Gardevoir",
+		"Kingdra",
+		"Sableye",
+	   "Blissey"
+	],
+	"Cooltrainer Dusk": [
+		"Sableye",
+		"Starmie",
+		"Camerupt",
+		"Sableye (1)",
+		"Milotic",
+	   "Sableye (2)"
+	],
 	"Bird Keeper Falkner": [
 		"Charizard",
 		"Aerodactyl",
