@@ -7373,7 +7373,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 100,
+			"level": 98,
 			"moves": [
 				"Explosion"
 			],
@@ -12430,7 +12430,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Earthquake",
 				"Shadow Ball"
 			],
-			"nature": "Bold"
+			"nature": "Sassy"
 		}
 	},
 	"Houndoom": {
@@ -12832,7 +12832,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Grass",
 				"Tail Glow"
 			],
-			"nature": "Naive"
+			"nature": "Docile"
 		},
 		"Rocket Grunt 2 Ember": {
 			"ability": "Intimidate",
@@ -31832,7 +31832,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 95,
+			"level": 92,
 			"moves": [
 				"Water Spout",
 				"Hyper Voice",
