@@ -2065,12 +2065,12 @@ var CUSTOMHACKPARTYORDER_EK = {
 	   "Blissey"
 	],
 	"Cooltrainer Dusk": [
-		"Sableye",
+		"Sableye (1)",
 		"Starmie",
 		"Camerupt",
-		"Sableye (1)",
+		"Sableye (2)",
 		"Milotic",
-	   "Sableye (2)"
+	   "Sableye (3)"
 	],
 	"Bird Keeper Falkner": [
 		"Charizard",
