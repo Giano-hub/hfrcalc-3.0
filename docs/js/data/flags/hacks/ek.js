@@ -457,7 +457,26 @@ var CUSTOMHACKFLAGS_EK = {
             "Rocket Admin Archer 4",
             "Scientist Gideon",
 
-            // Pattern Brush Celebi
+            // Canyon Entrance
+            "Juggler Mason",
+            "Pokemon Ranger Nicolas",
+            "Pokemon Ranger Madeline",
+   			"Young Couple Eve & Jon",  
+           
+			  // Sevault Canyon Jirachi
+            "Pokemon Ranger Katelyn",
+            "Pokemon Ranger Jackson",
+            "Tamer Evan",
+            "Crush Girl Cyndy",
+            "Cooltrainer Michelle",
+            "Cooltrainer Leroy",
+            "Cooltrainer Lex",
+            "Cooltrainer Nya",
+			  
+			  // Tanoby Ruins
+			   "Cooltrainer Claire",
+			  
+			  // Pattern Brush Celebi
             "Youngster Cordell",
             "Ruin Maniac Layton",
             "Youngster Nash",
@@ -493,21 +512,6 @@ var CUSTOMHACKFLAGS_EK = {
             // Trainer Tower
             "Lady Jasmine",
 
-            // Canyon Entrance
-            "Juggler Mason",
-            "Pokemon Ranger Nicolas",
-            "Pokemon Ranger Madeline",
-
-            // Sevault Canyon Jirachi
-            "Pokemon Ranger Katelyn",
-            "Pokemon Ranger Jackson",
-            "Tamer Evan",
-            "Crush Girl Cyndy",
-            "Cooltrainer Michelle",
-            "Cooltrainer Leroy",
-            "Cool Couple Lex & Nya",
-            "Cooltrainer Claire",
-
             // Route 19 Kyogre
             "Swimmer-F Aqua",
             "Cool Couple Tama & Shi",
@@ -530,8 +534,7 @@ var CUSTOMHACKFLAGS_EK = {
             "Cool Couple Tama & Shi",
             "Painter Celina",
             "Twins Miu & Mia",
-            "Young Couple Eve & Jon",
-            "Cool Couple Lex & Nya"
+            "Young Couple Eve & Jon"
        ],
        "triple": [
 		         ["Biker Steering", "Biker Virtue", "Biker Balling"]
@@ -559,8 +562,9 @@ var CUSTOMHACKFLAGS_EK = {
             ["Youngster Nash", "Pokemon Breeder Allison"],
             ["Lady Gillian", "Painter Celina"],
             ["Pokemon Ranger Nicolas", "Pokemon Ranger Madeline"],
-            ["Pokemon Ranger Katelyn", "Pokemon Ranger Jackson"]
-        ]
+            ["Pokemon Ranger Katelyn", "Pokemon Ranger Jackson"],
+            ["Cooltrainer Lex", "Cooltrainer Nya"]
+		 ]
     },
     "weather": {
         "sun": [
@@ -598,8 +602,9 @@ var CUSTOMHACKFLAGS_EK = {
             "Crush Girl Cyndy",
             "Cooltrainer Michelle",
             "Cooltrainer Leroy",
-            "Cool Couple Lex & Nya",
-
+            "Cooltrainer Lex",
+            "Cooltrainer Nya"
+			  
         ]
     }
 };
