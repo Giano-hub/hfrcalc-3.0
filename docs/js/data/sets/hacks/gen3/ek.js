@@ -26793,25 +26793,8 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Naughty"
 		}
 	},
-	"Smeargle": {
-		"Painter Celina": {
-			"ability": "Own Tempo",
-			"item": "Focus Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Explosion"
-			],
-			"nature": "Gentle"
-		},
-		"Painter Daisy": {
+	"Smeargle - 1": {
+	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26830,8 +26813,10 @@ var CUSTOMHACKSETDEX_EK = {
 				"Volt Tackle"
 			],
 			"nature": "Sassy"
-		},
-		"Painter Daisy": {
+	   }
+	},
+	"Smeargle - 2": {
+	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26850,8 +26835,10 @@ var CUSTOMHACKSETDEX_EK = {
 				"Pursuit"
 			],
 			"nature": "Impish"
-		},
-		"Painter Daisy": {
+	   }
+	},
+	"Smeargle - 3": {
+	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26868,8 +26855,10 @@ var CUSTOMHACKSETDEX_EK = {
 				"Baton Pass"
 			],
 			"nature": "Rash"
-		},
-		"Painter Daisy": {
+	   }
+	},
+	"Smeargle - 4": {
+	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26888,8 +26877,10 @@ var CUSTOMHACKSETDEX_EK = {
 				"Earthquake"
 			],
 			"nature": "Bold"
-		},
-		"Painter Daisy": {
+	   }
+	},   
+	"Smeargle - 5": {
+	      "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26907,8 +26898,10 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball"
 			],
 			"nature": "Mild"
-		},
-		"Painter Daisy": {
+	   }
+	},   
+	"Smeargle - 6": {
+	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26927,6 +26920,25 @@ var CUSTOMHACKSETDEX_EK = {
 				"Flamethrower"
 			],
 			"nature": "Brave"
+	   }
+	},
+	"Smeargle": {
+		"Painter Celina": {
+			"ability": "Own Tempo",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Explosion"
+			],
+			"nature": "Gentle"
 	   }
 	},
 	"Sneasel": {
