@@ -26793,7 +26793,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Naughty"
 		}
 	},
-	"Smeargle (1)": {
+	"Smeargle": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26815,7 +26815,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Sassy"
 		}
 	},
-	"Smeargle (2)": {
+	"Smeargle (1)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26837,7 +26837,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Impish"
 	   }
 	},
-	"Smeargle (3)": {
+	"Smeargle (2)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26857,7 +26857,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Rash"
 	   }
 	},
-	"Smeargle (4)": {
+	"Smeargle (3)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26879,7 +26879,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Bold" 
 	   }
 	},
-	"Smeargle (5)": {
+	"Smeargle (4)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26900,7 +26900,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Mild"
 		}
 	},
-	"Smeargle (6)": {
+	"Smeargle (5)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
