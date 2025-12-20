@@ -2068,7 +2068,9 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Sableye",
 		"Starmie",
 		"Camerupt",
-		"Milotic"
+		"Sableye (1)",
+		"Milotic",
+	   "Sableye (2)"
 	],
 	"Bird Keeper Falkner": [
 		"Charizard",
