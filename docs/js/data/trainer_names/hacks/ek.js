@@ -401,6 +401,25 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Rocket Admin Archer 4",
 	"Scientist Gideon",
 
+	// Canyon Entrance
+   "Juggler Mason",
+   "Pokemon Ranger Nicolas",
+   "Pokemon Ranger Madeline",
+   "Young Couple Eve & Jon",  
+           
+	// Sevault Canyon Jirachi
+   "Pokemon Ranger Katelyn",
+   "Pokemon Ranger Jackson",
+   "Tamer Evan",
+   "Crush Girl Cyndy",
+   "Cooltrainer Michelle",
+   "Cooltrainer Leroy",
+   "Cooltrainer Lex",
+   "Cooltrainer Nya",
+			  
+	// Tanoby Ruins
+	"Cooltrainer Claire",
+	
 	// Pattern Brush Celebi
 	"Youngster Cordell",
 	"Ruin Maniac Layton",
@@ -436,21 +455,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 
 	// Trainer Tower
 	"Lady Jasmine",
-
-	// Canyon Entrance
-	"Juggler Mason",
-	"Pokemon Ranger Nicolas",
-	"Pokemon Ranger Madeline",
-
-	// Sevault Canyon Jirachi
-	"Pokemon Ranger Katelyn",
-	"Pokemon Ranger Jackson",
-	"Tamer Evan",
-	"Crush Girl Cyndy",
-	"Cooltrainer Michelle",
-	"Cooltrainer Leroy",
-	"Cool Couple Lex & Nya",
-	"Cooltrainer Claire",
 
 	// Samu
 	"Secret Trainer Samu",
