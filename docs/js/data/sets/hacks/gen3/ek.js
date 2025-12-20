@@ -240,6 +240,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Jolly"
 		},
+		"Cooltrainer Potter": {
+			"ability": "Rock Head",
+			"item": "Quick Claw",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Air Slash",
+				"Rock Slide",
+				"Earthquake",
+				"Superpower"
+			],
+			"nature": "Calm"
+		},
 		"Bird Keeper Falkner": {
 			"ability": "Rock Head",
 			"item": "Quick Claw",
@@ -3382,6 +3402,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
+		"Cooltrainer Potter": {
+			"ability": "Natural Cure",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Thunderbolt",
+				"Ice Beam",
+				"Flamethrower",
+				"Psychic"
+			],
+			"nature": "Adamant"
+		},
 		"Cooltrainer Nya": {
 			"ability": "Natural Cure",
 			"item": "Never-Melt Ice",
@@ -3887,6 +3927,25 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ancientpower"
 			],
 			"nature": "Mild"
+		},
+		"Cooltrainer Dusk": {
+			"ability": "Magma Armor",
+			"item": "Quick Claw",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Eruption",
+				"Explosion",
+				"Earthquake"
+			],
+			"nature": "Quirky"
 		},
 		"Cooltrainer Tierra": {
 			"ability": "Magma Armor",
@@ -9984,6 +10043,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Jolly"
 		},
+		"Cooltrainer Potter": {
+			"ability": "Trace",
+			"item": "Quick Claw",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Psycho Boost",
+				"Thunder",
+				"Blizzard",
+				"Fire Blast"
+			],
+			"nature": "Bashful"
+		},
 		"Leader Sabrina": {
 			"ability": "Trace",
 			"item": "Lum Berry",
@@ -14593,6 +14672,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
+		"Cooltrainer Potter": {
+			"ability": "Swift Swim",
+			"item": "Scope Lens",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Dragon Meteor",
+				"Water Spout",
+				"Hidden Power Electric",
+				"Blizzard"
+		   ],
+			"nature": "Hardy"
+		},
 		"Cooltrainer Claire": {
 			"ability": "Swift Swim",
 			"item": "Leftovers",
@@ -18461,6 +18560,26 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
+		"Cooltrainer Dusk": {
+			"ability": "Swift Swim",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Dragon Breath",
+				"Hydro Pump",
+				"Blizzard",
+				"Hidden Power Electric"
+			],
+			"nature": "Impish"
+		},
 		"Champion Terry": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
@@ -20608,6 +20727,23 @@ var CUSTOMHACKSETDEX_EK = {
 				"Spikes"
 			],
 			"nature": "Bold"
+		},
+		"Cooltrainer Potter": {
+			"ability": "Speed Boost",
+			"item": "Bright Powder",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Spikes"
+			],
+			"nature": "Lonely"
 		},
 		"Cooltrainer Naomi": {
 			"ability": "Speed Boost",
@@ -24047,6 +24183,86 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Sneak"
 			],
 			"nature": "Quirky"
+		},
+		"Cooltrainer Dusk": {
+			"ability": "Keen Eye",
+			"item": "Leftovers",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Recover",
+				"Crunch",
+				"Mean Look",
+				"Curse"
+			],
+			"nature": "Lonely"
+		},
+		"Cooltrainer Dusk (1)": {
+			"ability": "Keen Eye",
+			"item": "Bright Powder",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Calm Mind",
+				"Crunch",
+				"Barrier",
+				"Rest"
+			],
+			"nature": "Bold"
+		},
+		"Cooltrainer Dusk (2)": {
+			"ability": "Keen Eye",
+			"item": "Black Glasses",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Shadow Punch",
+				"Crunch",
+				"Brick Break",
+				"Hidden Power Rock"
+			],
+			"nature": "Naive"
+		},
+		"Cooltrainer Potter": {
+			"ability": "Keen Eye",
+			"item": "Black Glasses",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Shadow Ball",
+				"Crunch",
+				"Brick Break",
+				"Hidden Power Rock"
+			],
+			"nature": "Timid"
 		},
 		"Cooltrainer Leroy": {
 			"ability": "Keen Eye",
@@ -27728,6 +27944,26 @@ var CUSTOMHACKSETDEX_EK = {
 				"Blizzard"
 		   ],
 			"nature": "Quiet"
+		},
+		"Cooltrainer Dusk": {
+			"ability": "Natural Cure",
+			"item": "Mystic Water",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Hydro Pump",
+				"Thunder",
+				"Psycho Boost",
+				"Blizzard"
+		   ],
+			"nature": "Adamant"
 		},		
 		"Cooltrainer Cerulean": {
 			"ability": "Natural Cure",
