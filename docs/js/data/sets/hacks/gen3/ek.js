@@ -26793,6 +26793,113 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Naughty"
 		}
 	},
+	"Smeargle (1)": {
+	   "Painter Daisy": {
+			"ability": "Own Tempo",
+			"item": "Bright Powder",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Explosion",
+				"Swords Dance",
+				"Extreme Speed",
+				"Pursuit"
+			],
+			"nature": "Impish"
+	   }
+	},
+	"Smeargle (2)": {
+	   "Painter Daisy": {
+			"ability": "Own Tempo",
+			"item": "Bright Powder",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Howl",
+				"Baton Pass"
+			],
+			"nature": "Rash"
+	   }
+	},
+	"Smeargle (3)": {
+	   "Painter Daisy": {
+			"ability": "Own Tempo",
+			"item": "Bright Powder",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Aeroblast",
+				"Sacred Fire",
+				"Draco Meteor",
+				"Earthquake"
+			],
+			"nature": "Bold" 
+	   }
+	},
+	"Smeargle (4)": {
+	   "Painter Daisy": {
+			"ability": "Own Tempo",
+			"item": "Bright Powder",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Explosion",
+				"Mean Look",
+				"Shadow Ball"
+			],
+			"nature": "Mild"
+		}
+	},
+	"Smeargle (5)": {
+	   "Painter Daisy": {
+			"ability": "Own Tempo",
+			"item": "Bright Powder",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [	
+				"Tail Glow",
+				"Ice Beam",
+				"Thunderbolt",
+				"Flamethrower"
+			],
+			"nature": "Brave"
+		}
+	},
 	"Smeargle": {
 		"Painter Celina": {
 			"ability": "Own Tempo",
@@ -26830,103 +26937,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Volt Tackle"
 			],
 			"nature": "Sassy"
-		},
-		"Painter Daisy (1)": {
-			"ability": "Own Tempo",
-			"item": "Bright Powder",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Explosion",
-				"Swords Dance",
-				"Extreme Speed",
-				"Pursuit"
-			],
-			"nature": "Impish"
-		},
-		"Painter Daisy (2)": {
-			"ability": "Own Tempo",
-			"item": "Bright Powder",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Howl",
-				"Baton Pass"
-			],
-			"nature": "Rash"
-		},
-		"Painter Daisy (3)": {
-			"ability": "Own Tempo",
-			"item": "Bright Powder",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Aeroblast",
-				"Sacred Fire",
-				"Draco Meteor",
-				"Earthquake"
-			],
-			"nature": "Bold"
-		},
-		"Painter Daisy (4)": {
-			"ability": "Own Tempo",
-			"item": "Bright Powder",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Explosion",
-				"Mean Look",
-				"Shadow Ball"
-			],
-			"nature": "Mild"
-		},
-		"Painter Daisy (5)": {
-			"ability": "Own Tempo",
-			"item": "Bright Powder",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [	
-				"Tail Glow",
-				"Ice Beam",
-				"Thunderbolt",
-				"Flamethrower"
-			],
-			"nature": "Brave"
 		}
 	},
 	"Sneasel": {
