@@ -26812,6 +26812,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Gentle"
 		},
 		"Painter Daisy": {
+			"id": "Smeargle",
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26832,6 +26833,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Sassy"
 		},
 		"Painter Daisy (1)": {
+			"id": "Smeargle",
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26852,6 +26854,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Impish"
 		},
 		"Painter Daisy (2)": {
+			"id": "Smeargle",
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26870,6 +26873,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Rash"
 		},
 		"Painter Daisy (3)": {
+			"id": "Smeargle",
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26890,6 +26894,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Bold"
 		},
 		"Painter Daisy (4)": {
+			"id": "Smeargle",
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26909,6 +26914,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Mild"
 		},
 		"Painter Daisy (5)": {
+			"id": "Smeargle",
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
