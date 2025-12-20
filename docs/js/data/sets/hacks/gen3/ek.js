@@ -3400,7 +3400,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Flamethrower",
 				"Psychic"
 			],
-			"nature": "Hardy"
+			"nature": "Bold"
 		},
 		"Cooltrainer Naomi": {
 			"ability": "Natural Cure",
@@ -17732,7 +17732,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Psychic",
 				"Earthquake"
 			],
-			"nature": "Docile"
+			"nature": "Quirky"
 		},
 		"Cooltrainer Michelle": {
 			"ability": "Clear Body",
@@ -29277,7 +29277,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Blizzard",
 				"Iron Tail"
 			],
-			"nature": "Brave"
+			"nature": "Modest"
 		},
 		"Burglar Rob": {
 			"ability": "Intimidate",
