@@ -3928,7 +3928,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Mild"
 		},
-		"Cooltrainer Dusk": {
+		"Cooltrainer Dusk (2)": {
 			"ability": "Magma Armor",
 			"item": "Quick Claw",
 			"ivs": {
@@ -18560,7 +18560,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Cooltrainer Dusk": {
+		"Cooltrainer Dusk (4)": {
 			"ability": "Swift Swim",
 			"item": "Leftovers",
 			"ivs": {
@@ -24204,7 +24204,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Cooltrainer Dusk": {
+		"Cooltrainer Dusk (3)": {
 			"ability": "Keen Eye",
 			"item": "Bright Powder",
 			"ivs": {
@@ -24224,7 +24224,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bold"
 		},
-		"Cooltrainer Dusk": {
+		"Cooltrainer Dusk (5)": {
 			"ability": "Keen Eye",
 			"item": "Black Glasses",
 			"ivs": {
@@ -27945,7 +27945,7 @@ var CUSTOMHACKSETDEX_EK = {
 		   ],
 			"nature": "Quiet"
 		},
-		"Cooltrainer Dusk": {
+		"Cooltrainer Dusk (1)": {
 			"ability": "Natural Cure",
 			"item": "Mystic Water",
 			"ivs": {
