@@ -2259,13 +2259,21 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Castform"
 	],
-	"Cool Couple Lex & Nya": [
-		"Tyranitar",
-		"Blissey",
+	"Cooltrainer Lex": [
 		"Tauros",
-		"Milotic",
+		"Dragonite",
+		"Wailord",
+		"Nidoking",
 		"Jolteon",
-		"Dusclops"
+		"Tyranitar"
+	],
+	"Cooltrainer Nya": [
+		"Flygon",
+		"Milotic",
+		"Dusclops",
+		"Blissey",
+		"Charizard",
+		"Metagross"
 	],
 	"Lady Jasmine": [
 		"Registeel",
