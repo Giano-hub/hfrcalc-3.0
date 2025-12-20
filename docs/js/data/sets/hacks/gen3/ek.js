@@ -24204,46 +24204,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Cooltrainer Dusk (1)": {
-			"ability": "Keen Eye",
-			"item": "Bright Powder",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Calm Mind",
-				"Crunch",
-				"Barrier",
-				"Rest"
-			],
-			"nature": "Bold"
-		},
-		"Cooltrainer Dusk (2)": {
-			"ability": "Keen Eye",
-			"item": "Black Glasses",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Shadow Punch",
-				"Crunch",
-				"Brick Break",
-				"Hidden Power Rock"
-			],
-			"nature": "Naive"
-		},
 		"Cooltrainer Potter": {
 			"ability": "Keen Eye",
 			"item": "Black Glasses",
