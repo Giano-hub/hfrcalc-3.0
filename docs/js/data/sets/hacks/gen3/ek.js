@@ -26807,6 +26807,28 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 99,
 			"moves": [
+				"Sacred Fire",
+				"Hydro Pump",
+				"Blizzard",
+				"Volt Tackle"
+			],
+			"nature": "Sassy"
+		}
+	},
+	"Smeargle (2)": {
+	   "Painter Daisy": {
+			"ability": "Own Tempo",
+			"item": "Bright Powder",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
 				"Explosion",
 				"Swords Dance",
 				"Extreme Speed",
@@ -26815,7 +26837,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Impish"
 	   }
 	},
-	"Smeargle (2)": {
+	"Smeargle (3)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26835,7 +26857,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Rash"
 	   }
 	},
-	"Smeargle (3)": {
+	"Smeargle (4)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26857,7 +26879,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Bold" 
 	   }
 	},
-	"Smeargle (4)": {
+	"Smeargle (5)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26878,7 +26900,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Mild"
 		}
 	},
-	"Smeargle (5)": {
+	"Smeargle (6)": {
 	   "Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
@@ -26917,26 +26939,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Explosion"
 			],
 			"nature": "Gentle"
-		},
-		"Painter Daisy": {
-			"ability": "Own Tempo",
-			"item": "Bright Powder",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Sacred Fire",
-				"Hydro Pump",
-				"Blizzard",
-				"Volt Tackle"
-			],
-			"nature": "Sassy"
 		}
 	},
 	"Sneasel": {
