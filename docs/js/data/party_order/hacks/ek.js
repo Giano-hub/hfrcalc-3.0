@@ -2057,11 +2057,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Jumpluff"
 	],
 	"Cooltrainer Potter": [
-		"Ninjask",
-		"Aerodactyl",
-		"Gardevoir",
-		"Kingdra",
-		"Sableye",
+	   "Ninjask",
+	   "Aerodactyl",
+	   "Gardevoir",
+	   "Kingdra",
+	   "Sableye",
 	   "Blissey"
 	],
 	"Cooltrainer Dusk": [
