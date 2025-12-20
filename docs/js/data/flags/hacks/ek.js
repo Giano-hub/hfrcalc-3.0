@@ -475,6 +475,11 @@ var CUSTOMHACKFLAGS_EK = {
 			  
 			  // Tanoby Ruins
 			   "Cooltrainer Claire",
+
+           // Memorial Pillar Rayquaza
+            "Cooltrainer Potter",
+			   "Cooltrainer Dusk",
+			   "Bird Keeper Falkner",
 			  
 			  // Pattern Brush Celebi
             "Youngster Cordell",
@@ -491,9 +496,6 @@ var CUSTOMHACKFLAGS_EK = {
 
             // Altering Cave Groudon
             "Cooltrainer Tierra",
-
-            // Memorial Pillar Rayquaza
-            "Bird Keeper Falkner",
             
             // Water Labyrinth Umi
             "Cooltrainer Umi",
