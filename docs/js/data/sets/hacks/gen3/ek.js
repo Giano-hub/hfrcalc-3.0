@@ -26831,7 +26831,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Sassy"
 		},
-		"Painter Daisy": {
+		"Painter Daisy (1)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26851,7 +26851,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
-		"Painter Daisy": {
+		"Painter Daisy (2)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26869,7 +26869,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Painter Daisy": {
+		"Painter Daisy (3)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26889,7 +26889,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bold"
 		},
-		"Painter Daisy": {
+		"Painter Daisy (4)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26908,7 +26908,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Mild"
 		},
-		"Painter Daisy": {
+		"Painter Daisy (5)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
