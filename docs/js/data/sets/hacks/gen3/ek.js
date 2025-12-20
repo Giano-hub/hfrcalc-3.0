@@ -26794,7 +26794,24 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Smeargle": {
-	   "Painter Daisy": {
+		"Painter Celina": {
+			"ability": "Own Tempo",
+			"item": "Focus Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Explosion"
+			],
+			"nature": "Gentle"
+		},
+		"Painter Daisy": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26813,10 +26830,8 @@ var CUSTOMHACKSETDEX_EK = {
 				"Volt Tackle"
 			],
 			"nature": "Sassy"
-		}
-	},
-	"Smeargle (1)": {
-	   "Painter Daisy": {
+		},
+		"Painter Daisy (1)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26835,10 +26850,8 @@ var CUSTOMHACKSETDEX_EK = {
 				"Pursuit"
 			],
 			"nature": "Impish"
-	   }
-	},
-	"Smeargle (2)": {
-	   "Painter Daisy": {
+		},
+		"Painter Daisy (2)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26855,10 +26868,8 @@ var CUSTOMHACKSETDEX_EK = {
 				"Baton Pass"
 			],
 			"nature": "Rash"
-	   }
-	},
-	"Smeargle (3)": {
-	   "Painter Daisy": {
+		},
+		"Painter Daisy (3)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26876,11 +26887,9 @@ var CUSTOMHACKSETDEX_EK = {
 				"Draco Meteor",
 				"Earthquake"
 			],
-			"nature": "Bold" 
-	   }
-	},
-	"Smeargle (4)": {
-	   "Painter Daisy": {
+			"nature": "Bold"
+		},
+		"Painter Daisy (4)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26898,10 +26907,8 @@ var CUSTOMHACKSETDEX_EK = {
 				"Shadow Ball"
 			],
 			"nature": "Mild"
-		}
-	},
-	"Smeargle (5)": {
-	   "Painter Daisy": {
+		},
+		"Painter Daisy (5)": {
 			"ability": "Own Tempo",
 			"item": "Bright Powder",
 			"ivs": {
@@ -26920,26 +26927,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Flamethrower"
 			],
 			"nature": "Brave"
-		}
-	},
-	"Smeargle": {
-		"Painter Celina": {
-			"ability": "Own Tempo",
-			"item": "Focus Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Explosion"
-			],
-			"nature": "Gentle"
-		}
+	   }
 	},
 	"Sneasel": {
 		"Biker Ernest": {
