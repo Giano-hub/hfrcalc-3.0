@@ -14685,7 +14685,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 99,
 			"moves": [
-				"Dragon Meteor",
+				"Draco Meteor",
 				"Water Spout",
 				"Hidden Power Electric",
 				"Blizzard"
