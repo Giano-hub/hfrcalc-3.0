@@ -8331,7 +8331,7 @@ var CUSTOMHACKSETDEX_EK = {
 	"Entei": {
 		"Cooltrainer Tierra": {
 			"ability": "Flame Body",
-			"item": "Lum Berry",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -12695,7 +12695,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Cooltrainer Tierra": {
 			"ability": "Intimidate",
-			"item": "Lum Berry",
+			"item": "Bright Powder",
 			"ivs": {
 				"at": 31,
 				"df": 31,
