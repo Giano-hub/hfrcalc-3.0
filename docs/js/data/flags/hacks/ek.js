@@ -498,8 +498,8 @@ var CUSTOMHACKFLAGS_EK = {
 		      // Pattern Brush Celebi
             "Youngster Cordell",
             "Ruin Maniac Layton",
-            "Youngster Nash",
             "Pokemon Breeder Allison",
+            "Youngster Nash",
             "Bug Catcher Bugsy",
 
             // Green Path
@@ -562,7 +562,7 @@ var CUSTOMHACKFLAGS_EK = {
             ["Hiker Earl", "Juggler Edward"],
             ["Ruin Maniac Foster", "Ruin Maniac Stanly"],
             ["Youngster Cordell", "Ruin Maniac Layton"],
-            ["Youngster Nash", "Pokemon Breeder Allison"],
+            ["Pokemon Breeder Allison", "Youngster Nash"],
             ["Lady Gillian", "Painter Celina"],
             ["Pokemon Ranger Nicolas", "Pokemon Ranger Madeline"],
             ["Pokemon Ranger Katelyn", "Pokemon Ranger Jackson"],
