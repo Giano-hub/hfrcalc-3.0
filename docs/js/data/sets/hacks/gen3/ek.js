@@ -1971,7 +1971,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Extreme Speed",
 				"Sacred Fire",
@@ -2085,7 +2085,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Bug Catcher Bugsy": {
 			"ability": "Battle Armor",
-			"item": "Lum Berry",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -2214,7 +2214,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Earth Power",
 				"Ancientpower",
@@ -3524,7 +3524,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Lass Whitney": {
 			"ability": "Natural Cure",
-			"item": "Lum Berry",
+			"item": "Quick Claw",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -3613,7 +3613,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Flamethrower",
 				"Ice Beam",
@@ -3775,7 +3775,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Spore",
 				"Superpower",
@@ -4991,7 +4991,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Explosion",
 				"Shadow Ball",
@@ -5463,7 +5463,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Giga Drain",
 				"Ancientpower",
@@ -7036,7 +7036,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 95,
+			"level": 97,
 			"moves": [
 				"Air Slash",
 				"Dragon Dance",
@@ -7731,7 +7731,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Rest",
 				"Curse",
@@ -9114,7 +9114,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Lass Whitney": {
 			"ability": "Intimidate",
-			"item": "Lum Berry",
+			"item": "Bright Powder",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -9183,7 +9183,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Air Slash",
 				"Swords Dance",
@@ -10114,7 +10114,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Hypnosis",
 				"Ice Beam",
@@ -12255,7 +12255,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Megahorn",
 				"Swords Dance",
@@ -14690,7 +14690,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Electric",
 				"Blizzard"
 		   ],
-			"nature": "Hardy"
+			"nature": "Quirky"
 		},
 		"Cooltrainer Claire": {
 			"ability": "Swift Swim",
@@ -15063,7 +15063,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Hydro Pump",
 				"Draco Meteor",
@@ -17611,7 +17611,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Petal Dance",
 				"Earthquake",
@@ -18731,7 +18731,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Recover",
 				"Mirror Coat",
@@ -19024,7 +19024,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Lass Whitney": {
 			"ability": "Thick Fat",
-			"item": "Lum Berry",
+			"item": "Bright Powder",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -22238,7 +22238,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Megahorn",
 				"Superpower",
@@ -25118,7 +25118,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 95,
+			"level": 97,
 			"moves": [
 				"Earthquake",
 				"Ancientpower",
@@ -26753,7 +26753,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Hyper Beam",
 				"Pursuit",
@@ -31726,7 +31726,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 97,
 			"moves": [
 				"Gunk Shot",
 				"Hidden Power Fire",
