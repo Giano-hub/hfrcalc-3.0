@@ -2475,7 +2475,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Pokemon Ranger Morty": {
 			"ability": "Insomnia",
-			"item": "Lum Berry",
+			"item": "Bright Powder",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -10449,7 +10449,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Pokemon Ranger Morty": {
 			"ability": "Levitate",
-			"item": "Lum Berry",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -24466,7 +24466,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Pokemon Ranger Morty": {
 			"ability": "Keen Eye",
-			"item": "Black Glasses",
+			"item": "Bright Powder",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -24477,8 +24477,8 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 100,
 			"moves": [
-				"Shadow Punch",
-				"Bite",
+				"Shadow Ball",
+				"Crunch",
 				"Brick Break",
 				"Shadow Sneak"
 			],
@@ -26160,7 +26160,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Pokemon Ranger Morty": {
 			"ability": "Wonder Guard",
-			"item": "Lum Berry",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
