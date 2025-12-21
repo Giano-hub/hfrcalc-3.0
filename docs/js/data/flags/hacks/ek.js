@@ -481,7 +481,21 @@ var CUSTOMHACKFLAGS_EK = {
 			   "Cooltrainer Dusk",
 			   "Bird Keeper Falkner",
 			  
-			  // Pattern Brush Celebi
+			  // Resort Goregous Deoxys-Attack
+            "Lass Whitney",
+
+            // Resort Gorgeous
+            "Lady Gillian",
+            "Painter Celina",
+            "Painter Daisy",
+
+            // Lost Cave HoOh/Lugia
+            "Pokemon Ranger Morty",
+			  
+			   // Water Labyrinth Umi
+            "Cooltrainer Umi",
+			  
+		      // Pattern Brush Celebi
             "Youngster Cordell",
             "Ruin Maniac Layton",
             "Youngster Nash",
@@ -493,25 +507,12 @@ var CUSTOMHACKFLAGS_EK = {
             
             // Outcast Island
             "Ruin Maniac Tim",
-
-            // Altering Cave Groudon
-            "Cooltrainer Tierra",
+            "Fisherman Tylor",
             
-            // Water Labyrinth Umi
-            "Cooltrainer Umi",
-
-            // Resort Goregous Deoxys-Attack
-            "Lass Whitney",
-
-            // Resort Gorgeous
-            "Lady Gillian",
-            "Painter Celina",
-            "Painter Daisy",
-
-            // Lost Cave HoOh/Lugia
-            "Pokemon Ranger Morty",
-
-            // Trainer Tower
+			  // Altering Cave Groudon
+            "Cooltrainer Tierra",
+             
+           // Trainer Tower
             "Lady Jasmine",
 
             // Route 19 Kyogre
