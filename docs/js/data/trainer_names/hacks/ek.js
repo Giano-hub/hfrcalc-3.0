@@ -442,8 +442,8 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	// Pattern Brush Celebi
    "Youngster Cordell",
    "Ruin Maniac Layton",
-   "Youngster Nash",
    "Pokemon Breeder Allison",
+   "Youngster Nash",
    "Bug Catcher Bugsy",
 
    // Green Path
