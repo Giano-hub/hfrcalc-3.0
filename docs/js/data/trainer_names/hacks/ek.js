@@ -425,35 +425,36 @@ var CUSTOMHACKTRAINERNAMES_EK = [
    "Cooltrainer Dusk",
    "Bird Keeper Falkner",
 	
+	// Resort Goregous Deoxys-Attack
+   "Lass Whitney",
+
+   // Resort Gorgeous
+   "Lady Gillian",
+   "Painter Celina",
+   "Painter Daisy",
+
+   // Lost Cave HoOh/Lugia
+   "Pokemon Ranger Morty",
+			  
+	// Water Labyrinth Umi
+   "Cooltrainer Umi",
+			  
 	// Pattern Brush Celebi
-	"Youngster Cordell",
-	"Ruin Maniac Layton",
-	"Youngster Nash",
-	"Pokemon Breeder Allison",
-	"Bug Catcher Bugsy",
+   "Youngster Cordell",
+   "Ruin Maniac Layton",
+   "Youngster Nash",
+   "Pokemon Breeder Allison",
+   "Bug Catcher Bugsy",
 
-	// Green Path
-	"Psychic Jaclyn",
+   // Green Path
+   "Psychic Jaclyn",
+            
+   // Outcast Island
+   "Ruin Maniac Tim",
+   "Fisherman Tylor",
 	
-	// Outcast Island
-	"Ruin Maniac Tim",
-
 	// Altering Cave Groudon
 	"Cooltrainer Tierra",
-	
-	// Water Labyrinth Umi
-	"Cooltrainer Umi",
-
-	// Resort Goregous Deoxys
-	"Lass Whitney",
-
-	// Resort Gorgeous
-	"Lady Gillian",
-	"Painter Celina",
-	"Painter Daisy",
-
-	// Lost Cave HoOh/Lugia
-	"Pokemon Ranger Morty",
 
 	// Trainer Tower
 	"Lady Jasmine",
