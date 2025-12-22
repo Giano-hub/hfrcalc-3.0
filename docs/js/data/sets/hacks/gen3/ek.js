@@ -13615,7 +13615,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 84,
 			"moves": [
 				"Thunderbolt",
-				"Hidden Power Grass",
+				"Hidden Power Ice",
 				"Confuse Ray",
 				"Crunch"
 			],
@@ -19338,7 +19338,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Shadow Ball",
 				"Hypnosis",
-				"Acid Armor",
+				"Thunderbolt",
 				"Ice Beam"
 			],
 			"nature": "Modest"
