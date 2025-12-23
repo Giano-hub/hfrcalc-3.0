@@ -19334,7 +19334,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 84,
+			"level": 82,
 			"moves": [
 				"Shadow Ball",
 				"Hypnosis",
@@ -32087,7 +32087,6 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Cooltrainer Cerulean": {
 			"ability": "Water Veil",
-			"item": "Leftovers",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -32096,7 +32095,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 82,
+			"level": 80,
 			"moves": [
 				"Surf",
 				"Ice Beam",
