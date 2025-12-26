@@ -14763,7 +14763,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 89,
+			"level": 86,
 			"moves": [
 				"Draco Meteor",
 				"Double-Edge",
