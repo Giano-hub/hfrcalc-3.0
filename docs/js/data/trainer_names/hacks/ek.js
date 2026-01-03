@@ -356,10 +356,10 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Biker Balling",
 
 	// THE ELITE 4
-	"Elite Four Lorelei",
-	"Elite Four Bruno",
-	"Elite Four Agatha",
-	"Elite Four Lance",
+	"Elite Four Lorelei R1",
+	"Elite Four Bruno R1",
+	"Elite Four Agatha R1",
+	"Elite Four Lance R1",
 	"Champion Rival R1",
 
 	// Mt Ember
@@ -463,9 +463,9 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Secret Trainer Samu",
 	
 	// E4R2
-	"Elite Four Lorelei Rematch",
-	"Elite Four Bruno Rematch",
-	"Elite Four Agatha Rematch",
-	"Elite Four Lance Rematch",
+	"Elite Four Lorelei R2",
+	"Elite Four Bruno R2",
+	"Elite Four Agatha R2",
+	"Elite Four Lance R2",
 	"Champion Rival R2",
 ];
