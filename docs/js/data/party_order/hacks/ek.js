@@ -1527,7 +1527,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Blastoise"
 	],
-	"Pokemon Trainer Rival R22 Blastoise": [
+	"Pokemon Trainer Rival R22 Squirtle": [
 		"Alakazam",
 		"Salamence",
 		"Milotic",
@@ -1535,7 +1535,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Venusaur"
 	],
-	"Pokemon Trainer Rival R22 Venusaur": [
+	"Pokemon Trainer Rival R22 Bulbasaur": [
 		"Alakazam",
 		"Salamence",
 		"Milotic",
