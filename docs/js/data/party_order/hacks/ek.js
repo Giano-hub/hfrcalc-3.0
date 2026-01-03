@@ -959,21 +959,21 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Snorlax",
 		"Camerupt"
 	],
-	"Rival Terry Cerulean Turtle": [
+	"Pokemon Trainer Rival Cerulean Charmander": [
 		"Pidgeotto",
 		"Abra",
 		"Pikachu",
 		"Beldum",
 		"Wartortle"
 	],
-	"Rival Terry Cerulean Venu": [
+	"Pokemon Trainer Rival Cerulean Squirtle": [
 		"Pidgeotto",
 		"Abra",
 		"Pikachu",
 		"Beldum",
 		"Ivysaur"
 	],
-	"Rival Terry Cerulean Zard": [
+	"Pokemon Trainer Rival Cerulean Bulbasaur": [
 		"Pidgeotto",
 		"Abra",
 		"Pikachu",
@@ -1830,15 +1830,15 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Smeargle (4)",
 		"Smeargle (5)"
 	],
-   "Rival Terry r22 Squirtle": [
+   "Pokemon Trainer Rival R22_Early Squirtle": [
 		"Pidgey",
 		"Bulbasaur"
 	],
-	"Rival Terry r22 Charmander": [
+	"Pokemon Trainer Rival R22_Early Charmander": [
 		"Pidgey",
 		"Squirtle"
 	],
-	"Rival Terry r22 Bulbasaur": [
+	"Pokemon Trainer Rival R22_Early Bulbasaur": [
 		"Pidgey",
 		"Charmander"
 	],	
