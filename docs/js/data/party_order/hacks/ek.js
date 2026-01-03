@@ -1370,7 +1370,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Kingdra",
 		"Fearow"
 	],
-	"Elite Four Lorelei": [
+	"Elite Four Lorelei R1": [
 		"Lapras",
 		"Blissey",
 		"Glalie",
@@ -1378,7 +1378,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Starmie",
 		"Articuno"
 	],
-	"Elite Four Bruno": [
+	"Elite Four Bruno R1": [
 		"Steelix",
 		"Tyranitar",
 		"Blaziken",
@@ -1386,7 +1386,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Machamp",
 		"Regirock"
 	],
-	"Elite Four Agatha": [
+	"Elite Four Agatha R1": [
 		"Crobat",
 		"Umbreon",
 		"Claydol",
@@ -1394,7 +1394,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Gengar",
 		"Dusclops"
 	],
-	"Elite Four Lance": [
+	"Elite Four Lance R1": [
 		"Dragonite",
 		"Kingdra",
 		"Flygon",
@@ -2327,7 +2327,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Armaldo",
 		"Cradily"
 	],
-	"Elite Four Lorelei Rematch": [
+	"Elite Four Lorelei R2": [
 		"Kyogre",
 		"Ludicolo",
 		"Slowbro",
@@ -2335,7 +2335,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Regice",
 		"Milotic"
 	],
-	"Elite Four Bruno Rematch": [
+	"Elite Four Bruno R2": [
 		"Groudon",
 		"Arcanine",
 		"Entei",
@@ -2343,7 +2343,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Heracross",
 		"Machamp"
 	],
-	"Elite Four Agatha Rematch": [
+	"Elite Four Agatha R2": [
 		"Deoxys",
 		"Houndoom",
 		"Alakazam",
@@ -2351,7 +2351,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Sableye",
 		"Gengar"
 	],
-	"Elite Four Lance Rematch": [
+	"Elite Four Lance R2": [
 		"Latios",
 		"Lugia",
 		"Flygon",
