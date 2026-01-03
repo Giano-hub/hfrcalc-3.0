@@ -917,7 +917,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hasty"
 		},
-		"Rival Terry 22 Turtle": {
+		"Pokemon Trainer Rival R22 Charmander": {
 			"ability": "Inner Focus",
 			"item": "King's Rock",
 			"ivs": {
@@ -937,7 +937,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Docile"
 		},
-		"Rival Terry 22 Venu": {
+		"Pokemon Trainer Rival R22 Squirtle": {
 			"ability": "Inner Focus",
 			"item": "King's Rock",
 			"ivs": {
@@ -957,7 +957,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Docile"
 		},
-		"Rival Terry 22 Zard": {
+		"Pokemon Trainer Rival R22 Bulbasaur": {
 			"ability": "Inner Focus",
 			"item": "King's Rock",
 			"ivs": {
@@ -977,7 +977,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Docile"
 		},
-		"Rival Terry Tower Turtle": {
+		"Pokemon Trainer Rival Tower Charmander": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -997,7 +997,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Rival Terry Tower Venu": {
+		"Pokemon Trainer Rival Tower Squirtle": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -1017,7 +1017,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Rival Terry Tower Zard": {
+		"Pokemon Trainer Rival Tower Bulbasaur": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -2943,7 +2943,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Rival Terry 22 Turtle": {
+		"Pokemon Trainer Rival R22 Charmander": {
 			"ability": "Shell Armor",
 			"item": "Salac Berry",
 			"ivs": {
@@ -2963,7 +2963,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Rival Terry Tower Turtle": {
+		"Pokemon Trainer Rival Tower Charmander": {
 			"ability": "Shell Armor",
 			"item": "Mystic Water",
 			"ivs": {
@@ -4554,7 +4554,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Rival Terry 22 Zard": {
+		"Pokemon Trainer Rival R22 Bulbasaur": {
 			"ability": "Blaze",
 			"item": "Charcoal",
 			"ivs": {
@@ -4574,7 +4574,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry Tower Zard": {
+		"Pokemon Trainer Rival Tower Bulbasaur": {
 			"ability": "Blaze",
 			"item": "Charcoal",
 			"ivs": {
@@ -4655,7 +4655,7 @@ var CUSTOMHACKSETDEX_EK = {
        }
     },
 	"Charmeleon": {
-		"Rival Terry Boat Zard": {
+		"Pokemon Trainer Rival Boat Bulbasaur": {
 			"ability": "Blaze",
 			"item": "Lum Berry",
 			"ivs": {
@@ -12773,7 +12773,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Rival Terry 22 Turtle": {
+		"Pokemon Trainer Rival R22 Charmander": {
 			"ability": "Intimidate",
 			"item": "Black Glasses",
 			"ivs": {
@@ -12793,7 +12793,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Rival Terry 22 Venu": {
+		"Pokemon Trainer Rival R22 Squirtle": {
 			"ability": "Intimidate",
 			"item": "Black Glasses",
 			"ivs": {
@@ -12813,7 +12813,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Rival Terry 22 Zard": {
+		"Pokemon Trainer Rival R22 Bulbasaur": {
 			"ability": "Intimidate",
 			"item": "Black Glasses",
 			"ivs": {
@@ -12833,7 +12833,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Rival Terry Tower Turtle": {
+		"Pokemon Trainer Rival Tower Charmander": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -12853,7 +12853,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Careful"
 		},
-		"Rival Terry Tower Venu": {
+		"Pokemon Trainer Rival Tower Squirtle": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -12873,7 +12873,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Careful"
 		},
-		"Rival Terry Tower Zard": {
+		"Pokemon Trainer Rival Tower Bulbasaur": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -13075,7 +13075,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Rival Terry Boat Turtle": {
+		"Pokemon Trainer Rival Boat Charmander": {
 			"ability": "Own Tempo",
 			"item": "Lum Berry",
 			"ivs": {
@@ -13095,7 +13095,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Rival Terry Boat Venu": {
+		"Pokemon Trainer Rival Boat Squirtle": {
 			"ability": "Own Tempo",
 			"item": "Lum Berry",
 			"ivs": {
@@ -13115,7 +13115,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Rival Terry Boat Zard": {
+		"Pokemon Trainer Rival Boat Bulbasaur": {
 			"ability": "Own Tempo",
 			"item": "Lum Berry",
 			"ivs": {
@@ -13379,7 +13379,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Ivysaur": {
-		"Rival Terry Boat Venu": {
+		"Pokemon Trainer Rival Boat Squirtle": {
 			"ability": "Overgrow",
 			"item": "Lum Berry",
 			"ivs": {
@@ -14408,7 +14408,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Modest"
 		},
-		"Rival Terry Boat Turtle": {
+		"Pokemon Trainer Rival Boat Charmander": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -14428,7 +14428,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bold"
 		},
-		"Rival Terry Boat Venu": {
+		"Pokemon Trainer Rival Boat Squirtle": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -14448,7 +14448,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bold"
 		},
-		"Rival Terry Boat Zard": {
+		"Pokemon Trainer Rival Boat Bulbasaur": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -17993,7 +17993,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Rival Terry 22 Turtle": {
+		"Pokemon Trainer Rival R22 Charmander": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18013,7 +18013,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Rival Terry 22 Venu": {
+		"Pokemon Trainer Rival R22 Squirtle": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18033,7 +18033,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Rival Terry 22 Zard": {
+		"Pokemon Trainer Rival R22 Bulbasaur": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18053,7 +18053,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Rival Terry Tower Turtle": {
+		"Pokemon Trainer Rival Tower Charmander": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18073,7 +18073,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Timid"
 		},
-		"Rival Terry Tower Venu": {
+		"Pokemon Trainer Rival Tower Squirtle": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18093,7 +18093,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Timid"
 		},
-		"Rival Terry Tower Zard": {
+		"Pokemon Trainer Rival Tower Bulbasaur": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18295,7 +18295,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry Boat Turtle": {
+		"Pokemon Trainer Rival Boat Charmander": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18315,7 +18315,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Rival Terry Boat Venu": {
+		"Pokemon Trainer Rival Boat Squirtle": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18335,7 +18335,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Rival Terry Boat Zard": {
+		"Pokemon Trainer Rival Boat Bulbasaur": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18780,7 +18780,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Mild"
 		},
-		"Rival Terry 22 Turtle": {
+		"Pokemon Trainer Rival R22 Charmander": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18800,27 +18800,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Rival Terry 22 Venu": {
-			"ability": "Swift Swim",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 90,
-			"moves": [
-				"Hypnosis",
-				"Surf",
-				"Ice Beam",
-				"Hidden Power Ice"
-			],
-			"nature": "Adamant"
-		},
-		"Rival Terry 22 Zard": {
+		"Pokemon Trainer Rival R22 Squirtle": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18840,7 +18820,27 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Rival Terry Tower Turtle": {
+		"Pokemon Trainer Rival R22 Bulbasaur": {
+			"ability": "Swift Swim",
+			"item": "Lum Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 90,
+			"moves": [
+				"Hypnosis",
+				"Surf",
+				"Ice Beam",
+				"Hidden Power Ice"
+			],
+			"nature": "Adamant"
+		},
+		"Pokemon Trainer Rival Tower Charmander": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18860,7 +18860,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Rival Terry Tower Venu": {
+		"Pokemon Trainer Rival Tower Squirtle": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18880,7 +18880,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Rival Terry Tower Zard": {
+		"Pokemon Trainer Rival Tower Bulbasaur": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -21589,7 +21589,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Rival Terry Tower Turtle": {
+		"Pokemon Trainer Rival Tower Charmander": {
 			"ability": "Keen Eye",
 			"item": "Lum Berry",
 			"ivs": {
@@ -21609,7 +21609,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Rival Terry Tower Venu": {
+		"Pokemon Trainer Rival Tower Squirtle": {
 			"ability": "Keen Eye",
 			"item": "Lum Berry",
 			"ivs": {
@@ -21629,7 +21629,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Rival Terry Tower Zard": {
+		"Pokemon Trainer Rival Tower Bulbasaur": {
 			"ability": "Keen Eye",
 			"item": "Lum Berry",
 			"ivs": {
@@ -21671,7 +21671,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Pidgeotto": {
-		"Rival Terry Boat Turtle": {
+		"Pokemon Trainer Rival Boat Charmander": {
 			"ability": "Keen Eye",
 			"item": "Sitrus Berry",
 			"ivs": {
@@ -21691,7 +21691,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry Boat Venu": {
+		"Pokemon Trainer Rival Boat Squirtle": {
 			"ability": "Keen Eye",
 			"item": "Sitrus Berry",
 			"ivs": {
@@ -21711,7 +21711,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry Boat Zard": {
+		"Pokemon Trainer Rival Boat Bulbasaur": {
 			"ability": "Keen Eye",
 			"item": "Sitrus Berry",
 			"ivs": {
@@ -24784,7 +24784,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Rival Terry 22 Turtle": {
+		"Pokemon Trainer Rival R22 Charmander": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -24804,7 +24804,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
-		"Rival Terry 22 Venu": {
+		"Pokemon Trainer Rival R22 Squirtle": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -24824,7 +24824,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
-		"Rival Terry 22 Zard": {
+		"Pokemon Trainer Rival R22 Bulbasaur": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -31352,7 +31352,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Rival Terry 22 Venu": {
+		"Pokemon Trainer Rival R22 Squirtle": {
 			"ability": "Overgrow",
 			"item": "Salac Berry",
 			"ivs": {
@@ -31372,7 +31372,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Rival Terry Tower Venu": {
+		"Pokemon Trainer Rival Tower Squirtle": {
 			"ability": "Overgrow",
 			"item": "Miracle Seed",
 			"ivs": {
@@ -32287,7 +32287,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Wartortle": {
-		"Rival Terry Boat Turtle": {
+		"Pokemon Trainer Rival Boat Charmander": {
 			"ability": "Shell Armor",
 			"item": "Sitrus Berry",
 			"ivs": {
