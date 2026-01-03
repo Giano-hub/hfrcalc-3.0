@@ -376,7 +376,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Timid"
 		},
-		"Elite Four Lance": {
+		"Elite Four Lance R1": {
 			"ability": "Rock Head",
 			"item": "Lum Berry",
 			"ivs": {
@@ -797,7 +797,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Elite Four Agatha Rematch": {
+		"Elite Four Agatha R2": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -1741,7 +1741,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Gentle"
 		},
-		"Elite Four Bruno Rematch": {
+		"Elite Four Bruno R2": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -2287,7 +2287,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Elite Four Lorelei": {
+		"Elite Four Lorelei R1": {
 			"ability": "Marvel Scale",
 			"item": "Leftovers",
 			"ivs": {
@@ -3203,7 +3203,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Elite Four Bruno": {
+		"Elite Four Bruno R1": {
 			"ability": "Hyper Cutter",
 			"item": "Lum Berry",
 			"ivs": {
@@ -3462,7 +3462,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Elite Four Lorelei": {
+		"Elite Four Lorelei R1": {
 			"ability": "Natural Cure",
 			"item": "Leftovers",
 			"ivs": {
@@ -4883,7 +4883,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Gentle"
 		},
-		"Elite Four Agatha": {
+		"Elite Four Agatha R1": {
 			"ability": "Levitate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -5693,7 +5693,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Elite Four Agatha": {
+		"Elite Four Agatha R1": {
 			"ability": "Inner Focus",
 			"item": "Sharp Beak",
 			"ivs": {
@@ -6132,7 +6132,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Deoxys": {
-		"Elite Four Agatha Rematch": {
+		"Elite Four Agatha R2": {
 			"ability": "Pressure",
 			"item": "Lum Berry",
 			"ivs": {
@@ -6845,7 +6845,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Elite Four Lance": {
+		"Elite Four Lance R1": {
 			"ability": "Thick Fat",
 			"item": "Lum Berry",
 			"ivs": {
@@ -6865,7 +6865,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Elite Four Lance Rematch": {
+		"Elite Four Lance R2": {
 			"ability": "Thick Fat",
 			"item": "Lum Berry",
 			"ivs": {
@@ -7600,7 +7600,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
-		"Elite Four Agatha": {
+		"Elite Four Agatha R1": {
 			"ability": "Pressure",
 			"item": "Lum Berry",
 			"ivs": {
@@ -7620,7 +7620,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
-		"Elite Four Agatha Rematch": {
+		"Elite Four Agatha R2": {
 			"ability": "Pressure",
 			"item": "Lum Berry",
 			"ivs": {
@@ -8349,7 +8349,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Elite Four Bruno Rematch": {
+		"Elite Four Bruno R2": {
 			"ability": "Flame Body",
 			"item": "Hard Stone",
 			"ivs": {
@@ -9600,7 +9600,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Gentle"
 		},
-		"Elite Four Lance": {
+		"Elite Four Lance R1": {
 			"ability": "Levitate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -9620,7 +9620,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Elite Four Lance Rematch": {
+		"Elite Four Lance R2": {
 			"ability": "Levitate",
 			"item": "Choice Band",
 			"ivs": {
@@ -10367,7 +10367,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naughty"
 		},
-		"Elite Four Agatha": {
+		"Elite Four Agatha R1": {
 			"ability": "Levitate",
 			"item": "Scope Lens",
 			"ivs": {
@@ -10387,7 +10387,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Elite Four Agatha Rematch": {
+		"Elite Four Agatha R2": {
 			"ability": "Levitate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -10810,7 +10810,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
-		"Elite Four Lorelei": {
+		"Elite Four Lorelei R1": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -11336,7 +11336,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Groudon": {
-		"Elite Four Bruno Rematch": {
+		"Elite Four Bruno R2": {
 			"ability": "Drought",
 			"item": "Lum Berry",
 			"ivs": {
@@ -11560,7 +11560,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Elite Four Lance": {
+		"Elite Four Lance R1": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -12144,7 +12144,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Elite Four Bruno": {
+		"Elite Four Bruno R1": {
 			"ability": "Swarm",
 			"item": "Focus Band",
 			"ivs": {
@@ -12164,7 +12164,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Elite Four Bruno Rematch": {
+		"Elite Four Bruno R2": {
 			"ability": "Swarm",
 			"item": "Quick Claw",
 			"ivs": {
@@ -12713,7 +12713,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Elite Four Agatha Rematch": {
+		"Elite Four Agatha R2": {
 			"ability": "Intimidate",
 			"item": "Black Glasses",
 			"ivs": {
@@ -14792,7 +14792,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Sassy"
 		},
-		"Elite Four Lance": {
+		"Elite Four Lance R1": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -15200,7 +15200,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Docile"
 		},
-		"Elite Four Lorelei Rematch": {
+		"Elite Four Lorelei R2": {
 			"ability": "Drizzle",
 			"item": "Lum Berry",
 			"ivs": {
@@ -15424,7 +15424,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Calm"
 		},
-		"Elite Four Lorelei": {
+		"Elite Four Lorelei R1": {
 			"ability": "Shell Armor",
 			"item": "Lum Berry",
 			"ivs": {
@@ -15444,7 +15444,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hasty"
 		},
-		"Elite Four Lorelei Rematch": {
+		"Elite Four Lorelei R2": {
 			"ability": "Shell Armor",
 			"item": "Mystic Water",
 			"ivs": {
@@ -15644,7 +15644,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Elite Four Lance Rematch": {
+		"Elite Four Lance R2": {
 			"ability": "Levitate",
 			"item": "Soul Dew",
 			"ivs": {
@@ -15706,7 +15706,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Jolly"
 		},
-		"Elite Four Lance": {
+		"Elite Four Lance R1": {
 			"ability": "Levitate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -15726,7 +15726,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Careful"
 		},
-		"Elite Four Lance Rematch": {
+		"Elite Four Lance R2": {
 			"ability": "Levitate",
 			"item": "Soul Dew",
 			"ivs": {
@@ -15916,7 +15916,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Elite Four Lorelei Rematch": {
+		"Elite Four Lorelei R2": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -16078,7 +16078,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Lugia": {
-		"Elite Four Lance Rematch": {
+		"Elite Four Lance R2": {
 			"ability": "Pressure",
 			"item": "Lum Berry",
 			"ivs": {
@@ -16460,7 +16460,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Elite Four Bruno": {
+		"Elite Four Bruno R1": {
 			"ability": "Guts",
 			"item": "Chesto Berry",
 			"ivs": {
@@ -16480,7 +16480,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Elite Four Bruno Rematch": {
+		"Elite Four Bruno R2": {
 			"ability": "Guts",
 			"item": "Black Belt",
 			"ivs": {
@@ -18660,7 +18660,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Elite Four Lorelei Rematch": {
+		"Elite Four Lorelei R2": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -19343,7 +19343,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Modest"
 		},
-		"Elite Four Agatha": {
+		"Elite Four Agatha R1": {
 			"ability": "Shadow Tag",
 			"item": "Lum Berry",
 			"ivs": {
@@ -23718,7 +23718,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Regice": {
-		"Elite Four Lorelei Rematch": {
+		"Elite Four Lorelei R2": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -23780,7 +23780,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Regirock": {
-		"Elite Four Bruno": {
+		"Elite Four Bruno R1": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -24404,7 +24404,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
       },	
-		"Elite Four Agatha Rematch": {
+		"Elite Four Agatha R2": {
 			"ability": "Keen Eye",
 			"item": "Leftovers",
 			"ivs": {
@@ -24704,7 +24704,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Elite Four Lance Rematch": {
+		"Elite Four Lance R2": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -26764,7 +26764,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Slowbro": {
-		"Elite Four Lorelei Rematch": {
+		"Elite Four Lorelei R2": {
 			"ability": "Shell Armor",
 			"item": "Lum Berry",
 			"ivs": {
@@ -27243,7 +27243,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Elite Four Lorelei": {
+		"Elite Four Lorelei R1": {
 			"ability": "Inner Focus",
 			"item": "Never-Melt Ice",
 			"ivs": {
@@ -28045,7 +28045,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Timid"
 		},
-		"Elite Four Lorelei": {
+		"Elite Four Lorelei R1": {
 			"ability": "Natural Cure",
 			"item": "Scope Lens",
 			"ivs": {
@@ -28489,7 +28489,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Elite Four Bruno": {
+		"Elite Four Bruno R1": {
 			"ability": "Rock Head",
 			"item": "Quick Claw",
 			"ivs": {
@@ -28509,7 +28509,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Serious"
 		},
-		"Elite Four Bruno Rematch": {
+		"Elite Four Bruno R2": {
 			"ability": "Rock Head",
 			"item": "Lum Berry",
 			"ivs": {
@@ -30407,7 +30407,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Elite Four Bruno": {
+		"Elite Four Bruno R1": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -30662,7 +30662,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Calm"
 		},
-		"Elite Four Agatha": {
+		"Elite Four Agatha R1": {
 			"ability": "Poison Point",
 			"item": "Leftovers",
 			"ivs": {
