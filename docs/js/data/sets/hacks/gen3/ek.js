@@ -737,7 +737,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},	
-		"Champion Terry": {
+		"Champion Rival R1": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -2903,7 +2903,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Rival Terry": {
+		"Champion Rival R2": {
 			"ability": "Shell Armor",
 			"item": "Lum Berry",
 			"ivs": {
@@ -4494,7 +4494,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Rival Terry": {
+		"Champion Rival R2": {
 			"ability": "Blaze",
 			"item": "Lum Berry",
 			"ivs": {
@@ -12633,7 +12633,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
-		"Champion Terry": {
+		"Champion Rival R1": {
 			"ability": "Intimidate",
 			"item": "Black Glasses",
 			"ivs": {
@@ -17753,7 +17753,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Champion Terry": {
+		"Champion Rival R1": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -18580,7 +18580,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
-		"Champion Terry": {
+		"Champion Rival R1": {
 			"ability": "Swift Swim",
 			"item": "Lum Berry",
 			"ivs": {
@@ -23696,7 +23696,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Rayquaza": {
-		"Rival Terry": {
+		"Champion Rival R2": {
 			"ability": "Air Lock",
 			"item": "Silk Scarf",
 			"ivs": {
@@ -24624,7 +24624,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-		"Champion Terry": {
+		"Champion Rival R1": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
 			"ivs": {
@@ -30427,7 +30427,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Serious"
 		},
-		"Rival Terry": {
+		"Champion Rival R2": {
 			"ability": "Intimidate",
 			"item": "Hard Stone",
 			"ivs": {
@@ -31292,7 +31292,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Rival Terry": {
+		"Champion Rival R2": {
 			"ability": "Overgrow",
 			"item": "Lum Berry",
 			"ivs": {
@@ -33338,7 +33338,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-		"Champion Terry": {
+		"Champion Rival R1": {
 			"ability": "Rough Skin",
 			"item": "Salac Berry",
 			"ivs": {
@@ -33358,7 +33358,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-		"Rival Terry": {
+		"Champion Rival R2": {
 			"ability": "Rough Skin",
 			"item": "Focus Band",
 			"ivs": {
