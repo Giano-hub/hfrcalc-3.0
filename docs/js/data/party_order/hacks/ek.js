@@ -1474,28 +1474,28 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metang",
 		"Forretress"
 	],
-	"Rival Terry Boat Turtle": [
+	"Pokemon Trainer Rival Boat Charmander": [
 		"Pidgeotto",
 		"Metang",
 		"Kadabra",
 		"Houndour",
 		"Wartortle"
 	],
-	"Rival Terry Boat Venu": [
+	"Pokemon Trainer Rival Boat Squirtle": [
 		"Pidgeotto",
 		"Metang",
 		"Kadabra",
 		"Houndour",
 		"Ivysaur"
 	],
-	"Rival Terry Boat Zard": [
+	"Pokemon Trainer Rival Boat Bulbasaur": [
 		"Pidgeotto",
 		"Metang",
 		"Kadabra",
 		"Houndour",
 		"Charmeleon"
 	],
-	"Rival Terry Tower Turtle": [
+	"Pokemon Trainer Rival Tower Charmander": [
 		"Pidgeot",
 		"Milotic",
 		"Houndoom",
@@ -1503,7 +1503,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Blastoise"
 	],
-	"Rival Terry Tower Venu": [
+	"Pokemon Trainer Rival Tower Squirtle": [
 		"Pidgeot",
 		"Milotic",
 		"Houndoom",
@@ -1511,7 +1511,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Venusaur"
 	],
-	"Rival Terry Tower Zard": [
+	"Pokemon Trainer Rival Tower Bulbasaur": [
 		"Pidgeot",
 		"Milotic",
 		"Houndoom",
@@ -1519,7 +1519,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Charizard"
 	],
-	"Rival Terry 22 Turtle": [
+	"Pokemon Trainer Rival R22 Charmander": [
 		"Alakazam",
 		"Salamence",
 		"Milotic",
@@ -1527,7 +1527,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Blastoise"
 	],
-	"Rival Terry 22 Venu": [
+	"Pokemon Trainer Rival R22 Blastoise": [
 		"Alakazam",
 		"Salamence",
 		"Milotic",
@@ -1535,7 +1535,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Venusaur"
 	],
-	"Rival Terry 22 Zard": [
+	"Pokemon Trainer Rival R22 Venusaur": [
 		"Alakazam",
 		"Salamence",
 		"Milotic",
