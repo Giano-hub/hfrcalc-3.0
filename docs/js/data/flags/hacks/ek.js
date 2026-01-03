@@ -574,14 +574,14 @@ var CUSTOMHACKFLAGS_EK = {
             // Lavaridge Gym
             "Ruin Maniac Tim",
             "Cooltrainer Tierra",
-            "Elite Four Bruno Rematch"
+            "Elite Four Bruno R2"
         ],
         "rain": [
             // Route 120
             "Cooltrainer Umi",
             "Swimmer-F Aqua",
-	        "Cool Couple Tama & Shi",
-            "Elite Four Lorelei Rematch",
+	         "Cool Couple Tama & Shi",
+            "Elite Four Lorelei R2",
             "Swimmer-M Axle",
             "Swimmer-F Anya",
             "Swimmer-F Alice",
