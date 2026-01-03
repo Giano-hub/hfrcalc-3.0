@@ -416,7 +416,7 @@ var CUSTOMHACKFLAGS_EK = {
             "Elite Four Bruno",
             "Elite Four Agatha",
             "Elite Four Lance",
-            "Champion Terry",
+            "Champion Rival R1",
 
             // Mt Ember
             "Rocket Grunt 1 Ember",
@@ -527,7 +527,7 @@ var CUSTOMHACKFLAGS_EK = {
             "Elite Four Bruno Rematch",
             "Elite Four Agatha Rematch",
             "Elite Four Lance Rematch",
-            "Rival Terry",
+            "Champion Rival R2",
         ]
     },
     "battleType": {
