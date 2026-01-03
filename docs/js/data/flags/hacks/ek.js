@@ -58,9 +58,9 @@ var CUSTOMHACKFLAGS_EK = {
     "badge": {
         "none": [
            // Rt 22
-			  "Rival Terry r22 Squirtle",
-			  "Rival Terry r22 Charmander",
-			  "Rival Terry r22 Bulbasaur",
+			  "Pokemon Trainer Rival R22_Early Squirtle",
+			  "Pokemon Trainer Rival R22_Early Charmander",
+			  "Pokemon Trainer Rival R22_Early Bulbasaur",
 			  
 			  // V Forest
             "Bug Catcher Anthony",
@@ -93,9 +93,9 @@ var CUSTOMHACKFLAGS_EK = {
             "Rocket Admin Proton",
 
             // Cerulean City
-            "Rival Terry Cerulean Turtle",
-            "Rival Terry Cerulean Venu",
-            "Rival Terry Cerulean Zard",
+            "Pokemon Trainer Rival Cerulean Squirtle",
+            "Pokemon Trainer Rival Cerulean Charmander",
+            "Pokemon Trainer Rival Cerulean Bulbasaur",
 
             // Cerulean Gym
             "Swimmer-M Luis",
