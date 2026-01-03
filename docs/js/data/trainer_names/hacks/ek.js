@@ -75,9 +75,9 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	// Boat
 	"Sailor John",
 	"Sailor Timothy",
-	"Rival Terry Boat Turtle",
-	"Rival Terry Boat Venu",
-	"Rival Terry Boat Zard",
+	"Pokemon Trainer Rival Boat Squirtle",
+	"Pokemon Trainer Rival Boat Charmander",
+	"Pokemon Trainer Rival Boat Bulbasaur",
 	"Sailor Huey",
 	"Gentleman Thomas",
 	"Fisherman Dale",
@@ -148,9 +148,9 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Rocket Boss Giovanni",
 
 	// Tower
-	"Rival Terry Tower Turtle",
-	"Rival Terry Tower Venu",
-	"Rival Terry Tower Zard",
+	"Pokemon Trainer Rival Tower Squirtle",
+	"Pokemon Trainer Rival Tower Charmander",
+	"Pokemon Trainer Rival Tower Bulbasaur",
 
 	"Channeler Laurel",
 	"Channeler Paula",
@@ -319,9 +319,9 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Leader Giovanni",
 
 	// 22
-	"Rival Terry 22 Turtle",
-	"Rival Terry 22 Venu",
-	"Rival Terry 22 Zard",
+	"Pokemon Trainer Rival R22 Squirtle",
+	"Pokemon Trainer Rival R22 Charmander",
+	"Pokemon Trainer Rival R22 Bulbasaur",
 
 	// Route 23 THE GAUNTLET
 	"Cooltrainer Pewter",
