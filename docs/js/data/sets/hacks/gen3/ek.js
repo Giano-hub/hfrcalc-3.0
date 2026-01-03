@@ -1,6 +1,6 @@
 var CUSTOMHACKSETDEX_EK = {
 	"Abra": {
-		"Rival Terry Cerulean Turtle": {
+		"Pokemon Trainer Rival Cerulean Charmander": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -20,7 +20,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
-		"Rival Terry Cerulean Venu": {
+		"Pokemon Trainer Rival Cerulean Squirtle": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -40,7 +40,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
-		"Rival Terry Cerulean Zard": {
+		"Pokemon Trainer Rival Cerulean Bulbasaur": {
 			"ability": "Inner Focus",
 			"item": "Lum Berry",
 			"ivs": {
@@ -2739,7 +2739,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Beldum": {
-		"Rival Terry Cerulean Turtle": {
+		"Pokemon Trainer Rival Cerulean Charmander": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -2759,7 +2759,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Modest"
 		},
-		"Rival Terry Cerulean Venu": {
+		"Pokemon Trainer Rival Cerulean Squirtle": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -2779,7 +2779,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Modest"
 		},
-		"Rival Terry Cerulean Zard": {
+		"Pokemon Trainer Rival Cerulean Bulbasaur": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
 			"ivs": {
@@ -3786,7 +3786,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
   "Bulbasaur": {
-		"Rival Terry r22 Squirtle": {
+		"Pokemon Trainer Rival R22_Early Squirtle": {
 			"ability": "Overgrow",
 			"ivs": {
 				"at": 31,
@@ -4636,7 +4636,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
   "Charmander": {
-		"Rival Terry r22 Bulbasaur": {
+		"Pokemon Trainer Rival R22_Early Bulbasaur": {
 			"ability": "Blaze",
 			"ivs": {
 				"at": 31,
@@ -4675,7 +4675,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Calm"
 		},
-		"Rival Terry Cerulean Zard": {
+		"Pokemon Trainer Rival Cerulean Bulbasaur": {
 			"ability": "Blaze",
 			"item": "Lum Berry",
 			"ivs": {
@@ -13399,7 +13399,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Careful"
 		},
-		"Rival Terry Cerulean Venu": {
+		"Pokemon Trainer Rival Cerulean Squirtle": {
 			"ability": "Overgrow",
 			"item": "Lum Berry",
 			"ivs": {
@@ -21731,7 +21731,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry Cerulean Turtle": {
+		"Pokemon Trainer Rival Cerulean Charmander": {
 			"ability": "Keen Eye",
 			"item": "Sitrus Berry",
 			"ivs": {
@@ -21751,7 +21751,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry Cerulean Venu": {
+		"Pokemon Trainer Rival Cerulean Squirtle": {
 			"ability": "Keen Eye",
 			"item": "Sitrus Berry",
 			"ivs": {
@@ -21771,7 +21771,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry Cerulean Zard": {
+		"Pokemon Trainer Rival Cerulean Bulbasaur": {
 			"ability": "Keen Eye",
 			"item": "Sitrus Berry",
 			"ivs": {
@@ -21830,7 +21830,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quiet"
 		},
-		"Rival Terry r22 Squirtle": {
+		"Pokemon Trainer Rival R22_Early Squirtle": {
 			"ability": "Keen Eye",
 			"ivs": {
 				"at": 31,
@@ -21847,7 +21847,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
       },
-      "Rival Terry r22 Charmander": {
+      "Pokemon Trainer Rival R22_Early Charmander": {
 			"ability": "Keen Eye",
 			"ivs": {
 				"at": 31,
@@ -21864,7 +21864,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
       },
-     "Rival Terry r22 Bulbasaur": {
+     "Pokemon Trainer Rival R22_Early Bulbasaur": {
 			"ability": "Keen Eye",
 			"ivs": {
 				"at": 31,
@@ -21923,7 +21923,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-		"Rival Terry Cerulean Turtle": {
+		"Pokemon Trainer Rival Cerulean Charmander": {
 			"ability": "Static",
 			"item": "Lum Berry",
 			"ivs": {
@@ -21943,7 +21943,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Docile"
 		},
-		"Rival Terry Cerulean Venu": {
+		"Pokemon Trainer Rival Cerulean Squirtle": {
 			"ability": "Static",
 			"item": "Lum Berry",
 			"ivs": {
@@ -21963,7 +21963,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Docile"
 		},
-		"Rival Terry Cerulean Zard": {
+		"Pokemon Trainer Rival Cerulean Bulbasaur": {
 			"ability": "Static",
 			"item": "Lum Berry",
 			"ivs": {
@@ -27827,7 +27827,7 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
    "Squirtle": {
-	 "Rival Terry r22 Charmander": {		
+	 "Pokemon Trainer Rival R22_Early Charmander": {		
 		"ability": "Shell Armor",
 			"ivs": {
 				"at": 31,
@@ -32307,7 +32307,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Rival Terry Cerulean Turtle": {
+		"Pokemon Trainer Rival Cerulean Charmander": {
 			"ability": "Shell Armor",
 			"item": "Lum Berry",
 			"ivs": {
