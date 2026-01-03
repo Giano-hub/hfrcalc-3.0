@@ -1543,7 +1543,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Metagross",
 		"Charizard"
 	],
-	"Champion Terry": [
+	"Champion Rival R1": [
 		"Metagross",
 		"Salamence",
 		"Milotic",
@@ -2359,7 +2359,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Dragonite",
 		"Latias"
 	],
-	"Rival Terry": [
+	"Champion Rival R2": [
 		"Venusaur",
 		"Charizard",
 		"Blastoise",
