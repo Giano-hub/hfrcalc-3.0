@@ -132,9 +132,9 @@ var CUSTOMHACKFLAGS_EK = {
             // Boat
             "Sailor John",
             "Sailor Timothy",
-            "Rival Terry Boat Turtle",
-            "Rival Terry Boat Venu",
-            "Rival Terry Boat Zard",
+            "Pokemon Trainer Rival Boat Bulbasaur",
+            "Pokemon Trainer Rival Boat Charmander",
+            "Pokemon Trainer Rival Boat Squirtle",
             "Sailor Huey",
             "Gentleman Thomas",
             "Fisherman Dale",
@@ -205,9 +205,9 @@ var CUSTOMHACKFLAGS_EK = {
             "Rocket Boss Giovanni",
 
             // Tower
-            "Rival Terry Tower Turtle",
-            "Rival Terry Tower Venu",
-            "Rival Terry Tower Zard",
+            "Pokemon Trainer Rival Tower Bulbasaur",
+            "Pokemon Trainer Rival Tower Charmander",
+            "Pokemon Trainer Rival Tower Squirtle",
 
             "Channeler Patricia",
             "Channeler Laurel",
@@ -375,9 +375,9 @@ var CUSTOMHACKFLAGS_EK = {
             "Leader Giovanni",
 
             // 22
-            "Rival Terry 22 Turtle",
-            "Rival Terry 22 Venu",
-            "Rival Terry 22 Zard",
+            "Pokemon Trainer Rival R22 Bulbasaur",
+            "Pokemon Trainer Rival R22 Charmander",
+            "Pokemon Trainer Rival R22 Squirtle",
 
             // Route 23 THE GAUNTLET
             "Cooltrainer Pewter",
