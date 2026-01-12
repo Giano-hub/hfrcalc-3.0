@@ -9615,7 +9615,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Earthquake",
 				"Draco Meteor",
-				"Ancientpower",
+				"Rock Slide",
 				"Fire Blast"
 			],
 			"nature": "Quirky"
@@ -12146,7 +12146,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Elite Four Bruno R1": {
 			"ability": "Swarm",
-			"item": "Focus Band",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -14806,7 +14806,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 92,
 			"moves": [
 				"Draco Meteor",
-				"Octazooka",
+				"Surf",
 				"Rest",
 				"Double-Edge"
 			],
@@ -15720,7 +15720,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 92,
 			"moves": [
 				"Dragon Claw",
-				"Luster Purge",
+				"Psychic",
 				"Recover",
 				"Hidden Power Fire"
 			],
@@ -19354,7 +19354,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 90,
 			"moves": [
 				"Ice Beam",
 				"Thunderbolt",
@@ -28047,7 +28047,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Elite Four Lorelei R1": {
 			"ability": "Natural Cure",
-			"item": "Scope Lens",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -28491,7 +28491,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Elite Four Bruno R1": {
 			"ability": "Rock Head",
-			"item": "Quick Claw",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
