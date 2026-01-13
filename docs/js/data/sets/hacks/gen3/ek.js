@@ -18415,7 +18415,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Psychic",
 				"Shadow Ball",
 				"Flamethrower",
-				"Brick Break"
+				"Sky Uppercut"
 			],
 			"nature": "Bashful"
 		}
