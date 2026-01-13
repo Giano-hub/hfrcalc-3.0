@@ -7613,7 +7613,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 92,
 			"moves": [
-				"Shadow Ball",
+				"Hidden Power Ghost",
 				"Brick Break",
 				"Double Team",
 				"Mean Look"
