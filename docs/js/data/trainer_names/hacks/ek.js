@@ -375,8 +375,8 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Swimmer-F Denise",
 	"Aroma Lady Rose",
 	"Twins Miu & Mia",
-	"Hiker Earl",
 	"Juggler Edward",
+	"Hiker Earl",
 	
 	// Ruin Valley
 	"Picnicker Yuzu",
