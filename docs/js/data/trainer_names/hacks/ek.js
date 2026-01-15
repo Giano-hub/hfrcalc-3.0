@@ -385,8 +385,8 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Hiker Dusty",
 	"Pokemaniac Hector",
 	"Cooltrainer Shinu",
-	"Ruin Maniac Foster",
-   "Ruin Maniac Stanly",
+	"Ruin Maniac Stanly",
+   "Ruin Maniac Foster",
    "Cooltrainer Daniel",
 
 	// 5 Island
