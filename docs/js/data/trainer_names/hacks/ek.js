@@ -371,8 +371,8 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Rocket Grunt Icefall",
 
 	// Water Path
-	"Swimmer-F Denise",
 	"Swimmer-M Samir",
+	"Swimmer-F Denise",
 	"Aroma Lady Rose",
 	"Twins Miu & Mia",
 	"Hiker Earl",
