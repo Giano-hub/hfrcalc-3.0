@@ -427,8 +427,8 @@ var CUSTOMHACKFLAGS_EK = {
 			   "Rocket Grunt Icefall",
 
             // Water Path
-            "Swimmer-F Denise",
             "Swimmer-M Samir",
+            "Swimmer-F Denise",
             "Aroma Lady Rose",
             "Twins Miu & Mia",
             "Hiker Earl",
@@ -558,7 +558,7 @@ var CUSTOMHACKFLAGS_EK = {
             ["Tuber Amira", "Tuber Alexis"],
 			   ["Cooltrainer Night", "Cooltrainer Day"],
             ["Cue Ball Jamal", "Cue Ball Zeek"],
-            ["Swimmer-F Denise", "Swimmer-M Samir"],
+            ["Swimmer-M Samir", "Swimmer-F Denise"],
             ["Hiker Earl", "Juggler Edward"],
             ["Ruin Maniac Foster", "Ruin Maniac Stanly"],
             ["Youngster Cordell", "Ruin Maniac Layton"],
