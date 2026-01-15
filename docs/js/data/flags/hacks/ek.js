@@ -52,7 +52,8 @@ var CUSTOMHACKFLAGS_EK = {
             "Rocket Admin Petrel 3",
             "Rocket Admin Petrel 4",
             "Rocket Admin Proton 4",
-            "Secret Trainer Samu",
+            "Black Belt Breaker",
+			   "Secret Trainer Samu",
         ]
     },
     "badge": {
@@ -431,8 +432,8 @@ var CUSTOMHACKFLAGS_EK = {
             "Swimmer-F Denise",
             "Aroma Lady Rose",
             "Twins Miu & Mia",
-            "Hiker Earl",
             "Juggler Edward",
+            "Hiker Earl",
            
 			  // Ruin Valley
 			   "Picnicker Yuzu",
@@ -559,7 +560,7 @@ var CUSTOMHACKFLAGS_EK = {
 			   ["Cooltrainer Night", "Cooltrainer Day"],
             ["Cue Ball Jamal", "Cue Ball Zeek"],
             ["Swimmer-M Samir", "Swimmer-F Denise"],
-            ["Hiker Earl", "Juggler Edward"],
+            ["Juggler Edward", "Hiker Earl"],
             ["Ruin Maniac Foster", "Ruin Maniac Stanly"],
             ["Youngster Cordell", "Ruin Maniac Layton"],
             ["Pokemon Breeder Allison", "Youngster Nash"],
