@@ -442,8 +442,8 @@ var CUSTOMHACKFLAGS_EK = {
 			   "Hiker Dusty",
 			   "Pokemaniac Hector",
 			   "Cooltrainer Shinu",
-			   "Ruin Maniac Foster",
-            "Ruin Maniac Stanly",
+			   "Ruin Maniac Stanly",
+            "Ruin Maniac Foster",
             "Cooltrainer Daniel",
 
             // 5 Island
@@ -561,7 +561,7 @@ var CUSTOMHACKFLAGS_EK = {
             ["Cue Ball Jamal", "Cue Ball Zeek"],
             ["Swimmer-M Samir", "Swimmer-F Denise"],
             ["Juggler Edward", "Hiker Earl"],
-            ["Ruin Maniac Foster", "Ruin Maniac Stanly"],
+            ["Ruin Maniac Stanly", "Ruin Maniac Foster"],
             ["Youngster Cordell", "Ruin Maniac Layton"],
             ["Pokemon Breeder Allison", "Youngster Nash"],
             ["Lady Gillian", "Painter Celina"],
