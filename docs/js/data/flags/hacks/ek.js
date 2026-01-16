@@ -588,8 +588,11 @@ var CUSTOMHACKFLAGS_EK = {
             "Swimmer-F Alice",
             "Swimmer-M Douglas",
             "Swimmer-F Connie",
-            "Secret Trainer Samu"
-        ],
+            "Secret Trainer Samu",
+            "Rocket Grunt 1 Five Island",
+            "Rocket Grunt 2 Five Island",
+            "Rocket Grunt 3 Five Island" 
+		  ],
         "sand": [
 			   "Picnicker Yuzu",
 			   "Black Belt Breaker",
