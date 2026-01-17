@@ -538,7 +538,8 @@ var CUSTOMHACKFLAGS_EK = {
             "Cool Couple Tama & Shi",
             "Painter Celina",
             "Twins Miu & Mia",
-            "Young Couple Eve & Jon"
+            "Painter Celina",
+			   "Young Couple Eve & Jon"
        ],
        "triple": [
 		         ["Biker Steering", "Biker Virtue", "Biker Balling"]
