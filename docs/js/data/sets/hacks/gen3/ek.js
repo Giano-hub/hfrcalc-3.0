@@ -8403,7 +8403,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 96,
 			"moves": [
 				"Extreme Speed",
-				"Ancientpower",
+				"Rock Slide",
 				"Sacred Fire",
 				"Hidden Power Grass"
 			],
