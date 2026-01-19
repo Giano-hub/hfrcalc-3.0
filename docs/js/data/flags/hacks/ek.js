@@ -574,7 +574,6 @@ var CUSTOMHACKFLAGS_EK = {
     "weather": {
         "sun": [
             // Lavaridge Gym
-            "Ruin Maniac Tim",
             "Cooltrainer Tierra",
             "Elite Four Bruno R2"
         ],
