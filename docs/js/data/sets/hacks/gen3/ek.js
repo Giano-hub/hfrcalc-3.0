@@ -12144,7 +12144,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Elite Four Bruno R1": {
+		"Elite Four  R1": {
 			"ability": "Swarm",
 			"item": "Lum Berry",
 			"ivs": {
@@ -12166,7 +12166,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Elite Four Bruno R2": {
 			"ability": "Swarm",
-			"item": "Quick Claw",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
