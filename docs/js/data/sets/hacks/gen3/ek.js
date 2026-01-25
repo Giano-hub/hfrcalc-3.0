@@ -4396,7 +4396,7 @@ var CUSTOMHACKSETDEX_EK = {
 	"Charizard": {
 		"Bird Keeper Falkner": {
 			"ability": "Blaze",
-			"item": "Charcoal",
+			"item": "Bright Powder",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -33360,7 +33360,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Champion Rival R2": {
 			"ability": "Rough Skin",
-			"item": "Focus Band",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
