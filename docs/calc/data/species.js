@@ -1700,7 +1700,7 @@ var ADV_PATCH = {
     Feraligatr: { abilities: { 0: 'Torrent' } },
     Flaaffy: { abilities: { 0: 'Static' } },
     Forretress: { abilities: { 0: 'Battle Armor' } },
-    Furret: { abilities: { 0: 'Run Away' } },
+    Furret: { abilities: { 0: 'Huge Power' } },
     Girafarig: { abilities: { 0: 'Inner Focus' } },
     Gligar: { abilities: { 0: 'Hyper Cutter' } },
     Granbull: { abilities: { 0: 'Intimidate' } },
@@ -3138,7 +3138,7 @@ var EK_PATCH = {
         bs: { hp: 80, at: 105, df: 65, sa: 60, sd: 75, sp: 130 }
     },
     Snorlax: {
-        bs: { hp: 160, at: 110, df: 65, sa: 65, sd: 110, sp: 30 }
+        bs: { hp: 160, at: 110, df: 65, sa: 65, sd: 125, sp: 30 }
     },
     Articuno: {
         bs: { hp: 95, at: 85, df: 100, sa: 110, sd: 125, sp: 85 }
@@ -3195,7 +3195,7 @@ var EK_PATCH = {
         bs: { hp: 35, at: 46, df: 34, sa: 35, sd: 45, sp: 40 }
     },
     Furret: {
-        bs: { hp: 85, at: 76, df: 64, sa: 45, sd: 55, sp: 90 }
+        bs: { hp: 85, at: 76, df: 64, sa: 45, sd: 80, sp: 90 }
     },
     Hoothoot: {
         bs: { hp: 60, at: 30, df: 30, sa: 36, sd: 56, sp: 50 }
