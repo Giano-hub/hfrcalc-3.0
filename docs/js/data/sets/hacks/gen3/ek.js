@@ -9922,7 +9922,7 @@ var CUSTOMHACKSETDEX_EK = {
 	},
 	"Furret": {
 		"Beauty Lola": {
-			"ability": "Run Away",
+			"ability": "Huge Power",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -9942,7 +9942,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Careful"
 		},
 		"Lass Ali": {
-			"ability": "Run Away",
+			"ability": "Huge Power",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -9961,7 +9961,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Quirky"
 		},
 		"Lass Dawn": {
-			"ability": "Run Away",
+			"ability": "Huge Power",
 			"item": "Silk Scarf",
 			"ivs": {
 				"at": 31,
