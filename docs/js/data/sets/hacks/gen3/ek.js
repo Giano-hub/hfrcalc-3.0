@@ -15738,7 +15738,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 100,
 			"moves": [
 				"Draco Meteor",
-				"Luster Purge",
+				"Psychic",
 				"Hidden Power Fire",
 				"Recover"
 			],
