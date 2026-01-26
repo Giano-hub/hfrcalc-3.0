@@ -9934,9 +9934,9 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 50,
 			"moves": [
-				"Shadow Ball",
-				"Return",
-				"Superpower",
+				"Lick",
+				"Tackle",
+				"Brick Break",
 				"Swagger"
 			],
 			"nature": "Careful"
@@ -9955,9 +9955,8 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 26,
 			"moves": [
 				"Quick Attack",
-				"Headbutt",
-				"Surf",
-				"Aerial Ace"
+				"Gust",
+				"Surf"
 			],
 			"nature": "Quirky"
 		},
@@ -9974,10 +9973,9 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 25,
 			"moves": [
-				"Body Slam",
+				"Quick Attack",
 				"Mud Shot",
-				"Iron Tail",
-				"Quick Attack"
+				"Metal Claw"
 			],
 			"nature": "Timid"
 		}
