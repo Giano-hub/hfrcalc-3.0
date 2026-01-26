@@ -3585,7 +3585,7 @@ var EK_PATCH = {
         bs: { hp: 70, at: 65, df: 65, sa: 55, sd: 55, sp: 70 }
     },
     Kecleon: {
-        bs: { hp: 80, at: 90, df: 70, sa: 60, sd: 120, sp: 40 }
+        bs: { hp: 110, at: 90, df: 110, sa: 90, sd: 120, sp: 40 }
     },
     Baltoy: {
         bs: { hp: 40, at: 40, df: 55, sa: 40, sd: 70, sp: 55 }
