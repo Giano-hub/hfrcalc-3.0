@@ -15659,7 +15659,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Calm Mind",
 				"Dragon Breath",
-				"Mist Ball",
+				"Psychic",
 				"Hydro Pump"
 			],
 			"nature": "Bold"
