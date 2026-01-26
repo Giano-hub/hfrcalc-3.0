@@ -161,7 +161,7 @@ var RBY = {
     Flamethrower: { bp: 95, type: 'Fire' },
     'Hydro Pump': { bp: 120, type: 'Water' },
     'Ice Beam': { bp: 95, type: 'Ice' },
-    Lick: { bp: 20, type: 'Ghost' },
+    Lick: { bp: 35, type: 'Ghost' },
     Screech: { bp: 0, category: 'Status', type: 'Normal' },
     Sing: { bp: 0, category: 'Status', type: 'Normal' },
     'Sleep Powder': { bp: 0, category: 'Status', type: 'Grass' },
