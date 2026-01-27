@@ -12142,7 +12142,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Elite Four  R1": {
+		"Elite Four Bruno R1": {
 			"ability": "Swarm",
 			"item": "Lum Berry",
 			"ivs": {
@@ -12153,7 +12153,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Megahorn",
 				"Superpower",
