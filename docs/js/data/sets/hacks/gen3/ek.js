@@ -9952,7 +9952,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 26,
+			"level": 24,
 			"moves": [
 				"Quick Attack",
 				"Gust",
@@ -9971,7 +9971,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 25,
+			"level": 23,
 			"moves": [
 				"Quick Attack",
 				"Mud Shot",
