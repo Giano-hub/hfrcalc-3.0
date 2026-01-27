@@ -387,7 +387,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Head Smash",
 				"Sky Attack",
@@ -2298,7 +2298,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Blizzard",
 				"Sky Attack",
@@ -3214,7 +3214,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Overheat",
 				"Superpower",
@@ -3473,7 +3473,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Thunderbolt",
 				"Ice Beam",
@@ -4894,7 +4894,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Earthquake",
 				"Psychic",
@@ -5704,7 +5704,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Gunk Shot",
 				"Sky Attack",
@@ -6856,7 +6856,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Sky Attack",
 				"Draco Meteor",
@@ -7611,7 +7611,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Hidden Power Ghost",
 				"Brick Break",
@@ -9611,7 +9611,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Earthquake",
 				"Draco Meteor",
@@ -10819,7 +10819,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Blizzard",
 				"Earthquake",
@@ -11569,7 +11569,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Dragon Dance",
 				"Sky Attack",
@@ -14801,7 +14801,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Draco Meteor",
 				"Surf",
@@ -19352,7 +19352,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 91,
 			"moves": [
 				"Ice Beam",
 				"Thunderbolt",
@@ -23789,7 +23789,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Superpower",
 				"Earthquake",
@@ -27252,7 +27252,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Blizzard",
 				"Shadow Ball",
@@ -28054,7 +28054,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Thunderbolt",
 				"Hydro Pump",
@@ -28498,7 +28498,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Earthquake",
 				"Ancientpower",
@@ -30416,7 +30416,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Pursuit",
 				"Ancientpower",
@@ -30671,7 +30671,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 92,
+			"level": 91,
 			"moves": [
 				"Crunch",
 				"Hidden Power Grass",
@@ -33347,7 +33347,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 93,
 			"moves": [
 				"Thunderbolt",
 				"Drill Peck",
