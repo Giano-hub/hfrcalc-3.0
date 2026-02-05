@@ -32084,7 +32084,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Serious"
 		},
 		"Cooltrainer Cerulean": {
-			"ability": "Water Veil",
+			"ability": "Rain Dish",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -32103,7 +32103,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Jolly"
 		},
 		"Cooltrainer Umi": {
-			"ability": "Water Veil",
+			"ability": "Rain Dish",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -32123,7 +32123,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Gentle"
 		},
 		"Cooltrainer Lex": {
-			"ability": "Water Veil",
+			"ability": "Rain Dish",
 			"item": "Mystic Water",
 			"ivs": {
 				"at": 31,
@@ -32142,7 +32142,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Lax"
 		},
 		"Fisherman Claude": {
-			"ability": "Water Veil",
+			"ability": "Rain Dish",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -32162,7 +32162,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Lax"
 		},
 		"Rocket Grunt 1 Five Island": {
-			"ability": "Water Veil",
+			"ability": "Rain Dish",
 			"item": "Leftovers",
 			"ivs": {
 				"at": 31,
@@ -32182,7 +32182,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Hardy"
 		},
 		"Swimmer-M David": {
-			"ability": "Water Veil",
+			"ability": "Rain Dish",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
