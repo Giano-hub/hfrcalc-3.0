@@ -32067,7 +32067,7 @@ var CUSTOMHACKSETDEX_EK = {
 	},
 	"Wailord": {
 		"Cool Couple Ray & Tyra": {
-			"ability": "Water Veil",
+			"ability": "Rain Dish",
 			"item": "Mystic Water",
 			"ivs": {
 				"at": 31,
