@@ -2653,7 +2653,7 @@ var ADV_PATCH = {
         types: ['Water'],
         bs: { hp: 160, at: 110, df: 64, sa: 110, sd: 110, sp: 1 },
         weightkg: 398,
-        abilities: { 0: 'Water Veil' }
+        abilities: { 0: 'Rain Dish' }
     },
     Walrein: {
         types: ['Ice', 'Water'],
