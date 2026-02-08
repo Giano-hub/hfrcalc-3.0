@@ -282,7 +282,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Cooltrainer Shinu": {
 			"ability": "Rock Head",
-			"item": "Sharp Beak",
+			"item": "Silk Scarf",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -2925,7 +2925,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Black Belt Breaker": {
 			"ability": "Shell Armor",
-			"item": "Focus Band",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -14267,7 +14267,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Black Belt Breaker": {
 			"ability": "Battle Armor",
-			"item": "Quick Claw",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -25040,7 +25040,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Earth Power",
 				"Ancientpower",
-				"Rock Slide",
+				"Double Team",
 				"Rest"
 			],
 			"nature": "Serious"
@@ -29038,7 +29038,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Hiker Dusty": {
 			"ability": "Torrent",
-			"item": "Quick Claw",
+			"item": "Leftovers",
 			"ivs": {
 				"at": 31,
 				"df": 31,
