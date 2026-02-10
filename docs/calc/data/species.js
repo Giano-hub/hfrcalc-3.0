@@ -2850,7 +2850,7 @@ var EK_PATCH = {
         bs: { hp: 35, at: 70, df: 55, sa: 45, sd: 55, sp: 25 }
     },
     Parasect: {
-        bs: { hp: 95, at: 110, df: 90, sa: 65, sd: 90, sp: 55 }
+        bs: { hp: 95, at: 110, df: 90, sa: 65, sd: 90, sp: 60 }
     },
     Venonat: {
         bs: { hp: 60, at: 55, df: 50, sa: 40, sd: 55, sp: 45 }
