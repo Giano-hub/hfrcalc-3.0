@@ -17150,26 +17150,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Mankey": {
-		"Hiker Marcos": {
-			"ability": "Vital Spirit",
-			"item": "Berry Juice",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 18,
-			"moves": [
-				"Karate Chop",
-				"Rock Tomb",
-				"Reversal",
-				"Slash"
-			],
-			"nature": "Docile"
-		},
 		"Rocket Grunt 8 Silph": {
 			"ability": "Vital Spirit",
 			"item": "Quick Claw",
@@ -21158,26 +21138,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Timid"
 		},
-		"Hiker Marcos": {
-			"ability": "Rock Head",
-			"item": "Focus Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 19,
-			"moves": [
-				"Double-Edge",
-				"Rock Slide",
-				"Earthquake",
-				"Self-Destruct"
-			],
-			"nature": "Jolly"
-		},
 		"Leader Brock": {
 			"ability": "Rock Head",
 			"item": "Liechi Berry",
@@ -21462,26 +21422,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Endeavor"
 			],
 			"nature": "Naive"
-		},
-		"Hiker Marcos": {
-			"ability": "Cute Charm",
-			"item": "Berry Juice",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 19,
-			"moves": [
-				"Endeavor",
-				"Ice Shard",
-				"Mud Shot",
-				"Rock Throw"
-			],
-			"nature": "Quiet"
 		}
 	},
 	"Pichu": {
