@@ -69,6 +69,9 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	// Route 11
 	"Gamer Jasper",
 	"Youngster Dave",
+	"Youngster Eddie",
+	"Youngster Dillon",
+	"Engineer Braxton",
 	"Gamer Hugo",
 
 	// Boat
@@ -77,14 +80,16 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Pokemon Trainer Rival Boat Squirtle",
 	"Pokemon Trainer Rival Boat Charmander",
 	"Pokemon Trainer Rival Boat Bulbasaur",
+	"Sailor Trevor",
+	"Sailor Edmond",
+	"Sailor Phillip"
 	"Sailor Huey",
 	"Gentleman Thomas",
+	"Gentleman Arthur",
 	"Fisherman Dale",
 	"Gentleman Brooks",
 	"Lass Dawn",
 	"Gentleman Lamar",
-	"Sailor Trevor",
-	"Sailor Edmond",
 
 	// Vermillion Gym
 	"Engineer Baily",
@@ -101,7 +106,8 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Picnicker Caitlin",
 	"Hiker Brice",
 	"Bug Catcher Brent",
-
+   "Bug Catcher Conner",
+	
 	// Tunnel
 	"Picnicker Leah",
 	"Hiker Eric",
