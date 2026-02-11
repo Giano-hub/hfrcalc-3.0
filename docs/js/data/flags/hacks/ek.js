@@ -127,22 +127,27 @@ var CUSTOMHACKFLAGS_EK = {
             // Route 11
             "Gamer Jasper",
             "Youngster Dave",
-            "Gamer Hugo",
+            "Youngster Eddie",
+			   "Youngster Dillon",
+			   "Engineer Braxton",
+			   "Gamer Hugo",
 
             // Boat
             "Sailor John",
-            "Sailor Timothy",
-            "Pokemon Trainer Rival Boat Bulbasaur",
-            "Pokemon Trainer Rival Boat Charmander",
-            "Pokemon Trainer Rival Boat Squirtle",
-            "Sailor Huey",
-            "Gentleman Thomas",
-            "Fisherman Dale",
-            "Gentleman Brooks",
-            "Lass Dawn",
-            "Gentleman Lamar",
-            "Sailor Trevor",
-            "Sailor Edmond",
+	         "Sailor Timothy",
+	         "Pokemon Trainer Rival Boat Squirtle",
+	         "Pokemon Trainer Rival Boat Charmander",
+	         "Pokemon Trainer Rival Boat Bulbasaur",
+	         "Sailor Trevor",
+	         "Sailor Edmond",
+	         "Sailor Phillip"
+	         "Sailor Huey",
+	         "Gentleman Thomas",
+	         "Gentleman Arthur",
+	         "Fisherman Dale",
+	         "Gentleman Brooks",
+	         "Lass Dawn",
+	         "Gentleman Lamar",
 
             // Vermillion Gym
             "Engineer Baily",
@@ -159,8 +164,9 @@ var CUSTOMHACKFLAGS_EK = {
             "Hiker Alan",
             "Hiker Brice",
             "Bug Catcher Brent",
-
-            // Tunnel
+            "Bug Catcher Conner",
+            
+			   // Tunnel
             "Picnicker Leah",
             "Hiker Eric",
             "Picnicker Ariana",
