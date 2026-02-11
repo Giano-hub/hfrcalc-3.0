@@ -9819,6 +9819,23 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
+		"Bug Catcher Keigo": {
+			"ability": "Battle Armor",
+			"item": "Choice Band",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Explosion"
+			],
+			"nature": "Bashful"
+		},
 		"Cooltrainer Fuschia": {
 			"ability": "Battle Armor",
 			"item": "Quick Claw",
@@ -15091,6 +15108,22 @@ var CUSTOMHACKSETDEX_EK = {
 				"Ancientpower"
 			],
 			"nature": "Impish"
+		},
+		"Sailor Dylan": {
+			"ability": "Hyper Cutter",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 26,
+			"moves": [
+				"Explosion"
+		   ],
+			"nature": "Bashful"
 		},
 		"Sailor Huey": {
 			"ability": "Hyper Cutter",
