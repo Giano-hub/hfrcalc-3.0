@@ -4605,7 +4605,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 65,
+			"level": 64,
 			"moves": [
 				"Sacred Fire",
 				"Belly Drum",
@@ -8885,8 +8885,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Explosion",
 				"Egg Bomb",
-				"Psychic",
-				"Hidden Power Fire"
+				"Psychic"
 			],
 			"nature": "Sassy"
 		},
@@ -8906,7 +8905,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Egg Bomb",
 				"Psychic",
 				"Explosion",
-				"Hidden Power Fire"
+				"Sleep Powder"
 			],
 			"nature": "Hardy"
 		},
@@ -11706,11 +11705,11 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 64,
+			"level": 63,
 			"moves": [
 				"Earthquake",
 				"Hidden Power Flying",
-				"Hydro Pump",
+				"Waterfall",
 				"Double-Edge"
 			],
 			"nature": "Rash"
@@ -14619,9 +14618,8 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 65,
 			"moves": [
 				"Double-Edge",
-				"Earthquake",
+				"Superpower",
 				"Iron Tail",
-				"Superpower"
 			],
 			"nature": "Rash"
 		}
@@ -14878,7 +14876,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 63,
+			"level": 62,
 			"moves": [
 				"Dragon Breath",
 				"Surf",
@@ -15100,7 +15098,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 64,
+			"level": 62,
 			"moves": [
 				"Crabhammer",
 				"X-Scissor",
@@ -16767,7 +16765,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 63,
+			"level": 61,
 			"moves": [
 				"Flamethrower",
 				"Thunderbolt",
@@ -20455,7 +20453,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 69,
+			"level": 67,
 			"moves": [
 				"Overheat",
 				"Hidden Power Electric",
@@ -23656,7 +23654,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 72,
+			"level": 70,
 			"moves": [
 				"Tail Glow",
 				"Thunderbolt",
@@ -27328,7 +27326,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 62,
 			"moves": [
 				"Air Slash",
-				"Shadow Ball",
+				"Rain Dance",
 				"Ice Beam",
 				"Crunch"
 			],
@@ -28269,7 +28267,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 65,
 			"moves": [
-				"Hydro Pump",
+				"Waterfall",
 				"Psychic",
 				"Thunderbolt",
 				"Ice Beam"
@@ -31296,10 +31294,10 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 52,
 			"moves": [
-				"Petal Dance",
+				"Leaf Blade",
 				"Sludge Bomb",
 				"Ancientpower",
-				"Psychic"
+				"Hidden Power Psychic"
 			],
 			"nature": "Timid"
 		},
@@ -31637,7 +31635,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 64,
+			"level": 63,
 			"moves": [
 				"Gunk Shot",
 				"Leaf Blade",
