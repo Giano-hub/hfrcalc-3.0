@@ -349,6 +349,12 @@ var CUSTOMHACKPARTYORDER_EK = {
 	"Bug Catcher Conner": [
 		"Forretress"
 	],
+	"Bug Catcher Keigo": [
+		"Forretress"
+	],
+	"Sailor Dylan": [
+		"Kingler"
+	],
 	"Pokemon Trainer Brendan": [
 		"Combusken",
 		"Marshtomp",
