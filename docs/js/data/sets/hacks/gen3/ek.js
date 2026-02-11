@@ -15119,7 +15119,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 26,
+			"level": 99,
 			"moves": [
 				"Explosion"
 		   ],
