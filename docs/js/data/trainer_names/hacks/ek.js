@@ -63,6 +63,7 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 
 
 	// Route 6
+	"Bug Catcher Keigo",
 	"Picnicker Isabelle",
 	"Camper Jeff",
 
@@ -84,6 +85,7 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Sailor Edmond",
 	"Sailor Phillip",
 	"Sailor Huey",
+	"Sailor Dylan",
 	"Gentleman Thomas",
 	"Gentleman Arthur",
 	"Fisherman Dale",
