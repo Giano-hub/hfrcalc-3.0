@@ -2979,7 +2979,7 @@ var EK_PATCH = {
         bs: { hp: 105, at: 105, df: 75, sa: 65, sd: 100, sp: 50 }
     },
     Shellder: {
-        bs: { hp: 30, at: 65, df: 115, sa: 55, sd: 25, sp: 40 }
+        bs: { hp: 30, at: 65, df: 125, sa: 55, sd: 25, sp: 40 }
     },
     Cloyster: {
         bs: { hp: 50, at: 95, df: 180, sa: 85, sd: 70, sp: 70 }
