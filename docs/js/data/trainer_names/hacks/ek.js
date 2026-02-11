@@ -82,7 +82,7 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Pokemon Trainer Rival Boat Bulbasaur",
 	"Sailor Trevor",
 	"Sailor Edmond",
-	"Sailor Phillip"
+	"Sailor Phillip",
 	"Sailor Huey",
 	"Gentleman Thomas",
 	"Gentleman Arthur",
