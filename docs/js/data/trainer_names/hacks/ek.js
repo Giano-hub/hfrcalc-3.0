@@ -25,7 +25,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Pokemaniac Ronald",
 	"Lass Iris",
 	"Youngster Josh",
-	"Hiker Marcos",
 	"Rocket Grunt 1 Mt Moon",
 	"Rocket Grunt 2 Mt Moon",
 	"Rocket Grunt 3 Mt Moon",
