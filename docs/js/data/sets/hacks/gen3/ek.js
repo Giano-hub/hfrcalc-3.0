@@ -709,7 +709,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 88,
+			"level": 86,
 			"moves": [
 				"Psychic",
 				"Thunder Wave",
@@ -4283,7 +4283,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 88,
+			"level": 86,
 			"moves": [
 				"Thunder Wave",
 				"Soft-Boiled",
@@ -8603,7 +8603,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 88,
+			"level": 86,
 			"moves": [
 				"Sleep Powder",
 				"Stun Spore",
@@ -8622,7 +8622,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Sleep Powder",
 				"Stun Spore",
@@ -11763,7 +11763,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 95,
+			"level": 94,
 			"moves": [
 				"Aeroblast",
 				"Earthquake",
@@ -13202,7 +13202,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Psychic",
 				"Hypnosis",
@@ -13528,7 +13528,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Thunder Wave",
 				"Sand Attack",
@@ -14030,7 +14030,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 88,
+			"level": 86,
 			"moves": [
 				"Psychic",
 				"Lovely Kiss",
@@ -22594,7 +22594,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 95,
+			"level": 94,
 			"moves": [
 				"Hydro Pump",
 				"Superpower",
@@ -23900,7 +23900,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Body Slam",
 				"Earthquake",
@@ -27885,7 +27885,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Recover",
 				"Thunderbolt",
@@ -29417,7 +29417,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 88,
+			"level": 86,
 			"moves": [
 				"Body Slam",
 				"Hyper Beam",
@@ -29436,7 +29436,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Body Slam",
 				"Hyper Beam",
@@ -30966,7 +30966,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 88,
+			"level": 86,
 			"moves": [
 				"Sand Attack",
 				"Hydro Pump",
