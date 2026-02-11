@@ -502,11 +502,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Ninetales",
 		"Manectric"
 	],
-	"Hiker Marcos": [
-		"Mankey",
-		"Phanpy",
-		"Onix"
-	],
 	"Hiker Nob": [
 		"Machoke",
 		"Baltoy",
