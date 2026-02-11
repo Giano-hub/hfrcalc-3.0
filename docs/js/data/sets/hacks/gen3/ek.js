@@ -1304,7 +1304,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 22,
+			"level": 21,
 			"moves": [
 				"Dragon Breath",
 				"Drill Peck",
@@ -4668,10 +4668,10 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 28,
 			"moves": [
-				"Flamethrower",
+				"Fire Punch",
 				"Thunder Punch",
-				"Hidden Power Grass",
-				"Extreme Speed"
+				"Iron Tail",
+				"Body Slam"
 			],
 			"nature": "Calm"
 		},
@@ -5013,7 +5013,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 40,
+			"level": 37,
 			"moves": [
 				"Metronome"
 			],
@@ -5050,7 +5050,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 28,
+			"level": 24,
 			"moves": [
 				"Metronome"
 			],
@@ -6028,7 +6028,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 26,
+			"level": 24,
 			"moves": [
 				"Assist"
 			],
@@ -6302,7 +6302,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Youngster Dave": {
 			"ability": "Shadow Tag",
-			"item": "Quick Claw",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -6311,7 +6311,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 28,
+			"level": 20,
 			"moves": [
 				"Transform"
 			],
@@ -6331,7 +6331,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 51,
+			"level": 50,
 			"moves": [
 				"Drill Peck",
 				"Tri Attack",
@@ -6654,7 +6654,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 35,
+			"level": 33,
 			"moves": [
 				"Draco Meteor",
 				"Thunderbolt",
@@ -7058,7 +7058,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 27,
+			"level": 25,
 			"moves": [
 				"Draco Meteor",
 				"Extreme Speed",
@@ -7100,7 +7100,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 27,
+			"level": 20,
 			"moves": [
 				"Calm Mind",
 				"Psychic",
@@ -9971,7 +9971,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 23,
+			"level": 21,
 			"moves": [
 				"Quick Attack",
 				"Mud Shot",
@@ -15883,7 +15883,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 36,
+			"level": 34,
 			"moves": [
 				"Extreme Speed",
 				"Hidden Power Ground",
@@ -18235,7 +18235,7 @@ var CUSTOMHACKSETDEX_EK = {
 	"Metang": {
 		"Gamer Jasper": {
 			"ability": "Clear Body",
-			"item": "Quick Claw",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -18244,7 +18244,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 27,
+			"level": 24,
 			"moves": [
 				"Metal Claw",
 				"Extrasensory",
@@ -19553,7 +19553,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 23,
+			"level": 22,
 			"moves": [
 				"Psybeam",
 				"Magical Leaf",
@@ -20112,7 +20112,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 51,
+			"level": 50,
 			"moves": [
 				"Sludge Bomb",
 				"Thunder",
@@ -20192,7 +20192,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 50,
+			"level": 48,
 			"moves": [
 				"Earth Power",
 				"Sludge Bomb",
@@ -20234,7 +20234,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 51,
+			"level": 50,
 			"moves": [
 				"Earthquake",
 				"Gunk Shot",
@@ -21312,7 +21312,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 23,
+			"level": 22,
 			"moves": [
 				"Slash",
 				"Shadow Ball",
@@ -21392,7 +21392,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 28,
+			"level": 22,
 			"moves": [
 				"Fake Out",
 				"Body Slam",
@@ -22607,7 +22607,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 24,
+			"level": 23,
 			"moves": [
 				"Recover",
 				"Ice Beam",
@@ -22931,7 +22931,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 27,
+			"level": 20,
 			"moves": [
 				"Focus Energy",
 				"Brick Break",
@@ -23961,7 +23961,7 @@ var CUSTOMHACKSETDEX_EK = {
 	"Rhyhorn": {
 		"Gamer Jasper": {
 			"ability": "Rock Head",
-			"item": "Quick Claw",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -23970,7 +23970,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 28,
+			"level": 25,
 			"moves": [
 				"Ancientpower",
 				"Horn Drill",
@@ -25777,7 +25777,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 23,
+			"level": 22,
 			"moves": [
 				"Waterfall",
 				"Drill Run",
@@ -26209,7 +26209,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 34,
+			"level": 33,
 			"moves": [
 				"Dragon Claw",
 				"Flamethrower",
@@ -29503,7 +29503,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 22,
+			"level": 21,
 			"moves": [
 				"Secret Power",
 				"Mud Shot",
@@ -29832,7 +29832,7 @@ var CUSTOMHACKSETDEX_EK = {
 	"Torkoal": {
 		"Gamer Jasper": {
 			"ability": "Shell Armor",
-			"item": "Quick Claw",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -29841,7 +29841,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 27,
+			"level": 24,
 			"moves": [
 				"Explosion",
 				"Flame Wheel",
@@ -32681,7 +32681,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 51,
+			"level": 50,
 			"moves": [
 				"Mirror Coat",
 				"Destiny Bond",
@@ -33228,7 +33228,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 43,
+			"level": 42,
 			"moves": [
 				"Hyper Beam"
 			],
