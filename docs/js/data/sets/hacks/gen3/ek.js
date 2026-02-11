@@ -93,7 +93,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 73,
 			"moves": [
 				"Shadow Ball",
 				"Swords Dance",
@@ -10992,7 +10992,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 71,
+			"level": 66,
 			"moves": [
 				"Ice Beam",
 				"Earthquake",
@@ -13548,7 +13548,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 72,
+			"level": 71,
 			"moves": [
 				"Thunder",
 				"Hidden Power Grass"
@@ -14636,7 +14636,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 72,
+			"level": 71,
 			"moves": [
 				"Surf",
 				"Ice Beam",
@@ -14679,8 +14679,8 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 83,
 			"moves": [
 				"Dragon Breath",
-				"Octazooka",
-				"Double-Edge",
+				"Surf",
+				"Body Slam",
 				"Ice Beam"
 			],
 			"nature": "Bashful"
@@ -15936,7 +15936,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 72,
+			"level": 71,
 			"moves": [
 				"Surf",
 				"Giga Drain",
@@ -16280,7 +16280,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 87,
+			"level": 84,
 			"moves": [
 				"Ice Beam",
 				"Surf",
@@ -16422,7 +16422,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Fire Blast",
 				"Ice Punch",
@@ -18825,7 +18825,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hypnosis",
 				"Surf",
 				"Ice Beam",
-				"Hidden Power Ice"
+				"Hidden Power Electric"
 			],
 			"nature": "Adamant"
 		},
@@ -18845,7 +18845,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hypnosis",
 				"Surf",
 				"Ice Beam",
-				"Hidden Power Ice"
+				"Hidden Power Electric"
 			],
 			"nature": "Adamant"
 		},
@@ -19221,7 +19221,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Thunderbolt",
 				"Hidden Power Ice",
@@ -22229,7 +22229,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 90,
+			"level": 88,
 			"moves": [
 				"Thunderbolt",
 				"Hidden Power Grass",
@@ -22700,7 +22700,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Thunderbolt",
 				"Ice Beam",
@@ -27605,7 +27605,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 71,
+			"level": 69,
 			"moves": [
 				"Calm Mind",
 				"Harden",
@@ -27865,7 +27865,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 72,
+			"level": 71,
 			"moves": [
 				"Hydro Pump",
 				"Psycho Boost",
@@ -31466,7 +31466,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Aroma Lady Nikki": {
 			"ability": "Chlorophyll",
-			"item": "Bright Powder",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -32064,7 +32064,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 80,
+			"level": 78,
 			"moves": [
 				"Surf",
 				"Ice Beam",
