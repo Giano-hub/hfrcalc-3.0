@@ -121,7 +121,8 @@ var CUSTOMHACKFLAGS_EK = {
             "Rocket Grunt Dig",
 
             // Route 6
-            "Picnicker Isabelle",
+            "Bug Catcher Keigo",
+			   "Picnicker Isabelle",
             "Camper Jeff",
         
             // Route 11
@@ -142,7 +143,8 @@ var CUSTOMHACKFLAGS_EK = {
 	         "Sailor Edmond",
 	         "Sailor Phillip",
 	         "Sailor Huey",
-	         "Gentleman Thomas",
+	         "Sailor Dylan",
+			   "Gentleman Thomas",
 	         "Gentleman Arthur",
 	         "Fisherman Dale",
 	         "Gentleman Brooks",
