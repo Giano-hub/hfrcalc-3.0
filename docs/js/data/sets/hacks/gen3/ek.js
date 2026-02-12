@@ -6827,7 +6827,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Cooltrainer Viridian": {
 			"ability": "Thick Fat",
-			"item": "Silk Scarf",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
