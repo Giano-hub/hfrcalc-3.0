@@ -1692,7 +1692,7 @@ var ADV_PATCH = {
     Croconaw: { abilities: { 0: 'Torrent' } },
     Cyndaquil: { abilities: { 0: 'Blaze' } },
     Delibird: { abilities: { 0: 'Vital Spirit' } },
-    Donphan: { abilities: { 0: 'Sturdy' } },
+    Donphan: { abilities: { 0: 'Rock Head' } },
     Dunsparce: { abilities: { 0: 'Serene Grace' } },
     Elekid: { abilities: { 0: 'Static' } },
     Entei: { abilities: { 0: 'Inner Focus' } },
