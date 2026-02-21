@@ -19573,26 +19573,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Gentleman Lamar": {
-			"ability": "Soundproof",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 22,
-			"moves": [
-				"Psybeam",
-				"Magical Leaf",
-				"Shock Wave",
-				"Thunder Wave"
-			],
-			"nature": "Relaxed"
-		},
 		"Juggler Edward": {
 			"ability": "Soundproof",
 			"item": "Lum Berry",
@@ -21332,26 +21312,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-		"Gentleman Lamar": {
-			"ability": "Limber",
-			"item": "Silk Scarf",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 22,
-			"moves": [
-				"Slash",
-				"Shadow Ball",
-				"Fake Out",
-				"Iron Tail"
-			],
-			"nature": "Sassy"
-		},
 		"Lass Reli": {
 			"ability": "Limber",
 			"item": "Lum Berry",
@@ -22624,28 +22584,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Bounce"
 			],
 			"nature": "Quiet"
-		}
-	},
-	"Porygon": {
-		"Gentleman Lamar": {
-			"ability": "Trace",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 23,
-			"moves": [
-				"Recover",
-				"Ice Beam",
-				"Thunderbolt",
-				"Psychic"
-			],
-			"nature": "Bashful"
 		}
 	},
 	"Porygon2": {
@@ -29522,26 +29460,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Rock Slide"
 			],
 			"nature": "Modest"
-		},
-		"Gentleman Lamar": {
-			"ability": "Intimidate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 21,
-			"moves": [
-				"Secret Power",
-				"Mud Shot",
-				"Quick Attack",
-				"Iron Tail"
-			],
-			"nature": "Gentle"
 		},
 		"Scientist Ed": {
 			"ability": "Intimidate",
