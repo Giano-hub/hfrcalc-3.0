@@ -91,7 +91,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Fisherman Dale",
 	"Gentleman Brooks",
 	"Lass Dawn",
-	"Gentleman Lamar",
 
 	// Vermillion Gym
 	"Engineer Baily",
