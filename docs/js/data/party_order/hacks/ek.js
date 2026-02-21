@@ -1692,12 +1692,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Tangela",
 		"Pidgeot"
 	],
-	"Gentleman Lamar": [
-		"Tauros",
-		"Porygon",
-		"Persian",
-		"Mr. Mime"
-	],
 	"Cool Couple Ray & Tyra": [
 		"Wailord",
 		"Latias",
