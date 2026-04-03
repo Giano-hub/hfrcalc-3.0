@@ -2876,7 +2876,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 76,
 			"moves": [
-				"Hydro Pump",
+				"Surf",
 				"Ice Beam",
 				"Counter",
 				"Mirror Coat"
@@ -27534,7 +27534,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Swimmer-M Spencer": {
 			"ability": "Thick Fat",
-			"item": "Leftovers",
+			"item": "Mystic Water",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -32761,7 +32761,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Rocket Admin Petrel 2": {
 			"ability": "Shadow Tag",
-			"item": "Lum Berry",
+			"item": "Soul Dew",
 			"ivs": {
 				"at": 31,
 				"df": 31,
