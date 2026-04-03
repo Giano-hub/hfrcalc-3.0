@@ -23290,7 +23290,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"moves": [
 				"Thunderbolt",
 				"Surf",
-				"Petal Dance",
+				"Extreme Speed",
 				"Hidden Power Grass"
 			],
 			"nature": "Timid"
