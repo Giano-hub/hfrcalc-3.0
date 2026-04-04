@@ -23811,7 +23811,7 @@ var CUSTOMHACKSETDEX_EK = {
 	},
 	"Rhydon": {
 		"Biker Jared": {
-			"ability": "Lightningrod",
+			"ability": "Rock Head",
 			"item": "Choice Band",
 			"ivs": {
 				"at": 31,
@@ -23828,7 +23828,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Impish"
 		},
       "Cooltrainer Day": {
-			"ability": "Lightningrod",
+			"ability": "Rock Head",
 			"item": "Lax Incense",
 			"ivs": {
 				"at": 31,
@@ -23847,7 +23847,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Lonely"
       },		
 		"Rocket Boss Giovanni": {
-			"ability": "Lightningrod",
+			"ability": "Rock Head",
 			"item": "Quick Claw",
 			"ivs": {
 				"at": 31,
@@ -23867,7 +23867,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Relaxed"
 		},
 		"Rocket Boss Giovanni 2": {
-			"ability": "Lightningrod",
+			"ability": "Rock Head",
 			"item": "Quick Claw",
 			"ivs": {
 				"at": 31,
@@ -23887,7 +23887,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Jolly"
 		},
 		"Cooltrainer Leroy": {
-			"ability": "Lightningrod",
+			"ability": "Rock Head",
 			"item": "Quick Claw",
 			"ivs": {
 				"at": 31,
@@ -23907,7 +23907,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Mild"
 		},
 		"Gamer Rich": {
-			"ability": "Lightningrod",
+			"ability": "Rock Head",
 			"item": "Quick Claw",
 			"ivs": {
 				"at": 31,
