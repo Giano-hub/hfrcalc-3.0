@@ -104,7 +104,7 @@ var RBY = {
     Psywave: { bp: 1, type: 'Psychic' },
     Rage: { bp: 20, type: 'Normal' },
     'Razor Leaf': { bp: 55, type: 'Grass' },
-    'Razor Wind': { bp: 80, type: 'Normal' },
+    'Razor Wind': { bp: 120, type: 'Normal' },
     Recover: { bp: 0, category: 'Status', type: 'Normal' },
     Reflect: { bp: 0, category: 'Status', type: 'Psychic' },
     Rest: { bp: 0, category: 'Status', type: 'Psychic' },
