@@ -2000,7 +2000,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Aerial Ace",
 				"Mud Shot"
 			],
-			"nature": "Naive"
+			"nature": "Docile"
 		},
 		"Tamer Phil": {
 			"ability": "Swarm",
@@ -2655,7 +2655,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Aerial Ace",
 				"Giga Drain"
 			],
-			"nature": "Lax"
+			"nature": "Lonely"
 		},
 		"Rocket Grunt 1 Hideout": {
 			"ability": "Swarm",
@@ -17423,7 +17423,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Signal Beam",
 				"Giga Drain"
 			],
-			"nature": "Rash"
+			"nature": "Hasty"
 		}
 	},
 	"Medicham": {
@@ -21208,7 +21208,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Spore",
 				"Brick Break"
 			],
-			"nature": "Timid"
+			"nature": "Brave"
 		},
 		"Hiker Brice": {
 			"ability": "Poison Point",
