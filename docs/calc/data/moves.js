@@ -242,7 +242,7 @@ var GSC_PATCH = {
     Endure: { bp: 0, category: 'Status', type: 'Normal', priority: 2 },
     Flail: { bp: 0, type: 'Normal' },
     Foresight: { bp: 0, category: 'Status', type: 'Normal' },
-    'Future Sight': { bp: 80, type: 'Psychic' },
+    'Future Sight': { bp: 100, type: 'Psychic' },
     'Heal Bell': { bp: 0, category: 'Status', type: 'Normal' },
     'Icy Wind': { bp: 55, type: 'Ice' },
     'Lock-On': { bp: 0, category: 'Status', type: 'Normal' },
