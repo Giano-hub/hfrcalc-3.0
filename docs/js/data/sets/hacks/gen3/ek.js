@@ -24091,7 +24091,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Cooltrainer Dusk": {
+		"Cooltrainer Dusk (1)": {
 			"ability": "Keen Eye",
 			"item": "Leftovers",
 			"ivs": {
@@ -24111,7 +24111,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lonely"
 		},
-		"Cooltrainer Dusk (1)": {
+		"Cooltrainer Dusk (2)": {
 			"ability": "Keen Eye",
 			"item": "Bright Powder",
 			"ivs": {
@@ -24131,7 +24131,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bold"
 		},
-		"Cooltrainer Dusk (2)": {
+		"Cooltrainer Dusk (3)": {
 			"ability": "Keen Eye",
 			"item": "Black Glasses",
 			"ivs": {
