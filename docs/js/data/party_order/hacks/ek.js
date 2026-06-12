@@ -1819,11 +1819,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 	],
 	"Painter Daisy": [
 		"Smeargle",
-		"Smeargle (1)",
-		"Smeargle (2)",
-		"Smeargle (3)",
-		"Smeargle (4)",
-		"Smeargle (5)"
+		"Smeargle",
+		"Smeargle",
+		"Smeargle",
+		"Smeargle",
+		"Smeargle"
 	],
    "Pokemon Trainer Rival R22_Early Squirtle": [
 		"Pidgey",
