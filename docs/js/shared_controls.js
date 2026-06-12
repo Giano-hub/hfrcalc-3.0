@@ -2044,7 +2044,8 @@ $(document).ready(function() {
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
-
+   localStorage.setItem("lastTrainer", trueName);
+	
 	// retrieves notes
 	var textBox = document.getElementById("notesArea");
 	textBox.value = localStorage.getItem(window.CURRENT_TRAINER);
