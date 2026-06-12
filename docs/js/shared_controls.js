@@ -576,20 +576,6 @@ $(".set-selector").change(function () {
 
 	if ($(this).hasClass('opposing') && game != "None") {
 		var oldTrainer = window.CURRENT_TRAINER;
-		var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
-		window.CURRENT_TRAINER = setName; // Impostiamo il trainer corrente
-
-		// Se l'allenatore è cambiato, lo salviamo nel localStorage
-		if (window.CURRENT_TRAINER !== oldTrainer) {
-			// Nota: se il tuo calcolatore usa 'partyOrder' come quello del tuo amico, usa partyOrder.
-			// Se usa un'altra variabile per la lista dei team (es. 'trainerTeams'), usa quella.
-			if (typeof partyOrder !== 'undefined' && window.CURRENT_TRAINER in partyOrder) {
-				localStorage.lastTrainer = window.CURRENT_TRAINER;
-			} else {
-				// Alternativa di sicurezza: salva comunque se non sei sicuro del nome della variabile globale
-				localStorage.lastTrainer = window.CURRENT_TRAINER;
-			}
-		}
 		var nextPokemon = getTrainerPokemon(fullSetName);
 		var trainerHTML = "";
 		var tagHTML = "";
@@ -1824,13 +1810,6 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
-			if (element.is(".set-selector.opposing")) {
-				if (localStorage.lastTrainer in partyOrder) {
-					var firstMon = partyOrder[localStorage.lastTrainer][0];
-					callback(getSetOptions().find(x => x.set == localStorage.lastTrainer && x.pokemon == firstMon));
-					return;
-				}
-			}
 			callback(getFirstValidSetOption());
 		}
 	});
@@ -2397,10 +2376,6 @@ $(document).ready(function () {
 		}
 	});
 	$(".set-selector").val(getFirstValidSetOption().id);
-	if (localStorage.lastTrainer in partyOrder) {
-		var firstMon = partyOrder[localStorage.lastTrainer][0];
-		$(".set-selector.opposing").val(`${firstMon} (${localStorage.lastTrainer})`);
-	}
 	$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
