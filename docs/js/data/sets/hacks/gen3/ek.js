@@ -24209,7 +24209,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Hardy"
+			"nature": "Relaxed"
 		},
 		"Cue Ball Optional (1)": {
 			"ability": "Keen Eye",
@@ -24229,7 +24229,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Bashful"
+			"nature": "Brave"
 		},
 		"Cue Ball Optional (2)": {
 			"ability": "Keen Eye",
@@ -24249,7 +24249,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Lax"
+			"nature": "Bashful"
 		},
 		"Cue Ball Optional (3)": {
 			"ability": "Keen Eye",
@@ -24269,7 +24269,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Hardy"
+			"nature": "Lax"
 		},
 		"Cue Ball Optional (4)": {
 			"ability": "Keen Eye",
@@ -24289,7 +24289,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Mild"
+			"nature": "Hardy"
 		},
 		"Cue Ball Optional (5)": {
 			"ability": "Keen Eye",
@@ -24309,7 +24309,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Relaxed"
+			"nature": "Mild"
       },	
 		"Elite Four Agatha R2": {
 			"ability": "Keen Eye",
