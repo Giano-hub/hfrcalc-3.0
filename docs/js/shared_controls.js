@@ -577,14 +577,6 @@ $(".set-selector").change(function () {
 	if ($(this).hasClass('opposing') && game != "None") {
 		var oldTrainer = window.CURRENT_TRAINER;
 		var nextPokemon = getTrainerPokemon(fullSetName);
-		
-		if (
-          window.CURRENT_TRAINER !== oldTrainer &&
-          partyOrder &&
-          partyOrder[window.CURRENT_TRAINER]
-      ) {
-          localStorage.lastTrainer = window.CURRENT_TRAINER;
-      }
 		var trainerHTML = "";
 		var tagHTML = "";
 		var tripleHTML = "";
