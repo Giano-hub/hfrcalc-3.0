@@ -735,11 +735,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 	],
 	"Cue Ball Optional": [
 		"Sableye",
-		"Sableye (1)",
-		"Sableye (2)",
-		"Sableye (3)",
-		"Sableye (4)",
-		"Sableye (5)"
+		"Sableye",
+		"Sableye",
+		"Sableye",
+		"Sableye",
+		"Sableye"
 	],
 	"Gamer Hugo": [
 		"Dewgong"
@@ -2077,11 +2077,11 @@ var CUSTOMHACKPARTYORDER_EK = {
 	],
 	"Fisherman Tylor": [
 		"Qwilfish",
-		"Qwilfish (1)",
-		"Qwilfish (2)",
-		"Qwilfish (3)",
-		"Qwilfish (4)",
-		"Qwilfish (5)"
+		"Qwilfish",
+		"Qwilfish",
+		"Qwilfish",
+		"Qwilfish",
+		"Qwilfish"
 	],
 	"Ruin Maniac Tim": [
 		"Arcanine",
