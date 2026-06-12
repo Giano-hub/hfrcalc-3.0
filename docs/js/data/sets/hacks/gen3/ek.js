@@ -23017,7 +23017,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Fisherman Tylor": {
+		"Fisherman Tylor (1)": {
 			"ability": "Intimidate",
 			"ivs": {
 				"at": 31,
@@ -23033,7 +23033,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-		"Fisherman Tylor (1)": {
+		"Fisherman Tylor (2)": {
 			"ability": "Intimidate",
 			"ivs": {
 				"at": 31,
@@ -23049,7 +23049,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Fisherman Tylor (2)": {
+		"Fisherman Tylor (3)": {
 			"ability": "Intimidate",
 			"ivs": {
 				"at": 31,
@@ -23065,7 +23065,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"
 		},
-		"Fisherman Tylor (3)": {
+		"Fisherman Tylor (4)": {
 			"ability": "Intimidate",
 			"ivs": {
 				"at": 31,
@@ -23081,7 +23081,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Fisherman Tylor (4)": {
+		"Fisherman Tylor (5)": {
 			"ability": "Intimidate",
 			"ivs": {
 				"at": 31,
@@ -23097,7 +23097,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Mild"
 		},
-		"Fisherman Tylor (5)": {
+		"Fisherman Tylor (6)": {
 			"ability": "Intimidate",
 			"ivs": {
 				"at": 31,
@@ -24191,7 +24191,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-      "Cue Ball Optional (5)": {
+      "Cue Ball Optional (6)": {
 			"ability": "Keen Eye",
 			"item": "Leppa Berry",
 			"ivs": {
@@ -24210,26 +24210,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Refresh"
 			],
 			"nature": "Hardy"
-		},
-		"Cue Ball Optional": {
-			"ability": "Keen Eye",
-			"item": "Leppa Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Rest",
-				"Recover",
-				"Slack Off",
-				"Refresh"
-			],
-			"nature": "Bashful"
 		},
 		"Cue Ball Optional (1)": {
 			"ability": "Keen Eye",
@@ -24249,7 +24229,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Lax"
+			"nature": "Bashful"
 		},
 		"Cue Ball Optional (2)": {
 			"ability": "Keen Eye",
@@ -24269,7 +24249,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Hardy"
+			"nature": "Lax"
 		},
 		"Cue Ball Optional (3)": {
 			"ability": "Keen Eye",
@@ -24289,9 +24269,29 @@ var CUSTOMHACKSETDEX_EK = {
 				"Slack Off",
 				"Refresh"
 			],
-			"nature": "Mild"
+			"nature": "Hardy"
 		},
 		"Cue Ball Optional (4)": {
+			"ability": "Keen Eye",
+			"item": "Leppa Berry",
+			"ivs": {
+				"at": 31,
+				"df": 31,
+				"hp": 31,
+				"sa": 31,
+				"sd": 31,
+				"sp": 31
+			},
+			"level": 99,
+			"moves": [
+				"Rest",
+				"Recover",
+				"Slack Off",
+				"Refresh"
+			],
+			"nature": "Mild"
+		},
+		"Cue Ball Optional (5)": {
 			"ability": "Keen Eye",
 			"item": "Leppa Berry",
 			"ivs": {
