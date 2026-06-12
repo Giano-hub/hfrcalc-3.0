@@ -1556,24 +1556,8 @@ $(".gen").change(function () {
 
 	updateGameOptions();
 
-	var savedTrainer = localStorage.getItem("lastTrainer");
-
-if (savedTrainer && trainerNames.includes(savedTrainer) && partyOrder[savedTrainer]) {
-	var party = partyOrder[savedTrainer];
-
-	if (party && party.length > 0) {
-		var pokemon = party[0];
-		var setName = `${pokemon} (${savedTrainer})`;
-
-		$(".set-selector").val(setName);
-	} else {
-		$(".set-selector").val(getFirstValidSetOption().id);
-	}
-} else {
 	$(".set-selector").val(getFirstValidSetOption().id);
-}
-
-$(".set-selector").change();
+	$(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
@@ -2060,7 +2044,6 @@ $(document).ready(function() {
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
-   localStorage.setItem("lastTrainer", trueName);
 	
 	// retrieves notes
 	var textBox = document.getElementById("notesArea");
@@ -2392,24 +2375,8 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	var savedTrainer = localStorage.getItem("lastTrainer");
-
-if (savedTrainer && trainerNames.includes(savedTrainer) && partyOrder[savedTrainer]) {
-	var party = partyOrder[savedTrainer];
-
-	if (party && party.length > 0) {
-		var pokemon = party[0];
-		var setName = `${pokemon} (${savedTrainer})`;
-
-		$(".set-selector").val(setName);
-	} else {
-		$(".set-selector").val(getFirstValidSetOption().id);
-	}
-} else {
 	$(".set-selector").val(getFirstValidSetOption().id);
-}
-
-$(".set-selector").change();
+	$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
