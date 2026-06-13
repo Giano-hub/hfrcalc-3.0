@@ -730,6 +730,10 @@ $(".set-selector").change(function () {
 		if (CURRENT_TRAINER !== previousTrainer) {
 			if (CURRENT_TRAINER in partyOrder) localStorage.lastTrainer = CURRENT_TRAINER;
 			var weather = "clear";
+			for (var newWeather in flags.weather) {
+				if (flags.weather[newWeather].includes(CURRENT_TRAINER)) {
+					weather = newWeather;
+					break;
 	
 	var pokemon = pokedex[pokemonName];
 	if (pokemon) {
