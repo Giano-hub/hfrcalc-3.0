@@ -2224,9 +2224,6 @@ function nextTrainer() {
 		var index = trainerNames.indexOf(window.CURRENT_TRAINER);
 		if (index + 1 !== trainerNames.length) {
 			var nextTrainerName = trainerNames[index + 1];
-			
-         localStorage.setItem("lastTrainer", nextTrainerName);
-
 		   var party = partyOrder[nextTrainerName];
 			var pokemon = party[0];
 			var dupes = party.filter((item, index) => party.indexOf(item) != index);
@@ -2247,10 +2244,7 @@ function previousTrainer() {
 		var index = trainerNames.indexOf(window.CURRENT_TRAINER);
 		if (index !== 0) {
 			var previousTrainerName = trainerNames[index - 1];
-			
-			localStorage.setItem("lastTrainer", previousTrainerName);
-			
-			var party = partyOrder[previousTrainerName];
+	   	var party = partyOrder[previousTrainerName];
 			var pokemon = party[0];
 			var dupes = party.filter((item, index) => party.indexOf(item) != index);
 			if (dupes.includes(pokemon)) {
