@@ -2109,11 +2109,43 @@ $(document).on('click', '.trainer-poke-switch.right-side', function() {
 })
 
 function selectFirstMon() {
-	var pMons = document.getElementsByClassName("trainer-poke left-side");
-	let set = pMons[0].getAttribute("data-id");
+	var pMons = document.getElementsByClassName("trainer-pok left-side")[0];
+	if(!pMons){
+		return
+	}
+	let set = pMons.getAttribute("data-id");
 	$('.player').val(set);
 	$('.player').change();
 	$('.player .select2-chosen').text(set);
+}
+
+function selectTrainer(value) {
+	document.getElementById("trainer-pok-list-opposing2").textContent="";
+	document.getElementById("trainer-pok-list-opposing").textContent="";
+	if(value >= 1620){
+		value = 1620;
+	}else if(value<=0){
+		value=1;
+	}
+	localStorage.setItem("lasttimetrainer", value);
+	all_poks = SETDEX_SS
+	for (const [pok_name, poks] of Object.entries(all_poks)) {
+		var pok_tr_names = Object.keys(poks)
+		for (i in pok_tr_names) {
+			var index = (poks[pok_tr_names[i]]["index"])
+			if (index == value) {
+				if (window.CURRENT_TRAINER == pok_tr_names[0]){
+					return false
+				}
+				window.CURRENT_TRAINER = pok_tr_names[0]
+				var set = `${pok_name} (${pok_tr_names[i]})`;
+				$('.opposing').val(set);
+				$('.opposing').change();
+				$('.opposing .select2-chosen').text(set);
+			}
+
+		}
+	}
 }
 
 function hideShowCCSettings() {
