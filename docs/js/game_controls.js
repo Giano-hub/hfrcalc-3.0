@@ -671,8 +671,7 @@ function predictSwitchOrderEmerald() {
 		var xp = Math.floor(Math.floor(pokedex[dead.species].expYield * dead.level / 7) * 1.5);
 
 		if (nextMon) {
-			$(`.trainer-poke-switch-explain[data-id='${dead.setName}']`).html(`${nextMon} (Phase ${phase})`).attr("title", `Killing ${dead.species} with your ${p1.name} will bait ${nextMon}.`);
-			$(`.trainer-poke-switch-xp[data-id='${dead.setName}']`).html(`+${xp}`).attr("title", "The amount of experience this Pokémon will drop.");
+			$(`.trainer-poke-switch-explain[data-id='${dead.setName}']`).html(`${nextMon} (Phase ${phase})`);
 		}
 	}
 }
