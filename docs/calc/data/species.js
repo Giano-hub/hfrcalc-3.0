@@ -72,7 +72,7 @@ var RBY = {
     bs: {hp: 25, at: 20, df: 15, sp: 90, sl: 105},
     weightkg: 19.5,
     nfe: true,
-    expYield: 75,
+    expYield: 73,
   },
   Aerodactyl: {
     types: ['Rock', 'Flying'],
@@ -147,7 +147,7 @@ var RBY = {
     types: ['Normal'],
     bs: {hp: 250, at: 5, df: 5, sp: 50, sl: 105},
     weightkg: 34.6,
-    expYield: 255,
+    expYield: 1,
   },
   Charizard: {
     types: ['Fire', 'Flying'],
@@ -335,7 +335,7 @@ var RBY = {
     bs: {hp: 40, at: 80, df: 100, sp: 20, sl: 30},
     weightkg: 20,
     nfe: true,
-    expYield: 73,
+    expYield: 86,
   },
   Gloom: {
     types: ['Grass', 'Poison'],
@@ -459,13 +459,13 @@ var RBY = {
     bs: {hp: 30, at: 80, df: 90, sp: 55, sl: 45},
     weightkg: 11.5,
     nfe: true,
-    expYield: 99,
+    expYield: 119,
   },
   Kabutops: {
     types: ['Rock', 'Water'],
     bs: {hp: 60, at: 115, df: 105, sp: 80, sl: 70},
     weightkg: 40.5,
-    expYield: 199,
+    expYield: 201,
   },
   Kadabra: {
     types: ['Psychic'],
@@ -537,7 +537,7 @@ var RBY = {
     bs: {hp: 70, at: 80, df: 50, sp: 35, sl: 35},
     weightkg: 19.5,
     nfe: true,
-    expYield: 75,
+    expYield: 88,
   },
   Magikarp: {
     types: ['Water'],
@@ -680,7 +680,7 @@ var RBY = {
     bs: {hp: 35, at: 40, df: 100, sp: 35, sl: 90},
     weightkg: 7.5,
     nfe: true,
-    expYield: 99,
+    expYield: 120,
   },
   Omastar: {
     types: ['Rock', 'Water'],
@@ -892,7 +892,7 @@ var RBY = {
     types: ['Normal'],
     bs: {hp: 160, at: 110, df: 65, sp: 30, sl: 65},
     weightkg: 460,
-    expYield: 154,
+    expYield: 180,
   },
   Spearow: {
     types: ['Normal', 'Flying'],
