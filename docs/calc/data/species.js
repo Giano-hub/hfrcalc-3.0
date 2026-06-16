@@ -2122,14 +2122,14 @@ var ADV_PATCH = {
     weightkg: 12.5,
     nfe: true,
     abilities: {0: 'Battle Armor'},
-    expYield: 99,
+    expYield: 119,
   },
   Armaldo: {
     types: ['Rock', 'Bug'],
     bs: {hp: 75, at: 125, df: 100, sa: 70, sd: 80, sp: 45},
     weightkg: 68.2,
     abilities: {0: 'Battle Armor'},
-    expYield: 199,
+    expYield: 200,
   },
   Aron: {
     types: ['Steel', 'Rock'],
@@ -2323,7 +2323,7 @@ var ADV_PATCH = {
     bs: {hp: 86, at: 81, df: 97, sa: 81, sd: 107, sp: 43},
     weightkg: 60.4,
     abilities: {0: 'Suction Cups'},
-    expYield: 199,
+    expYield: 201,
   },
   Crawdaunt: {
     types: ['Water', 'Dark'],
@@ -2395,7 +2395,7 @@ var ADV_PATCH = {
     bs: {hp: 60, at: 50, df: 70, sa: 50, sd: 90, sp: 65},
     weightkg: 31.6,
     abilities: {0: 'Shield Dust'},
-    expYield: 161,
+    expYield: 160,
   },
   Electrike: {
     types: ['Electric'],
@@ -2559,7 +2559,7 @@ var ADV_PATCH = {
     weightkg: 23.8,
     nfe: true,
     abilities: {0: 'Suction Cups'},
-    expYield: 99,
+    expYield: 121,
   },
   Linoone: {
     types: ['Normal'],
@@ -2831,7 +2831,7 @@ var ADV_PATCH = {
     bs: {hp: 50, at: 75, df: 75, sa: 65, sd: 65, sp: 50},
     weightkg: 11,
     abilities: {0: 'Keen Eye'},
-    expYield: 98,
+    expYield: 1,
   },
   Salamence: {
     types: ['Dragon', 'Flying'],
@@ -2922,7 +2922,7 @@ var ADV_PATCH = {
     weightkg: 10,
     abilities: {0: 'Shed Skin'},
     nfe: true,
-    expYield: 72,
+    expYield: 71,
   },
   Skitty: {
     types: ['Normal'],
