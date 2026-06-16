@@ -1237,14 +1237,14 @@ var GSC_PATCH = {
     types: ['Normal'],
     bs: {hp: 255, at: 10, df: 10, sa: 75, sd: 135, sp: 55},
     weightkg: 46.8,
-    expYield: 255,
+    expYield: 1,
   },
   Celebi: {
     types: ['Psychic', 'Grass'],
     bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100},
     weightkg: 5,
     gender: 'N',
-    expYield: 64  ,
+    expYield: 64,
   },
   Chikorita: {
     types: ['Grass'],
@@ -1309,7 +1309,7 @@ var GSC_PATCH = {
     types: ['Normal'],
     bs: {hp: 100, at: 70, df: 70, sa: 65, sd: 65, sp: 45},
     weightkg: 14,
-    expYield: 125,
+    expYield: 75,
   },
   Elekid: {
     types: ['Electric'],
