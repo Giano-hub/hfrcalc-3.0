@@ -72,7 +72,8 @@ var RBY = {
         bs: { hp: 25, at: 20, df: 15, sp: 90, sl: 105 },
         weightkg: 19.5,
         nfe: true
-    },
+        expYield: 75,
+	 },
     Aerodactyl: {
         types: ['Rock', 'Flying'],
         bs: { hp: 80, at: 105, df: 65, sp: 130, sl: 60 },
