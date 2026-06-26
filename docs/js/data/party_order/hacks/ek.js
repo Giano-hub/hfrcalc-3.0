@@ -2339,7 +2339,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Machamp"
 	],
 	"Elite Four Agatha R2": [
-		"Deoxys",
+		"Deoxys-Attack",
 		"Houndoom",
 		"Alakazam",
 		"Dusclops",
