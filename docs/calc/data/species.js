@@ -4324,7 +4324,7 @@ var EK_PATCH = {
         bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 }
     },
     Deoxys: {
-        bs: { hp: 50, at: 150, df: 20, sa: 150, sd: 20, sp: 150 }
+        bs: { hp: 50, at: 180, df: 20, sa: 180, sd: 20, sp: 150 }
     },
     Chimecho: {
         bs: { hp: 75, at: 50, df: 80, sa: 95, sd: 90, sp: 65 }
