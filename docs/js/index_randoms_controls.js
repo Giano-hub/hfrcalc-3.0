@@ -59,14 +59,6 @@ function performCalculations() {
 	p1info.find(".sp .totalMod").text(p1.stats.spe);
 	p2info.find(".sp .totalMod").text(p2.stats.spe);
 	var fastestSide = p1.stats.spe > p2.stats.spe ? 0 : p1.stats.spe === p2.stats.spe ? "tie" : 1;
-
-	}
-
-	if (fastestSide == "tie") $(`.speed-info`).html(`<img src="/img/calc/icon/tie.png" title="Speed Tie">`);
-	else {
-		$(`#p${fastestSide ? 2 : 1} .speed-info`).html(`<img src="/img/calc/icon/faster.png" title="Faster">`);
-		$(`#p${fastestSide ? 1 : 2} .speed-info`).html(`<img src="/img/calc/icon/slower.png" title="Slower">`);
-	}
 	
 	var result, maxDamage;
 	var bestResult;
