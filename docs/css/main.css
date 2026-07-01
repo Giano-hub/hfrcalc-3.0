@@ -405,13 +405,6 @@ th {
 .info-group {
     margin: 1em 0;
 }
-.speed-info {
-    width: 1em !important;
-    img {
-        width: 1em;
-        transform: translate(0px, -1px);
-    }
-}
 .set-selector {
     width: 100%;
 }
