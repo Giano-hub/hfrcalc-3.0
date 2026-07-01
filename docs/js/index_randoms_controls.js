@@ -60,6 +60,23 @@ function performCalculations() {
 	p2info.find(".sp .totalMod").text(p2.stats.spe);
 	var fastestSide = p1.stats.spe > p2.stats.spe ? 0 : p1.stats.spe === p2.stats.spe ? "tie" : 1;
 
+	$(".total").removeClass("boosted nerfed");
+	for (var i = 0; i < 2; i++) {
+		var nature = NATURES[toID(battling[i].nature)];
+		var boostedStat = dex_STATS[nature.boostedStat];
+		var nerfedStat = dex_STATS[nature.nerfedStat];
+		if (boostedStat !== nerfedStat) {
+			$(`#p${i + 1} .${boostedStat.shortId} .total`).addClass("boosted");
+			$(`#p${i + 1} .${nerfedStat.shortId} .total`).addClass("nerfed");
+		}
+	}
+
+	if (fastestSide == "tie") $(`.speed-info`).html(`<img src="/img/calc/icon/tie.png" title="Speed Tie">`);
+	else {
+		$(`#p${fastestSide ? 2 : 1} .speed-info`).html(`<img src="/img/calc/icon/faster.png" title="Faster">`);
+		$(`#p${fastestSide ? 1 : 2} .speed-info`).html(`<img src="/img/calc/icon/slower.png" title="Slower">`);
+	}
+	
 	var result, maxDamage;
 	var bestResult;
 	var zProtectAlerted = false;
