@@ -2,7 +2,7 @@ var game, gameId, generation, isHack;
 $(".game").change(function() {
 	game = $("input[name='game']:checked + label").html();
     gameId = ~~$(this).val();
-	isHack = ["Hellfire Red"].includes(game);
+	isHack = ["Calculator"].includes(game);
     var params = new URLSearchParams(window.location.search);
 	if (game == "None") {
 		params.delete('game');
@@ -457,7 +457,7 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
 
 function vanillaDamageCalc(attacker, defender, move, field) {
 	switch (game) {
-		case "Hellfire Red":
+		case "Calculator":
 			return vanillaDamageCalcEmerald(attacker, defender, move, field);
 	}
 }
@@ -869,7 +869,7 @@ function predictSwitchOrder() {
 		case "Platinum":
 			predictSwitchOrderPlatinum();
 			break;
-		case "Hellfire Red":
+		case "Calculator":
 			predictSwitchOrderEmerald();
 			break;
 	}
@@ -932,7 +932,7 @@ function predictMidTurnSwitchEmerald(p1, p2) {
 
 function predictMidTurnSwitch(p1, p2) {
 	switch (game) {
-		case "Hellfire Red":
+		case "Calculator":
 			predictMidTurnSwitchEmerald(p1, p2);
 			break;
 	}
