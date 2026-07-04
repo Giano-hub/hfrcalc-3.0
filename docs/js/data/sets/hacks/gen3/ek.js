@@ -135,7 +135,7 @@ var CUSTOMHACKSETDEX_EK = {
 			},
 			"level": 83,
 			"moves": [
-				"Roar",
+				"Howl",
 				"Air Slash",
 				"Crunch",
 				"Superpower"
