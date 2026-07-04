@@ -20,7 +20,7 @@ const GAME_FEATURES = {
     "S/V": {},
     
    
-	 "Hellfire Red": {
+	 "Calculator": {
         sync: true,
         upload: true
     }
