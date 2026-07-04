@@ -64,7 +64,6 @@
 </div></div></nav>
 <div class="wrapper" style="padding-top: 1.5rem;">
 
-    <span class="title-text main-title-text">Hellfire Red Damage Calculator</span>
     <div aria-label="Settings" role="region" style="float:right;">
     <a href="https://docs.google.com/spreadsheets/d/10hX21B4-jLFc3U85MjmOA2fSr1sVomW3IpFh46qTyoQ/edit?gid=797470384#gid=797470384" target="_blank">
         <label class="btn">Learnsets</label>
@@ -79,11 +78,19 @@
     </a>
 
     <button class="btn" id="settings">Settings</button>
-        <span class="gameSelection" aria-labelledby="selectGameInstruction" role="radiogroup" title="Select the game." style="padding-top: 5px;">
-            <span class="visually-hidden" id="selectGameInstruction">Select the game.</span>
-            <input class="game visually-hidden" type="radio" name="game" value="0" id="game0" /><label class="btn btn-left" for="game0">None</label>
-            <input class="game visually-hidden" type="radio" name="game" value="1" id="game1" /><label class="btn btn-right btn-xwide" for="game1">Hellfire Red</label>
-	 </div>
+
+    <span class="gameSelection" aria-labelledby="selectGameInstruction" role="radiogroup" title="Select the game." style="padding-top: 5px;">
+        <span class="visually-hidden" id="selectGameInstruction">Select the game.</span>
+        <input class="game visually-hidden" type="radio" name="game" value="0" id="game0" />
+        <label class="btn btn-left" for="game0">None</label>
+
+        <input class="game visually-hidden" type="radio" name="game" value="1" id="game1" />
+        <label class="btn btn-right btn-xwide" for="game1">Hellfire Red</label>
+    </span>
+</div>
+
+<div style="clear:both;"></div>
+
     <hr />
     <div aria-label="Move selection" class="move-result-group" role="region" title="Select a move to show detailed results.">
         <div  aria-labelledby="resultHeaderL" class="move-result-subgroup" role="radiogroup">
