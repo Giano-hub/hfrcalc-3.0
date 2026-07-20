@@ -749,6 +749,18 @@ table.field {
     font-weight: bold;
 }
 
+/* Statistica Aumentata (+10%) */
+.nature-plus {
+    color: #e74c3c !important; /* Rosso */
+    font-weight: bold;
+}
+
+/* Statistica Diminuita (-10%) */
+.nature-minus {
+    color: #3498db !important; /* Blu */
+    font-weight: bold;
+}
+
 .info-paragraph > b:hover {
     background: var(--fieldset-color);
     color: unset;
