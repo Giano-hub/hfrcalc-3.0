@@ -1460,6 +1460,42 @@ function calcStat(poke, StatID) {
 		evs = ~~stat.find(".evs").val();
 		if (StatID !== "hp") nature = poke.find(".nature").val();
 	}
+
+	var total;
+	if (StatID === "hp") {
+		if (base === 1) {
+			total = 1;
+		} else {
+			total = Math.floor((base * 2 + ivs + Math.floor(evs / 4)) * level / 100) + level + 10;
+		}
+	} else {
+		var mods = 1;
+		if (nature) {
+			var NATURES = {
+				"Adamant": ["atk", "spa"], "Bold": ["def", "atk"], "Brave": ["atk", "spe"],
+				"Calm": ["spd", "atk"], "Careful": ["spd", "spa"], "Gentle": ["spd", "def"],
+				"Hasty": ["spe", "def"], "Impish": ["def", "spa"], "Jolly": ["spe", "spa"],
+				"Lax": ["def", "spd"], "Lonely": ["atk", "def"], "Mild": ["spa", "def"],
+				"Modest": ["spa", "atk"], "Naive": ["spe", "spd"], "Naughty": ["atk", "spd"],
+				"Quiet": ["spa", "spe"], "Rash": ["spa", "spd"], "Relaxed": ["def", "spe"],
+				"Sassy": ["spd", "spe"], "Timid": ["spe", "atk"]
+			};
+			if (NATURES[nature]) {
+				if (NATURES[nature][0] === StatID) mods = 1.1;
+				else if (NATURES[nature][1] === StatID) mods = 0.9;
+			}
+		}
+		total = Math.floor((Math.floor((base * 2 + ivs + Math.floor(evs / 4)) * level / 100) + 5) * mods);
+	}
+
+	stat.find(".total").val(total);
+
+	// --- AGGIORNAMENTO COLORI NATURE ---
+	if (gen >= 3 && nature) {
+		updateNatureColors(poke, nature);
+	}
+}
+	}
 	// Shedinja still has 1 max HP during the effect even if its Dynamax Level is maxed (DaWoblefet)
 	var total = calc.calcStat(gen, legacyStatToStat(StatID), base, ivs, evs, level, nature);
 	if (gen > 7 && StatID === "hp" && poke.isDynamaxed && total !== 1) {
