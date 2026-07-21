@@ -2259,29 +2259,37 @@ function previousTrainer() {
 }
 
 function resetTrainer() {
-    // 1. Controlla se l'utente aveva un allenatore salvato nella sessione precedente
-    var savedSet = localStorage.getItem('hfrcalc_last_set');
+	var firstTrainerName = trainerNames[0];
+	var party = partyOrder[firstTrainerName];
+	var pokemon = party[0];
+	var dupes = party.filter((item, index) => party.indexOf(item) != index);
+	if (dupes.includes(pokemon)) {
+		firstTrainerName += " (1)";
+	}
+	var setName = `${pokemon} (${firstTrainerName})`;
+	$(".opposing").val(setName);
+	$(".opposing").change();
+	$(".opposing .select2-chosen").text(setName);
+}
 
-    // 2. Se esiste un allenatore salvato, carica quello!
-    if (savedSet) {
-        $(".opposing").val(savedSet);
-        $(".opposing").change();
-        $(".opposing .select2-chosen").text(savedSet);
-        return; // Esce dalla funzione ed evita di caricare Psychic Edward
-    }
+function loadTrainerByName(trainerName) {
+	if (!trainerNames.includes(trainerName)) return false;
 
-    // 3. Se NON c'è nessun salvataggio (es. prima volta in assoluto sul sito), carica il primo di default
-    var firstTrainerName = trainerNames[0];
-    var party = partyOrder[firstTrainerName];
-    var pokemon = party[0];
-    var dupes = party.filter((item, index) => party.indexOf(item) != index);
-    if (dupes.includes(pokemon)) {
-        firstTrainerName += " (1)";
-    }
-    var setName = `${pokemon} (${firstTrainerName})`;
-    $(".opposing").val(setName);
-    $(".opposing").change();
-    $(".opposing .select2-chosen").text(setName);
+	var party = partyOrder[trainerName];
+	if (!party || party.length === 0) return false;
+
+	var pokemon = party[0];
+	var dupes = party.filter((item, index) => party.indexOf(item) != index);
+	var displayName = trainerName;
+	if (dupes.includes(pokemon)) {
+		displayName += " (1)";
+	}
+
+	var setName = `${pokemon} (${displayName})`;
+	$(".opposing").val(setName);
+	$(".opposing").change();
+	$(".opposing .select2-chosen").text(setName);
+	return true;
 }
 
 function allowDrop(ev) {
@@ -2537,11 +2545,23 @@ function updateGameOptions() {
 	}
 }
 
-// Ascolta ogni cambio della tendina dell'allenatore nemico e lo salva nel browser
+// 1. Salva l'allenatore corrente ogni volta che cambia la selezione
 $(document).on('change', '.opposing', function() {
-    var currentVal = $(this).val();
-    if (currentVal) {
-        localStorage.setItem('hfrcalc_last_set', currentVal);
-    }
+	setTimeout(function() {
+		if (window.CURRENT_TRAINER) {
+			localStorage.setItem("hfrcalc_saved_trainer", window.CURRENT_TRAINER);
+		}
+	}, 100);
+});
+
+// 2. Al caricamento della pagina, ripristina l'ultimo allenatore salvato
+$(document).ready(function() {
+	setTimeout(function() {
+		var savedTrainer = localStorage.getItem("hfrcalc_saved_trainer");
+		if (!savedTrainer || !loadTrainerByName(savedTrainer)) {
+			// Se non c'è nulla di salvato o l'allenatore non esiste, carica il default
+			resetTrainer();
+		}
+	}, 200);
 });
 // idk where the other stuff that runs at program start is so im slapping it here
