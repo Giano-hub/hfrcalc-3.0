@@ -2558,37 +2558,29 @@ function updateGameOptions() {
 	}
 }
 
-// 1. Salva l'allenatore selezionato
-$(document).on('change', '.opposing', function() {
+// 1. Salva l'allenatore selezionato ad ogni cambio
+$(document).on('change', 'input.opposing', function() {
 	var fullVal = $(this).val();
 	if (fullVal && fullVal.trim() !== "") {
 		localStorage.setItem("hfrcalc_saved_set", fullVal);
 	}
 });
 
-// 2. Forza il ricalcolo e il caricamento dell'allenatore salvato
-$(window).on('load', function() {
-	setTimeout(function() {
-		var savedSet = localStorage.getItem("hfrcalc_saved_set");
-		if (savedSet) {
-			var $opposing = $('input.opposing');
-			
-			// Forziamo il valore
-			$opposing.val(savedSet);
-			
-			// Se il calcolatore usa Select2, lo aggiorniamo
-			if ($opposing.data('select2')) {
-				$opposing.select2('val', savedSet);
-			}
-			
-			// Scateniamo manualmente l'evento 'change' nativo di jQuery
-			$opposing.trigger('change');
-			
-			// Se esiste la funzione nativa di aggiornamento dei team, la richiamiamo direttamente
-			if (typeof renderAllTrainerTeams === 'function') {
-				renderAllTrainerTeams(savedSet);
-			}
-		}
-	}, 800); // Portiamo il tempo a 800ms per assicurarci che il calc abbia finito di caricare Abra
-});
+// 2. Ripristina l'allenatore salvato all'avvio sincronizzando Select2
+(function restoreSavedTrainer() {
+	var savedSet = localStorage.getItem("hfrcalc_saved_set");
+	if (!savedSet) return;
+
+	// Attende che l'input specifico sia caricato e inizializzato
+	if (typeof $ !== 'undefined' && $('input.opposing').length > 0) {
+		var $opposingInput = $('input.opposing');
+
+		// Aggiorna Select2 usando il suo metodo nativo
+		$opposingInput.select2('val', savedSet);
+		$opposingInput.trigger('change');
+	} else {
+		// Riprova ogni 50ms finché il DOM non è pronto
+		setTimeout(restoreSavedTrainer, 50);
+	}
+})();
 // idk where the other stuff that runs at program start is so im slapping it here
