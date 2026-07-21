@@ -44,6 +44,51 @@ function updateSpeedTierIcons(p1spe, p2spe) {
 	apply($("#p2"), p2kind);
 }
 
+function updateNatureColors($panel, pokemon) {
+    var natures = {
+        Adamant: { plus: "at", minus: "sa" },
+        Bold:    { plus: "df", minus: "at" },
+        Brave:   { plus: "at", minus: "spe" },
+        Calm:    { plus: "sd", minus: "at" },
+        Careful: { plus: "sd", minus: "sa" },
+        Gentle:  { plus: "sd", minus: "df" },
+        Hasty:   { plus: "spe", minus: "df" },
+        Impish:  { plus: "df", minus: "sa" },
+        Jolly:   { plus: "spe", minus: "sa" },
+        Lax:     { plus: "df", minus: "sd" },
+        Lonely:  { plus: "at", minus: "df" },
+        Mild:    { plus: "sa", minus: "df" },
+        Modest:  { plus: "sa", minus: "at" },
+        Naive:   { plus: "spe", minus: "sd" },
+        Naughty: { plus: "at", minus: "sd" },
+        Quiet:   { plus: "sa", minus: "spe" },
+        Rash:    { plus: "sa", minus: "sd" },
+        Relaxed: { plus: "df", minus: "spe" },
+        Sassy:   { plus: "sd", minus: "spe" },
+        Timid:   { plus: "spe", minus: "at" }
+    };
+
+    var stats = ["at", "df", "sa", "sd", "spe"];
+    var nature = natures[pokemon.nature];
+
+    stats.forEach(function (st) {
+        // Cerca l'elemento del valore reale della stat (total o totalMod)
+        var $statElem = $panel.find("." + st + " .total, ." + st + " .totalMod");
+        
+        // Rimuove eventuali colori precedenti
+        $statElem.removeClass("nature-plus nature-minus");
+
+        // Applica il colore in base alla natura attiva
+        if (nature) {
+            if (nature.plus === st) {
+                $statElem.addClass("nature-plus");
+            } else if (nature.minus === st) {
+                $statElem.addClass("nature-minus");
+            }
+        }
+    });
+}
+
 function performCalculations() {
 	var p1info = $("#p1");
 	var p2info = $("#p2");
@@ -83,6 +128,9 @@ function performCalculations() {
 	p1info.find(".sp .totalMod").text(p1.stats.spe);
 	p2info.find(".sp .totalMod").text(p2.stats.spe);
 	updateSpeedTierIcons(p1.stats.spe, p2.stats.spe);
+	// Collega i colori delle nature
+	updateNatureColors(p1info, p1);
+	updateNatureColors(p2info, p2);
 	var fastestSide = p1.stats.spe > p2.stats.spe ? 0 : p1.stats.spe === p2.stats.spe ? "tie" : 1;
 	
 	var result, maxDamage;
