@@ -818,11 +818,11 @@ table.field {
     color: unset;
 }
 
-/* --- Colori Nature (Azzurro = Boost +10%, Rosso = Malus -10%) --- */
-.nature-plus {
-    color: #2196f3 !important; /* Azzurro/Blu */
+/* Standard Ufficiale Pokémon (Rosso = Boost, Blu = Malus) */
+.nature-plus, .speed-faster {
+    color: #e53935 !important; /* Rosso = +10% / Più veloce */
 }
 
-.nature-minus {
-    color: #e53935 !important; /* Rosso */
+.nature-minus, .speed-slower {
+    color: #2196f3 !important; /* Blu = -10% / Più lento */
 }
