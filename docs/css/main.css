@@ -1,4 +1,10 @@
 /* header */
+:root {
+    /* emi.dev ck+ calc — speed column (script/display.js, style.css) */
+    --speed-faster: #3cd9f5;
+    --speed-tied: #ecdf68;
+    --speed-slower: #d47070;
+}
 a img {
     border: 0;
 }
@@ -649,6 +655,64 @@ table.field {
 
 .mon-speed-none {
     border: none !important; 
+}
+
+/* Speed: same Total column width as other stats — do not pad td (padding widens the column for every row). */
+.sp-total-with-speed-cell {
+    overflow: visible;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.sp-total-and-speed {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    vertical-align: baseline;
+}
+.sp-total-and-speed .total {
+    font-variant-numeric: tabular-nums;
+}
+.sp-total-and-speed .speed-indicator {
+    position: absolute;
+    left: 100%;
+    right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 2.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Ubuntu Mono", ui-monospace, monospace;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+    pointer-events: none;
+    z-index: 1;
+    width: max-content;
+    min-width: 0;
+}
+/* Square cell so « + rotate() shares the same optical center as "-" (faster was skewing left) */
+.sp-total-and-speed .speed-indicator > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    box-sizing: border-box;
+    transform-origin: center center;
+}
+.sp-total-and-speed .speed-faster {
+    transform: translateX(8px) rotate(90deg);
+    color: var(--speed-faster);
+}
+.sp-total-and-speed .speed-tied {
+    transform: translateX(6px) translateY(-2px);
+    color: var(--speed-tied);
+}
+.sp-total-and-speed .speed-slower {
+    transform: translateX(2.5px) rotate(-90deg);
+    color: var(--speed-slower);
 }
 
 .mon-dmg-none {
