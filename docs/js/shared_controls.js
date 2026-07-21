@@ -2558,15 +2558,15 @@ function updateGameOptions() {
 	}
 }
 
-// 1. Salva sempre l'allenatore quando cambia
-$(document).on('change', 'input.opposing', function() {
+// 1. Salva l'allenatore appena lo cambi nel menu
+$(document).on('change.select2 change', 'input.opposing', function() {
 	var fullVal = $(this).val();
 	if (fullVal && fullVal.trim() !== "") {
 		localStorage.setItem("hfrcalc_saved_set", fullVal);
 	}
 });
 
-// 2. Forza l'allenatore salvato bloccando le sovrascritture di default
+// 2. Ripristina il valore salvato all'avvio
 $(window).on('load', function() {
 	var savedSet = localStorage.getItem("hfrcalc_saved_set");
 	if (!savedSet) return;
@@ -2574,20 +2574,21 @@ $(window).on('load', function() {
 	var $input = $('input.opposing');
 	var startTime = Date.now();
 
-	// Continua a riapplicare il valore per 2.5 secondi
-	// per "vincere" contro qualsiasi funzione nativa di reset
+	// Continua ad applicare finché la pagina non ha finito il reset iniziale di Abra
 	var keepApplying = setInterval(function() {
 		if ($input.length > 0) {
 			if ($input.val() !== savedSet) {
+				// Usa la sintassi esatta che ha risposto positiva al test
 				$input.select2('val', savedSet);
 				$input.trigger('change');
+				$input.trigger('change.select2');
 			}
 		}
 
-		// Dopo 2.5 secondi il caricamento nativo del sito è certamente finito
-		if (Date.now() - startTime > 2500) {
+		// Si ferma dopo 2 secondi
+		if (Date.now() - startTime > 2000) {
 			clearInterval(keepApplying);
 		}
-	}, 100);
+	}, 150);
 });
 // idk where the other stuff that runs at program start is so im slapping it here
