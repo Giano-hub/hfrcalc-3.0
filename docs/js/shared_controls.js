@@ -2259,18 +2259,29 @@ function previousTrainer() {
 }
 
 function resetTrainer() {
-	var firstTrainerName = trainerNames[0];
-	var party = partyOrder[firstTrainerName];
-	var pokemon = party[0];
-	var dupes = party.filter((item, index) => party.indexOf(item) != index);
-	if (dupes.includes(pokemon)) {
-		firstTrainerName += " (1)";
-	}
-	var setName = `${pokemon} (${firstTrainerName})`;
-	$(".opposing").val(setName);
-	$(".opposing").change();
-	$(".opposing .select2-chosen").text(setName);
+    // 1. Controlla se l'utente aveva un allenatore salvato nella sessione precedente
+    var savedSet = localStorage.getItem('hfrcalc_last_set');
 
+    // 2. Se esiste un allenatore salvato, carica quello!
+    if (savedSet) {
+        $(".opposing").val(savedSet);
+        $(".opposing").change();
+        $(".opposing .select2-chosen").text(savedSet);
+        return; // Esce dalla funzione ed evita di caricare Psychic Edward
+    }
+
+    // 3. Se NON c'è nessun salvataggio (es. prima volta in assoluto sul sito), carica il primo di default
+    var firstTrainerName = trainerNames[0];
+    var party = partyOrder[firstTrainerName];
+    var pokemon = party[0];
+    var dupes = party.filter((item, index) => party.indexOf(item) != index);
+    if (dupes.includes(pokemon)) {
+        firstTrainerName += " (1)";
+    }
+    var setName = `${pokemon} (${firstTrainerName})`;
+    $(".opposing").val(setName);
+    $(".opposing").change();
+    $(".opposing .select2-chosen").text(setName);
 }
 
 function allowDrop(ev) {
@@ -2526,5 +2537,11 @@ function updateGameOptions() {
 	}
 }
 
-
+// Ascolta ogni cambio della tendina dell'allenatore nemico e lo salva nel browser
+$(document).on('change', '.opposing', function() {
+    var currentVal = $(this).val();
+    if (currentVal) {
+        localStorage.setItem('hfrcalc_last_set', currentVal);
+    }
+});
 // idk where the other stuff that runs at program start is so im slapping it here
