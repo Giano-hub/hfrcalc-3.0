@@ -2558,7 +2558,7 @@ function updateGameOptions() {
 	}
 }
 
-// 1. Salva l'allenatore selezionato ogni volta che cambia
+// 1. Salva sempre l'allenatore quando cambia
 $(document).on('change', 'input.opposing', function() {
 	var fullVal = $(this).val();
 	if (fullVal && fullVal.trim() !== "") {
@@ -2566,27 +2566,28 @@ $(document).on('change', 'input.opposing', function() {
 	}
 });
 
-// 2. Ripristina il set salvato scavalcando l'inizializzazione di default
-function applySavedOpponent() {
+// 2. Forza l'allenatore salvato bloccando le sovrascritture di default
+$(window).on('load', function() {
 	var savedSet = localStorage.getItem("hfrcalc_saved_set");
 	if (!savedSet) return;
 
 	var $input = $('input.opposing');
+	var startTime = Date.now();
 
-	if ($input.length > 0) {
-		// Impostiamo il valore nativo di Select2
-		$input.select2('val', savedSet);
-		
-		// Scateniamo gli eventi che il calcolatore ascolta per ricalcolare
-		$input.trigger('change');
-		$input.trigger('change.select2');
-	}
-}
+	// Continua a riapplicare il valore per 2.5 secondi
+	// per "vincere" contro qualsiasi funzione nativa di reset
+	var keepApplying = setInterval(function() {
+		if ($input.length > 0) {
+			if ($input.val() !== savedSet) {
+				$input.select2('val', savedSet);
+				$input.trigger('change');
+			}
+		}
 
-// Eseguiamo il ripristino a diversi intervalli per assicurarci di "vincere" contro il reset nativo
-$(document).ready(function() {
-	applySavedOpponent();
-	setTimeout(applySavedOpponent, 300);
-	setTimeout(applySavedOpponent, 1000);
+		// Dopo 2.5 secondi il caricamento nativo del sito è certamente finito
+		if (Date.now() - startTime > 2500) {
+			clearInterval(keepApplying);
+		}
+	}, 100);
 });
 // idk where the other stuff that runs at program start is so im slapping it here
