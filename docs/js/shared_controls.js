@@ -2545,23 +2545,28 @@ function updateGameOptions() {
 	}
 }
 
-// 1. Salva l'allenatore corrente ogni volta che cambia la selezione
+// 1. Salva l'allenatore estratto direttamente dall'input .opposing
 $(document).on('change', '.opposing', function() {
-	setTimeout(function() {
-		if (window.CURRENT_TRAINER) {
-			localStorage.setItem("hfrcalc_saved_trainer", window.CURRENT_TRAINER);
-		}
-	}, 100);
+	var fullVal = $(this).val(); // Es: "Abra (Psychic Edward)" o "Pikachu (Leader Brock)"
+	if (!fullVal) return;
+
+	// Estrae il nome dell'allenatore all'interno delle parentesi
+	var matches = fullVal.match(/\(([^)]+)\)/);
+	if (matches && matches[1]) {
+		var trainerName = matches[1].replace(/ \(\d+\)$/, ""); // Rimuove eventuali (1), (2) dal nome
+		localStorage.setItem("hfrcalc_saved_trainer", trainerName);
+	}
 });
 
 // 2. Al caricamento della pagina, ripristina l'ultimo allenatore salvato
 $(document).ready(function() {
 	setTimeout(function() {
 		var savedTrainer = localStorage.getItem("hfrcalc_saved_trainer");
-		if (!savedTrainer || !loadTrainerByName(savedTrainer)) {
-			// Se non c'è nulla di salvato o l'allenatore non esiste, carica il default
+		if (savedTrainer) {
+			loadTrainerByName(savedTrainer);
+		} else {
 			resetTrainer();
 		}
-	}, 200);
+	}, 300); // 300ms per dare tempo a Select2 di caricare le opzioni
 });
 // idk where the other stuff that runs at program start is so im slapping it here
