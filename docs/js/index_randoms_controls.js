@@ -72,9 +72,9 @@ function updateNatureColors($panel, pokemon) {
     var nature = natures[pokemon.nature];
 
     stats.forEach(function (st) {
-        // Gestiamo sia i selettori standard (at, df, sa, sd) sia quello della speed (sp/spe)
+        // Per la velocità (spe/sp) cerchiamo SOLO .total per non toccare .totalMod
         var selector = (st === "spe") 
-            ? ".spe .total, .spe .totalMod, .sp .total, .sp .totalMod" 
+            ? ".spe .total, .sp .total" 
             : "." + st + " .total, ." + st + " .totalMod";
 
         var $statElem = $panel.find(selector);
@@ -82,7 +82,7 @@ function updateNatureColors($panel, pokemon) {
         // Rimuove i vecchi colori
         $statElem.removeClass("nature-plus nature-minus");
 
-        // Applica la classe colore se la natura influisce su questa statistica
+        // Applica il colore se la natura influisce sulla statistica
         if (nature) {
             if (nature.plus === st) {
                 $statElem.addClass("nature-plus");
