@@ -820,11 +820,9 @@ table.field {
 
 /* --- Colori Nature (Azzurro = Boost +10%, Rosso = Malus -10%) --- */
 .nature-plus {
-    color: #2196f3 !important; /* Azzurro/Blu coerente con la freccia Faster */
-    font-weight: bold;
+    color: #2196f3 !important; /* Azzurro/Blu */
 }
 
 .nature-minus {
-    color: #e53935 !important; /* Rosso coerente con la freccia Slower */
-    font-weight: bold;
+    color: #e53935 !important; /* Rosso */
 }
