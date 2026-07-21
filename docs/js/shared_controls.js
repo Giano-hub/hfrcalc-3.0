@@ -2558,37 +2558,45 @@ function updateGameOptions() {
 	}
 }
 
-// 1. Salva l'allenatore appena lo cambi nel menu
-$(document).on('change.select2 change', 'input.opposing', function() {
-	var fullVal = $(this).val();
-	if (fullVal && fullVal.trim() !== "") {
-		localStorage.setItem("hfrcalc_saved_set", fullVal);
+// 1. Salva l'allenatore selezionato
+$(document).on('change change.select2', 'input.opposing', function() {
+	var val = $(this).val();
+	if (val && val.trim() !== "") {
+		localStorage.setItem("hfrcalc_saved_set", val);
 	}
 });
 
-// 2. Ripristina il valore salvato all'avvio
-$(window).on('load', function() {
+// 2. Forza il ripristino usando l'API nativa di Select2
+function restoreSavedTrainer() {
 	var savedSet = localStorage.getItem("hfrcalc_saved_set");
 	if (!savedSet) return;
 
 	var $input = $('input.opposing');
-	var startTime = Date.now();
-
-	// Continua ad applicare finché la pagina non ha finito il reset iniziale di Abra
-	var keepApplying = setInterval(function() {
-		if ($input.length > 0) {
-			if ($input.val() !== savedSet) {
-				// Usa la sintassi esatta che ha risposto positiva al test
-				$input.select2('val', savedSet);
-				$input.trigger('change');
-				$input.trigger('change.select2');
-			}
+	if ($input.length > 0 && $input.val() !== savedSet) {
+		// Impostiamo il valore in Select2
+		$input.select2('val', savedSet);
+		
+		// Invochiamo il cambio nativo che aggiorna le mosse, gli IV e le EV
+		$input.trigger('change');
+		
+		// Se il menu visibile mostra ancora Abra, forziamo il testo dell'interfaccia
+		var $select2Container = $input.select2('container');
+		if ($select2Container.length > 0) {
+			$select2Container.find('.select2-chosen').text(savedSet);
 		}
+	}
+}
 
-		// Si ferma dopo 2 secondi
-		if (Date.now() - startTime > 2000) {
-			clearInterval(keepApplying);
-		}
-	}, 150);
+// Intercettiamo sia il caricamento base che i momenti successivi al reset del sito
+$(document).ready(function() {
+	restoreSavedTrainer();
+});
+
+$(window).on('load', function() {
+	restoreSavedTrainer();
+	// Eseguiamo piccoli controlli a ritardo per bruciare sul tempo il reset del calcolatore
+	setTimeout(restoreSavedTrainer, 300);
+	setTimeout(restoreSavedTrainer, 800);
+	setTimeout(restoreSavedTrainer, 1500);
 });
 // idk where the other stuff that runs at program start is so im slapping it here
