@@ -2588,7 +2588,7 @@ $(document).ready(function() {
 	}
 
 	// Tentativo 1: Aspetta 300ms dopo il DOM Ready (lascia finire l'init del calc)
-	setTimeout(applySavedSet, 300);
+	setTimeout(applySavedSet, 600);
 
 	// Tentativo 2: Se Select2 fa un caricamento dinamico, si attiva appena viene toccato
 	$(document).on('select2-loaded', 'input.opposing', function() {
