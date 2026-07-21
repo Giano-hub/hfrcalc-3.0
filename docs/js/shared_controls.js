@@ -2275,15 +2275,10 @@ function resetTrainer() {
 function loadTrainerByName(trainerName) {
 	if (!trainerName) return false;
 
-	// Se ci passa già la stringa del set (es. "Pikachu (Leader Brock)")
-	if (trainerName.includes("(")) {
-		$(".opposing").val(trainerName).trigger('change');
-		$(".opposing .select2-chosen").text(trainerName);
-		return true;
-	}
+	var setName = trainerName;
 
-	// Altrimenti prova a cercare nei nomi delle squadre
-	if (typeof trainerNames !== 'undefined' && trainerNames.includes(trainerName)) {
+	// Se ci passa solo il nome dell'allenatore (es. "Leader Brock"), ricostruiamo il set
+	if (!setName.includes("(") && typeof trainerNames !== 'undefined' && trainerNames.includes(trainerName)) {
 		var party = partyOrder[trainerName];
 		if (!party || party.length === 0) return false;
 
@@ -2293,14 +2288,21 @@ function loadTrainerByName(trainerName) {
 		if (dupes.includes(pokemon)) {
 			displayName += " (1)";
 		}
-
-		var setName = `${pokemon} (${displayName})`;
-		$(".opposing").val(setName).trigger('change');
-		$(".opposing .select2-chosen").text(setName);
-		return true;
+		setName = `${pokemon} (${displayName})`;
 	}
 
-	return false;
+	// 1. Applica il valore all'input
+	$(".opposing").val(setName);
+
+	// 2. Aggiorna l'interfaccia grafica di Select2 (fondamentale!)
+	if ($(".opposing").data("select2")) {
+		$(".opposing").select2("val", setName);
+	} else {
+		$(".opposing").change();
+		$(".opposing .select2-chosen").text(setName);
+	}
+
+	return true;
 }
 
 function allowDrop(ev) {
@@ -2556,7 +2558,7 @@ function updateGameOptions() {
 	}
 }
 
-// 1. Salva sempre l'esatto valore selezionato nella tendina nemica
+// 1. Salva l'allenatore ad ogni cambio
 $(document).on('change', '.opposing', function() {
 	var fullVal = $(this).val();
 	if (fullVal && fullVal.trim() !== "") {
@@ -2564,13 +2566,13 @@ $(document).on('change', '.opposing', function() {
 	}
 });
 
-// 2. Sovrascrivi il reset iniziale dopo che TUTTO il sito è stato caricato
+// 2. Applica l'allenatore salvato appena la pagina e Select2 sono pronti
 $(window).on('load', function() {
 	setTimeout(function() {
 		var savedSet = localStorage.getItem("hfrcalc_saved_set");
 		if (savedSet) {
 			loadTrainerByName(savedSet);
 		}
-	}, 600); // 600ms attende che gli script nativi abbiano finito di resettare la pagina
+	}, 500);
 });
 // idk where the other stuff that runs at program start is so im slapping it here
