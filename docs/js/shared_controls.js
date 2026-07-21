@@ -2558,59 +2558,56 @@ function updateGameOptions() {
 	}
 }
 
-// 1. Salva l'allenatore selezionato
-$(document).on('change change.select2', 'input.opposing', function() {
+// 1. Salva quando l'utente seleziona un allenatore
+$(document).on('change change.select2 select2-selected', 'input.opposing', function() {
 	var val = $(this).val();
 	if (val && val.trim() !== "") {
 		localStorage.setItem("hfrcalc_saved_set", val);
 	}
 });
 
-// 2. Forza il valore agendo direttamente sull'istanza Select2
-function applyRestore() {
+// 2. Funzione per forzare il ripristino sul container reale Select2
+function applySavedTrainer() {
 	var savedSet = localStorage.getItem("hfrcalc_saved_set");
 	if (!savedSet) return;
 
 	var $input = $('input.opposing');
+	var $container = $('.select2-container.opposing');
 
-	if ($input.length > 0) {
-		// Assegniamo il valore nativamente
-		$input.val(savedSet);
-		
-		// Se Select2 è attivo, aggiorniamo la sua struttura dati interna
-		if ($input.data('select2')) {
-			$input.select2('val', savedSet);
-		}
+	// Se il valore attuale è già quello salvato, non fare nulla
+	if ($input.val() === savedSet) return;
 
-		// Dispariamo gli eventi che il calcolatore ascolta per ricalcolare
+	// Metodo A: Invocazione diretta tramite il container
+	if ($container.length > 0) {
+		$input.select2('val', savedSet);
 		$input.trigger('change');
+	}
+
+	// Metodo B: Se il valore non cambia, effettuiamo la ricerca e selezione istantanea
+	if ($input.val() !== savedSet) {
+		$input.select2('open');
+		var $search = $('.select2-input:visible');
+		if ($search.length > 0) {
+			$search.val(savedSet).trigger('keyup');
+			setTimeout(function() {
+				$('.select2-result-selectable').first().trigger('mouseup');
+			}, 50);
+		} else {
+			$input.select2('close');
+		}
 	}
 }
 
-// 3. Hijack / Intercettazione dell'evento di completamento
+// 3. Gestione del ciclo di vita al caricamento
 $(document).ready(function() {
-	applyRestore();
+	applySavedTrainer();
 });
 
-// Ascoltiamo se il calcolatore rigenera il menu a tendina o la lista
-$(document).on('select2-loaded select2-open select2-close', 'input.opposing', function() {
-	applyRestore();
+$(window).on('load', function() {
+	// Tentativi progressivi per superare il reset post-load del calcolatore
+	applySavedTrainer();
+	setTimeout(applySavedTrainer, 300);
+	setTimeout(applySavedTrainer, 800);
+	setTimeout(applySavedTrainer, 1500);
 });
-
-// Polling aggressivo per i primi 3 secondi (1 volta ogni 50ms)
-var restoreInterval = setInterval(function() {
-	var savedSet = localStorage.getItem("hfrcalc_saved_set");
-	var $input = $('input.opposing');
-	
-	if ($input.length > 0 && savedSet) {
-		if ($input.val() !== savedSet) {
-			applyRestore();
-		}
-	}
-}, 50);
-
-// Sospendi il polling dopo 3 secondi per evitare spreco di memoria
-setTimeout(function() {
-	clearInterval(restoreInterval);
-}, 3000);
 // idk where the other stuff that runs at program start is so im slapping it here
