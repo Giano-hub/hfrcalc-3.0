@@ -2566,37 +2566,51 @@ $(document).on('change change.select2', 'input.opposing', function() {
 	}
 });
 
-// 2. Forza il ripristino usando l'API nativa di Select2
-function restoreSavedTrainer() {
+// 2. Forza il valore agendo direttamente sull'istanza Select2
+function applyRestore() {
 	var savedSet = localStorage.getItem("hfrcalc_saved_set");
 	if (!savedSet) return;
 
 	var $input = $('input.opposing');
-	if ($input.length > 0 && $input.val() !== savedSet) {
-		// Impostiamo il valore in Select2
-		$input.select2('val', savedSet);
+
+	if ($input.length > 0) {
+		// Assegniamo il valore nativamente
+		$input.val(savedSet);
 		
-		// Invochiamo il cambio nativo che aggiorna le mosse, gli IV e le EV
-		$input.trigger('change');
-		
-		// Se il menu visibile mostra ancora Abra, forziamo il testo dell'interfaccia
-		var $select2Container = $input.select2('container');
-		if ($select2Container.length > 0) {
-			$select2Container.find('.select2-chosen').text(savedSet);
+		// Se Select2 è attivo, aggiorniamo la sua struttura dati interna
+		if ($input.data('select2')) {
+			$input.select2('val', savedSet);
 		}
+
+		// Dispariamo gli eventi che il calcolatore ascolta per ricalcolare
+		$input.trigger('change');
 	}
 }
 
-// Intercettiamo sia il caricamento base che i momenti successivi al reset del sito
+// 3. Hijack / Intercettazione dell'evento di completamento
 $(document).ready(function() {
-	restoreSavedTrainer();
+	applyRestore();
 });
 
-$(window).on('load', function() {
-	restoreSavedTrainer();
-	// Eseguiamo piccoli controlli a ritardo per bruciare sul tempo il reset del calcolatore
-	setTimeout(restoreSavedTrainer, 300);
-	setTimeout(restoreSavedTrainer, 800);
-	setTimeout(restoreSavedTrainer, 1500);
+// Ascoltiamo se il calcolatore rigenera il menu a tendina o la lista
+$(document).on('select2-loaded select2-open select2-close', 'input.opposing', function() {
+	applyRestore();
 });
+
+// Polling aggressivo per i primi 3 secondi (1 volta ogni 50ms)
+var restoreInterval = setInterval(function() {
+	var savedSet = localStorage.getItem("hfrcalc_saved_set");
+	var $input = $('input.opposing');
+	
+	if ($input.length > 0 && savedSet) {
+		if ($input.val() !== savedSet) {
+			applyRestore();
+		}
+	}
+}, 50);
+
+// Sospendi il polling dopo 3 secondi per evitare spreco di memoria
+setTimeout(function() {
+	clearInterval(restoreInterval);
+}, 3000);
 // idk where the other stuff that runs at program start is so im slapping it here
