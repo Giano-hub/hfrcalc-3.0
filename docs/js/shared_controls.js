@@ -2566,21 +2566,33 @@ $(document).on('change', 'input.opposing', function() {
 	}
 });
 
-// 2. Ripristina l'allenatore salvato all'avvio sincronizzando Select2
-(function restoreSavedTrainer() {
-	var savedSet = localStorage.getItem("hfrcalc_saved_set");
-	if (!savedSet) return;
+// 2. Ripristina il set salvato DOPO che Select2 e il calcolatore sono pronti
+$(document).ready(function() {
+	var applied = false;
 
-	// Attende che l'input specifico sia caricato e inizializzato
-	if (typeof $ !== 'undefined' && $('input.opposing').length > 0) {
+	function applySavedSet() {
+		var savedSet = localStorage.getItem("hfrcalc_saved_set");
+		if (!savedSet || applied) return;
+
 		var $opposingInput = $('input.opposing');
 
-		// Aggiorna Select2 usando il suo metodo nativo
-		$opposingInput.select2('val', savedSet);
-		$opposingInput.trigger('change');
-	} else {
-		// Riprova ogni 50ms finché il DOM non è pronto
-		setTimeout(restoreSavedTrainer, 50);
+		if ($opposingInput.length > 0) {
+			// Impostiamo il valore in Select2
+			$opposingInput.select2('val', savedSet);
+			
+			// Forziamo il trigger del cambio per far ricalcolare i Pokémon
+			$opposingInput.trigger('change');
+			
+			applied = true; // Evita loop infiniti
+		}
 	}
-})();
+
+	// Tentativo 1: Aspetta 300ms dopo il DOM Ready (lascia finire l'init del calc)
+	setTimeout(applySavedSet, 300);
+
+	// Tentativo 2: Se Select2 fa un caricamento dinamico, si attiva appena viene toccato
+	$(document).on('select2-loaded', 'input.opposing', function() {
+		applySavedSet();
+	});
+});
 // idk where the other stuff that runs at program start is so im slapping it here
