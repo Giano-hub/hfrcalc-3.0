@@ -34,7 +34,7 @@ function updateSpeedTierIcons(p1spe, p2spe) {
 		} else if (kind === "S") {
 			$m.html('<div class="speed-slower">&laquo;</div>');
 		} else {
-			$m.html('<div class="speed-tied">-</div>');
+			$m.html('<div class="speed-tied">&#8801;</div>');
 		}
 		$m.attr("title", labels[kind]);
 		$m.attr("aria-label", labels[kind]);
