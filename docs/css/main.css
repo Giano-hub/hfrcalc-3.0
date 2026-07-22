@@ -836,3 +836,11 @@ input.evs,
 td:has(input.evs) {
     display: none !important;
 }
+
+/* Abbassa il pannello centrale per allinearlo a quelli laterali */
+.panel {
+    margin-top: 15px !important;
+}
+
+
+
