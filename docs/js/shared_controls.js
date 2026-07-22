@@ -2377,8 +2377,10 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".set-selector").val(getFirstValidSetOption().id);
-   $(".set-selector").change();
+	if (!localStorage.getItem("CURRENT_TRAINER")) {
+    $(".set-selector").val(getFirstValidSetOption().id);
+    $(".set-selector").change();
+   }
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
@@ -2528,7 +2530,16 @@ function updateGameOptions() {
 	}
 }
 
-
+// --- SALVATAGGIO AUTOMATICO TRAINER ---
+$(document).on("change change.select2 select2-selected", "input.opposing", function () {
+    var fullSet = $(this).val();
+    if (fullSet && typeof getTrainerIndexFromSet === "function") {
+        var idx = getTrainerIndexFromSet(fullSet);
+        if (idx !== null && idx !== undefined && !isNaN(idx)) {
+            localStorage.setItem("CURRENT_TRAINER", String(idx));
+        }
+    }
+});
 
 
 // idk where the other stuff that runs at program start is so im slapping it here
