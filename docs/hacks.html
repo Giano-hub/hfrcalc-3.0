@@ -69,29 +69,31 @@
     Hellfire Red Damage Calculator
 </span>
 
-<div aria-label="Settings" role="region" style="float:right; display:inline-flex; align-items:center;">
+<div aria-label="Settings" role="region" style="float: right; display: inline-flex; align-items: stretch;">
 
-    <!-- 1. Primo pulsante (Arrotondato a sinistra) -->
-    <span class="gameSelection">
+    <!-- 1. Calculator (Estrema Sinistra) -->
+    <span class="gameSelection" style="display: inline-flex;">
         <input class="game visually-hidden" type="radio" name="game" value="1" id="game1" checked="checked" />
-        <label class="btn btn-left" for="game1">Calculator</label>
+        <label class="btn btn-left" for="game1" style="white-space: nowrap; margin: 0; display: inline-flex; align-items: center;">Calculator</label>
     </span>
 
-    <!-- 2. Pulsanti centrali (Squadrati - btn-mid) -->
-    <a href="https://docs.google.com/spreadsheets/d/10hX21B4-jLFc3U85MjmOA2fSr1sVomW3IpFh46qTyoQ/edit?gid=797470384#gid=797470384" target="_blank" style="text-decoration:none;">
-        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto;">Learnsets</label>
+    <!-- 2. Learnsets -->
+    <a href="https://docs.google.com/spreadsheets/d/10hX21B4-jLFc3U85MjmOA2fSr1sVomW3IpFh46qTyoQ/edit?gid=797470384#gid=797470384" target="_blank" style="text-decoration: none; display: inline-flex;">
+        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto; margin: 0; display: inline-flex; align-items: center;">Learnsets</label>
     </a>
 
-    <a href="https://docs.google.com/spreadsheets/d/1QgIF5_xfgA6AJ6HxiQGZYt2em0LrXkJ82nVmwIwKud4/edit?gid=866046409#gid=866046409" target="_blank" style="text-decoration:none;">
-        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto;">Trainer Sheet</label>
+    <!-- 3. Trainer Sheet -->
+    <a href="https://docs.google.com/spreadsheets/d/1QgIF5_xfgA6AJ6HxiQGZYt2em0LrXkJ82nVmwIwKud4/edit?gid=866046409#gid=866046409" target="_blank" style="text-decoration: none; display: inline-flex;">
+        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto; margin: 0; display: inline-flex; align-items: center;">Trainer Sheet</label>
     </a>
 
-    <a href="https://docs.google.com/spreadsheets/d/1xW2YUPbvks_AbJPfcgZNaJgUrE4CK4EscKYqUIanqDU/edit?gid=1648779360#gid=1648779360" target="_blank" style="text-decoration:none;">
-        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto;">Encounter Locations</label>
+    <!-- 4. Encounter Locations -->
+    <a href="https://docs.google.com/spreadsheets/d/1xW2YUPbvks_AbJPfcgZNaJgUrE4CK4EscKYqUIanqDU/edit?gid=1648779360#gid=1648779360" target="_blank" style="text-decoration: none; display: inline-flex;">
+        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto; margin: 0; display: inline-flex; align-items: center;">Encounter Locations</label>
     </a>
 
-    <!-- 3. Ultimo pulsante (Arrotondato a destra) -->
-    <button class="btn btn-right" id="settings">
+    <!-- 5. Settings (Estrema Destra) -->
+    <button class="btn btn-right" id="settings" style="white-space: nowrap; margin: 0; display: inline-flex; align-items: center;">
         Settings
     </button>
 
