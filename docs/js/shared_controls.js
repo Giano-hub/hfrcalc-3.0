@@ -1556,8 +1556,8 @@ $(".gen").change(function () {
 
    updateGameOptions();
 
-	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
+	//$(".set-selector").val(getFirstValidSetOption().id);
+	//$(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
@@ -2374,8 +2374,8 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".set-selector").val(getFirstValidSetOption().id);
-   $(".set-selector").change();
+	//$(".set-selector").val(getFirstValidSetOption().id);
+   //$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
@@ -2525,7 +2525,20 @@ function updateGameOptions() {
 	}
 }
 
+// === SALVATAGGIO TRAINER ===
+$(document).on("change", ".set-selector.opposing", function() {
+    try { localStorage.setItem("lastTrainer", $(this).val()); } catch(e) {}
+});
 
+// Ripristino all'avvio (dopo che Select2 è pronto)
+$(window).on("load", function() {
+    setTimeout(function() {
+        var last = localStorage.getItem("lastTrainer");
+        if (last && $(".set-selector.opposing option[value='" + last + "']").length > 0) {
+            $(".set-selector.opposing").val(last).trigger("change");
+        }
+    }, 300);
+});
 
 
 // idk where the other stuff that runs at program start is so im slapping it here
