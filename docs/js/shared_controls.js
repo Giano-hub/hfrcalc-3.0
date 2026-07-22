@@ -2525,51 +2525,26 @@ function updateGameOptions() {
 	}
 }
 
-// === SALVATAGGIO E RIPRISTINO FORZATO DEL TRAINER ===
-
-// 1. Salva quando l'utente cambia trainer manualmente
-$(document).on("change", ".set-selector.opposing", function() {
+// === SALVATAGGIO TRAINER ===
+$(document).on("change", "input.set-selector.opposing", function() {
     try { 
-        localStorage.setItem("lastTrainer", $(this).val()); 
-        console.log("Salvato trainer:", $(this).val()); // Debug
+        localStorage.setItem("lastTrainer", $(this).val());
     } catch(e) {}
 });
 
-// 2. Forza il ripristino DOPO che tutto è caricato (più aggressivo)
-$(window).on("load", function() {
-    setTimeout(function() {
-        var last = localStorage.getItem("lastTrainer");
-        console.log("Trainer salvato trovato:", last); // Debug
-        
-        if (last) {
-            // Verifica se esiste nelle opzioni
-            var exists = false;
-            $(".set-selector.opposing option").each(function() {
-                if ($(this).val() === last) {
-                    exists = true;
-                    return false;
-                }
-            });
-            
-            if (exists) {
-                console.log("Ripristino trainer:", last);
-                $(".set-selector.opposing").val(last).trigger("change");
-            } else {
-                console.log("Trainer non trovato nelle opzioni");
-            }
-        }
-    }, 500); // 500ms di ritardo per essere sicuri
-});
-
-// 3. Tentativo extra dopo il ready
+// Ripristino all'avvio con ritardo per sicurezza
 $(document).ready(function() {
     setTimeout(function() {
         var last = localStorage.getItem("lastTrainer");
-        if (last && $(".set-selector.opposing").val() !== last) {
-            console.log("Tentativo extra ripristino:", last);
-            $(".set-selector.opposing").val(last).trigger("change");
+        if (last) {
+            var input = $("input.set-selector.opposing");
+            // Verifica se il trainer esiste nelle opzioni native
+            if (input.find("option[value='" + last + "']").length > 0 || 
+                $(input).closest(".poke-info").find(".select2-chosen").length > 0) {
+                input.val(last).trigger("change");
+            }
         }
-    }, 1000); // 1 secondo dopo il ready
+    }, 500);
 });
 
 // idk where the other stuff that runs at program start is so im slapping it here
