@@ -826,3 +826,10 @@ table.field {
 .nature-minus, .speed-slower {
     color: #2196f3 !important; /* Blu = -10% / Più lento */
 }
+
+/* Nasconde l'intestazione e gli input degli EV */
+th.gen-specific.g3.g4.g5.g6.g7.g8.g9,
+td.gen-specific.g3.g4.g5.g6.g7.g8.g9 input.evs,
+.evs {
+    display: none !important;
+}
