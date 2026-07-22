@@ -2525,20 +2525,51 @@ function updateGameOptions() {
 	}
 }
 
-// === SALVATAGGIO TRAINER ===
+// === SALVATAGGIO E RIPRISTINO FORZATO DEL TRAINER ===
+
+// 1. Salva quando l'utente cambia trainer manualmente
 $(document).on("change", ".set-selector.opposing", function() {
-    try { localStorage.setItem("lastTrainer", $(this).val()); } catch(e) {}
+    try { 
+        localStorage.setItem("lastTrainer", $(this).val()); 
+        console.log("Salvato trainer:", $(this).val()); // Debug
+    } catch(e) {}
 });
 
-// Ripristino all'avvio (dopo che Select2 è pronto)
+// 2. Forza il ripristino DOPO che tutto è caricato (più aggressivo)
 $(window).on("load", function() {
     setTimeout(function() {
         var last = localStorage.getItem("lastTrainer");
-        if (last && $(".set-selector.opposing option[value='" + last + "']").length > 0) {
-            $(".set-selector.opposing").val(last).trigger("change");
+        console.log("Trainer salvato trovato:", last); // Debug
+        
+        if (last) {
+            // Verifica se esiste nelle opzioni
+            var exists = false;
+            $(".set-selector.opposing option").each(function() {
+                if ($(this).val() === last) {
+                    exists = true;
+                    return false;
+                }
+            });
+            
+            if (exists) {
+                console.log("Ripristino trainer:", last);
+                $(".set-selector.opposing").val(last).trigger("change");
+            } else {
+                console.log("Trainer non trovato nelle opzioni");
+            }
         }
-    }, 300);
+    }, 500); // 500ms di ritardo per essere sicuri
 });
 
+// 3. Tentativo extra dopo il ready
+$(document).ready(function() {
+    setTimeout(function() {
+        var last = localStorage.getItem("lastTrainer");
+        if (last && $(".set-selector.opposing").val() !== last) {
+            console.log("Tentativo extra ripristino:", last);
+            $(".set-selector.opposing").val(last).trigger("change");
+        }
+    }, 1000); // 1 secondo dopo il ready
+});
 
 // idk where the other stuff that runs at program start is so im slapping it here
