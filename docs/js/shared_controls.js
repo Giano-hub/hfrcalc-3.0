@@ -1556,8 +1556,8 @@ $(".gen").change(function () {
 
    updateGameOptions();
 
-	//$(".set-selector").val(getFirstValidSetOption().id);
-	//$(".set-selector").change();
+	$(".set-selector").val(getFirstValidSetOption().id);
+	$(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
@@ -2374,8 +2374,8 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	//$(".set-selector").val(getFirstValidSetOption().id);
-   //$(".set-selector").change();
+	$(".set-selector").val(getFirstValidSetOption().id);
+   $(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
@@ -2525,26 +2525,5 @@ function updateGameOptions() {
 	}
 }
 
-// === SALVATAGGIO TRAINER ===
-$(document).on("change", "input.set-selector.opposing", function() {
-    try { 
-        localStorage.setItem("lastTrainer", $(this).val());
-    } catch(e) {}
-});
-
-// Ripristino all'avvio con ritardo per sicurezza
-$(document).ready(function() {
-    setTimeout(function() {
-        var last = localStorage.getItem("lastTrainer");
-        if (last) {
-            var input = $("input.set-selector.opposing");
-            // Verifica se il trainer esiste nelle opzioni native
-            if (input.find("option[value='" + last + "']").length > 0 || 
-                $(input).closest(".poke-info").find(".select2-chosen").length > 0) {
-                input.val(last).trigger("change");
-            }
-        }
-    }, 500);
-});
 
 // idk where the other stuff that runs at program start is so im slapping it here
