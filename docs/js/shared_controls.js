@@ -1556,8 +1556,11 @@ $(".gen").change(function () {
 
 	updateGameOptions();
 
-	$(".set-selector").val(getFirstValidSetOption().id);
-   $(".set-selector").change();
+	// Se NON c'è un allenatore salvato in CURRENT_TRAINER, carica il set di default
+if (!localStorage.getItem("CURRENT_TRAINER")) {
+    $(".set-selector").val(getFirstValidSetOption().id);
+    $(".set-selector").change();
+}
 });
 
 function getFirstValidSetOption() {
