@@ -2272,39 +2272,6 @@ function resetTrainer() {
 	$(".opposing .select2-chosen").text(setName);
 }
 
-function loadTrainerByName(trainerName) {
-	if (!trainerName) return false;
-
-	var setName = trainerName;
-
-	// Se ci passa solo il nome dell'allenatore (es. "Leader Brock"), ricostruiamo il set
-	if (!setName.includes("(") && typeof trainerNames !== 'undefined' && trainerNames.includes(trainerName)) {
-		var party = partyOrder[trainerName];
-		if (!party || party.length === 0) return false;
-
-		var pokemon = party[0];
-		var dupes = party.filter((item, index) => party.indexOf(item) != index);
-		var displayName = trainerName;
-		if (dupes.includes(pokemon)) {
-			displayName += " (1)";
-		}
-		setName = `${pokemon} (${displayName})`;
-	}
-
-	// 1. Applica il valore all'input
-	$(".opposing").val(setName);
-
-	// 2. Aggiorna l'interfaccia grafica di Select2 (fondamentale!)
-	if ($(".opposing").data("select2")) {
-		$(".opposing").select2("val", setName);
-	} else {
-		$(".opposing").change();
-		$(".opposing .select2-chosen").text(setName);
-	}
-
-	return true;
-}
-
 function allowDrop(ev) {
 	ev.preventDefault();
 }
@@ -2558,45 +2525,4 @@ function updateGameOptions() {
 	}
 }
 
-/* ==========================================================================
-   RIPRISTINO NATIVO E PERSISTENZA ALLENATORE (HFRCALC)
-   ========================================================================== */
-(function () {
-	// 1. Abilita il flag di persistenza nativo del calcolatore
-	if (typeof lastOpposingTrainerPersistEnabled !== "undefined") {
-		lastOpposingTrainerPersistEnabled = true;
-	}
-
-	// 2. Intercetta quando l'utente cambia manualmente allenatore dalla tendina
-	$(document).on("change change.select2 select2-selected", "input.opposing", function () {
-		var fullSet = $(this).val();
-		if (fullSet && typeof getTrainerIndexFromSet === "function") {
-			var idx = getTrainerIndexFromSet(fullSet);
-			if (idx !== null && idx !== undefined && !isNaN(idx)) {
-				localStorage.setItem("lasttimetrainer", String(idx));
-			}
-		}
-	});
-
-	// 3. Funzione di ripristino all'avvio
-	function restoreTrainerOnLoad() {
-		var last = localStorage.getItem("lasttimetrainer");
-		if (last !== null && last !== "") {
-			var t = parseInt(last, 10);
-			if (!isNaN(t) && typeof selectTrainer === "function") {
-				selectTrainer(t);
-			}
-		}
-	}
-
-	// 4. Esegue il ripristino appena il DOM e le risorse sono pronte
-	$(document).ready(function () {
-		restoreTrainerOnLoad();
-	});
-
-	$(window).on("load", function () {
-		// Piccolo ritardo di sicurezza per sovrascrivere eventuali reset di default
-		setTimeout(restoreTrainerOnLoad, 150);
-	});
-})();
 // idk where the other stuff that runs at program start is so im slapping it here
