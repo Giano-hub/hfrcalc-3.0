@@ -69,28 +69,30 @@
     Hellfire Red Damage Calculator
 </span>
 
-<div aria-label="Settings" role="region"
-     style="float:right; display:flex; align-items:center; gap:6px; flex-wrap:nowrap;">
+<div aria-label="Settings" role="region" style="float:right; display:inline-flex; align-items:center;">
 
-    <span class="gameSelection" style="position: relative; top: 4px;">
-    <input class="game visually-hidden" type="radio" name="game" value="1" id="game1" />
-    <label class="btn btn-xwide" for="game1">Calculator</label>
+    <!-- 1. Primo pulsante (Arrotondato a sinistra) -->
+    <span class="gameSelection">
+        <input class="game visually-hidden" type="radio" name="game" value="1" id="game1" checked="checked" />
+        <label class="btn btn-left" for="game1">Calculator</label>
     </span>
 
-    <a href="https://docs.google.com/spreadsheets/d/10hX21B4-jLFc3U85MjmOA2fSr1sVomW3IpFh46qTyoQ/edit?gid=797470384#gid=797470384" target="_blank">
-        <label class="btn" style="position: relative; top: 4px;" >Learnsets</label>
+    <!-- 2. Pulsanti centrali (Squadrati - btn-mid) -->
+    <a href="https://docs.google.com/spreadsheets/d/10hX21B4-jLFc3U85MjmOA2fSr1sVomW3IpFh46qTyoQ/edit?gid=797470384#gid=797470384" target="_blank" style="text-decoration:none;">
+        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto;">Learnsets</label>
     </a>
 
-    <a href="https://docs.google.com/spreadsheets/d/1QgIF5_xfgA6AJ6HxiQGZYt2em0LrXkJ82nVmwIwKud4/edit?gid=866046409#gid=866046409" target="_blank">
-    <label class="btn" style="white-space: nowrap; max-width: none; width: auto;">Trainer Sheet</label>
-    </a>
-	 
-	 <a href="https://docs.google.com/spreadsheets/d/1xW2YUPbvks_AbJPfcgZNaJgUrE4CK4EscKYqUIanqDU/edit?gid=1648779360#gid=1648779360" target="_blank">
-    <label class="btn" style="white-space: nowrap; max-width: none; width: auto;">Encounter Locations</label>
+    <a href="https://docs.google.com/spreadsheets/d/1QgIF5_xfgA6AJ6HxiQGZYt2em0LrXkJ82nVmwIwKud4/edit?gid=866046409#gid=866046409" target="_blank" style="text-decoration:none;">
+        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto;">Trainer Sheet</label>
     </a>
 
-    <button class="btn" id="settings" style="position: relative; top: 4px;">
-    Settings
+    <a href="https://docs.google.com/spreadsheets/d/1xW2YUPbvks_AbJPfcgZNaJgUrE4CK4EscKYqUIanqDU/edit?gid=1648779360#gid=1648779360" target="_blank" style="text-decoration:none;">
+        <label class="btn btn-mid" style="white-space: nowrap; max-width: none; width: auto;">Encounter Locations</label>
+    </a>
+
+    <!-- 3. Ultimo pulsante (Arrotondato a destra) -->
+    <button class="btn btn-right" id="settings">
+        Settings
     </button>
 
 </div>
