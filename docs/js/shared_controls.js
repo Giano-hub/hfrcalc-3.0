@@ -1556,7 +1556,8 @@ $(".gen").change(function () {
 
 	updateGameOptions();
 
-	
+	$(".set-selector").val(getFirstValidSetOption().id);
+   $(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
