@@ -2558,56 +2558,45 @@ function updateGameOptions() {
 	}
 }
 
-// 1. Salva quando l'utente seleziona un allenatore
-$(document).on('change change.select2 select2-selected', 'input.opposing', function() {
-	var val = $(this).val();
-	if (val && val.trim() !== "") {
-		localStorage.setItem("hfrcalc_saved_set", val);
-	}
-});
-
-// 2. Funzione per forzare il ripristino sul container reale Select2
-function applySavedTrainer() {
-	var savedSet = localStorage.getItem("hfrcalc_saved_set");
-	if (!savedSet) return;
-
-	var $input = $('input.opposing');
-	var $container = $('.select2-container.opposing');
-
-	// Se il valore attuale è già quello salvato, non fare nulla
-	if ($input.val() === savedSet) return;
-
-	// Metodo A: Invocazione diretta tramite il container
-	if ($container.length > 0) {
-		$input.select2('val', savedSet);
-		$input.trigger('change');
+/* ==========================================================================
+   RIPRISTINO NATIVO E PERSISTENZA ALLENATORE (HFRCALC)
+   ========================================================================== */
+(function () {
+	// 1. Abilita il flag di persistenza nativo del calcolatore
+	if (typeof lastOpposingTrainerPersistEnabled !== "undefined") {
+		lastOpposingTrainerPersistEnabled = true;
 	}
 
-	// Metodo B: Se il valore non cambia, effettuiamo la ricerca e selezione istantanea
-	if ($input.val() !== savedSet) {
-		$input.select2('open');
-		var $search = $('.select2-input:visible');
-		if ($search.length > 0) {
-			$search.val(savedSet).trigger('keyup');
-			setTimeout(function() {
-				$('.select2-result-selectable').first().trigger('mouseup');
-			}, 50);
-		} else {
-			$input.select2('close');
+	// 2. Intercetta quando l'utente cambia manualmente allenatore dalla tendina
+	$(document).on("change change.select2 select2-selected", "input.opposing", function () {
+		var fullSet = $(this).val();
+		if (fullSet && typeof getTrainerIndexFromSet === "function") {
+			var idx = getTrainerIndexFromSet(fullSet);
+			if (idx !== null && idx !== undefined && !isNaN(idx)) {
+				localStorage.setItem("lasttimetrainer", String(idx));
+			}
+		}
+	});
+
+	// 3. Funzione di ripristino all'avvio
+	function restoreTrainerOnLoad() {
+		var last = localStorage.getItem("lasttimetrainer");
+		if (last !== null && last !== "") {
+			var t = parseInt(last, 10);
+			if (!isNaN(t) && typeof selectTrainer === "function") {
+				selectTrainer(t);
+			}
 		}
 	}
-}
 
-// 3. Gestione del ciclo di vita al caricamento
-$(document).ready(function() {
-	applySavedTrainer();
-});
+	// 4. Esegue il ripristino appena il DOM e le risorse sono pronte
+	$(document).ready(function () {
+		restoreTrainerOnLoad();
+	});
 
-$(window).on('load', function() {
-	// Tentativi progressivi per superare il reset post-load del calcolatore
-	applySavedTrainer();
-	setTimeout(applySavedTrainer, 300);
-	setTimeout(applySavedTrainer, 800);
-	setTimeout(applySavedTrainer, 1500);
-});
+	$(window).on("load", function () {
+		// Piccolo ritardo di sicurezza per sovrascrivere eventuali reset di default
+		setTimeout(restoreTrainerOnLoad, 150);
+	});
+})();
 // idk where the other stuff that runs at program start is so im slapping it here
