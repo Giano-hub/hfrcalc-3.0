@@ -2525,47 +2525,7 @@ function updateGameOptions() {
 	}
 }
 
-/* ==========================================================================
-   PERSISTENZA ALLENATORE CON BLOCCO DI INIZIALIZZAZIONE (GATED PERSISTENCE)
-   ========================================================================== */
-(function () {
-	// 1. "Cancello": blocca le scritture nel localStorage durante il boot iniziale della pagina
-	var isInitializing = true;
 
-	// 2. Intercetta i cambi allenatore, MA salva SOLO se il caricamento iniziale è terminato
-	$(document).on("change change.select2 select2-selected", "input.opposing", function () {
-		if (isInitializing) return; // Blocco attivo: ignora il reset iniziale a Abra per non cancellare il dato salvato!
-
-		var fullSet = $(this).val();
-		if (fullSet && typeof getTrainerIndexFromSet === "function") {
-			var idx = getTrainerIndexFromSet(fullSet);
-			if (idx !== null && idx !== undefined && !isNaN(idx)) {
-				localStorage.setItem("lasttimetrainer", String(idx));
-			}
-		}
-	});
-
-	// 3. Ripristina l'allenatore salvato
-	function restoreTrainerOnLoad() {
-		var last = localStorage.getItem("lasttimetrainer");
-		if (last !== null && last !== "") {
-			var t = parseInt(last, 10);
-			if (!isNaN(t) && typeof selectTrainer === "function") {
-				selectTrainer(t);
-			}
-		}
-
-		// 4. Apre il cancello: da questo secondo in poi i tuoi cambi manuali verranno salvati
-		setTimeout(function () {
-			isInitializing = false;
-		}, 300);
-	}
-
-	// 5. Avvia il ripristino al caricamento
-	$(document).ready(function () {
-		restoreTrainerOnLoad();
-	});
-})();
 
 
 
