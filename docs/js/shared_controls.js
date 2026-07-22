@@ -1556,19 +1556,7 @@ $(".gen").change(function () {
 
 	updateGameOptions();
 
-	var savedTrainer = localStorage.getItem("lasttimetrainer");
-if (savedTrainer !== null && savedTrainer !== "") {
-    var initialIdx = parseInt(savedTrainer, 10);
-    if (!isNaN(initialIdx) && typeof selectTrainer === "function") {
-        selectTrainer(initialIdx);
-    } else {
-        $(".set-selector").val(getFirstValidSetOption().id);
-        $(".set-selector").change();
-    }
-} else {
-    $(".set-selector").val(getFirstValidSetOption().id);
-    $(".set-selector").change();
-}
+	
 });
 
 function getFirstValidSetOption() {
@@ -2536,16 +2524,7 @@ function updateGameOptions() {
 	}
 }
 
-// --- SALVATAGGIO AUTOMATICO TRAINER ---
-$(document).on("change change.select2 select2-selected", "input.opposing", function () {
-    var fullSet = $(this).val();
-    if (fullSet && typeof getTrainerIndexFromSet === "function") {
-        var idx = getTrainerIndexFromSet(fullSet);
-        if (idx !== null && idx !== undefined && !isNaN(idx)) {
-            localStorage.setItem("lasttimetrainer", String(idx));
-        }
-    }
-});
+
 
 
 // idk where the other stuff that runs at program start is so im slapping it here
