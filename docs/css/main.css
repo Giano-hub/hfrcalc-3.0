@@ -827,9 +827,13 @@ table.field {
     color: #2196f3 !important; /* Blu = -10% / Più lento */
 }
 
-/* Nasconde l'intestazione e gli input degli EV */
-th.gen-specific.g3.g4.g5.g6.g7.g8.g9,
-td.gen-specific.g3.g4.g5.g6.g7.g8.g9 input.evs,
-.evs {
+/* Nasconde solo la cella di input degli EV nelle righe */
+td input.evs,
+td:has(input.evs) {
+    display: none !important;
+}
+
+/* Nasconde SOLO l'intestazione con scritto "EVs" */
+th.gen-specific:nth-of-type(3) {
     display: none !important;
 }
