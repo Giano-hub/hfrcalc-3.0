@@ -2400,8 +2400,10 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
+	$(".player").val(getSavedOrDefaultSetId("player"));
+	$(".player").change();
+	$(".opposing").val(getSavedOrDefaultSetId("opposing"));
+	$(".opposing").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
