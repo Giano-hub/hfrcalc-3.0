@@ -1556,10 +1556,8 @@ $(".gen").change(function () {
 
    updateGameOptions();
    
-	$(".player").val(getSavedOrDefaultSetId("player"));
-	$(".player").change();
-	$(".opposing").val(getSavedOrDefaultSetId("opposing"));
-	$(".opposing").change();
+	$(".set-selector").val(getFirstValidSetOption().id);
+	$(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
@@ -1569,21 +1567,6 @@ function getFirstValidSetOption() {
 		if (sets[i].id && sets[i].id.indexOf('(Blank Set)') === -1) return sets[i];
 	}
 	return undefined;
-}
-
-function getSavedOrDefaultSetId(selectorClass) {
-	var key = selectorClass === "player" ? "lastPlayerSet" : "lastOpposingSet";
-	try {
-		var saved = localStorage.getItem(key);
-		if (saved) {
-			var options = getSetOptions();
-			for (var i = 0; i < options.length; i++) {
-				if (options[i].id === saved) return saved;
-			}
-		}
-	} catch (e) {}
-	var fallback = getFirstValidSetOption();
-	return fallback ? fallback.id : undefined;
 }
 
 $(".notation").change(function () {
@@ -1827,17 +1810,6 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
-			var selectorClass = element.hasClass("player") ? "player" : element.hasClass("opposing") ? "opposing" : null;
-			var savedId = selectorClass ? getSavedOrDefaultSetId(selectorClass) : null;
-			if (savedId) {
-				var options = getSetOptions();
-				for (var i = 0; i < options.length; i++) {
-					if (options[i].id === savedId) {
-						callback(options[i]);
-						return;
-					}
-				}
-			}
 			callback(getFirstValidSetOption());
 		}
 	});
@@ -2376,21 +2348,6 @@ $(".stat-changer").click((e) => {
 	}
 });
 
-var READY;
-
-$(document).on("change", ".set-selector", function () {
-	try {
-		if ($(this).hasClass("player")) {
-			localStorage.setItem("lastPlayerSet", $(this).val());
-		} else if ($(this).hasClass("opposing")) {
-			localStorage.setItem("lastOpposingSet", $(this).val());
-		}
-	} catch (e) {
-		// localStorage non disponibile
-	}
-});
-
-
 $(document).ready(function () {
 	var params = new URLSearchParams(window.location.search);
 	var g = GENERATION[params.get('gen')] || DEFAULTGEN;
@@ -2413,10 +2370,8 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".player").val(getSavedOrDefaultSetId("player"));
-	$(".player").change();
-	$(".opposing").val(getSavedOrDefaultSetId("opposing"));
-	$(".opposing").change();
+	$(".set-selector").val(getFirstValidSetOption().id);
+	$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
