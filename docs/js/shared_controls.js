@@ -574,6 +574,10 @@ $(".set-selector").change(function () {
     window.NO_CALC = true;
     var fullSetName = $(this).val();
 	
+	if ($(this).hasClass('opposing') && fullSetName && game !== "None") {
+    try { localStorage.setItem('lastOpposingSet_' + game, fullSetName); } catch (e) {}
+   } 
+	
 	if ($(this).hasClass('opposing') && game != "None") {
 		var oldTrainer = window.CURRENT_TRAINER;
 		var nextPokemon = getTrainerPokemon(fullSetName);
@@ -2498,6 +2502,27 @@ Proceed with caution.`;
 	}
 
 	READY = true;
+
+   setTimeout(function () {
+    if (game === "None") return;
+    var saved = null;
+    try { saved = localStorage.getItem('lastOpposingSet_' + game); } catch (e) {}
+    if (!saved) return;
+    // Verifica che il set esista ancora
+    if (typeof trainerNames !== "undefined" && trainerNames.length) {
+        var trainerPart = saved.substring(saved.indexOf("(") + 1, saved.lastIndexOf(")")).replaceAll("*", "").trim();
+        var exists = false;
+        for (var i = 0; i < trainerNames.length; i++) {
+            if (trainerNames[i] === trainerPart || trainerNames[i].indexOf(trainerPart) === 0) { exists = true; break; }
+        }
+        if (!exists) return;
+    }
+    $(".opposing").val(saved);
+    $(".opposing").siblings(".select2-container").find(".select2-chosen").text(saved);
+    $(".opposing").change();
+}, 800);
+
+
 });
 
 /* Click-to-copy function */
