@@ -1569,6 +1569,21 @@ function getFirstValidSetOption() {
 	return undefined;
 }
 
+function getSavedOrDefaultSetId(selectorClass) {
+	var key = selectorClass === "player" ? "lastPlayerSet" : "lastOpposingSet";
+	try {
+		var saved = localStorage.getItem(key);
+		if (saved) {
+			var options = getSetOptions();
+			for (var i = 0; i < options.length; i++) {
+				if (options[i].id === saved) return saved;
+			}
+		}
+	} catch (e) {}
+	var fallback = getFirstValidSetOption();
+	return fallback ? fallback.id : undefined;
+}
+
 $(".notation").change(function () {
 	notation = $(this).val();
 });
