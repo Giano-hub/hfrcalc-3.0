@@ -1810,10 +1810,20 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
-			callback(getFirstValidSetOption());
+		   // AGGIUNGI QUESTO BLOCCO
+	initSelection: function (element, callback) {
+	if ($(element).hasClass("opposing") && game !== "None") {
+		if (localStorage.lastTrainer in partyOrder) {
+			var firstMon = partyOrder[localStorage.lastTrainer][0];
+			var option = getSetOptions().find(x => x.set == localStorage.lastTrainer && x.pokemon == firstMon);
+			if (option) {
+				callback(option);
+				return;
+			}
 		}
-	});
-}
+	}
+	callback(getFirstValidSetOption());
+},
 
 function allPokemon(selector) {
 	var allSelector = "";
@@ -2045,6 +2055,7 @@ function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
 	
+	if (trueName in partyOrder) localStorage.lastTrainer = trueName;
 	// retrieves notes
 	var textBox = document.getElementById("notesArea");
 	textBox.value = localStorage.getItem(window.CURRENT_TRAINER);
@@ -2371,7 +2382,13 @@ $(document).ready(function () {
 		}
 	});
 	$(".set-selector").val(getFirstValidSetOption().id);
-   $(".set-selector").change();
+   // AGGIUNGI QUESTO BLOCCO
+   if (localStorage.lastTrainer in partyOrder) {
+	    var firstMon = partyOrder[localStorage.lastTrainer][0];
+	    $("#p2 .set-selector").val(`${firstMon} (${localStorage.lastTrainer})`);
+   }
+
+	$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
