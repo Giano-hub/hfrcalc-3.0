@@ -1827,6 +1827,17 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
+			var selectorClass = element.hasClass("player") ? "player" : element.hasClass("opposing") ? "opposing" : null;
+			var savedId = selectorClass ? getSavedOrDefaultSetId(selectorClass) : null;
+			if (savedId) {
+				var options = getSetOptions();
+				for (var i = 0; i < options.length; i++) {
+					if (options[i].id === savedId) {
+						callback(options[i]);
+						return;
+					}
+				}
+			}
 			callback(getFirstValidSetOption());
 		}
 	});
