@@ -1812,18 +1812,20 @@ function loadDefaultLists() {
 		initSelection: function (element, callback) {
 		   // AGGIUNGI QUESTO BLOCCO
 	initSelection: function (element, callback) {
-	if ($(element).hasClass("opposing") && game !== "None") {
-		if (localStorage.lastTrainer in partyOrder) {
-			var firstMon = partyOrder[localStorage.lastTrainer][0];
-			var option = getSetOptions().find(x => x.set == localStorage.lastTrainer && x.pokemon == firstMon);
-			if (option) {
-				callback(option);
-				return;
-			}
+	   if ($(element).hasClass("opposing") && game !== "None") {
+		    if (localStorage.lastTrainer in partyOrder) {
+			    var firstMon = partyOrder[localStorage.lastTrainer][0];
+			    var option = getSetOptions().find(x => x.set == localStorage.lastTrainer && x.pokemon == firstMon);
+			    if (option) {
+				    callback(option);
+				    return;
+			    }
+		    }
+	   }
+	   callback(getFirstValidSetOption());
 		}
-	}
-	callback(getFirstValidSetOption());
-},
+	});
+}
 
 function allPokemon(selector) {
 	var allSelector = "";
