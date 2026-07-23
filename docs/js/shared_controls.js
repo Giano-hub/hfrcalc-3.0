@@ -1810,14 +1810,7 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
-	       if ($(element).hasClass("opposing") && game !== "None") {
-		        var saved = getSavedTrainerSetName();
-		        if (saved) {
-			         callback({ id: saved, text: saved });
-		 	         return;
-		    }
-	   }
-	   callback(getFirstValidSetOption());
+			callback(getFirstValidSetOption());
 		}
 	});
 }
