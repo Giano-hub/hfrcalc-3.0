@@ -573,21 +573,6 @@ function smogonAnalysis(pokemonName) {
 $(".set-selector").change(function () {
     window.NO_CALC = true;
     var fullSetName = $(this).val();
-// Salva l'ultimo set selezionato (player e opposing separati)
-if (fullSetName) {
-    try {
-        if ($(this).hasClass('opposing')) {
-            localStorage.setItem('lastOpposingSet', fullSetName);
-            if (window.CURRENT_TRAINER) {
-                localStorage.setItem('lastTrainer', window.CURRENT_TRAINER);
-            }
-        } else if ($(this).hasClass('player')) {
-            localStorage.setItem('lastPlayerSet', fullSetName);
-        }
-    } catch (e) { /* localStorage pieno o disabilitato */ }
-}
-
-	
 	
 	if ($(this).hasClass('opposing') && game != "None") {
 		var oldTrainer = window.CURRENT_TRAINER;
@@ -1570,21 +1555,9 @@ $(".gen").change(function () {
 	$("select.item").find("option").remove().end().append("<option value=\"\">(none)</option>" + itemOptions);
 
    updateGameOptions();
-
-	var fallback   = getFirstValidSetOption();
-var playerSet   = getSavedSetOption('lastPlayerSet')   || fallback;
-var opposingSet = getSavedSetOption('lastOpposingSet') || fallback;
-
-if (playerSet && playerSet.id) {
-    $(".set-selector.player").val(playerSet.id);
-    $(".set-selector.player").siblings(".select2-container").find(".select2-chosen").text(playerSet.id);
-}
-if (opposingSet && opposingSet.id) {
-    $(".set-selector.opposing").val(opposingSet.id);
-    $(".set-selector.opposing").siblings(".select2-container").find(".select2-chosen").text(opposingSet.id);
-}
-
-$(".set-selector").change();
+   
+	$(".set-selector").val(getFirstValidSetOption().id);
+	$(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
@@ -1599,18 +1572,6 @@ function getFirstValidSetOption() {
 $(".notation").change(function () {
 	notation = $(this).val();
 });
-
-function getSavedSetOption(storageKey) {
-    var saved = null;
-    try { saved = localStorage.getItem(storageKey); } catch (e) {}
-    if (saved) {
-        var sets = getSetOptions();
-        for (var i = 1; i < sets.length; i++) {
-            if (sets[i].id === saved) return sets[i];
-        }
-    }
-    return null;
-}
 
 function clearField() {
 	$("#singles-format").prop("checked", true);
@@ -1849,13 +1810,7 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
-    var storageKey = null;
-    if (element.hasClass('opposing')) storageKey = 'lastOpposingSet';
-    else if (element.hasClass('player')) storageKey = 'lastPlayerSet';
-
-    var saved = storageKey ? getSavedSetOption(storageKey) : null;
-    callback(saved || getFirstValidSetOption());
-}
+			callback(getFirstValidSetOption());
 		}
 	});
 }
@@ -2417,20 +2372,8 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	var fallback   = getFirstValidSetOption();
-var playerSet   = getSavedSetOption('lastPlayerSet')   || fallback;
-var opposingSet = getSavedSetOption('lastOpposingSet') || fallback;
-
-if (playerSet && playerSet.id) {
-    $(".set-selector.player").val(playerSet.id);
-    $(".set-selector.player").siblings(".select2-container").find(".select2-chosen").text(playerSet.id);
-}
-if (opposingSet && opposingSet.id) {
-    $(".set-selector.opposing").val(opposingSet.id);
-    $(".set-selector.opposing").siblings(".select2-container").find(".select2-chosen").text(opposingSet.id);
-}
-
-$(".set-selector").change();
+	$(".set-selector").val(getFirstValidSetOption().id);
+	$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
