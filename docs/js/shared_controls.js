@@ -571,8 +571,13 @@ function smogonAnalysis(pokemonName) {
 
 // auto-update set details on select
 $(".set-selector").change(function () {
-	window.NO_CALC = true;
-	var fullSetName = $(this).val();
+    window.NO_CALC = true;
+    var fullSetName = $(this).val();
+    
+    // AGGIUNGI QUESTA RIGA:
+    if ($(this).hasClass('opposing')) saveTrainer(fullSetName);
+    
+    // ... resto del codice esistente
 
 	if ($(this).hasClass('opposing') && game != "None") {
 		var oldTrainer = window.CURRENT_TRAINER;
@@ -1556,8 +1561,8 @@ $(".gen").change(function () {
 
    updateGameOptions();
 
-	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
+	//$(".set-selector").val(getFirstValidSetOption().id);
+	//$(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
@@ -1810,7 +1815,18 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
-			callback(getFirstValidSetOption());
+    var saved = getSavedTrainer();
+    if (saved) {
+        var options = getSetOptions();
+        for (var i = 0; i < options.length; i++) {
+            if (options[i].id === saved) {
+                callback(options[i]);
+                return;
+            }
+        }
+    }
+    callback(getFirstValidSetOption());
+}
 		}
 	});
 }
@@ -2352,6 +2368,14 @@ $(".stat-changer").click((e) => {
 });
 
 var READY;
+// === PERSISTENZA TRAINER ===
+function saveTrainer(trainerId) {
+    try { localStorage.setItem("CURRENT_TRAINER", trainerId); } catch(e) {}
+}
+function getSavedTrainer() {
+    try { return localStorage.getItem("CURRENT_TRAINER"); } catch(e) { return null; }
+}
+
 $(document).ready(function () {
 	var params = new URLSearchParams(window.location.search);
 	var g = GENERATION[params.get('gen')] || DEFAULTGEN;
@@ -2374,8 +2398,8 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".set-selector").val(getFirstValidSetOption().id);
-   $(".set-selector").change();
+	//$(".set-selector").val(getFirstValidSetOption().id);
+   //$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
