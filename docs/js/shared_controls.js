@@ -573,7 +573,22 @@ function smogonAnalysis(pokemonName) {
 $(".set-selector").change(function () {
     window.NO_CALC = true;
     var fullSetName = $(this).val();
+// Salva l'ultimo set selezionato (player e opposing separati)
+if (fullSetName) {
+    try {
+        if ($(this).hasClass('opposing')) {
+            localStorage.setItem('lastOpposingSet', fullSetName);
+            if (window.CURRENT_TRAINER) {
+                localStorage.setItem('lastTrainer', window.CURRENT_TRAINER);
+            }
+        } else if ($(this).hasClass('player')) {
+            localStorage.setItem('lastPlayerSet', fullSetName);
+        }
+    } catch (e) { /* localStorage pieno o disabilitato */ }
+}
 
+	
+	
 	if ($(this).hasClass('opposing') && game != "None") {
 		var oldTrainer = window.CURRENT_TRAINER;
 		var nextPokemon = getTrainerPokemon(fullSetName);
@@ -1556,8 +1571,20 @@ $(".gen").change(function () {
 
    updateGameOptions();
 
-	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
+	var fallback = getFirstValidSetOption();
+var playerSet   = getSavedSetOption('lastPlayerSet')   || fallback;
+var opposingSet = getSavedSetOption('lastOpposingSet') || fallback;
+
+if (playerSet && playerSet.id) {
+    $(".set-selector.player").val(playerSet.id);
+}
+if (opposingSet && opposingSet.id) {
+    $(".set-selector.opposing").val(opposingSet.id);
+}
+// Eventuali altri set-selector senza classe specifica → fallback
+$(".set-selector").not('.player').not('.opposing').val(fallback ? fallback.id : '');
+
+$(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
@@ -1572,6 +1599,18 @@ function getFirstValidSetOption() {
 $(".notation").change(function () {
 	notation = $(this).val();
 });
+
+function getSavedSetOption(storageKey) {
+    var saved = null;
+    try { saved = localStorage.getItem(storageKey); } catch (e) {}
+    if (saved) {
+        var sets = getSetOptions();
+        for (var i = 1; i < sets.length; i++) {
+            if (sets[i].id === saved) return sets[i];
+        }
+    }
+    return null;
+}
 
 function clearField() {
 	$("#singles-format").prop("checked", true);
@@ -2372,8 +2411,20 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".set-selector").val(getFirstValidSetOption().id);
-   $(".set-selector").change();
+	var fallback = getFirstValidSetOption();
+var playerSet   = getSavedSetOption('lastPlayerSet')   || fallback;
+var opposingSet = getSavedSetOption('lastOpposingSet') || fallback;
+
+if (playerSet && playerSet.id) {
+    $(".set-selector.player").val(playerSet.id);
+}
+if (opposingSet && opposingSet.id) {
+    $(".set-selector.opposing").val(opposingSet.id);
+}
+// Eventuali altri set-selector senza classe specifica → fallback
+$(".set-selector").not('.player').not('.opposing').val(fallback ? fallback.id : '');
+
+$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
