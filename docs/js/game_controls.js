@@ -37,12 +37,6 @@ $(".game").change(function() {
 	$(".game-specific.gm" + gameId).show();
 	$(".game-specific").not(".gm" + gameId).hide();
 	setSwitchGuide();
-
-	if (game !== "None" && typeof restoreLastTrainer === "function") {
-	if (restoreLastTrainer()) {
-		$(".opposing").change();
-	   }
-   }
 	
 	if (gameId > 0 && GAME_FEATURES[game].sync) $("#sync.bs-btn").show();
 	else $("#sync.bs-btn").hide();
