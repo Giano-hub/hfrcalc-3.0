@@ -1560,6 +1560,7 @@ $(".gen").change(function () {
 	$(".player").change();
 	$(".opposing").val(getSavedOrDefaultSetId("opposing"));
 	$(".opposing").change();
+});
 
 function getFirstValidSetOption() {
 	var sets = getSetOptions();
