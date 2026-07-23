@@ -2498,6 +2498,19 @@ Proceed with caution.`;
 	}
 
 	READY = true;
+
+   // Ripristino ultimo allenatore
+    setTimeout(function () {
+        try {
+            var saved = localStorage.getItem('lastTrainerSetName');
+            if (!saved) return;
+            if (typeof game === 'undefined' || game === 'None') return;
+            if (typeof trainerNames === 'undefined' || !trainerNames.length) return;
+            $(".opposing").val(saved);
+            $(".opposing").change();
+            $(".opposing .select2-chosen").text(saved);
+        } catch (e) { console.warn('restore trainer failed:', e); }
+    }, 1000);
 });
 
 /* Click-to-copy function */
