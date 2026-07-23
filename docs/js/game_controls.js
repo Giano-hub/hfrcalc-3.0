@@ -32,7 +32,12 @@ $(".game").change(function() {
     clearField();
     $("#importedSets").prop("checked", false);
     loadDefaultLists();
-    $(".gen-specific.g" + gen).show();
+    if (game !== "None" && typeof restoreLastTrainer === "function") {
+	     if (restoreLastTrainer()) {
+		      $(".opposing").change();
+	     }
+    }
+	$(".gen-specific.g" + gen).show();
 	$(".gen-specific").not(".g" + gen).hide();
 	$(".game-specific.gm" + gameId).show();
 	$(".game-specific").not(".gm" + gameId).hide();
