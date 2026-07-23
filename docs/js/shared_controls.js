@@ -2350,6 +2350,19 @@ $(".stat-changer").click((e) => {
 
 var READY;
 
+$(document).on("change", ".set-selector", function () {
+	try {
+		if ($(this).hasClass("player")) {
+			localStorage.setItem("lastPlayerSet", $(this).val());
+		} else if ($(this).hasClass("opposing")) {
+			localStorage.setItem("lastOpposingSet", $(this).val());
+		}
+	} catch (e) {
+		// localStorage non disponibile
+	}
+});
+
+
 $(document).ready(function () {
 	var params = new URLSearchParams(window.location.search);
 	var g = GENERATION[params.get('gen')] || DEFAULTGEN;
