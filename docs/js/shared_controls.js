@@ -1556,20 +1556,7 @@ $(".gen").change(function () {
 
    updateGameOptions();
    
-	$(".set-selector").not(".opposing").val(getFirstValidSetOption().id);
-
-   if (game !== "None") {
-	    if (!restoreLastTrainer() && typeof trainerNames !== "undefined" && trainerNames.length) {
-		     var setName = buildTrainerSetName(trainerNames[0]);
-		     if (setName) {
-			      $(".opposing").val(setName);
-			      $(".opposing .select2-chosen").text(setName);
-		     }
-	    }
-   } else {
-	    $(".opposing").val(getFirstValidSetOption().id);
-   }
-
+	$(".set-selector").val(getFirstValidSetOption().id);
    $(".set-selector").change();
 });
 
@@ -2064,7 +2051,6 @@ $(document).ready(function() {
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
-	saveLastTrainer();
 	
 	// retrieves notes
 	var textBox = document.getElementById("notesArea");
@@ -2237,70 +2223,6 @@ function resetAllNotes() {
 	textBox.value = "";
 }
 
-function getLastTrainerStorageKey(suffix) {
-	var gameKey = typeof gameId !== "undefined" ? gameId : ($("input[name='game']:checked").val() || "0");
-	return "lastTrainer_" + gameKey + (suffix || "");
-}
-
-function saveLastTrainer() {
-	if (game === "None" || !window.CURRENT_TRAINER) return;
-	localStorage.setItem(getLastTrainerStorageKey(), window.CURRENT_TRAINER);
-	var setName = $(".opposing").val();
-	if (setName) {
-		localStorage.setItem(getLastTrainerStorageKey("_set"), setName);
-	}
-}
-
-function trainerNameFromSet(setName) {
-	if (!setName || setName.indexOf(" (") === -1) return "";
-	var inner = setName.substring(setName.indexOf("(") + 1, setName.lastIndexOf(")"));
-	return inner.replaceAll("*", "").split(" (")[0].trim();
-}
-
-function isKnownTrainer(trainerName) {
-	if (!trainerName || typeof trainerNames === "undefined" || !trainerNames.length) return false;
-	return trainerNames.indexOf(trainerName) !== -1;
-}
-
-function buildTrainerSetName(trainerName) {
-	if (!isKnownTrainer(trainerName)) return null;
-	if (partyOrder && partyOrder[trainerName]) {
-		var party = partyOrder[trainerName];
-		var pokemon = party[0];
-		var label = trainerName;
-		var dupes = party.filter(function (item, index) { return party.indexOf(item) !== index; });
-		if (dupes.includes(pokemon)) label += " (1)";
-		return pokemon + " (" + label + ")";
-	}
-	var names = getTrainerNames();
-	for (var i = 0; i < names.length; i++) {
-		if (names[i].replaceAll("*", "").trim().includes("(" + trainerName + ")")) {
-			return names[i].replaceAll("*", "").trim();
-		}
-	}
-	return null;
-}
-
-function getSavedTrainerSetName() {
-	if (game === "None") return null;
-
-	var savedSet = localStorage.getItem(getLastTrainerStorageKey("_set"));
-	if (savedSet && isKnownTrainer(trainerNameFromSet(savedSet))) {
-		return savedSet;
-	}
-
-	var savedTrainer = localStorage.getItem(getLastTrainerStorageKey());
-	return buildTrainerSetName(savedTrainer);
-}
-
-function restoreLastTrainer() {
-	var setName = getSavedTrainerSetName();
-	if (!setName) return false;
-	$(".opposing").val(setName);
-	$(".opposing .select2-chosen").text(setName);
-	return true;
-}
-
 function nextTrainer() {
 	if (trainerNames.includes(window.CURRENT_TRAINER)) {
 		var index = trainerNames.indexOf(window.CURRENT_TRAINER);
@@ -2455,20 +2377,7 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".set-selector").not(".opposing").val(getFirstValidSetOption().id);
-
-   if (game !== "None") {
-	    if (!restoreLastTrainer() && typeof trainerNames !== "undefined" && trainerNames.length) {
-		     var setName = buildTrainerSetName(trainerNames[0]);
-		     if (setName) {
-			      $(".opposing").val(setName);
-			      $(".opposing .select2-chosen").text(setName);
-		     }
-	    }
-   } else {
-	    $(".opposing").val(getFirstValidSetOption().id);
-   }
-
+	$(".set-selector").val(getFirstValidSetOption().id);
    $(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
