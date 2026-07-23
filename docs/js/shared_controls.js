@@ -1556,9 +1556,10 @@ $(".gen").change(function () {
 
    updateGameOptions();
    
-	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
-});
+	$(".player").val(getSavedOrDefaultSetId("player"));
+	$(".player").change();
+	$(".opposing").val(getSavedOrDefaultSetId("opposing"));
+	$(".opposing").change();
 
 function getFirstValidSetOption() {
 	var sets = getSetOptions();
