@@ -1556,8 +1556,21 @@ $(".gen").change(function () {
 
    updateGameOptions();
    
-	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
+	$(".set-selector").not(".opposing").val(getFirstValidSetOption().id);
+
+   if (game !== "None") {
+	    if (!restoreLastTrainer() && typeof trainerNames !== "undefined" && trainerNames.length) {
+		     var setName = buildTrainerSetName(trainerNames[0]);
+		     if (setName) {
+			      $(".opposing").val(setName);
+			      $(".opposing .select2-chosen").text(setName);
+		     }
+	    }
+   } else {
+	    $(".opposing").val(getFirstValidSetOption().id);
+   }
+
+   $(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
