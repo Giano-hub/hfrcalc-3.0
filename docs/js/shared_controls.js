@@ -1571,18 +1571,18 @@ $(".gen").change(function () {
 
    updateGameOptions();
 
-	var fallback = getFirstValidSetOption();
+	var fallback   = getFirstValidSetOption();
 var playerSet   = getSavedSetOption('lastPlayerSet')   || fallback;
 var opposingSet = getSavedSetOption('lastOpposingSet') || fallback;
 
 if (playerSet && playerSet.id) {
     $(".set-selector.player").val(playerSet.id);
+    $(".set-selector.player").siblings(".select2-container").find(".select2-chosen").text(playerSet.id);
 }
 if (opposingSet && opposingSet.id) {
     $(".set-selector.opposing").val(opposingSet.id);
+    $(".set-selector.opposing").siblings(".select2-container").find(".select2-chosen").text(opposingSet.id);
 }
-// Eventuali altri set-selector senza classe specifica → fallback
-$(".set-selector").not('.player').not('.opposing').val(fallback ? fallback.id : '');
 
 $(".set-selector").change();
 });
@@ -1849,7 +1849,13 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
-			callback(getFirstValidSetOption());
+    var storageKey = null;
+    if (element.hasClass('opposing')) storageKey = 'lastOpposingSet';
+    else if (element.hasClass('player')) storageKey = 'lastPlayerSet';
+
+    var saved = storageKey ? getSavedSetOption(storageKey) : null;
+    callback(saved || getFirstValidSetOption());
+}
 		}
 	});
 }
@@ -2411,18 +2417,18 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	var fallback = getFirstValidSetOption();
+	var fallback   = getFirstValidSetOption();
 var playerSet   = getSavedSetOption('lastPlayerSet')   || fallback;
 var opposingSet = getSavedSetOption('lastOpposingSet') || fallback;
 
 if (playerSet && playerSet.id) {
     $(".set-selector.player").val(playerSet.id);
+    $(".set-selector.player").siblings(".select2-container").find(".select2-chosen").text(playerSet.id);
 }
 if (opposingSet && opposingSet.id) {
     $(".set-selector.opposing").val(opposingSet.id);
+    $(".set-selector.opposing").siblings(".select2-container").find(".select2-chosen").text(opposingSet.id);
 }
-// Eventuali altri set-selector senza classe specifica → fallback
-$(".set-selector").not('.player').not('.opposing').val(fallback ? fallback.id : '');
 
 $(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
