@@ -575,6 +575,10 @@ $(".set-selector").change(function () {
     var fullSetName = $(this).val();
 	
 	if ($(this).hasClass('opposing') && game != "None") {
+	persistLastOpposingTrainerIndexFromFullSetName(fullSetName);
+   }
+	
+	if ($(this).hasClass('opposing') && game != "None") {
 		var oldTrainer = window.CURRENT_TRAINER;
 		var nextPokemon = getTrainerPokemon(fullSetName);
 		var trainerHTML = "";
@@ -1814,6 +1818,25 @@ function loadDefaultLists() {
 		}
 	});
 }
+
+function persistLastOpposingTrainerIndexFromFullSetName(fullSetName) {
+	if (!fullSetName || fullSetName.indexOf(" (") === -1) return;
+	var trainerName = fullSetName.split(" (")[1].split(")")[0];
+	if (trainerName in partyOrder) {
+		localStorage.setItem("lasttimetrainer", trainerName);
+	}
+}
+
+function selectTrainer(trainerName) {
+	if (!trainerName || !(trainerName in partyOrder)) return;
+	var party = partyOrder[trainerName];
+	var firstMon = party[0];
+	var setName = firstMon + " (" + trainerName + ")";
+	$('.opposing').val(setName);
+	$('.opposing').change();
+	$('.opposing .select2-chosen').text(setName);
+}
+
 function allPokemon(selector) {
 	var allSelector = "";
 	for (var i = 0; i < $(".poke-info").length; i++) {
@@ -2370,7 +2393,13 @@ $(document).ready(function () {
 		}
 	});
 	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
+
+   var lastTrainer = localStorage.getItem("lasttimetrainer");
+   if (lastTrainer && game !== "None") {
+	    selectTrainer(lastTrainer);
+   } else {
+	    $(".set-selector").change();
+   }
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
