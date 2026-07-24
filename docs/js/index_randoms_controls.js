@@ -289,22 +289,30 @@ $(".result-move").change(function () {
 		if (result) {
 			var desc = result.fullDesc(notation, false);
 			
-			// --- INIZIO MODIFICA: Sostituisce gli EV con le IV nel riepilogo ---
-			if (result.attacker && result.defender) {
+			// --- INIZIO MODIFICA: Sostituisce gli EV con le IV corrette per Attaccante e Difensore ---
+			if (result.attacker && result.defender && desc.indexOf(" vs. ") !== -1) {
+				var parts = desc.split(" vs. ");
 				var statsList = ["hp", "atk", "def", "spa", "spd", "spe"];
+
 				statsList.forEach(function (stat) {
 					var statUpper = stat === "hp" ? "HP" : stat === "spa" ? "SpA" : stat === "spd" ? "SpD" : stat === "spe" ? "Spe" : stat.charAt(0).toUpperCase() + stat.slice(1);
-					
-					var attIV = (result.attacker.ivs && result.attacker.ivs[stat] !== undefined) ? result.attacker.ivs[stat] : 31;
-					var defIV = (result.defender.ivs && result.defender.ivs[stat] !== undefined) ? result.defender.ivs[stat] : 31;
+					var regex = new RegExp("\\b\\d+([+-]?)\\s+" + statUpper + "\\b", "g");
 
-					// Cerca la presenza di "0 Stat" o "252 Stat" e la sostituisce con "31 IVs Stat"
-					desc = desc.replace(new RegExp("\\b\\d+([+-]?)\\s+" + statUpper + "\\b", "g"), function (match, nature) {
-						// Usa l'IV dell'attaccante o del difensore a seconda del contesto
-						var currentIV = match.toLowerCase().indexOf(result.defender.name.toLowerCase()) !== -1 ? defIV : attIV;
-						return currentIV + (nature || "") + " " + statUpper;
+					// 1. Sostituisce le IV nell'Attaccante (prima parte della frase)
+					var attIV = (result.attacker.ivs && result.attacker.ivs[stat] !== undefined) ? result.attacker.ivs[stat] : 31;
+					parts[0] = parts[0].replace(regex, function (match, nature) {
+						return attIV + (nature || "") + " " + statUpper;
+					});
+
+					// 2. Sostituisce le IV nel Difensore (seconda parte della frase)
+					var defIV = (result.defender.ivs && result.defender.ivs[stat] !== undefined) ? result.defender.ivs[stat] : 31;
+					parts[1] = parts[1].replace(regex, function (match, nature) {
+						return defIV + (nature || "") + " " + statUpper;
 					});
 				});
+
+				// Ricompone la frase unendo le due parti con " vs. "
+				desc = parts.join(" vs. ");
 			}
 			
 			if (desc.indexOf('--') === -1) desc += ' -- possibly the worst move ever';
