@@ -2394,12 +2394,15 @@ $(document).ready(function () {
 	});
 	$(".set-selector").val(getFirstValidSetOption().id);
 
-   var lastTrainer = localStorage.getItem("lasttimetrainer");
-   if (lastTrainer && game !== "None") {
-	    selectTrainer(lastTrainer);
-   } else {
-	    $(".set-selector").change();
-   }
+	var lastTrainer = localStorage.getItem("lasttimetrainer");
+	console.log("lastTrainer salvato:", lastTrainer);
+	console.log("partyOrder keys:", Object.keys(partyOrder));
+	if (lastTrainer && game !== "None") {
+		console.log("Cercando:", lastTrainer, "in partyOrder:", lastTrainer in partyOrder);
+		selectTrainer(lastTrainer);
+	} else {
+		$(".set-selector").change();
+	}
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
