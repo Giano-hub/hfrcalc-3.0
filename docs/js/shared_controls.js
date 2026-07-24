@@ -2386,6 +2386,11 @@ $(document).ready(function () {
 		}
 	});
 	$(".set-selector").val(getFirstValidSetOption().id);
+   if (typeof partyOrder !== "undefined" && localStorage.getItem("lastTrainer") in partyOrder) {
+	    var savedTrainer = localStorage.getItem("lastTrainer");
+	    var firstMon = partyOrder[savedTrainer][0];
+	    $("#p2 .set-selector").val(firstMon + " (" + savedTrainer + ")");
+   }
    $(".set-selector").change();
    $(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
