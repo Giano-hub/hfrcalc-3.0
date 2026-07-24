@@ -575,10 +575,6 @@ $(".set-selector").change(function () {
     var fullSetName = $(this).val();
 	
 	if ($(this).hasClass('opposing') && game != "None") {
-	persistLastOpposingTrainerIndexFromFullSetName(fullSetName);
-   }
-	
-	if ($(this).hasClass('opposing') && game != "None") {
 		var oldTrainer = window.CURRENT_TRAINER;
 		var nextPokemon = getTrainerPokemon(fullSetName);
 		var trainerHTML = "";
@@ -1819,24 +1815,6 @@ function loadDefaultLists() {
 	});
 }
 
-function persistLastOpposingTrainerIndexFromFullSetName(fullSetName) {
-	if (!fullSetName || fullSetName.indexOf(" (") === -1) return;
-	var trainerName = fullSetName.split(" (")[1].split(")")[0];
-	if (trainerName in partyOrder) {
-		localStorage.setItem("lasttimetrainer", trainerName);
-	}
-}
-
-function selectTrainer(trainerName) {
-	if (!trainerName || !(trainerName in partyOrder)) return;
-	var party = partyOrder[trainerName];
-	var firstMon = party[0];
-	var setName = firstMon + " (" + trainerName + ")";
-	$('.opposing').val(setName);
-	$('.opposing').change();
-	$('.opposing .select2-chosen').text(setName);
-}
-
 function allPokemon(selector) {
 	var allSelector = "";
 	for (var i = 0; i < $(".poke-info").length; i++) {
@@ -2515,16 +2493,6 @@ Proceed with caution.`;
 		dropzone.ondragleave=handleDragLeave;
 		dropzone.ondrop=drop;
 		dropzone.ondragover=allowDrop;
-	}
-   // AGGIUNGI QUI (PRIMA della chiusura finale)
-	var lastTrainer = localStorage.getItem("lasttimetrainer");
-	console.log("lastTrainer salvato:", lastTrainer);
-	console.log("partyOrder keys:", Object.keys(partyOrder));
-	if (lastTrainer && game !== "None") {
-		console.log("Cercando:", lastTrainer, "in partyOrder:", lastTrainer in partyOrder);
-		selectTrainer(lastTrainer);
-	} else {
-		$(".set-selector").change();
 	}
 
 	READY = true;
