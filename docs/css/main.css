@@ -837,9 +837,9 @@ td:has(input.evs) {
     display: none !important;
 }
 
-/* Abbassa SOLO il pannello Field per allinearlo a Pokémon 1 e 2 */
-.panel:has(.field-info) {
-    margin-top: 15px !important; /* Regola i pixel (es. 10px, 18px, 20px) finché non sono perfettamente in linea */
+/* Abbassa SOLO il pannello Field usando il fieldset interno */
+fieldset.field-info {
+    margin-top: 15px !important;
 }
 
 
