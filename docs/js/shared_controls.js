@@ -1557,7 +1557,8 @@ $(".gen").change(function () {
    updateGameOptions();
    
 	$(".set-selector").val(getFirstValidSetOption().id);
-   $(".set-selector").change();
+   console.log("[DEBUG GEN] gen handler ha forzato:", $("#p2 .set-selector").val());
+	$(".set-selector").change();
 });
 
 function getFirstValidSetOption() {
@@ -2390,9 +2391,11 @@ $(document).ready(function () {
 	    var savedTrainer = localStorage.getItem("lastTrainer");
 	    var firstMon = partyOrder[savedTrainer][0];
 	    $("#p2 .set-selector").val(firstMon + " (" + savedTrainer + ")");
-   }
+       console.log("[DEBUG 1] valore dopo aver impostato Mightyena:", $("#p2 .set-selector").val());
+	}
    $(".set-selector").change();
-   $(".terrain-trigger").bind("change keyup", getTerrainEffects);
+   console.log("[DEBUG 2] valore dopo il .change() finale:", $("#p2 .set-selector").val());
+	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
 	$('#hide-cc').click(hideColorCodes);
