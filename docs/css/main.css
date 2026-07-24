@@ -842,5 +842,17 @@ fieldset.field-info {
     margin-top: 12px !important;
 }
 
+/* --- OVERRIDE GLOBALE ANGOLI ARROTONDATI --- */
+fieldset, 
+.panel, 
+.field-info, 
+.poke-info, 
+.results-right,
+.main-result-group {
+    border-radius: 10px !important; /* Cambia 10px in 6px (più squadrato) o 14px (più tondo) */
+}
+
+
+
 
 
