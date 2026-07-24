@@ -2385,6 +2385,7 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
+	console.log("[DEBUG] partyOrder pronto?", typeof partyOrder, Object.keys(partyOrder || {}).length, "lastTrainer:", localStorage.getItem("lastTrainer"));
 	$(".set-selector").val(getFirstValidSetOption().id);
    if (typeof partyOrder !== "undefined" && localStorage.getItem("lastTrainer") in partyOrder) {
 	    var savedTrainer = localStorage.getItem("lastTrainer");
