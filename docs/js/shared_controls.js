@@ -2057,9 +2057,9 @@ $(document).ready(function() {
 function getTrainerPokemon(trainerName) {
 	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
-	if (trueName in partyOrder) {
+	if (READY && trueName in partyOrder) {
 	localStorage.setItem("lastTrainer", trueName);
-   }   
+   } 
 	// retrieves notes
 	var textBox = document.getElementById("notesArea");
 	textBox.value = localStorage.getItem(window.CURRENT_TRAINER);
@@ -2385,7 +2385,6 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	console.log("[DEBUG] partyOrder pronto?", typeof partyOrder, Object.keys(partyOrder || {}).length, "lastTrainer:", localStorage.getItem("lastTrainer"));
 	$(".set-selector").val(getFirstValidSetOption().id);
    if (typeof partyOrder !== "undefined" && localStorage.getItem("lastTrainer") in partyOrder) {
 	    var savedTrainer = localStorage.getItem("lastTrainer");
