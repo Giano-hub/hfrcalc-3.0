@@ -288,6 +288,25 @@ $(".result-move").change(function () {
 		var result = findDamageResult($(this));
 		if (result) {
 			var desc = result.fullDesc(notation, false);
+			
+			// --- INIZIO MODIFICA: Sostituisce gli EV con le IV nel riepilogo ---
+			if (result.attacker && result.defender) {
+				var statsList = ["hp", "atk", "def", "spa", "spd", "spe"];
+				statsList.forEach(function (stat) {
+					var statUpper = stat === "hp" ? "HP" : stat === "spa" ? "SpA" : stat === "spd" ? "SpD" : stat === "spe" ? "Spe" : stat.charAt(0).toUpperCase() + stat.slice(1);
+					
+					var attIV = (result.attacker.ivs && result.attacker.ivs[stat] !== undefined) ? result.attacker.ivs[stat] : 31;
+					var defIV = (result.defender.ivs && result.defender.ivs[stat] !== undefined) ? result.defender.ivs[stat] : 31;
+
+					// Cerca la presenza di "0 Stat" o "252 Stat" e la sostituisce con "31 IVs Stat"
+					desc = desc.replace(new RegExp("\\b\\d+([+-]?)\\s+" + statUpper + "\\b", "g"), function (match, nature) {
+						// Usa l'IV dell'attaccante o del difensore a seconda del contesto
+						var currentIV = match.toLowerCase().indexOf(result.defender.name.toLowerCase()) !== -1 ? defIV : attIV;
+						return currentIV + (nature || "") + " IVs " + statUpper;
+					});
+				});
+			}
+			
 			if (desc.indexOf('--') === -1) desc += ' -- possibly the worst move ever';
 			$("#mainResult").text(desc);
 			$("#damageValues").text("Possible damage amounts: (" + displayDamageHits(result.damage) + ")");
