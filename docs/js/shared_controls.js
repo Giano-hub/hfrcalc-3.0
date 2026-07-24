@@ -1810,6 +1810,19 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
+			if (element.hasClass("opposing") && game !== "None") {
+				var saved = localStorage.getItem("lastTrainer");
+				if (saved && partyOrder && saved in partyOrder) {
+					var firstMon = partyOrder[saved][0];
+					var match = getSetOptions().find(function (o) {
+						return o.set === saved && o.pokemon === firstMon;
+					});
+					if (match) {
+						callback(match);
+						return;
+					}
+				}
+			}
 			callback(getFirstValidSetOption());
 		}
 	});
