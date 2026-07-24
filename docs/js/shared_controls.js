@@ -1506,6 +1506,7 @@ var RANDDEX = [
 	typeof GEN9RANDOMBATTLE === 'undefined' ? {} : GEN9RANDOMBATTLE,
 ];
 var gen, genWasChanged, notation, pokedex, setdex, partyOrder, trainerNames, flags, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION;
+var READY;
 var DEFAULTGEN = 9;
 $(".gen").change(function () {
 	/*eslint-disable */
@@ -1557,7 +1558,6 @@ $(".gen").change(function () {
    updateGameOptions();
    
 	$(".set-selector").val(getFirstValidSetOption().id);
-   console.log("[DEBUG GEN] gen handler ha forzato:", $("#p2 .set-selector").val());
 	$(".set-selector").change();
 });
 
@@ -2391,10 +2391,8 @@ $(document).ready(function () {
 	    var savedTrainer = localStorage.getItem("lastTrainer");
 	    var firstMon = partyOrder[savedTrainer][0];
 	    $("#p2 .set-selector").val(firstMon + " (" + savedTrainer + ")");
-       console.log("[DEBUG 1] valore dopo aver impostato Mightyena:", $("#p2 .set-selector").val());
 	}
    $(".set-selector").change();
-   console.log("[DEBUG 2] valore dopo il .change() finale:", $("#p2 .set-selector").val());
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
 	$('#show-cc').click(showColorCodes);
