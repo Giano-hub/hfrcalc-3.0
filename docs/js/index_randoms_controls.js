@@ -302,7 +302,7 @@ $(".result-move").change(function () {
 					desc = desc.replace(new RegExp("\\b\\d+([+-]?)\\s+" + statUpper + "\\b", "g"), function (match, nature) {
 						// Usa l'IV dell'attaccante o del difensore a seconda del contesto
 						var currentIV = match.toLowerCase().indexOf(result.defender.name.toLowerCase()) !== -1 ? defIV : attIV;
-						return currentIV + (nature || "") + " IVs " + statUpper;
+						return currentIV + (nature || "") + " " + statUpper;
 					});
 				});
 			}
