@@ -857,12 +857,16 @@ fieldset,
     background-color: var(--fieldset-color, #F1F4F9) !important;
     border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
-    color: #333333 !important;
+    color: #000000 !important; /* Forza il simbolo + e - a rimanere NERO visibile */
+    font-weight: bold !important;
+    line-height: 1 !important;
+    opacity: 1 !important;     /* Impedisce che il tasto sia semi-trasparente */
     cursor: pointer !important;
 }
 
 .stat-changer:hover {
     background-color: #E2E8F0 !important;
+    color: #000000 !important;
 }
 
 
