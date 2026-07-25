@@ -866,7 +866,9 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE PULSANTI (ISTANTANEO SENZA F5) --- */
+/* --- OVERRIDE GENERALE PULSANTI (STILE BASE / LIGHT THEME) --- */
+/* Di default i pulsanti prendono lo stile Light Theme (#aaaaaa). */
+/* Essendo lo stile base, si applica ISTANTANEAMENTE quando il Dark Theme viene disattivato. */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -875,19 +877,15 @@ fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    /* 
-       Se dark-theme.css è attivo, usa --fieldset-color (#2a2a2a).
-       Se dark-theme.css viene disattivato (Light Theme), usa #aaaaaa! 
-    */
-    background-color: var(--fieldset-color, #aaaaaa) !important;
+    background-color: #aaaaaa !important;
     border: 1px solid #888888 !important;
     border-radius: 4px !important;
-    color: var(--text, #222222) !important; /* Testo chiaro in Dark, scuro #222222 in Light */
+    color: #222222 !important;
     cursor: pointer !important;
     transition: transform 0.05s ease !important;
 }
 
-/* Hover pulito per entrambi i temi */
+/* Hover in Light Theme */
 .stat-changer:hover,
 .gen-specific-section button:hover,
 .btn-set:hover,
@@ -896,7 +894,35 @@ fieldset button:hover,
 .field-info button:hover,
 .poke-info button:not(.type-btn):hover,
 #dark-theme-toggle:hover {
-    filter: brightness(1.15) !important;
+    background-color: #bbbbbb !important;
+}
+
+/* --- OVERRIDE DARK THEME (SI ATTIVA SOLO SE DARK-THEME.CSS È CARICATO) --- */
+/* Sovrascrive lo stile base SOLTANTO quando la variabile --fieldset-color è definita da dark-theme.css */
+@supports (background-color: var(--fieldset-color)) {
+    .stat-changer,
+    .gen-specific-section button,
+    .btn-set,
+    fieldset input[type="button"],
+    fieldset button,
+    .field-info button,
+    .poke-info button:not(.type-btn),
+    #dark-theme-toggle {
+        background-color: var(--fieldset-color) !important;
+        border-color: #AAAAAA !important;
+        color: var(--text, inherit) !important;
+    }
+
+    .stat-changer:hover,
+    .gen-specific-section button:hover,
+    .btn-set:hover,
+    fieldset input[type="button"]:hover,
+    fieldset button:hover,
+    .field-info button:hover,
+    .poke-info button:not(.type-btn):hover,
+    #dark-theme-toggle:hover {
+        background-color: var(--button-hover, #333333) !important;
+    }
 }
 
 /* --- DIMENSIONE E SPAZIATURA TASTI + E - --- */
