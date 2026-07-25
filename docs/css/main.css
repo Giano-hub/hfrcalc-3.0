@@ -799,6 +799,7 @@ table.field {
     gap: 5px;
     cursor: pointer;
     z-index: 9999;
+    color: #ffffff;
 }
 
 #calc-input {
