@@ -866,18 +866,19 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE PULSANTI E PANNELLI GRIGI (COMPATIBILE LIGHT & DARK THEME) --- */
+/* --- OVERRIDE PULSANTI E PANNELLI GRIGI (INCLUSO DARK-THEME-TOGGLE) --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
 fieldset input[type="button"],
 fieldset button,
 .field-info button,
-.poke-info button:not(.type-btn) {
+.poke-info button:not(.type-btn),
+#dark-theme-toggle {
     background-color: var(--fieldset-color, #F1F4F9) !important;
     border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
-    color: inherit !important; /* Mantiene il colore del testo nativo del tema (nero in light, bianco in dark) */
+    color: inherit !important;
     cursor: pointer !important;
     transition: transform 0.05s ease !important;
 }
@@ -898,19 +899,21 @@ fieldset button,
 fieldset input[type="button"]:hover,
 fieldset button:hover,
 .field-info button:hover,
-.poke-info button:not(.type-btn):hover {
+.poke-info button:not(.type-btn):hover,
+#dark-theme-toggle:hover {
     background-color: var(--fieldset-color, #F1F4F9) !important;
     color: inherit !important;
 }
 
-/* Click (:active) */
+/* Click (:active) con animazione di pressione senza flash */
 .stat-changer:active,
 .gen-specific-section button:active,
 .btn-set:active,
 fieldset input[type="button"]:active,
 fieldset button:active,
 .field-info button:active,
-.poke-info button:not(.type-btn):active {
+.poke-info button:not(.type-btn):active,
+#dark-theme-toggle:active {
     background-color: var(--fieldset-color, #F1F4F9) !important;
     transform: translateY(1px) scale(0.97) !important;
     box-shadow: none !important;
