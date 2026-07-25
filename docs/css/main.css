@@ -882,10 +882,13 @@ fieldset button,
     transition: transform 0.05s ease !important;
 }
 
-/* --- MICRO-INGRANDIMENTO DISCRETO TASTI + E - --- */
+/* --- DIMENSIONE E SPAZIATURA TASTI + E - (Dall'altro calcolatore) --- */
 .stat-changer {
-    padding: 1px 5px !important; /* Aggiunge pochissimo spazio attorno al simbolo */
-    font-size: 13px !important;  /* Simbolo solo un pelino più visibile */
+    width: 22px !important;
+    margin-right: 2px !important;
+    padding: 2px 5px !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
 }
 
 /* Hover */
@@ -912,4 +915,3 @@ fieldset button:active,
     transform: translateY(1px) scale(0.97) !important;
     box-shadow: none !important;
 }
-
