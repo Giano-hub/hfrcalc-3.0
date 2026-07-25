@@ -866,7 +866,7 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE GENERALE PULSANTI (DARK & LIGHT THEME COMPATIBILE ISTANTANEO) --- */
+/* --- OVERRIDE PULSANTI (ISTANTANEO SENZA F5) --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -875,16 +875,19 @@ fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    /* Usa la variabile del tema: grigio scuro in Dark, #aaaaaa / chiaro in Light */
+    /* 
+       Se dark-theme.css è attivo, usa --fieldset-color (#2a2a2a).
+       Se dark-theme.css viene disattivato (Light Theme), usa #aaaaaa! 
+    */
     background-color: var(--fieldset-color, #aaaaaa) !important;
     border: 1px solid #888888 !important;
     border-radius: 4px !important;
-    color: inherit !important; /* Il testo si adatta da solo (bianco in dark, scuro in light) */
+    color: var(--text, #222222) !important; /* Testo chiaro in Dark, scuro #222222 in Light */
     cursor: pointer !important;
     transition: transform 0.05s ease !important;
 }
 
-/* Hover universale senza rompere il tema */
+/* Hover pulito per entrambi i temi */
 .stat-changer:hover,
 .gen-specific-section button:hover,
 .btn-set:hover,
@@ -893,8 +896,7 @@ fieldset button:hover,
 .field-info button:hover,
 .poke-info button:not(.type-btn):hover,
 #dark-theme-toggle:hover {
-    filter: brightness(1.1) !important; /* Schiarisce leggermente qualsiasi sia il colore di base */
-    color: inherit !important;
+    filter: brightness(1.15) !important;
 }
 
 /* --- DIMENSIONE E SPAZIATURA TASTI + E - --- */
@@ -906,7 +908,7 @@ fieldset button:hover,
     text-align: center !important;
 }
 
-/* Click (:active) con animazione di pressione senza flash */
+/* Click (:active) con animazione di pressione */
 .stat-changer:active,
 .gen-specific-section button:active,
 .btn-set:active,
