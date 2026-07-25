@@ -866,14 +866,14 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE UNIFORME PER PULSANTI E PANNELLI GRIGI (ESCLUSO .poke-import) --- */
+/* --- 1. OVERRIDE PULSANTI E PANNELLI GRIGI --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
 fieldset input[type="button"],
 fieldset button,
-.field-info button:not(.poke-import button):not(.poke-import),
-.poke-info button:not(.type-btn):not(.poke-import button):not(.poke-import) {
+.field-info button,
+.poke-info button:not(.type-btn) {
     background-color: var(--fieldset-color, #F1F4F9) !important;
     border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
@@ -882,30 +882,40 @@ fieldset button,
     transition: transform 0.05s ease !important;
 }
 
-/* Hover */
 .stat-changer:hover,
 .gen-specific-section button:hover,
 .btn-set:hover,
 fieldset input[type="button"]:hover,
 fieldset button:hover,
-.field-info button:not(.poke-import button):not(.poke-import):hover,
-.poke-info button:not(.type-btn):not(.poke-import button):not(.poke-import):hover {
+.field-info button:hover,
+.poke-info button:not(.type-btn):hover {
     background-color: var(--fieldset-color, #F1F4F9) !important;
     color: #FFFFFF !important;
 }
 
-/* Click (:active) */
 .stat-changer:active,
 .gen-specific-section button:active,
 .btn-set:active,
 fieldset input[type="button"]:active,
 fieldset button:active,
-.field-info button:not(.poke-import button):not(.poke-import):active,
-.poke-info button:not(.type-btn):not(.poke-import button):not(.poke-import):active {
+.field-info button:active,
+.poke-info button:not(.type-btn):active {
     background-color: var(--fieldset-color, #F1F4F9) !important;
     transform: translateY(1px) scale(0.97) !important;
     box-shadow: none !important;
 }
 
+/* --- 2. ESCLUSIONE COMPLETA PER .poke-import --- */
+/* Cancella qualsiasi modifica precedente e ripristina lo stile originale */
+.poke-import,
+.poke-import button,
+button.poke-import {
+    background-color: revert !important;
+    border: revert !important;
+    border-radius: revert !important;
+    color: revert !important;
+    transform: none !important;
+    transition: none !important;
+}
 
 
