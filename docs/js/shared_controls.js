@@ -2058,9 +2058,10 @@ $(document).ready(function() {
 function getTrainerPokemon(trainerName) {
 	var innerContent = trainerName.substring(trainerName.indexOf("(") + 1, trainerName.lastIndexOf(")")).replaceAll("*", "").trim();
 	var trueName = innerContent.includes(" (") ? innerContent.split(" (")[0].trim() : innerContent;
-	window.CURRENT_TRAINER = innerContent;
+	window.CURRENT_TRAINER = trueName;
 	if (READY && trueName in partyOrder) {
 		localStorage.setItem("lastTrainer", trueName);
+	}
 	}
 	// retrieves notes
 	var textBox = document.getElementById("notesArea");
