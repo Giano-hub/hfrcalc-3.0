@@ -866,7 +866,7 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- 1. OVERRIDE PULSANTI E PANNELLI GRIGI --- */
+/* --- OVERRIDE PULSANTI E PANNELLI GRIGI --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -882,6 +882,15 @@ fieldset button,
     transition: transform 0.05s ease !important;
 }
 
+/* --- DIMENSIONE INGRANDITA DEDICATA AI TASTI + E - --- */
+.stat-changer {
+    min-width: 26px !important;  /* Aumenta leggermente la larghezza */
+    min-height: 26px !important; /* Aumenta leggermente l'altezza */
+    line-height: 24px !important;/* Mantiene il simbolo perfettamente centrato */
+    font-size: 14px !important;  /* Rende il simbolo + e - leggermente più leggibile */
+}
+
+/* Hover */
 .stat-changer:hover,
 .gen-specific-section button:hover,
 .btn-set:hover,
@@ -893,6 +902,7 @@ fieldset button:hover,
     color: #FFFFFF !important;
 }
 
+/* Click (:active) */
 .stat-changer:active,
 .gen-specific-section button:active,
 .btn-set:active,
@@ -904,18 +914,4 @@ fieldset button:active,
     transform: translateY(1px) scale(0.97) !important;
     box-shadow: none !important;
 }
-
-/* --- 2. ESCLUSIONE COMPLETA PER .poke-import --- */
-/* Cancella qualsiasi modifica precedente e ripristina lo stile originale */
-.poke-import,
-.poke-import button,
-button.poke-import {
-    background-color: revert !important;
-    border: revert !important;
-    border-radius: revert !important;
-    color: revert !important;
-    transform: none !important;
-    transition: none !important;
-}
-
 
