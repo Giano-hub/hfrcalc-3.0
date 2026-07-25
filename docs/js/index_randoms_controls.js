@@ -318,7 +318,7 @@ $(".result-move").change(function () {
 			if (desc.indexOf('--') === -1) desc += ' -- possibly the worst move ever';
 			$("#mainResult").text(desc);
 			$("#damageValues").text("Possible damage amounts: (" + displayDamageHits(result.damage) + ")");
-			if (game == "Emerald Kaizo") {
+			if (["Emerald Kaizo", "Calculator"].includes(game)) {
 				if (result.move.recoil && !result.attacker.hasAbility("Rock Head") && (result.damage > 0 || result.damage[0] > 0)) {
 					$("#recoilValues").show().text("Possible recoil amounts: (" + displayRecoilHits(result.damage, result.move.recoil) + ")");
 				} else {
