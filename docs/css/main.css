@@ -879,10 +879,10 @@ fieldset button,
     border-radius: 4px !important;
     color: #FFFFFF !important;
     cursor: pointer !important;
-    transition: transform 0.05s ease, background-color 0.1s ease !important; /* Rende la pressione fluida */
+    transition: transform 0.05s ease !important; /* Mantiene solo l'animazione fisica */
 }
 
-/* Hover: nessun cambio di colore aggressivo o illuminazione bianca */
+/* Hover: nessun cambio di colore */
 .stat-changer:hover,
 .gen-specific-section button:hover,
 .btn-set:hover,
@@ -894,7 +894,7 @@ fieldset button:hover,
     color: #FFFFFF !important;
 }
 
-/* Click (:active): Animazione di pressione reale quando lo schiacci */
+/* Click (:active): Animazione pura di pressione SENZA cambi di colore */
 .stat-changer:active,
 .gen-specific-section button:active,
 .btn-set:active,
@@ -902,11 +902,10 @@ fieldset input[type="button"]:active,
 fieldset button:active,
 .field-info button:active,
 .poke-info button:not(.type-btn):active {
-    background-color: #D5DDFA !important; /* Si scurisce leggermente al click */
-    transform: translateY(1px) scale(0.98) !important; /* Va verso il basso dando la sensazione di essere schiacciato */
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2) !important; /* Effetto rientro */
+    background-color: var(--fieldset-color, #F1F4F9) !important; /* Stesso identico colore, zero flash! */
+    transform: translateY(1px) scale(0.97) !important;            /* Il pulsante si abbassa e si schiaccia */
+    box-shadow: none !important;
 }
-
 
 
 
