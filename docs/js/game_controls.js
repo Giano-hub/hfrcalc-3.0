@@ -875,6 +875,16 @@ function predictSwitchOrder() {
 	}
 }
 
+function getPartySetdexKey(trainer, position) {
+	var party = partyOrder[trainer];
+	var species = party[position];
+	var occurrence = 0;
+	for (var i = 0; i <= position; i++) {
+		if (party[i] === species) occurrence++;
+	}
+	var total = party.filter(function (s) { return s === species; }).length;
+	return total > 1 ? trainer + " (" + occurrence + ")" : trainer;
+}
 
 function predictMidTurnSwitchEmerald(p1, p2) {
 	var slower = p1.stats.spe < p2.stats.spe;
@@ -907,8 +917,8 @@ function predictMidTurnSwitchEmerald(p1, p2) {
 				var typeEffectiveness1 = GENERATION.types.get(toID(move.type)).effectiveness[dexMon.types[0]];
 				var typeEffectiveness2 = GENERATION.types.get(toID(move.type)).effectiveness[dexMon.types[1]];
 				var typeEffectiveness = typeEffectiveness2 !== undefined ? typeEffectiveness1 * typeEffectiveness2 : typeEffectiveness1;
-				if (typeEffectiveness < 1 || (move.type == "Ground" && setdex[enemy][window.CURRENT_TRAINER].ability == "Levitate")) {
-					var enemyMoves = setdex[enemy][window.CURRENT_TRAINER].moves;
+				if (typeEffectiveness < 1 || (move.type == "Ground" && setdex[enemy][getPartySetdexKey(window.CURRENT_TRAINER, j)].ability == "Levitate")) {
+					var enemyMoves = setdex[enemy][getPartySetdexKey(window.CURRENT_TRAINER, j)].moves;
 					for (var k in enemyMoves) {
 						var enemyMove = new calc.Move(GENERATION, enemyMoves[k]);
 						if (enemyMove.category == "Status") continue;
