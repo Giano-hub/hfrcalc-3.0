@@ -881,7 +881,7 @@ fieldset button,
     cursor: pointer !important;
 }
 
-/* Hover solo per questi elementi grigi */
+/* Hover: Mantiene lo stesso identico colore senza illuminarsi */
 .stat-changer:hover,
 .gen-specific-section button:hover,
 .btn-set:hover,
@@ -889,10 +889,10 @@ fieldset input[type="button"]:hover,
 fieldset button:hover,
 .field-info button:hover,
 .poke-info button:not(.type-btn):hover {
-    background-color: #E2E8F0 !important;
+    background-color: var(--fieldset-color, #F1F4F9) !important;
+    border: 1px solid #AAAAAA !important;
     color: #FFFFFF !important;
 }
-
 
 
 
