@@ -866,7 +866,7 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE PULSANTI E PANNELLI GRIGI (INCLUSO DARK-THEME-TOGGLE) --- */
+/* --- OVERRIDE GENERALE PULSANTI (BASE / DARK THEME) --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -883,6 +883,33 @@ fieldset button,
     transition: transform 0.05s ease !important;
 }
 
+/* --- LIGHT THEME SPECIFICO: GRIGIO OPACO #555555 --- */
+/* Si attiva solo quando la pagina NON ha la classe .dark-theme */
+body:not(.dark-theme) .stat-changer,
+body:not(.dark-theme) .gen-specific-section button,
+body:not(.dark-theme) .btn-set,
+body:not(.dark-theme) fieldset input[type="button"],
+body:not(.dark-theme) fieldset button,
+body:not(.dark-theme) .field-info button,
+body:not(.dark-theme) .poke-info button:not(.type-btn),
+body:not(.dark-theme) #dark-theme-toggle {
+    background-color: #555555 !important;
+    color: #FFFFFF !important; /* Testo bianco per un contrasto perfetto sopra il grigio opaco */
+    border-color: #444444 !important;
+}
+
+/* Hover in Light Theme */
+body:not(.dark-theme) .stat-changer:hover,
+body:not(.dark-theme) .gen-specific-section button:hover,
+body:not(.dark-theme) .btn-set:hover,
+body:not(.dark-theme) fieldset input[type="button"]:hover,
+body:not(.dark-theme) fieldset button:hover,
+body:not(.dark-theme) .field-info button:hover,
+body:not(.dark-theme) .poke-info button:not(.type-btn):hover,
+body:not(.dark-theme) #dark-theme-toggle:hover {
+    background-color: #666666 !important; /* Un grigio leggermente più chiaro per l'effetto hover */
+}
+
 /* --- DIMENSIONE E SPAZIATURA TASTI + E - --- */
 .stat-changer {
     width: 22px !important;
@@ -890,19 +917,6 @@ fieldset button,
     padding: 2px 5px !important;
     box-sizing: border-box !important;
     text-align: center !important;
-}
-
-/* Hover */
-.stat-changer:hover,
-.gen-specific-section button:hover,
-.btn-set:hover,
-fieldset input[type="button"]:hover,
-fieldset button:hover,
-.field-info button:hover,
-.poke-info button:not(.type-btn):hover,
-#dark-theme-toggle:hover {
-    background-color: var(--fieldset-color, #F1F4F9) !important;
-    color: inherit !important;
 }
 
 /* Click (:active) con animazione di pressione senza flash */
@@ -914,11 +928,9 @@ fieldset button:active,
 .field-info button:active,
 .poke-info button:not(.type-btn):active,
 #dark-theme-toggle:active {
-    background-color: var(--fieldset-color, #F1F4F9) !important;
     transform: translateY(1px) scale(0.97) !important;
     box-shadow: none !important;
 }
-
 /* --- ANIMAZIONE DI PRESSIONE PULSANTI BARRA DI NAVIGAZIONE/SETTINGS --- */
 .btn-left,
 .btn-mid,
