@@ -852,7 +852,18 @@ fieldset,
     border-radius: 10px !important; /* Cambia 10px in 6px (più squadrato) o 14px (più tondo) */
 }
 
+/* --- OVERRIDE STILE PULSANTI STATISTICHE (+/-) --- */
+.stat-changer {
+    background-color: var(--fieldset-color, #F1F4F9) !important;
+    border: 1px solid #AAAAAA !important;
+    border-radius: 4px !important;
+    color: #333333 !important;
+    cursor: pointer !important;
+}
 
+.stat-changer:hover {
+    background-color: #E2E8F0 !important;
+}
 
 
 
