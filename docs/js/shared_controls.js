@@ -1811,21 +1811,24 @@ function loadDefaultLists() {
 			});
 		},
 		initSelection: function (element, callback) {
-			if (element.hasClass("opposing") && game !== "None") {
-				var saved = localStorage.getItem("lastTrainer");
-				if (saved && partyOrder && saved in partyOrder) {
-					var firstMon = partyOrder[saved][0];
-					var match = getSetOptions().find(function (o) {
-						return o.set === saved && o.pokemon === firstMon;
-					});
-					if (match) {
-						callback(match);
-						return;
-					}
-				}
+	if (element.hasClass("opposing") && game !== "None") {
+		var saved = localStorage.getItem("lastTrainer");
+		if (saved && partyOrder && saved in partyOrder) {
+			var party = partyOrder[saved];
+			var firstMon = party[0];
+			var total = party.filter(function (s) { return s === firstMon; }).length;
+			var savedKey = total > 1 ? saved + " (1)" : saved;
+			var match = getSetOptions().find(function (o) {
+				return o.set === savedKey && o.pokemon === firstMon;
+			});
+			if (match) {
+				callback(match);
+				return;
 			}
-			callback(getFirstValidSetOption());
 		}
+	}
+	callback(getFirstValidSetOption());
+}
 	});
 }
 
@@ -2389,10 +2392,13 @@ $(document).ready(function () {
 	});
 	$(".set-selector").val(getFirstValidSetOption().id);
    if (typeof partyOrder !== "undefined" && localStorage.getItem("lastTrainer") in partyOrder) {
-	    var savedTrainer = localStorage.getItem("lastTrainer");
-	    var firstMon = partyOrder[savedTrainer][0];
-	    $("#p2 .set-selector").val(firstMon + " (" + savedTrainer + ")");
-	}
+	var savedTrainer = localStorage.getItem("lastTrainer");
+	var party = partyOrder[savedTrainer];
+	var firstMon = party[0];
+	var total = party.filter(function (s) { return s === firstMon; }).length;
+	var savedKey = total > 1 ? savedTrainer + " (1)" : savedTrainer;
+	$("#p2 .set-selector").val(firstMon + " (" + savedKey + ")");
+   }  
    $(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 
