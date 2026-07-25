@@ -866,9 +866,7 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE GENERALE PULSANTI (STILE BASE / LIGHT THEME) --- */
-/* Di default i pulsanti prendono lo stile Light Theme (#aaaaaa). */
-/* Essendo lo stile base, si applica ISTANTANEAMENTE quando il Dark Theme viene disattivato. */
+/* --- OVERRIDE PULSANTI E PANNELLI GRIGI (INCLUSO DARK-THEME-TOGGLE) --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -877,52 +875,12 @@ fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    background-color: #aaaaaa !important;
-    border: 1px solid #888888 !important;
+    background-color: var(--fieldset-color, #F1F4F9) !important;
+    border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
-    color: #222222 !important;
+    color: inherit !important;
     cursor: pointer !important;
     transition: transform 0.05s ease !important;
-}
-
-/* Hover in Light Theme */
-.stat-changer:hover,
-.gen-specific-section button:hover,
-.btn-set:hover,
-fieldset input[type="button"]:hover,
-fieldset button:hover,
-.field-info button:hover,
-.poke-info button:not(.type-btn):hover,
-#dark-theme-toggle:hover {
-    background-color: #bbbbbb !important;
-}
-
-/* --- OVERRIDE DARK THEME (SI ATTIVA SOLO SE DARK-THEME.CSS È CARICATO) --- */
-/* Sovrascrive lo stile base SOLTANTO quando la variabile --fieldset-color è definita da dark-theme.css */
-@supports (background-color: var(--fieldset-color)) {
-    .stat-changer,
-    .gen-specific-section button,
-    .btn-set,
-    fieldset input[type="button"],
-    fieldset button,
-    .field-info button,
-    .poke-info button:not(.type-btn),
-    #dark-theme-toggle {
-        background-color: var(--fieldset-color) !important;
-        border-color: #AAAAAA !important;
-        color: var(--text, inherit) !important;
-    }
-
-    .stat-changer:hover,
-    .gen-specific-section button:hover,
-    .btn-set:hover,
-    fieldset input[type="button"]:hover,
-    fieldset button:hover,
-    .field-info button:hover,
-    .poke-info button:not(.type-btn):hover,
-    #dark-theme-toggle:hover {
-        background-color: var(--button-hover, #333333) !important;
-    }
 }
 
 /* --- DIMENSIONE E SPAZIATURA TASTI + E - --- */
@@ -934,7 +892,20 @@ fieldset button:hover,
     text-align: center !important;
 }
 
-/* Click (:active) con animazione di pressione */
+/* Hover */
+.stat-changer:hover,
+.gen-specific-section button:hover,
+.btn-set:hover,
+fieldset input[type="button"]:hover,
+fieldset button:hover,
+.field-info button:hover,
+.poke-info button:not(.type-btn):hover,
+#dark-theme-toggle:hover {
+    background-color: var(--fieldset-color, #F1F4F9) !important;
+    color: inherit !important;
+}
+
+/* Click (:active) con animazione di pressione senza flash */
 .stat-changer:active,
 .gen-specific-section button:active,
 .btn-set:active,
@@ -943,6 +914,7 @@ fieldset button:active,
 .field-info button:active,
 .poke-info button:not(.type-btn):active,
 #dark-theme-toggle:active {
+    background-color: var(--fieldset-color, #F1F4F9) !important;
     transform: translateY(1px) scale(0.97) !important;
     box-shadow: none !important;
 }
