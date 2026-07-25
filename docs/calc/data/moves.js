@@ -555,7 +555,7 @@ var ADV_PATCH = {
     'Crush Claw': { bp: 100, type: 'Normal', makesContact: true },
     'Dragon Claw': { bp: 80, type: 'Dragon', makesContact: true },
     'Dragon Dance': { bp: 0, category: 'Status', type: 'Dragon' },
-    Eruption: { bp: 150, type: 'Fire', target: 'allAdjacentFoes' },
+    Eruption: { bp: 150, type: 'Fire', target: 'allAdjacentFoes', recoil: [1, 3] },
     'Fake Tears': { bp: 0, category: 'Status', type: 'Dark' },
     'Feather Dance': { bp: 0, category: 'Status', type: 'Flying' },
     Flatter: { bp: 0, category: 'Status', type: 'Dark' },
