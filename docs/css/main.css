@@ -866,7 +866,7 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE GENERALE PULSANTI (BASE / DARK THEME) --- */
+/* --- OVERRIDE GENERALE PULSANTI (DARK THEME / BASE) --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -883,62 +883,46 @@ fieldset button,
     transition: transform 0.05s ease !important;
 }
 
-/* --- LIGHT THEME SPECIFICO (#AAAAAA) --- */
-/* Si applica SOLTANTO quando il Light Theme è espressamente attivo */
-html[data-theme="light"] .stat-changer,
-html[data-theme="light"] .gen-specific-section button,
-html[data-theme="light"] .btn-set,
-html[data-theme="light"] fieldset input[type="button"],
-html[data-theme="light"] fieldset button,
-html[data-theme="light"] .field-info button,
-html[data-theme="light"] .poke-info button:not(.type-btn),
-html[data-theme="light"] #dark-theme-toggle,
-body.light-theme .stat-changer,
-body.light-theme .gen-specific-section button,
-body.light-theme .btn-set,
-body.light-theme fieldset input[type="button"],
-body.light-theme fieldset button,
-body.light-theme .field-info button,
-body.light-theme .poke-info button:not(.type-btn),
-body.light-theme #dark-theme-toggle,
-body.light .stat-changer,
-body.light .gen-specific-section button,
-body.light .btn-set,
-body.light fieldset input[type="button"],
-body.light fieldset button,
-body.light .field-info button,
-body.light .poke-info button:not(.type-btn),
-body.light #dark-theme-toggle {
+/* --- LIGHT THEME ISTANTANEO (#AAAAAA) --- */
+/* Scatta IMMEDIATAMENTE quando NON c'è la classe .dark-theme sul body o html */
+body:not(.dark-theme) .stat-changer,
+body:not(.dark-theme) .gen-specific-section button,
+body:not(.dark-theme) .btn-set,
+body:not(.dark-theme) fieldset input[type="button"],
+body:not(.dark-theme) fieldset button,
+body:not(.dark-theme) .field-info button,
+body:not(.dark-theme) .poke-info button:not(.type-btn),
+body:not(.dark-theme) #dark-theme-toggle,
+html:not(.dark-theme) .stat-changer,
+html:not(.dark-theme) .gen-specific-section button,
+html:not(.dark-theme) .btn-set,
+html:not(.dark-theme) fieldset input[type="button"],
+html:not(.dark-theme) fieldset button,
+html:not(.dark-theme) .field-info button,
+html:not(.dark-theme) .poke-info button:not(.type-btn),
+html:not(.dark-theme) #dark-theme-toggle {
     background-color: #aaaaaa !important;
     color: #222222 !important;
     border-color: #888888 !important;
 }
 
 /* Hover in Light Theme */
-html[data-theme="light"] .stat-changer:hover,
-html[data-theme="light"] .gen-specific-section button:hover,
-html[data-theme="light"] .btn-set:hover,
-html[data-theme="light"] fieldset input[type="button"]:hover,
-html[data-theme="light"] fieldset button:hover,
-html[data-theme="light"] .field-info button:hover,
-html[data-theme="light"] .poke-info button:not(.type-btn):hover,
-html[data-theme="light"] #dark-theme-toggle:hover,
-body.light-theme .stat-changer:hover,
-body.light-theme .gen-specific-section button:hover,
-body.light-theme .btn-set:hover,
-body.light-theme fieldset input[type="button"]:hover,
-body.light-theme fieldset button:hover,
-body.light-theme .field-info button:hover,
-body.light-theme .poke-info button:not(.type-btn):hover,
-body.light-theme #dark-theme-toggle:hover,
-body.light .stat-changer:hover,
-body.light .gen-specific-section button:hover,
-body.light .btn-set:hover,
-body.light fieldset input[type="button"]:hover,
-body.light fieldset button:hover,
-body.light .field-info button:hover,
-body.light .poke-info button:not(.type-btn):hover,
-body.light #dark-theme-toggle:hover {
+body:not(.dark-theme) .stat-changer:hover,
+body:not(.dark-theme) .gen-specific-section button:hover,
+body:not(.dark-theme) .btn-set:hover,
+body:not(.dark-theme) fieldset input[type="button"]:hover,
+body:not(.dark-theme) fieldset button:hover,
+body:not(.dark-theme) .field-info button:hover,
+body:not(.dark-theme) .poke-info button:not(.type-btn):hover,
+body:not(.dark-theme) #dark-theme-toggle:hover,
+html:not(.dark-theme) .stat-changer:hover,
+html:not(.dark-theme) .gen-specific-section button:hover,
+html:not(.dark-theme) .btn-set:hover,
+html:not(.dark-theme) fieldset input[type="button"]:hover,
+html[not(.dark-theme)] fieldset button:hover,
+html:not(.dark-theme) .field-info button:hover,
+html:not(.dark-theme) .poke-info button:not(.type-btn):hover,
+html:not(.dark-theme) #dark-theme-toggle:hover {
     background-color: #bbbbbb !important;
 }
 
