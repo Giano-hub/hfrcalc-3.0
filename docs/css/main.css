@@ -883,7 +883,8 @@ fieldset button,
     transition: transform 0.05s ease !important;
 }
 
-/* --- LIGHT THEME AUTOMATICO (#AAAAAA) --- */
+/* --- LIGHT THEME SPECIFICO (#AAAAAA) --- */
+/* Si applica SOLTANTO quando il Light Theme è espressamente attivo */
 html[data-theme="light"] .stat-changer,
 html[data-theme="light"] .gen-specific-section button,
 html[data-theme="light"] .btn-set,
@@ -900,16 +901,16 @@ body.light-theme fieldset button,
 body.light-theme .field-info button,
 body.light-theme .poke-info button:not(.type-btn),
 body.light-theme #dark-theme-toggle,
-:root:not(.dark) .stat-changer,
-:root:not(.dark) .gen-specific-section button,
-:root:not(.dark) .btn-set,
-:root:not(.dark) fieldset input[type="button"],
-:root:not(.dark) fieldset button,
-:root:not(.dark) .field-info button,
-:root:not(.dark) .poke-info button:not(.type-btn),
-:root:not(.dark) #dark-theme-toggle {
+body.light .stat-changer,
+body.light .gen-specific-section button,
+body.light .btn-set,
+body.light fieldset input[type="button"],
+body.light fieldset button,
+body.light .field-info button,
+body.light .poke-info button:not(.type-btn),
+body.light #dark-theme-toggle {
     background-color: #aaaaaa !important;
-    color: #222222 !important; /* Testo scuro ben contrastato sul grigio #aaaaaa */
+    color: #222222 !important;
     border-color: #888888 !important;
 }
 
@@ -930,15 +931,15 @@ body.light-theme fieldset button:hover,
 body.light-theme .field-info button:hover,
 body.light-theme .poke-info button:not(.type-btn):hover,
 body.light-theme #dark-theme-toggle:hover,
-:root:not(.dark) .stat-changer:hover,
-:root:not(.dark) .gen-specific-section button:hover,
-:root:not(.dark) .btn-set:hover,
-:root:not(.dark) fieldset input[type="button"]:hover,
-:root:not(.dark) fieldset button:hover,
-:root:not(.dark) .field-info button:hover,
-:root:not(.dark) .poke-info button:not(.type-btn):hover,
-:root:not(.dark) #dark-theme-toggle:hover {
-    background-color: #bbbbbb !important; /* Un grigio leggermente più chiaro al passaggio del mouse */
+body.light .stat-changer:hover,
+body.light .gen-specific-section button:hover,
+body.light .btn-set:hover,
+body.light fieldset input[type="button"]:hover,
+body.light fieldset button:hover,
+body.light .field-info button:hover,
+body.light .poke-info button:not(.type-btn):hover,
+body.light #dark-theme-toggle:hover {
+    background-color: #bbbbbb !important;
 }
 
 /* --- DIMENSIONE E SPAZIATURA TASTI + E - --- */
