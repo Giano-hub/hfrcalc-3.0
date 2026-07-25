@@ -866,13 +866,13 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE UNIFORME PER TUTTI I PULSANTI E PANNELLI SECONDARI --- */
+/* --- OVERRIDE SOLO PER PULSANTI E CONTROLLI A FONDO GRIGIO --- */
 .stat-changer,
-button,
-.btn,
-.small-btn,
-input[type="button"],
-input[type="reset"] {
+.btn-small,
+.btn-group .btn,
+.panel-btn,
+input[type="button"].btn-flat,
+.calc-trigger-btn {
     background-color: var(--fieldset-color, #F1F4F9) !important;
     border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
@@ -880,13 +880,13 @@ input[type="reset"] {
     cursor: pointer !important;
 }
 
-/* Effetto Hover unico per tutti */
+/* Hover dedicato */
 .stat-changer:hover,
-button:hover,
-.btn:hover,
-.small-btn:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover {
+.btn-small:hover,
+.btn-group .btn:hover,
+.panel-btn:hover,
+input[type="button"].btn-flat:hover,
+.calc-trigger-btn:hover {
     background-color: #E2E8F0 !important;
     color: #FFFFFF !important;
 }
