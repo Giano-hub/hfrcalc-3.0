@@ -866,7 +866,7 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE PULSANTI E PANNELLI GRIGI --- */
+/* --- OVERRIDE PULSANTI E PANNELLI GRIGI (COMPATIBILE LIGHT & DARK THEME) --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -877,12 +877,12 @@ fieldset button,
     background-color: var(--fieldset-color, #F1F4F9) !important;
     border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
-    color: #FFFFFF !important;
+    color: inherit !important; /* Mantiene il colore del testo nativo del tema (nero in light, bianco in dark) */
     cursor: pointer !important;
     transition: transform 0.05s ease !important;
 }
 
-/* --- DIMENSIONE E SPAZIATURA TASTI + E - (Dall'altro calcolatore) --- */
+/* --- DIMENSIONE E SPAZIATURA TASTI + E - --- */
 .stat-changer {
     width: 22px !important;
     margin-right: 2px !important;
@@ -900,7 +900,7 @@ fieldset button:hover,
 .field-info button:hover,
 .poke-info button:not(.type-btn):hover {
     background-color: var(--fieldset-color, #F1F4F9) !important;
-    color: #FFFFFF !important;
+    color: inherit !important;
 }
 
 /* Click (:active) */
