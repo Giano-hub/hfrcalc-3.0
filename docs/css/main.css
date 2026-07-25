@@ -800,7 +800,7 @@ table.field {
     cursor: pointer;
     z-index: 9999;
     color: var(--text, #000000);
-    border: 1px solid #AAAAAA;
+    border: 1px solid var(--fieldset-color, #F1F4F9);
 }
 
 #calc-input {
