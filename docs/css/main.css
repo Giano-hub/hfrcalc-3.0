@@ -915,3 +915,24 @@ fieldset button:active,
     transform: translateY(1px) scale(0.97) !important;
     box-shadow: none !important;
 }
+
+/* --- ANIMAZIONE DI PRESSIONE PULSANTI BARRA DI NAVIGAZIONE/SETTINGS --- */
+.btn-left,
+.btn-mid,
+.btn-right {
+    transition: transform 0.05s ease !important; /* Transizione fluida della pressione */
+}
+
+/* Stato Click (:active) */
+.btn-left:active,
+.btn-mid:active,
+.btn-right:active {
+    transform: translateY(1px) scale(0.97) !important; /* Si abbassa e si schiaccia leggermente */
+    box-shadow: none !important;
+}
+
+
+
+
+
+
