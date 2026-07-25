@@ -2056,8 +2056,7 @@ $(document).ready(function() {
 });
 
 function getTrainerPokemon(trainerName) {
-	var innerContent = trainerName.substring(trainerName.indexOf("(") + 1, trainerName.lastIndexOf(")")).replaceAll("*", "").trim();
-	var trueName = innerContent.includes(" (") ? innerContent.split(" (")[0].trim() : innerContent;
+	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
 	window.CURRENT_TRAINER = trueName;
 	if (READY && trueName in partyOrder) {
 		localStorage.setItem("lastTrainer", trueName);
