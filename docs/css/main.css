@@ -791,7 +791,7 @@ table.field {
     position: fixed;
     bottom: 0;
     right: 10%;
-    background-color: #2e2e2ee6;
+    background-color: var(--calc-bg, #ffffffcc);
     border-radius: 10px 10px 0 0;
     padding: 0.5em;
     display: flex;
@@ -799,7 +799,8 @@ table.field {
     gap: 5px;
     cursor: pointer;
     z-index: 9999;
-    color: #ffffff;
+    color: var(--text, #000000);
+    border: 1px solid #AAAAAA;
 }
 
 #calc-input {
