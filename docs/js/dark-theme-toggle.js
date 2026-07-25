@@ -34,12 +34,4 @@ function toggleTheme() {
 	localStorage.setItem('darkTheme', prefersDarkTheme);
 	darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
 }
-	
-	var darkStyles = document.getElementById('dark-theme-styles');
-	darkStyles.disabled = !darkStyles.disabled;
-
-	localStorage.setItem('darkTheme', prefersDarkTheme);
-	darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
-}
-
 darkThemeButton.addEventListener('click', toggleTheme);
