@@ -2056,11 +2056,12 @@ $(document).ready(function() {
 });
 
 function getTrainerPokemon(trainerName) {
-	var trueName = trainerName.split("(")[1].replaceAll("*", "").split(")")[0].trim();
-	window.CURRENT_TRAINER = trueName;
+	var innerContent = trainerName.substring(trainerName.indexOf("(") + 1, trainerName.lastIndexOf(")")).replaceAll("*", "").trim();
+	var trueName = innerContent.includes(" (") ? innerContent.split(" (")[0].trim() : innerContent;
+	window.CURRENT_TRAINER = innerContent;
 	if (READY && trueName in partyOrder) {
-	localStorage.setItem("lastTrainer", trueName);
-   } 
+		localStorage.setItem("lastTrainer", trueName);
+	}
 	// retrieves notes
 	var textBox = document.getElementById("notesArea");
 	textBox.value = localStorage.getItem(window.CURRENT_TRAINER);
