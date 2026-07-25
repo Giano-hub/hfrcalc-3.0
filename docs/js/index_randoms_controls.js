@@ -330,13 +330,18 @@ $(".result-move").change(function () {
 					$("#drainValues").hide();
 				}
 			   if (result.move.hasCrashDamage && (result.damage > 0 || result.damage[0] > 0)) {
-	             var isImmune = result.defender.types.some(function (t) {
-		              return calc.TYPE_CHART[gen][result.move.type] && calc.TYPE_CHART[gen][result.move.type][t] === 0;
-	             });
+	             var isImmune = false;
+	             for (var t = 0; t < result.defender.types.length; t++) {
+		              var defType = result.defender.types[t];
+		              if (defType && GENERATION.types.get(toID(result.move.type)).effectiveness[defType] === 0) {
+			               isImmune = true;
+			               break;
+		              }
+	             }
 	             if (!isImmune) {
 		              $("#crashValues").show().text("Crash damage if the move misses: (" + displayCrashDamageHits(result.damage) + ")");
 	             } else {
-		            $("#crashValues").hide();
+		              $("#crashValues").hide();
 	             }
             } else {
 	             $("#crashValues").hide();
