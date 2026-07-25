@@ -866,8 +866,7 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE GENERALE PULSANTI (BASE / DARK THEME) --- */
-/* Lascia intatti i colori nativi del Dark Theme (usando var(--fieldset-color)) */
+/* --- OVERRIDE GENERALE PULSANTI (DARK & LIGHT THEME COMPATIBILE ISTANTANEO) --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -876,40 +875,26 @@ fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    background-color: var(--fieldset-color, #F1F4F9) !important;
-    border: 1px solid #AAAAAA !important;
+    /* Usa la variabile del tema: grigio scuro in Dark, #aaaaaa / chiaro in Light */
+    background-color: var(--fieldset-color, #aaaaaa) !important;
+    border: 1px solid #888888 !important;
     border-radius: 4px !important;
-    color: inherit !important;
+    color: inherit !important; /* Il testo si adatta da solo (bianco in dark, scuro in light) */
     cursor: pointer !important;
     transition: transform 0.05s ease !important;
 }
 
-/* --- LIGHT THEME ISTANTANEO TRAMITE VARIABILE CSS (#AAAAAA) --- */
-/* Lo script di cambio tema modifica il tag body aggiungendo attributi o stili inline. */
-/* Questo selettore scatta solo quando la pagina sta dichiaratamente usando colori "Light". */
-body:not([class*="dark"]) .stat-changer,
-body:not([class*="dark"]) .gen-specific-section button,
-body:not([class*="dark"]) .btn-set,
-body:not([class*="dark"]) fieldset input[type="button"],
-body:not([class*="dark"]) fieldset button,
-body:not([class*="dark"]) .field-info button,
-body:not([class*="dark"]) .poke-info button:not(.type-btn),
-body:not([class*="dark"]) #dark-theme-toggle {
-    background-color: #aaaaaa !important;
-    color: #222222 !important;
-    border-color: #888888 !important;
-}
-
-/* Hover in Light Theme */
-body:not([class*="dark"]) .stat-changer:hover,
-body:not([class*="dark"]) .gen-specific-section button:hover,
-body:not([class*="dark"]) .btn-set:hover,
-body:not([class*="dark"]) fieldset input[type="button"]:hover,
-body:not([class*="dark"]) fieldset button:hover,
-body:not([class*="dark"]) .field-info button:hover,
-body:not([class*="dark"]) .poke-info button:not(.type-btn):hover,
-body:not([class*="dark"]) #dark-theme-toggle:hover {
-    background-color: #bbbbbb !important;
+/* Hover universale senza rompere il tema */
+.stat-changer:hover,
+.gen-specific-section button:hover,
+.btn-set:hover,
+fieldset input[type="button"]:hover,
+fieldset button:hover,
+.field-info button:hover,
+.poke-info button:not(.type-btn):hover,
+#dark-theme-toggle:hover {
+    filter: brightness(1.1) !important; /* Schiarisce leggermente qualsiasi sia il colore di base */
+    color: inherit !important;
 }
 
 /* --- DIMENSIONE E SPAZIATURA TASTI + E - --- */
