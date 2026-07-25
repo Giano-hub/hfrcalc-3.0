@@ -2061,7 +2061,6 @@ function getTrainerPokemon(trainerName) {
 	if (READY && trueName in partyOrder) {
 		localStorage.setItem("lastTrainer", trueName);
 	}
-	}
 	// retrieves notes
 	var textBox = document.getElementById("notesArea");
 	textBox.value = localStorage.getItem(window.CURRENT_TRAINER);
