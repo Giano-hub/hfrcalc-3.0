@@ -866,3 +866,33 @@ fieldset,
     color: #FFFFFF !important;
 }
 
+/* --- OVERRIDE UNIFORME PER TUTTI I PULSANTI E PANNELLI SECONDARI --- */
+.stat-changer,
+button,
+.btn,
+.small-btn,
+input[type="button"],
+input[type="reset"] {
+    background-color: var(--fieldset-color, #F1F4F9) !important;
+    border: 1px solid #AAAAAA !important;
+    border-radius: 4px !important;
+    color: #FFFFFF !important;
+    cursor: pointer !important;
+}
+
+/* Effetto Hover unico per tutti */
+.stat-changer:hover,
+button:hover,
+.btn:hover,
+.small-btn:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #E2E8F0 !important;
+    color: #FFFFFF !important;
+}
+
+
+
+
+
+
