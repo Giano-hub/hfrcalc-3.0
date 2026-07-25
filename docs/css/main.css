@@ -866,7 +866,7 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE UNIFORME SOLO PER PULSANTI E PANNELLI GRIGI --- */
+/* --- OVERRIDE UNIFORME PER PULSANTI E PANNELLI GRIGI --- */
 .stat-changer,
 .gen-specific-section button,
 .btn-set,
@@ -879,9 +879,10 @@ fieldset button,
     border-radius: 4px !important;
     color: #FFFFFF !important;
     cursor: pointer !important;
+    transition: transform 0.05s ease, background-color 0.1s ease !important; /* Rende la pressione fluida */
 }
 
-/* Hover: Mantiene lo stesso identico colore senza illuminarsi */
+/* Hover: nessun cambio di colore aggressivo o illuminazione bianca */
 .stat-changer:hover,
 .gen-specific-section button:hover,
 .btn-set:hover,
@@ -890,8 +891,20 @@ fieldset button:hover,
 .field-info button:hover,
 .poke-info button:not(.type-btn):hover {
     background-color: var(--fieldset-color, #F1F4F9) !important;
-    border: 1px solid #AAAAAA !important;
     color: #FFFFFF !important;
+}
+
+/* Click (:active): Animazione di pressione reale quando lo schiacci */
+.stat-changer:active,
+.gen-specific-section button:active,
+.btn-set:active,
+fieldset input[type="button"]:active,
+fieldset button:active,
+.field-info button:active,
+.poke-info button:not(.type-btn):active {
+    background-color: #D5DDFA !important; /* Si scurisce leggermente al click */
+    transform: translateY(1px) scale(0.98) !important; /* Va verso il basso dando la sensazione di essere schiacciato */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2) !important; /* Effetto rientro */
 }
 
 
