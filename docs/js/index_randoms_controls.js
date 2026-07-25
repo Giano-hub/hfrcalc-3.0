@@ -329,6 +329,19 @@ $(".result-move").change(function () {
 				} else {
 					$("#drainValues").hide();
 				}
+			   if (result.move.hasCrashDamage && (result.damage > 0 || result.damage[0] > 0)) {
+	             var isImmune = result.defender.types.some(function (t) {
+		              return calc.TYPE_CHART[gen][result.move.type] && calc.TYPE_CHART[gen][result.move.type][t] === 0;
+	             });
+	             if (!isImmune) {
+		              $("#crashValues").show().text("Crash damage if the move misses: (" + displayCrashDamageHits(result.damage) + ")");
+	             } else {
+		            $("#crashValues").hide();
+	             }
+            } else {
+	             $("#crashValues").hide();
+            }
+			
 			}
 		}
 	}
@@ -374,6 +387,13 @@ function displayRecoilHits(damage, recoil) {
     if (typeof damage === 'number') return Math.max(Math.floor(Math.min(damage, createPokemon($("#p2")).rawStats.hp) * recoil[0] / recoil[1]), 1);
     // Standard Damage
     return aggregateRolls(damage.map(x => Math.max(Math.floor(Math.min(x, createPokemon($("#p2")).rawStats.hp) * recoil[0] / recoil[1]), 1)));
+}
+
+function displayCrashDamageHits(damage) {
+    // Fixed Damage
+    if (typeof damage === 'number') return Math.max(Math.floor(damage / 2), 1);
+    // Standard Damage
+    return aggregateRolls(damage.map(x => Math.max(Math.floor(x / 2), 1)));
 }
 
 function displayDrainHits(damage, drain) {
