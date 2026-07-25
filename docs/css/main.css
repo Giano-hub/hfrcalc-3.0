@@ -866,13 +866,14 @@ fieldset,
     color: #FFFFFF !important;
 }
 
-/* --- OVERRIDE SOLO PER PULSANTI E CONTROLLI A FONDO GRIGIO --- */
+/* --- OVERRIDE UNIFORME SOLO PER PULSANTI E PANNELLI GRIGI --- */
 .stat-changer,
-.btn-small,
-.btn-group .btn,
-.panel-btn,
-input[type="button"].btn-flat,
-.calc-trigger-btn {
+.gen-specific-section button,
+.btn-set,
+fieldset input[type="button"],
+fieldset button,
+.field-info button,
+.poke-info button:not(.type-btn) {
     background-color: var(--fieldset-color, #F1F4F9) !important;
     border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
@@ -880,13 +881,14 @@ input[type="button"].btn-flat,
     cursor: pointer !important;
 }
 
-/* Hover dedicato */
+/* Hover solo per questi elementi grigi */
 .stat-changer:hover,
-.btn-small:hover,
-.btn-group .btn:hover,
-.panel-btn:hover,
-input[type="button"].btn-flat:hover,
-.calc-trigger-btn:hover {
+.gen-specific-section button:hover,
+.btn-set:hover,
+fieldset input[type="button"]:hover,
+fieldset button:hover,
+.field-info button:hover,
+.poke-info button:not(.type-btn):hover {
     background-color: #E2E8F0 !important;
     color: #FFFFFF !important;
 }
