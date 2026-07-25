@@ -882,12 +882,10 @@ fieldset button,
     transition: transform 0.05s ease !important;
 }
 
-/* --- DIMENSIONE INGRANDITA DEDICATA AI TASTI + E - --- */
+/* --- MICRO-INGRANDIMENTO DISCRETO TASTI + E - --- */
 .stat-changer {
-    min-width: 26px !important;  /* Aumenta leggermente la larghezza */
-    min-height: 26px !important; /* Aumenta leggermente l'altezza */
-    line-height: 24px !important;/* Mantiene il simbolo perfettamente centrato */
-    font-size: 14px !important;  /* Rende il simbolo + e - leggermente più leggibile */
+    padding: 1px 5px !important; /* Aggiunge pochissimo spazio attorno al simbolo */
+    font-size: 13px !important;  /* Simbolo solo un pelino più visibile */
 }
 
 /* Hover */
