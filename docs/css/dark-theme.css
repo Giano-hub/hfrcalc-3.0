@@ -182,3 +182,7 @@ input.select2-input {
     background-color: #2c2c2c;
 }
 
+#calc-input {
+    background-color: black;
+    color: white;
+}
