@@ -716,34 +716,31 @@ table.field {
 }
 
 .mon-dmg-none {
-    background: var(--fieldset-color) !important;
+    background: var(--fieldset-color, #F1F4F9) !important;
 }
-
 .mon-dmg-W {
     /* Is considerable a wall*/
-    background: linear-gradient(to right, #0f0bf3 50%, var(--fieldset-color) 0%);
+    background: linear-gradient(to right, #0f0bf3 50%, var(--fieldset-color, #F1F4F9) 0%);
 }
-
 .mon-dmg-WMO {
     /* Is considerable a wall that may OHKO*/
-    background: linear-gradient(to right, #1295ec 50%, var(--fieldset-color) 0%);
+    background: linear-gradient(to right, #1295ec 50%, var(--fieldset-color, #F1F4F9) 0%);
 }
-
 .mon-dmg-4 {
     /*Gets OHKO*/
-    background: linear-gradient(to right, var(--fieldset-color) 50%, #dd0b0b 0%);
+    background: linear-gradient(to right, var(--fieldset-color, #F1F4F9) 50%, #dd0b0b 0%);
 }
 .mon-dmg-3 {
     /*maybe gets OHKO*/
-    background: linear-gradient(to right, var(--fieldset-color) 50%, #ff7f16 0%);
+    background: linear-gradient(to right, var(--fieldset-color, #F1F4F9) 50%, #ff7f16 0%);
 }
 .mon-dmg-1 {
     /*inflicts OHKO*/
-    background: linear-gradient(to right, #20d408 50%, var(--fieldset-color) 0%);
+    background: linear-gradient(to right, #20d408 50%, var(--fieldset-color, #F1F4F9) 0%);
 }
 .mon-dmg-2 {
     /*may inflicts OHKO*/
-    background: linear-gradient(to right, #daff08 50%, var(--fieldset-color) 0%);
+    background: linear-gradient(to right, #daff08 50%, var(--fieldset-color, #F1F4F9) 0%);
 }
 .mon-dmg-14 {
     /*both sides Gets OHKO*/
@@ -761,7 +758,6 @@ table.field {
     /*may inflict OHKO but Gets OHKO*/
     background: linear-gradient(to right, #daff08 50%, #dd0b0b 0%);
 }
-
 .box-poke, .trainer-poke-list-opposing, .tag-poke-list-opposing {
     min-height: 30px;
 }
