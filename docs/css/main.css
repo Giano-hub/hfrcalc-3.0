@@ -791,7 +791,7 @@ table.field {
     position: fixed;
     bottom: 0;
     right: 10%;
-    background-color: var(--calc-bg, #ffffffcc);
+    background-color: var(--calc-bg, #F1F4F9);
     border-radius: 10px 10px 0 0;
     padding: 0.5em;
     display: flex;
@@ -809,6 +809,8 @@ table.field {
     border-radius: 3px;
     border: none;
     outline: none;
+    background-color: white;
+    color: black;
 }
 
 #calc-result {
