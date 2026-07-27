@@ -1650,6 +1650,7 @@ function getSetOptions(sets) {
 				}) : Object.keys(setdex[pokeName]);
 				for (var j = 0; j < setNames.length; j++) {
 					var setName = setNames[j];
+					if (isHack && !trainerMatchesStarter(setName)) continue;
 					setOptions.push({
 						pokemon: pokeName,
 						set: setName,
@@ -1961,7 +1962,6 @@ function getTrainerNames() {
 	    var setNames = Object.keys(sets);
 	    for (i in setNames) {
 	       var setName = setNames[i];
-	       if (!trainerMatchesStarter(setName)) continue;
 			 trainerNames.push(`${pokemonName} (${setName})`);
 	    }
 	}
