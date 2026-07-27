@@ -1874,6 +1874,22 @@ function loadCustomList(id) {
 	});
 }
 
+var selectedStarter = localStorage.getItem("selectedStarter") || "None";
+$("input[name='starter']").change(function () {
+	selectedStarter = $(this).val();
+	localStorage.setItem("selectedStarter", selectedStarter);
+});
+
+function trainerMatchesStarter(name) {
+	if (selectedStarter === "None") return true;
+	var starters = ["Bulbasaur", "Charmander", "Squirtle"];
+	var endsWithAnyStarter = starters.some(function (s) {
+		return name.endsWith(" " + s);
+	});
+	if (!endsWithAnyStarter) return true;
+	return name.endsWith(" " + selectedStarter);
+}
+
 function getTrainerNames() {
 	var allPokemon = [];
 	switch (game) {
@@ -1945,7 +1961,8 @@ function getTrainerNames() {
 	    var setNames = Object.keys(sets);
 	    for (i in setNames) {
 	       var setName = setNames[i];
-	       trainerNames.push(`${pokemonName} (${setName})`);
+	       if (!trainerMatchesStarter(setName)) continue;
+			 trainerNames.push(`${pokemonName} (${setName})`);
 	    }
 	}
 	return trainerNames;
