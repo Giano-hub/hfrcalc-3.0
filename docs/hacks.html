@@ -28,7 +28,16 @@
 <div class="hide" id="settings-container">
     <fieldset>
         <legend align="center">Settings</legend>
-        <legend align="center">Switch-in Guide</legend>
+        <legend align="center">Starter</legend>
+        <span class="starterSelection" aria-labelledby="selectStarterInstruction" role="radiogroup" title="Select your starter Pokémon.">
+            <span class="visually-hidden" id="selectStarterInstruction">Select your starter Pokémon.</span>
+            <input class="visually-hidden" type="radio" name="starter" value="None" id="starterNone" checked="checked" /><label class="btn btn-left" for="starterNone">None</label>
+            <input class="visually-hidden" type="radio" name="starter" value="Bulbasaur" id="starterBulbasaur" /><label class="btn btn-mid" for="starterBulbasaur">Bulbasaur</label>
+            <input class="visually-hidden" type="radio" name="starter" value="Charmander" id="starterCharmander" /><label class="btn btn-mid" for="starterCharmander">Charmander</label>
+            <input class="visually-hidden" type="radio" name="starter" value="Squirtle" id="starterSquirtle" /><label class="btn btn-right" for="starterSquirtle">Squirtle</label>
+        </span>
+        <hr />
+		  <legend align="center">Switch-in Guide</legend>
         <span class="switchGuideSelection" aria-labelledby="selectSwitchGuideInstruction" role="radiogroup" title="Toggle the Switch-in Guide.">
             <span class="visually-hidden" id="selectSwitchGuideInstruction">Toggle the Switch-in Guide.</span>
             <input class="visually-hidden" type="radio" name="switchGuide" value="On" id="switchGuideOn" checked="checked" /><label class="btn btn-left" for="switchGuideOn">Enabled</label>
