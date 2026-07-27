@@ -2386,6 +2386,8 @@ $(".stat-changer").click((e) => {
 });
 
 $(document).ready(function () {
+	var savedStarter = localStorage.getItem("selectedStarter") || "None";
+   $("input[name='starter'][value='" + savedStarter + "']").prop("checked", true);
 	var params = new URLSearchParams(window.location.search);
 	var g = GENERATION[params.get('gen')] || DEFAULTGEN;
 	var gm = params.get("game") || 0;
