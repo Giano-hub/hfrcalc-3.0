@@ -1666,7 +1666,7 @@ function getSetOptions(sets) {
 				}) : Object.keys(setdex[pokeName]);
 				for (var j = 0; j < setNames.length; j++) {
 					var setName = setNames[j];
-					if (["Calculator"].includes(game) && !trainerMatchesStarter(setName)) continue;
+					if (game === "Calculator" && !trainerMatchesStarter(setName)) continue;
 					setOptions.push({
 						pokemon: pokeName,
 						set: setName,
