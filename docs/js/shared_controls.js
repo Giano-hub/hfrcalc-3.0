@@ -1620,22 +1620,6 @@ function clearField() {
 	$("input:checkbox[name='terrain']").prop("checked", false);
 }
 
-var selectedStarter = localStorage.getItem("selectedStarter") || "None";
-$("input[name='starter']").change(function () {
-	selectedStarter = $(this).val();
-	localStorage.setItem("selectedStarter", selectedStarter);
-});
-
-function trainerMatchesStarter(name) {
-	if (selectedStarter === "None") return true;
-	var starters = ["Bulbasaur", "Charmander", "Squirtle"];
-	var endsWithAnyStarter = starters.some(function (s) {
-		return name.endsWith(" " + s);
-	});
-	if (!endsWithAnyStarter) return true;
-	return name.endsWith(" " + selectedStarter);
-}
-
 function getSetOptions(sets) {
 	var setsHolder = sets;
 	if (setsHolder === undefined) {
@@ -1889,6 +1873,23 @@ function loadCustomList(id) {
 			callback(data);
 		}
 	});
+}
+
+var selectedStarter = localStorage.getItem("selectedStarter") || "None";
+$("input[name='starter']").change(function () {
+	selectedStarter = $(this).val();
+	localStorage.setItem("selectedStarter", selectedStarter);
+   trainerNames = getTrainerNames();
+});
+
+function trainerMatchesStarter(name) {
+	if (selectedStarter === "None") return true;
+	var starters = ["Bulbasaur", "Charmander", "Squirtle"];
+	var endsWithAnyStarter = starters.some(function (s) {
+		return name.endsWith(" " + s);
+	});
+	if (!endsWithAnyStarter) return true;
+	return name.endsWith(" " + selectedStarter);
 }
 
 function getTrainerNames() {
