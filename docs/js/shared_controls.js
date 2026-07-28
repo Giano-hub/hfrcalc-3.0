@@ -1963,7 +1963,8 @@ function getTrainerNames() {
 	    var setNames = Object.keys(sets);
 	    for (i in setNames) {
 	       var setName = setNames[i];
-			 trainerNames.push(`${pokemonName} (${setName})`);
+			 if (game === "Calculator" && !trainerMatchesStarter(setName)) continue;
+			   trainerNames.push(`${pokemonName} (${setName})`);
 	    }
 	}
 	return trainerNames;
