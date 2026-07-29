@@ -934,7 +934,7 @@ fieldset button:active,
 }
 
 /* ============================================================
-   STILE PULSANTE VIEW LEARNSETS (Con Cornice Chiara Evidenziata)
+   STILE PULSANTE VIEW LEARNSETS (Cornice Dinamica Light/Dark)
    ============================================================ */
 
 a.dexLink.btn {
@@ -948,22 +948,24 @@ a.dexLink.btn {
     position: relative;
     outline: none !important;
 
-    /* Sfondo e testo adattivi */
+    /* Sfondo e Colori */
     background-color: var(--fieldset-color, #e9e9e9) !important;
     color: var(--text, #222222) !important;
 
-    /* CORNICE CHIARA: Usa un bianco al 60% in Dark Mode, fallisce sul grigio in Light */
-    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    /* BORDO DINAMICO: 
+       - In Dark Mode usa rgba(255, 255, 255, 0.6) (chiaro)
+       - In Light Mode ricade sul fallback #aaaaaa (scuro ben visibile) */
+    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.6)) !important;
+    border-color: var(--border-color, #aaaaaa) !important;
 
-    /* Ombra esterna per dare ulteriore stacco */
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) !important;
     transition: all 0.15s ease !important;
 }
 
-/* Hover: Bordo bianco 100% per farlo risaltare ancora di più al passaggio del mouse */
+/* Hover: Bordo scuro in Light (#606060) e Bordo chiaro in Dark (#ffffff) */
 a.dexLink.btn:hover {
     background-color: var(--button-hover, #cfcfcf) !important;
-    border-color: #ffffff !important;
+    border-color: var(--border-hover, #606060) !important;
     color: var(--text, #000000) !important;
 }
 
@@ -976,8 +978,7 @@ a.dexLink.btn:focus-visible {
 /* EFFETTO "SCHIACCIA PULSANTE" (:active) */
 a.dexLink.btn:active {
     transform: translateY(1px) scale(0.97) !important;
-    border-color: rgba(255, 255, 255, 0.8) !important;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4) !important;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3) !important;
     outline: none !important;
     transition: all 0.05s ease !important;
 }
