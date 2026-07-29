@@ -182,82 +182,93 @@ input.select2-input {
     background-color: #2c2c2c;
 }
 /* ============================================================
-   1. PANNELLI PRINCIPALI (I 3 Fieldset Grossi)
+   1. VARIABILI E PANNELLI PRINCIPALI (Fieldset)
    ============================================================ */
+:root {
+    --fieldset-color: #242424;
+    --button-color: #353535;
+    --button-hover: #454545;
+}
+
+/* I 3 Pannelli grossi sfumati con il bordo solido originale #AAAAAA */
 fieldset {
-    background: linear-gradient(160deg, #333333 0%, #2a2a2a 55%, #242424 100%);
+    background: linear-gradient(160deg, #333333 0%, #2a2a2a 55%, #242424 100%) !important;
     border: 1px solid #AAAAAA !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 /* ============================================================
-   2. VARIABILI DI BASE
-   ============================================================ */
-:root {
-    --fieldset-color: #353535;
-    --button-hover: #454545;
-}
-
-/* ============================================================
-   3. STILE PULSANTI DARK THEME (#353535 + BLU #232e51 + SWITCH AI)
+   2. STILE BASE DEI PULSANTI (Grigio #353535 + Bordo #AAAAAA)
    ============================================================ */
 
-/* Stato BASE di riposo per i pulsanti (SFONDO #353535 + BORDO #AAAAAA) */
+/* Pulsanti principali .btn e tag <button> gen-specifici */
 .btn,
+button,
 .stat-changer,
-.gen-specific-section button,
 .btn-set,
 fieldset input[type="button"]:not(:checked),
 fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    background-color: #353535;
-    color: var(--text, #e4e4e4);
-    
-    /* Bordo solido grigio chiaro identico ai fieldset */
-    border: 1px solid #AAAAAA;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    background-color: var(--button-color) !important;
+    background-image: none !important;
+    color: #e4e4e4 !important;
+    border: 1px solid #AAAAAA !important;
+    text-shadow: none !important;
 }
 
-/* HOVER (Leggermente più chiaro + Bordo bianco puro) */
+/* HOVER (Leggermente più chiaro + bordo bianco brillante) */
 .btn:hover:not(:checked),
+button:hover:not(:disabled),
 .stat-changer:hover,
-.gen-specific-section button:hover,
 .btn-set:hover,
 fieldset input[type="button"]:hover:not(:checked),
 fieldset button:hover,
 .field-info button:hover,
 .poke-info button:not(.type-btn):hover,
 #dark-theme-toggle:hover {
-    border-color: #ffffff;
-    background-color: #454545;
+    background-color: var(--button-hover) !important;
+    background-image: none !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
 }
 
-/* PULSANTI CAMPO / OPZIONI SELEZIONATE (Meteo, Terreni, Radio Button attivi)
-   Mantengono il BLU NOTTE #232e51 + BORDO #AAAAAA */
+/* ============================================================
+   3. STATI SELEZIONATI E ATTIVI (Blu Notte #232e51 + Bordo #AAAAAA)
+   ============================================================ */
+
+/* Radio / Checkbox attivi (Meteo, Terreni, Opzioni campo, Mosse) */
 .visually-hidden:checked + .btn,
 fieldset input[type="button"]:checked,
 .btn.active,
 .btn:checked {
     background-color: #232e51 !important;
+    background-image: none !important;
     color: #ffffff !important;
     border: 1px solid #AAAAAA !important;
     font-weight: bold;
 }
 
-/* PRESERVA MOSSE BLOCCATE ED EVENTUALI STATI SPECIALI */
+/* Mossa Bloccata (Mantiene il giallo scuro/oro per distinzione) */
 .locked-move:checked + .btn {
     background-color: #888800 !important;
+    background-image: none !important;
     color: #ffffff !important;
     border: 1px solid #AAAAAA !important;
 }
 
-/* EFFETTO SCHIACCIA (Pressione) */
-.btn:active,
-.stat-changer:active,
-fieldset button:active,
-.field-info button:active {
-    transform: translateY(1px) scale(0.97);
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+/* ============================================================
+   4. CONFORME ALLA SWITCH AI ED ICONE POKÉMON
+   ============================================================ */
+
+/* Mantiene il bordo rosso quando la Switch AI segnala il "KO/Dead" */
+.switch-ai .switching-from.dead .pokemon-icon {
+    border-color: red !important;
+}
+
+/* Adatta lo sfondo delle icone Pokémon al colore del pannello scuro */
+.pokemon-icon {
+    outline-color: var(--fieldset-color) !important;
+    border-color: var(--fieldset-color) !important;
 }
