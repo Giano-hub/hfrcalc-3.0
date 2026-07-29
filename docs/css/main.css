@@ -934,65 +934,47 @@ fieldset button:active,
 }
 
 /* ============================================================
-   STILE PULSANTI - LIGHT THEME (main.css)
+   STILE PULSANTE VIEW LEARNSETS (Perfettamente integrato con il JS)
    ============================================================ */
 
-.btn,
-a.dexLink.btn,
-.stat-changer,
-.gen-specific-section button,
-.btn-set,
-fieldset input[type="button"],
-fieldset button,
-.field-info button,
-.poke-info button:not(.type-btn),
-#dark-theme-toggle {
-    background-color: #f0f0f0;
-    border: 1px solid #cccccc;
-    color: #222222;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    outline: none;
-    cursor: pointer;
-    transition: transform 0.05s ease, background-color 0.15s ease;
-}
-
 a.dexLink.btn {
-    text-decoration: none;
-    white-space: nowrap;
-    display: inline-block;
-    width: auto;
-    padding: 3px 8px;
-    margin-left: auto;
-    border-radius: 4px;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    display: inline-block !important;
+    width: auto !important;
+    padding: 3px 8px !important;
+    margin-left: auto !important;
+    border-radius: 4px !important;
+    position: relative;
+    outline: none !important;
+
+    /* Sfondo e Colori: usa le variabili del Dark Theme se presente, altrimenti passa al Light Theme */
+    background-color: var(--fieldset-color, #e9e9e9) !important;
+    border: 1px solid var(--fieldset-color, #aaaaaa) !important;
+    color: var(--text, #222222) !important;
+
+    /* Ombra esterna leggera per dare stacco visivo */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.15s ease !important;
 }
 
-.btn:hover,
-a.dexLink.btn:hover,
-.stat-changer:hover,
-.gen-specific-section button:hover,
-.btn-set:hover,
-fieldset input[type="button"]:hover,
-fieldset button:hover,
-.field-info button:hover,
-.poke-info button:not(.type-btn):hover,
-#dark-theme-toggle:hover {
-    background-color: #e0e0e0;
-    border-color: #bbbbbb;
-    color: #000000;
+/* Hover: usa la variabile --button-hover in Dark, o il grigio chiaro in Light */
+a.dexLink.btn:hover {
+    background-color: var(--button-hover, #cfcfcf) !important;
+    border-color: #606060 !important;
+    color: var(--text, #000000) !important;
 }
 
-.btn:active,
-a.dexLink.btn:active,
-.stat-changer:active,
-.gen-specific-section button:active,
-.btn-set:active,
-fieldset input[type="button"]:active,
-fieldset button:active,
-.field-info button:active,
-.poke-info button:not(.type-btn):active,
-#dark-theme-toggle:active {
-    transform: translateY(1px) scale(0.97);
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
-    outline: none;
+/* Evita l'outline blu/nero del browser al focus */
+a.dexLink.btn:focus,
+a.dexLink.btn:focus-visible {
+    outline: none !important;
 }
 
+/* EFFETTO "SCHIACCIA PULSANTE" (:active) */
+a.dexLink.btn:active {
+    transform: translateY(1px) scale(0.97) !important;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    outline: none !important;
+    transition: all 0.05s ease !important;
+}
