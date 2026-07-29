@@ -183,7 +183,7 @@ input.select2-input {
 }
 
 /* ============================================================
-   RIPRISTINO STILE PULSANTI - DARK THEME
+   RIPRISTINO STILE PULSANTE & ICONE - DARK THEME (Con Bordo Evidenziato)
    ============================================================ */
 
 .btn,
@@ -197,13 +197,18 @@ fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    /* Mantiene lo sfondo sfumato dei pannelli (#2a2a2a) e NON lo sfondo pagina */
+    /* Mantiene lo sfondo dei pannelli (#2a2a2a) */
     background-color: var(--fieldset-color, #2a2a2a) !important;
     color: var(--text, #e4e4e4) !important;
-    border: 1px solid rgba(255, 255, 255, 0.15) !important;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    
+    /* BORDO CHIARO EVIDENZIATO: Bordo bianco al 60% di opacità */
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    
+    /* Aggiunge un piccolissimo bagliore/ombra per staccare dal fondo */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) !important;
 }
 
+/* Hover: Bordo bianco puro e ben visibile quando ci passi sopra */
 .btn:hover,
 a.dexLink.btn:hover,
 .bs-btn:hover,
@@ -218,9 +223,12 @@ fieldset button:hover,
     z-index: 10 !important;
     background: var(--button-hover, black) !important;
     color: var(--text, #ffffff) !important;
-    border-color: rgba(255, 255, 255, 0.3) !important;
+    
+    /* Bordo 100% Bianco al passaggio del mouse */
+    border-color: #ffffff !important;
 }
 
+/* Click / Attivo */
 .btn:active,
 a.dexLink.btn:active,
 .stat-changer:active,
@@ -232,6 +240,7 @@ fieldset button:active,
 .poke-info button:not(.type-btn):active,
 #dark-theme-toggle:active {
     transform: translateY(1px) scale(0.97) !important;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6) !important;
     outline: none !important;
 }
