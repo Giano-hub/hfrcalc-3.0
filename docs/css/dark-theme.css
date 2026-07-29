@@ -181,94 +181,133 @@ input.select2-input {
     color: #999999;
     background-color: #2c2c2c;
 }
-/* ============================================================
-   1. VARIABILI E PANNELLI PRINCIPALI (Fieldset)
-   ============================================================ */
+/* Dark mode styles - Clone Esatto */
+
 :root {
-    --fieldset-color: #242424;
+    /* Variables */
+    --text: #e4e4e4;
+    --background: #1b1b1b;
+
     --button-color: #353535;
-    --button-hover: #454545;
+    --button-hover: var(--background);
+    --button-selected: #232e51;
+    --fieldset-color: #2a2a2a;
+
+    --column-1: #2a2a2a;
 }
 
-/* I 3 Pannelli grossi sfumati con il bordo solido originale #AAAAAA */
-fieldset {
-    background: linear-gradient(160deg, #333333 0%, #2a2a2a 55%, #242424 100%) !important;
-    border: 1px solid #AAAAAA !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+html, body {
+    color: var(--text);
+    background-color: var(--background);
+    color-scheme: dark;
 }
 
-/* ============================================================
-   2. STILE BASE DEI PULSANTI (Grigio #353535 + Bordo #AAAAAA)
-   ============================================================ */
-
-/* Pulsanti principali .btn e tag <button> gen-specifici */
+/* --- PULSANTI BASE --- */
 .btn,
 button,
 .stat-changer,
 .btn-set,
-fieldset input[type="button"]:not(:checked),
-fieldset button,
-.field-info button,
-.poke-info button:not(.type-btn),
 #dark-theme-toggle {
     background-color: var(--button-color) !important;
-    background-image: none !important;
-    color: #e4e4e4 !important;
-    border: 1px solid #AAAAAA !important;
-    text-shadow: none !important;
+    color: var(--text) !important;
+    border: 1px solid #AAAAAA !important; /* Bordo solido come richiesto */
 }
 
-/* HOVER (Leggermente più chiaro + bordo bianco brillante) */
-.btn:hover:not(:checked),
+/* --- HOVER (Ritorna allo sfondo scuro #1b1b1b) --- */
+.btn:hover,
 button:hover:not(:disabled),
 .stat-changer:hover,
 .btn-set:hover,
-fieldset input[type="button"]:hover:not(:checked),
-fieldset button:hover,
-.field-info button:hover,
-.poke-info button:not(.type-btn):hover,
 #dark-theme-toggle:hover {
-    background-color: var(--button-hover) !important;
-    background-image: none !important;
-    border-color: #ffffff !important;
-    color: #ffffff !important;
+    z-index: 10;
+    background: var(--button-hover) !important;
+    border-color: #ffffff !important; /* Risalta in hover */
 }
 
-/* ============================================================
-   3. STATI SELEZIONATI E ATTIVI (Blu Notte #232e51 + Bordo #AAAAAA)
-   ============================================================ */
+.visually-hidden:focus + .btn {
+    z-index: 10;
+    background: var(--button-hover);
+}
 
-/* Radio / Checkbox attivi (Meteo, Terreni, Opzioni campo, Mosse) */
+/* --- PULSANTI SELEZIONATI (Blu #232e51) --- */
 .visually-hidden:checked + .btn,
 fieldset input[type="button"]:checked,
 .btn.active,
 .btn:checked {
-    background-color: #232e51 !important;
-    background-image: none !important;
-    color: #ffffff !important;
-    border: 1px solid #AAAAAA !important;
     font-weight: bold;
-}
-
-/* Mossa Bloccata (Mantiene il giallo scuro/oro per distinzione) */
-.locked-move:checked + .btn {
-    background-color: #888800 !important;
-    background-image: none !important;
-    color: #ffffff !important;
+    color: var(--text) !important;
+    background: var(--button-selected) !important;
     border: 1px solid #AAAAAA !important;
 }
 
-/* ============================================================
-   4. CONFORME ALLA SWITCH AI ED ICONE POKÉMON
-   ============================================================ */
-
-/* Mantiene il bordo rosso quando la Switch AI segnala il "KO/Dead" */
-.switch-ai .switching-from.dead .pokemon-icon {
-    border-color: red !important;
+.visually-hidden:disabled + .btn {
+    color: var(--button-hover);
 }
 
-/* Adatta lo sfondo delle icone Pokémon al colore del pannello scuro */
-.pokemon-icon {
-    outline-color: var(--fieldset-color) !important;
-    border-color: var(--fieldset-color) !important;
+/* --- PANNELLI PRINCIPALI --- */
+fieldset {
+    background-color: var(--fieldset-color) !important;
+    border: 1px solid #AAAAAA !important; /* Bordo brillante originale */
+}
+
+/* --- INPUT, SELECT E TESTI --- */
+select, input, textarea, .wrapper, .bs-btn {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+a.links-lighten { color: #7A9CFF; }
+a.links-lighten:hover { color: #C2D0FF; }
+a.links-lighten:visited { color: #BC8BEA; }
+a.links-lighten:visited:hover { color: #DACAF7; }
+
+a.collapsible-link, .search-label, label:not(.btn) {
+    color: var(--text);
+}
+
+.bs-btn:hover {
+    z-index: 10;
+    background: var(--button-hover);
+    color: var(--text);
+}
+
+.dataTables_info { color: var(--text) !important; }
+tr.odd, tr.even { background-color: var(--background) !important; }
+td.sorting_1 { background-color: var(--column-1) !important; }
+
+/* --- SELECT2 DROPDOWN STYLINGS --- */
+.select2-container .select2-choice {
+    background: var(--background);
+    background-image: linear-gradient(#333, 70%, #1b1b1b);
+    color: var(--text);
+}
+
+.select2-container .select2-choice .select2-arrow {
+    background: none;
+    border-left: none;
+}
+
+.select2-dropdown-open .select2-choice {
+    -webkit-box-shadow: 0 1px 0 var(--background) inset;
+    box-shadow: 0 1px 0 var(--background) inset;
+    background-image: none;
+}
+
+.select2-drop {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices {
+    background-image: none;
+}
+
+.select2-no-results {
+    background-color: var(--background) !important;
+}
+
+input.select2-input {
+    color: var(--text);
+    background: url('../js/vendor/select2/select2.png') no-repeat 100% -22px, var(--background);
 }
