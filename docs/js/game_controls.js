@@ -3,7 +3,8 @@ $(".game").change(function() {
 	game = $("input[name='game']:checked + label").html();
     gameId = ~~$(this).val();
 	isHack = ["Calculator"].includes(game);
-    var params = new URLSearchParams(window.location.search);
+    if (isHack) trySendStarterAlert();
+	var params = new URLSearchParams(window.location.search);
 	if (game == "None") {
 		params.delete('game');
 		params = '' + params;
