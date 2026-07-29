@@ -182,13 +182,13 @@ input.select2-input {
     background-color: #2c2c2c;
 }
 /* ============================================================
-   1. PANNELLI PRINCIPALI (I 3 Fieldset Grossi)
+   1. PANNELLI PRINCIPALI (I 3 Fieldset Grossi con Bordo Brillante)
    ============================================================ */
 fieldset {
     background: linear-gradient(160deg, #333333 0%, #2a2a2a 55%, #242424 100%);
-    /* Bordo completo ben visibile e nitido per i 3 pannelli */
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
-    border-radius: 4px; /* Facoltativo: arrotonda leggermente gli angoli se ti piace */
+    /* Bordo chiaro e brillante identico a quello dei pulsanti */
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 /* ============================================================
