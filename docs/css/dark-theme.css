@@ -182,10 +182,16 @@ input.select2-input {
     background-color: #2c2c2c;
 }
 /* ============================================================
-   STILE PULSANTI DARK THEME - CON BLU NOTTE (#232e51)
+   STILE PULSANTI DARK THEME - BASE #353535 + BLU #232e51 + SWITCH AI
    ============================================================ */
 
-/* 1. Stato BASE di riposo per i pulsanti (SFONDO ANTRACITE + BORDO CHIARO) */
+/* 1. Definizione variabili colore base per il Dark Theme */
+:root {
+    --fieldset-color: #353535;
+    --button-hover: #454545;
+}
+
+/* 2. Stato BASE di riposo per i pulsanti (SFONDO #353535 + BORDO CHIARO) */
 .btn,
 .stat-changer,
 .gen-specific-section button,
@@ -195,7 +201,7 @@ fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    background-color: var(--fieldset-color, #2a2a2a);
+    background-color: #353535;
     color: var(--text, #e4e4e4);
     
     /* Cornice chiara visibile per staccare dal fondo scuro */
@@ -203,7 +209,7 @@ fieldset button,
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* 2. HOVER (Bordo bianco 100% al passaggio del mouse) */
+/* 3. HOVER (Leggermente più chiaro + Bordo bianco 100%) */
 .btn:hover:not(:checked),
 .stat-changer:hover,
 .gen-specific-section button:hover,
@@ -214,31 +220,29 @@ fieldset button:hover,
 .poke-info button:not(.type-btn):hover,
 #dark-theme-toggle:hover {
     border-color: #ffffff;
-    background-color: var(--button-hover, #3a3a3a);
+    background-color: #454545;
 }
 
-/* 3. PULSANTI CAMPO / OPZIONI SELEZIONATE (Meteo, Terreni, Radio Button attivi)
-   Sfondo blu notte #232e51 + Bordo chiaro fisso */
+/* 4. PULSANTI CAMPO / OPZIONI SELEZIONATE (Meteo, Terreni, Radio Button attivi)
+   Mantengono il BLU NOTTE #232e51 + Bordo chiaro fisso */
 .visually-hidden:checked + .btn,
 fieldset input[type="button"]:checked,
 .btn.active,
 .btn:checked {
     background-color: #232e51 !important;
     color: #ffffff !important;
-    
-    /* Mantiene la cornice chiara visibile */
     border: 1px solid rgba(255, 255, 255, 0.6) !important;
     font-weight: bold;
 }
 
-/* 4. PRESERVA MOSSE BLOCCATE E STATI SPECIALI */
+/* 5. PRESERVA MOSSE BLOCCATE ED EVENTUALI STATI SPECIALI */
 .locked-move:checked + .btn {
     background-color: #888800 !important;
     color: #ffffff !important;
     border: 1px solid rgba(255, 255, 255, 0.6) !important;
 }
 
-/* 5. EFFETTO SCHIACCIA (Pressione) */
+/* 6. EFFETTO SCHIACCIA (Pressione) */
 .btn:active,
 .stat-changer:active,
 fieldset button:active,
