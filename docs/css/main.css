@@ -978,3 +978,63 @@ a.dexLink.btn:active {
     outline: none !important;
     transition: all 0.05s ease !important;
 }
+
+/* ============================================================
+   UNIFICAZIONE STILE PULSANTE (Sovrascrive tutti i tasti UI)
+   ============================================================ */
+
+/* Selettore unico per tutti i pulsanti dell'interfaccia */
+.btn,
+.stat-changer,
+.gen-specific-section button,
+.btn-set,
+fieldset input[type="button"],
+fieldset button,
+.field-info button,
+.poke-info button:not(.type-btn),
+#dark-theme-toggle {
+    /* Sfondo e bordo dinamici (Light fallback / Dark da variabile) */
+    background-color: var(--fieldset-color, #e9e9e9) !important;
+    border: 1px solid var(--fieldset-color, #aaaaaa) !important;
+    color: var(--text, #222222) !important;
+    
+    /* Ombra uniforme per profondità */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) !important;
+    
+    /* Pulizia focus e transizioni */
+    outline: none !important;
+    cursor: pointer !important;
+    transition: transform 0.05s ease, background-color 0.15s ease !important;
+}
+
+/* Hover unico */
+.btn:hover,
+.stat-changer:hover,
+.gen-specific-section button:hover,
+.btn-set:hover,
+fieldset input[type="button"]:hover,
+fieldset button:hover,
+.field-info button:hover,
+.poke-info button:not(.type-btn):hover,
+#dark-theme-toggle:hover {
+    background-color: var(--button-hover, #cfcfcf) !important;
+    border-color: #606060 !important;
+    color: var(--text, #000000) !important;
+}
+
+/* Effetto pressione (:active) unico per tutti i pulsanti */
+.btn:active,
+.stat-changer:active,
+.gen-specific-section button:active,
+.btn-set:active,
+fieldset input[type="button"]:active,
+fieldset button:active,
+.field-info button:active,
+.poke-info button:not(.type-btn):active,
+#dark-theme-toggle:active {
+    transform: translateY(1px) scale(0.97) !important;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    outline: none !important;
+}
+
+
