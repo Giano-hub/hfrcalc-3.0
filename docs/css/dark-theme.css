@@ -181,7 +181,7 @@ input.select2-input {
     color: #999999;
     background-color: #2c2c2c;
 }
-/* Dark mode styles - Finale Personalizzato */
+/* Dark mode styles - Clone Esatto + Protezione Tua Switch AI */
 
 :root {
     --text: #e4e4e4;
@@ -201,29 +201,19 @@ html, body {
     color-scheme: dark;
 }
 
-/* --- 1. PULSANTI GRIGI BASE (#353535) --- 
-   Tutti i pulsanti generali + Campo + Learnset, AI, Trainer Nav, Trash, Color Coding */
+/* --- PULSANTI BASE (#353535) --- */
 .btn,
 button,
 .stat-changer,
 .btn-set,
-#dark-theme-toggle,
-.trainer-pok-list,
-.btn-trainer,
-[id*="learnset"],
-[id*="ai"],
-[id*="trainer"],
-[id*="trash"],
-[id*="box"],
-[id*="color-coding"],
-[id*="help"] {
-    background-color: var(--button-color) !important;
-    color: var(--text) !important;
-    border: 1px solid #AAAAAA !important;
+#dark-theme-toggle {
+    background-color: var(--button-color);
+    color: var(--text);
+    border: 1px solid #AAAAAA;
 }
 
-/* --- 2. PULSANTI NERI COME LO SFONDO (#1b1b1b) --- 
-   Utility generali (Import, Sync, Save, Reset) + NOTES AREA (Save, Reset, Reset All) */
+/* --- PULSANTI UTILITY SCURI (#1b1b1b come lo sfondo) ---
+   Import, Sync, Upload Save, Save, Reset, Reset All */
 #import-team-btn,
 #import,
 #export,
@@ -236,21 +226,30 @@ button,
 .field-info button[id*="reset"],
 .field-info button[id*="import"],
 .field-info button[id*="sync"],
-.field-info button[id*="save"],
-/* Notes Area specifichi */
-#notes-area button,
-#notes-area input[type="button"],
-.notes-area button,
-.notes-area input,
-[id*="notes"] button,
-[id*="save-notes"],
-[id*="reset-notes"] {
+.field-info button[id*="save"] {
     background-color: var(--background) !important;
     color: var(--text) !important;
     border: 1px solid #AAAAAA !important;
 }
 
-/* --- 3. HOVER EFFETTI --- */
+/* HOVER UTILITY */
+#import-team-btn:hover,
+#import:hover,
+#export:hover,
+#save-state:hover,
+#load-state:hover,
+#clear-state:hover,
+#reset:hover,
+#reset-all:hover,
+.poke-import button:hover,
+.field-info button[id*="reset"]:hover,
+.field-info button[id*="import"]:hover,
+.field-info button[id*="sync"]:hover,
+.field-info button[id*="save"]:hover {
+    background-color: #353535 !important;
+}
+
+/* --- HOVER GENERALE --- */
 .btn:hover,
 button:hover:not(:disabled),
 .stat-changer:hover,
@@ -261,25 +260,12 @@ button:hover:not(:disabled),
     border-color: #ffffff !important;
 }
 
-/* Hover per i tasti neri */
-#import-team-btn:hover,
-#import:hover,
-#export:hover,
-#save-state:hover,
-#load-state:hover,
-#clear-state:hover,
-#reset:hover,
-#reset-all:hover,
-#notes-area button:hover {
-    background-color: #353535 !important;
-}
-
 .visually-hidden:focus + .btn {
     z-index: 10;
     background: var(--button-hover);
 }
 
-/* --- 4. PULSANTI SELEZIONATI (Blu #232e51) --- */
+/* --- PULSANTI SELEZIONATI (Blu #232e51) --- */
 .visually-hidden:checked + .btn,
 fieldset input[type="button"]:checked,
 .btn.active,
@@ -294,17 +280,20 @@ fieldset input[type="button"]:checked,
     color: var(--button-hover);
 }
 
-/* --- 5. PANNELLI PRINCIPALI --- */
+/* --- PANNELLI PRINCIPALI --- */
 fieldset {
     background-color: var(--fieldset-color) !important;
     border: 1px solid #AAAAAA !important;
 }
 
-/* --- 6. FIX PROTEZIONE TUA SWITCH AI --- */
+/* ============================================================
+   PROTEZIONE TUA FUNZIONE SWITCH AI & INDICATORI SPECIALI
+   ============================================================ */
 .switch-ai {
     background: transparent !important;
 }
 
+/* Ripristina la classe .dead specifica del tuo main.css */
 .switch-ai .switching-from.dead .pokemon-icon,
 .switching-from.dead .pokemon-icon,
 .pokemon-icon.dead {
@@ -313,7 +302,7 @@ fieldset {
     background-color: rgba(255, 0, 0, 0.2) !important;
 }
 
-/* --- 7. INPUT, SELECT E TESTI --- */
+/* --- INPUT, SELECT E TESTI --- */
 select, input, textarea, .wrapper, .bs-btn {
     background-color: var(--background);
     color: var(--text);
@@ -338,7 +327,7 @@ a.collapsible-link, .search-label, label:not(.btn) {
 tr.odd, tr.even { background-color: var(--background) !important; }
 td.sorting_1 { background-color: var(--column-1) !important; }
 
-/* --- 8. SELECT2 DROPDOWN STYLINGS --- */
+/* --- SELECT2 DROPDOWN STYLINGS --- */
 .select2-container .select2-choice {
     background: var(--background);
     background-image: linear-gradient(#333, 70%, #1b1b1b);
