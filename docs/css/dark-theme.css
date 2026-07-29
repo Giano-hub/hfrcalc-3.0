@@ -265,94 +265,32 @@ button:hover:not(:disabled),
     background: var(--button-hover);
 }
 
-/* --- PULSANTI SELEZIONATI (Blu #232e51) --- */
-.visually-hidden:checked + .btn,
-fieldset input[type="button"]:checked,
-.btn.active,
-.btn:checked {
-    font-weight: bold;
-    color: var(--text) !important;
-    background: var(--button-selected) !important;
-    border: 1px solid #AAAAAA !important;
-}
-
-.visually-hidden:disabled + .btn {
-    color: var(--button-hover);
-}
-
 /* --- FIX RIPRISTINO ILLUMINAZIONE ROSSA SWITCH AI --- */
-.switch-ai .switching-from.dead .pokemon-icon,
+
+/* 1. Evita che i contenitori Switch AI ereditino lo sfondo dei pulsanti generici */
+.switch-ai,
+.switch-ai *,
+.switching-from {
+    background-color: transparent !important;
+}
+
+/* 2. Forza lo sfondo e il bordo rosso brillante quando la Switch AI si attiva/segnala KO */
+.switch-ai .dead,
+.switch-ai .switching-from.dead,
+.switch-ai [class*="dead"],
+.switch-ai [class*="danger"],
+.switch-ai [class*="alert"] {
+    background-color: rgba(255, 0, 0, 0.25) !important;
+    border: 2px solid #ff3333 !important;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8) !important;
+    border-radius: 4px;
+}
+
+/* 3. Se l'avviso rosso è applicato all'icona del Pokémon */
 .switch-ai .dead .pokemon-icon,
+.switch-ai .switching-from.dead .pokemon-icon,
 .pokemon-icon.dead {
-    border: 3px solid #ff0000 !important;
-    outline: 2px solid #ff0000 !important;
-    box-shadow: 0 0 10px #ff0000 !important;
-}
-
-/* --- PANNELLI PRINCIPALI --- */
-fieldset {
-    background-color: var(--fieldset-color) !important;
-    border: 1px solid #AAAAAA !important;
-}
-
-/* --- INPUT, SELECT E TESTI --- */
-select, input, textarea, .wrapper, .bs-btn {
-    background-color: var(--background);
-    color: var(--text);
-}
-
-a.links-lighten { color: #7A9CFF; }
-a.links-lighten:hover { color: #C2D0FF; }
-a.links-lighten:visited { color: #BC8BEA; }
-a.links-lighten:visited:hover { color: #DACAF7; }
-
-a.collapsible-link, .search-label, label:not(.btn) {
-    color: var(--text);
-}
-
-.bs-btn:hover {
-    z-index: 10;
-    background: var(--button-hover);
-    color: var(--text);
-}
-
-.dataTables_info { color: var(--text) !important; }
-tr.odd, tr.even { background-color: var(--background) !important; }
-td.sorting_1 { background-color: var(--column-1) !important; }
-
-/* --- SELECT2 DROPDOWN STYLINGS --- */
-.select2-container .select2-choice {
-    background: var(--background);
-    background-image: linear-gradient(#333, 70%, #1b1b1b);
-    color: var(--text);
-}
-
-.select2-container .select2-choice .select2-arrow {
-    background: none;
-    border-left: none;
-}
-
-.select2-dropdown-open .select2-choice {
-    -webkit-box-shadow: 0 1px 0 var(--background) inset;
-    box-shadow: 0 1px 0 var(--background) inset;
-    background-image: none;
-}
-
-.select2-drop {
-    background-color: var(--background);
-    color: var(--text);
-}
-
-.select2-dropdown-open.select2-drop-above .select2-choice,
-.select2-dropdown-open.select2-drop-above .select2-choices {
-    background-image: none;
-}
-
-.select2-no-results {
-    background-color: var(--background) !important;
-}
-
-input.select2-input {
-    color: var(--text);
-    background: url('../js/vendor/select2/select2.png') no-repeat 100% -22px, var(--background);
+    border: 3px solid #ff3333 !important;
+    outline: 2px solid #ff3333 !important;
+    box-shadow: 0 0 12px #ff0000 !important;
 }
