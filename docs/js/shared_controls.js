@@ -1879,7 +1879,7 @@ var selectedStarter = localStorage.getItem("selectedStarter") || "None";
 $("input[name='starter']").change(function () {
 	selectedStarter = $(this).val();
 	localStorage.setItem("selectedStarter", selectedStarter);
-   trainerNames = getTrainerNames();
+	if (allTrainerNames) trainerNames = allTrainerNames.filter(trainerMatchesStarter);
 });
 
 function trainerMatchesStarter(name) {
