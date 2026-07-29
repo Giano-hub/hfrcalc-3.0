@@ -1,4 +1,4 @@
-var game, gameId, generation, isHack;
+var game, gameId, generation, isHack, allTrainerNames;
 $(".game").change(function() {
 	game = $("input[name='game']:checked + label").html();
     gameId = ~~$(this).val();
@@ -26,7 +26,8 @@ $(".game").change(function() {
     generation = gen;
     setdex = !isHack ? CUSTOMSETDEX[gameId] : CUSTOMHACKSETDEX[gameId];
 	partyOrder = !isHack ? CUSTOMPARTYORDER[gameId] : CUSTOMHACKPARTYORDER[gameId];
-	trainerNames = !isHack ? CUSTOMTRAINERNAMES[gameId] : CUSTOMHACKTRAINERNAMES[gameId];
+	allTrainerNames = !isHack ? CUSTOMTRAINERNAMES[gameId] : CUSTOMHACKTRAINERNAMES[gameId];
+   trainerNames = (isHack && allTrainerNames) ? allTrainerNames.filter(trainerMatchesStarter) : allTrainerNames;
 	flags = !isHack ? CUSTOMFLAGS[gameId] : CUSTOMHACKFLAGS[gameId];
     if (typeof setdex === 'undefined') setdex = SETDEX[generation];
     clearField();
