@@ -933,7 +933,18 @@ fieldset button:active,
     box-shadow: none !important;
 }
 
+/* Normalizza il link dell'HFR Dex trasformandolo in un pulsante pulito */
+a.dexLink.btn {
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    color: inherit;
+}
 
+/* Mantiene il testo del colore corretto anche quando ci passi sopra col mouse */
+a.dexLink.btn:hover {
+    color: inherit;
+}
 
 
 
