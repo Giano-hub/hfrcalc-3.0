@@ -181,7 +181,7 @@ input.select2-input {
     color: #999999;
     background-color: #2c2c2c;
 }
-/* Dark mode styles - Clone Esatto + Switch AI + Notes Area scura */
+/* Dark mode styles - Clone Esatto + Protezione Tua Switch AI */
 
 :root {
     --text: #e4e4e4;
@@ -207,13 +207,13 @@ button,
 .stat-changer,
 .btn-set,
 #dark-theme-toggle {
-    background-color: var(--button-color) !important;
-    color: var(--text) !important;
-    border: 1px solid #AAAAAA !important;
+    background-color: var(--button-color);
+    color: var(--text);
+    border: 1px solid #AAAAAA;
 }
 
 /* --- PULSANTI UTILITY SCURI (#1b1b1b come lo sfondo) ---
-   Import, Sync, Upload Save, Save, Reset, Reset All + NOTES AREA */
+   Import, Sync, Upload Save, Save, Reset, Reset All */
 #import-team-btn,
 #import,
 #export,
@@ -226,21 +226,13 @@ button,
 .field-info button[id*="reset"],
 .field-info button[id*="import"],
 .field-info button[id*="sync"],
-.field-info button[id*="save"],
-/* Tasti Notes Area */
-#save-notes,
-#reset-notes,
-#reset-all-notes,
-.notes-btn-group button,
-.notes-section button,
-#notes button,
-.notes-area button {
+.field-info button[id*="save"] {
     background-color: var(--background) !important;
     color: var(--text) !important;
     border: 1px solid #AAAAAA !important;
 }
 
-/* HOVER UTILITY & NOTES AREA */
+/* HOVER UTILITY */
 #import-team-btn:hover,
 #import:hover,
 #export:hover,
@@ -253,15 +245,7 @@ button,
 .field-info button[id*="reset"]:hover,
 .field-info button[id*="import"]:hover,
 .field-info button[id*="sync"]:hover,
-.field-info button[id*="save"]:hover,
-/* Hover Notes Area */
-#save-notes:hover,
-#reset-notes:hover,
-#reset-all-notes:hover,
-.notes-btn-group button:hover,
-.notes-section button:hover,
-#notes button:hover,
-.notes-area button:hover {
+.field-info button[id*="save"]:hover {
     background-color: #353535 !important;
 }
 
