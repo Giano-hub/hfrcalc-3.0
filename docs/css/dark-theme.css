@@ -182,6 +182,64 @@ input.select2-input {
     background-color: #2c2c2c;
 }
 
+/* ============================================================
+   RIPRISTINO STILE PULSANTI - DARK THEME
+   ============================================================ */
+
+/* Ripristina lo sfondo scuro originale (#1b1b1b) e il testo chiaro (#e4e4e4) */
+.btn,
+a.dexLink.btn,
+.bs-btn,
+.stat-changer,
+.gen-specific-section button,
+.btn-set,
+fieldset input[type="button"],
+fieldset button,
+.field-info button,
+.poke-info button:not(.type-btn),
+#dark-theme-toggle {
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+    border: 1px solid #444444 !important;
+    box-shadow: none !important;
+}
+
+/* Ripristina l'hover Nero originale (var(--button-hover)) */
+.btn:hover,
+a.dexLink.btn:hover,
+.bs-btn:hover,
+.stat-changer:hover,
+.gen-specific-section button:hover,
+.btn-set:hover,
+fieldset input[type="button"]:hover,
+fieldset button:hover,
+.field-info button:hover,
+.poke-info button:not(.type-btn):hover,
+#dark-theme-toggle:hover {
+    z-index: 10 !important;
+    background: var(--button-hover) !important;
+    color: var(--text) !important;
+    border-color: #666666 !important;
+}
+
+/* Mantiene l'effetto schiaccia pulsante anche al click in Dark Mode */
+.btn:active,
+a.dexLink.btn:active,
+.stat-changer:active,
+.gen-specific-section button:active,
+.btn-set:active,
+fieldset input[type="button"]:active,
+fieldset button:active,
+.field-info button:active,
+.poke-info button:not(.type-btn):active,
+#dark-theme-toggle:active {
+    transform: translateY(1px) scale(0.97) !important;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6) !important;
+    outline: none !important;
+}
+
+
+
 #calc-input {
     background-color: black;
     color: white;
