@@ -569,6 +569,14 @@ function smogonAnalysis(pokemonName) {
 	return "https://smogon.com/dex/" + generation + "/pokemon/" + pokemonName.toLowerCase() + "/";
 }
 
+var HFR_DEX_SHEET_URL = "https://docs.google.com/spreadsheets/d/10hX21B4-jLFc3U85MjmOA2fSr1sVomW3IpFh46qTyoQ/edit?gid=797470384#gid=797470384";
+
+function hfrDexLink(pokemonName) {
+	var col = HFR_DEX_COLUMNS[pokemonName];
+	if (!col) return HFR_DEX_SHEET_URL;
+	return HFR_DEX_SHEET_URL + "&range=" + col + "3";
+}
+
 // auto-update set details on select
 $(".set-selector").change(function () {
     window.NO_CALC = true;
@@ -736,7 +744,7 @@ $(".set-selector").change(function () {
 		pokeObj.find(".teraToggle").prop("checked", isAutoTera);
 		stellarButtonsVisibility(pokeObj, 0);
 		pokeObj.find(".boostedStat").val("");
-		pokeObj.find(".analysis").attr("href", smogonAnalysis(pokemonName));
+		pokeObj.find(".dexLink").attr("href", hfrDexLink(pokemonName));
 		pokeObj.find(".type1").val(pokemon.types[0]);
 		pokeObj.find(".type2").val(pokemon.types[1]);
 		pokeObj.find(".hp .base").val(pokemon.bs.hp);
