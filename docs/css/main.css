@@ -938,17 +938,37 @@ a.dexLink.btn {
     text-decoration: none !important;
     white-space: nowrap !important;
     display: inline-block !important;
-    width: auto !important;          /* Permette all'icona di allargarsi per contenere la scritta */
-    padding: 2px 8px !important;     /* Spazio interno per non far toccare i bordi al testo */
+    width: auto !important;          /* Allarga il pulsante per contenere la scritta */
+    padding: 3px 8px !important;     /* Spazio interno bilanciato */
     margin-left: auto !important;    /* Spinge il pulsante completamente a destra */
-    color: inherit !important;
+    border-radius: 4px !important;   /* Rettangolo con vertici leggermente arrotondati */
+    
+    /* SFONDO E COLORI IN LIGHT THEME */
+    background-color: #aaaaaa !important;
+    border: 1px solid #888888 !important;
+    color: #222222 !important;
+    transition: background-color 0.15s ease !important;
 }
 
-/* Evita che il testo diventi blu all'hover */
+/* Hover in Light Theme */
 a.dexLink.btn:hover {
-    color: inherit !important;
+    background-color: #bbbbbb !important;
+    color: #222222 !important;
 }
 
+/* SFONDO E COLORI IN DARK THEME (NERO SFUMATO / ANTRACITE) */
+@supports (background-color: var(--fieldset-color)) {
+    a.dexLink.btn {
+        background-color: var(--fieldset-color, #2b2b2b) !important; /* Grigio scuro sfumato */
+        border: 1px solid #555555 !important;
+        color: var(--text, #ffffff) !important;
+    }
+
+    a.dexLink.btn:hover {
+        background-color: var(--button-hover, #3a3a3a) !important; /* Leggera sfumatura all'hover */
+        color: var(--text, #ffffff) !important;
+    }
+}
 
 
 
