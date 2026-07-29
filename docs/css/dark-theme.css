@@ -363,3 +363,66 @@ input.select2-input {
     color: var(--text);
     background: url('../js/vendor/select2/select2.png') no-repeat 100% -22px, var(--background);
 }
+
+/* ============================================================
+   MODIFICHE MIRATE PULSANTI (NOTES AREA + UTILITY ALLENATORI)
+   ============================================================ */
+
+/* 1. Tasti "Save", "Reset", "Reset All" nella Notes Area -> NERI (#1b1b1b) */
+#notes-area button,
+#notes-area input[type="button"],
+.notes-area button,
+#save-notes,
+#reset-notes {
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+    border: 1px solid #AAAAAA !important;
+}
+
+#notes-area button:hover,
+#notes-area input[type="button"]:hover,
+.notes-area button:hover {
+    background-color: #353535 !important;
+}
+
+/* 2. Tasti specifici (Learnset, AI, Trainer Nav, Trash, Color Coding) -> GRIGIO BOTTONI (#353535) */
+#view-learnset,
+.view-learnset,
+button[id*="learnset"],
+#ai-btn,
+.ai-btn,
+button[id*="ai"],
+#prev-trainer,
+#next-trainer,
+.trainer-nav-btn,
+#enemy-party-reset,
+.enemy-party button,
+#help-btn,
+.help-btn,
+#remove-trash-mon,
+#remove-box-mon,
+.trash-btn,
+.box-btn,
+#show-color-coding,
+.color-coding-btn {
+    background-color: var(--button-color) !important;
+    color: var(--text) !important;
+    border: 1px solid #AAAAAA !important;
+}
+
+/* HOVER PER QUESTI TASTI SPECIALI GRIGI */
+#view-learnset:hover,
+#ai-btn:hover,
+#prev-trainer:hover,
+#next-trainer:hover,
+#enemy-party-reset:hover,
+#help-btn:hover,
+#remove-trash-mon:hover,
+#remove-box-mon:hover,
+#show-color-coding:hover {
+    background-color: var(--button-hover) !important;
+    border-color: #ffffff !important;
+}
+
+
+
