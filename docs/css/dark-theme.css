@@ -58,7 +58,8 @@ html, body {
 }
 
 fieldset {
-    background-color: var(--fieldset-color);
+    background: linear-gradient(160deg, #333333 0%, var(--fieldset-color) 55%, #242424 100%);
+    border-color: #3a3a3a;
 }
 
 select {
