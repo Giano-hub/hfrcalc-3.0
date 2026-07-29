@@ -937,7 +937,6 @@ fieldset button:active,
    STILE PULSANTI - LIGHT THEME (main.css)
    ============================================================ */
 
-/* Tutti i pulsanti in Light Mode */
 .btn,
 a.dexLink.btn,
 .stat-changer,
@@ -948,16 +947,15 @@ fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    background-color: #e9e9e9;
-    border: 1px solid #aaaaaa;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
     color: #222222;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     outline: none;
     cursor: pointer;
     transition: transform 0.05s ease, background-color 0.15s ease;
 }
 
-/* Regola specifica per il link View Learnset in Light */
 a.dexLink.btn {
     text-decoration: none;
     white-space: nowrap;
@@ -968,7 +966,6 @@ a.dexLink.btn {
     border-radius: 4px;
 }
 
-/* Hover in Light Mode */
 .btn:hover,
 a.dexLink.btn:hover,
 .stat-changer:hover,
@@ -979,12 +976,11 @@ fieldset button:hover,
 .field-info button:hover,
 .poke-info button:not(.type-btn):hover,
 #dark-theme-toggle:hover {
-    background-color: #cfcfcf;
-    border-color: #606060;
+    background-color: #e0e0e0;
+    border-color: #bbbbbb;
     color: #000000;
 }
 
-/* Effetto Pressione / Schiaccia pulsante in Light Mode */
 .btn:active,
 a.dexLink.btn:active,
 .stat-changer:active,
@@ -996,8 +992,7 @@ fieldset button:active,
 .poke-info button:not(.type-btn):active,
 #dark-theme-toggle:active {
     transform: translateY(1px) scale(0.97);
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
     outline: none;
 }
-
 
