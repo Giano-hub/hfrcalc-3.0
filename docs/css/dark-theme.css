@@ -181,10 +181,9 @@ input.select2-input {
     color: #999999;
     background-color: #2c2c2c;
 }
-/* Dark mode styles - Clone Esatto */
+/* Dark mode styles - Clone Esatto + Fix Switch AI e Utility Buttons */
 
 :root {
-    /* Variables */
     --text: #e4e4e4;
     --background: #1b1b1b;
 
@@ -202,7 +201,7 @@ html, body {
     color-scheme: dark;
 }
 
-/* --- PULSANTI BASE --- */
+/* --- PULSANTI BASE (#353535) --- */
 .btn,
 button,
 .stat-changer,
@@ -210,10 +209,47 @@ button,
 #dark-theme-toggle {
     background-color: var(--button-color) !important;
     color: var(--text) !important;
-    border: 1px solid #AAAAAA !important; /* Bordo solido come richiesto */
+    border: 1px solid #AAAAAA !important;
 }
 
-/* --- HOVER (Ritorna allo sfondo scuro #1b1b1b) --- */
+/* --- PULSANTI UTILITY SCURI (#1b1b1b come lo sfondo) ---
+   Import, Sync, Upload Save, Save, Reset, Reset All */
+#import-team-btn,
+#import,
+#export,
+#save-state,
+#load-state,
+#clear-state,
+#reset,
+#reset-all,
+.poke-import button,
+.field-info button[id*="reset"],
+.field-info button[id*="import"],
+.field-info button[id*="sync"],
+.field-info button[id*="save"] {
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+    border: 1px solid #AAAAAA !important;
+}
+
+/* HOVER PER PULSANTI UTILITY */
+#import-team-btn:hover,
+#import:hover,
+#export:hover,
+#save-state:hover,
+#load-state:hover,
+#clear-state:hover,
+#reset:hover,
+#reset-all:hover,
+.poke-import button:hover,
+.field-info button[id*="reset"]:hover,
+.field-info button[id*="import"]:hover,
+.field-info button[id*="sync"]:hover,
+.field-info button[id*="save"]:hover {
+    background-color: #353535 !important;
+}
+
+/* --- HOVER GENERALE --- */
 .btn:hover,
 button:hover:not(:disabled),
 .stat-changer:hover,
@@ -221,7 +257,7 @@ button:hover:not(:disabled),
 #dark-theme-toggle:hover {
     z-index: 10;
     background: var(--button-hover) !important;
-    border-color: #ffffff !important; /* Risalta in hover */
+    border-color: #ffffff !important;
 }
 
 .visually-hidden:focus + .btn {
@@ -244,10 +280,19 @@ fieldset input[type="button"]:checked,
     color: var(--button-hover);
 }
 
+/* --- FIX RIPRISTINO ILLUMINAZIONE ROSSA SWITCH AI --- */
+.switch-ai .switching-from.dead .pokemon-icon,
+.switch-ai .dead .pokemon-icon,
+.pokemon-icon.dead {
+    border: 3px solid #ff0000 !important;
+    outline: 2px solid #ff0000 !important;
+    box-shadow: 0 0 10px #ff0000 !important;
+}
+
 /* --- PANNELLI PRINCIPALI --- */
 fieldset {
     background-color: var(--fieldset-color) !important;
-    border: 1px solid #AAAAAA !important; /* Bordo brillante originale */
+    border: 1px solid #AAAAAA !important;
 }
 
 /* --- INPUT, SELECT E TESTI --- */
