@@ -933,43 +933,43 @@ fieldset button:active,
     box-shadow: none !important;
 }
 
-/* Normalizza il link Learnset per farlo comportare da pulsante perfetto */
+/* LIGHT THEME (Stile base di default) */
 a.dexLink.btn {
     text-decoration: none !important;
     white-space: nowrap !important;
     display: inline-block !important;
-    width: auto !important;          /* Allarga il pulsante per contenere la scritta */
-    padding: 3px 8px !important;     /* Spazio interno bilanciato */
-    margin-left: auto !important;    /* Spinge il pulsante completamente a destra */
-    border-radius: 4px !important;   /* Rettangolo con vertici leggermente arrotondati */
+    width: auto !important;
+    padding: 3px 8px !important;
+    margin-left: auto !important;
+    border-radius: 4px !important;
     
-    /* LIGHT THEME: Sfondo nero con testo chiaro e perimetro evidenziato */
-    background-color: #1a1a1a !important;
-    border: 1px solid #ffffff !important;   /* Perimetro bianco chiaro evidenziato */
-    color: #ffffff !important;
-    transition: background-color 0.15s ease, border-color 0.15s ease !important;
+    /* Colori puliti per Light Theme */
+    background-color: #f0f0f0 !important;
+    border: 1px solid #cccccc !important;
+    color: #222222 !important;
+    transition: all 0.15s ease !important;
 }
 
-/* Hover in Light Theme */
 a.dexLink.btn:hover {
-    background-color: #333333 !important;
-    color: #ffffff !important;
+    background-color: #e0e0e0 !important;
+    color: #000000 !important;
 }
 
-/* DARK THEME: Nero sfumato/antracite con il perimetro evidenziato dal tema */
-@supports (background-color: var(--fieldset-color)) {
-    a.dexLink.btn {
-        background-color: var(--fieldset-color, #2b2b2b) !important; /* Grigio scuro/antracite sfumato */
-        border: 1px solid rgba(255, 255, 255, 0.7) !important;        /* Perimetro bianco chiaro/luminoso */
-        color: var(--text, #ffffff) !important;
-    }
-
-    a.dexLink.btn:hover {
-        background-color: var(--button-hover, #3a3a3a) !important;
-        border-color: #ffffff !important;                             /* Diventa ancora più luminoso all'hover */
-        color: var(--text, #ffffff) !important;
-    }
+/* DARK THEME: Attivato solo quando il calcolatore è in Dark Mode */
+body.dark a.dexLink.btn,
+.dark-theme a.dexLink.btn,
+[data-theme="dark"] a.dexLink.btn {
+    background-color: var(--fieldset-color, #2b2b2b) !important; /* Nero sfumato / Antracite */
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;        /* Perimetro bianco chiaro */
+    color: var(--text, #ffffff) !important;
 }
 
+body.dark a.dexLink.btn:hover,
+.dark-theme a.dexLink.btn:hover,
+[data-theme="dark"] a.dexLink.btn:hover {
+    background-color: var(--button-hover, #3a3a3a) !important;
+    border-color: #ffffff !important;
+    color: var(--text, #ffffff) !important;
+}
 
 
