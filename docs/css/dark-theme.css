@@ -182,7 +182,7 @@ input.select2-input {
     background-color: #2c2c2c;
 }
 /* ============================================================
-   STILE PULSANTI DARK THEME - RISPETTA STATI ATTIVI E SWITCH AI
+   STILE PULSANTI DARK THEME - CON BLU SCURO ORIGINALE ATTIVO
    ============================================================ */
 
 /* 1. Stato BASE di riposo per i pulsanti (SFONDO ANTRACITE + BORDO CHIARO) */
@@ -218,23 +218,23 @@ fieldset button:hover,
 }
 
 /* 3. PULSANTI CAMPO / OPZIONI SELEZIONATE (Meteo, Terreni, Radio Button attivi)
-   L'interno dello sfondo si sfuma in blu, ma il BORDO rimane chiaro come gli altri */
+   Usa il BLU SCURO classico (Showdown Style) + BORDO CHIARO */
 .visually-hidden:checked + .btn,
 fieldset input[type="button"]:checked,
 .btn.active,
 .btn:checked {
-    /* Sfondo interno azzurrato / blu sfumato */
-    background-color: #2b4c7e !important;
+    /* Blu scuro profondo per lo stato attivo */
+    background-color: #1b3b6f !important;
     color: #ffffff !important;
     
-    /* Cornice chiara identica agli altri tasti */
+    /* Mantiene la cornice chiara pulita */
     border: 1px solid rgba(255, 255, 255, 0.6) !important;
     font-weight: bold;
 }
 
 /* 4. PRESERVA MOSSE BLOCCATE E STATI SPECIALI */
 .locked-move:checked + .btn {
-    background-color: #999900 !important; /* Giallo per mossa bloccata */
+    background-color: #888800 !important; /* Giallo scuro per mossa bloccata */
     color: #ffffff !important;
     border: 1px solid rgba(255, 255, 255, 0.6) !important;
 }
