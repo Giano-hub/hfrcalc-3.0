@@ -996,6 +996,13 @@ function trySendRandomAlert() {
 	}
 }
 
+function trySendStarterAlert() {
+	if (!localStorage.sentStarterAlert && selectedStarter === "None") {
+		localStorage.sentStarterAlert = "true";
+		alert("Before you start, please remember to select your starter Pokémon from the settings menu. This alert will only be shown once.");
+	}
+}
+
 function trySendSwitchAlert() {
 	if (!localStorage.sentSwitchAlert && SETTINGS.switchOut) {
 		localStorage.sentSwitchAlert = "true";
