@@ -1064,3 +1064,19 @@ a.dexLink.btn {
     border: 1px solid #AAAAAA !important;
 }
 
+/* ============================================================
+   SWITCH-IN GUIDE — Titolo Exp Dropped
+   ============================================================ */
+
+.exp-dropped-title {
+    margin-left: 1.5rem;
+    font-weight: bold;
+    font-size: 0.85em;
+    color: #4a5568;
+    vertical-align: middle;
+}
+
+/* Override per Dark Mode */
+body.dark .exp-dropped-title {
+    color: #cbd5e0;
+}
