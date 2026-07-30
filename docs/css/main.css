@@ -983,4 +983,82 @@ a.dexLink.btn:active {
     transition: all 0.05s ease !important;
 }
 
+/* ============================================================
+   LIGHT THEME — Gruppo pulsanti "stile Field" (#e9e9e9)
+   ============================================================ */
+#ai-help,
+#previous-trainer,
+#next-trainer,
+#reset-trainer,
+#trainer-nav-help,
+#trash-poke,
+#clearSets,
+#show-cc,
+#exportL,
+#exportR,
+.stat-changer {
+    background-color: #e9e9e9 !important;
+    border: 1px solid #AAAAAA !important;
+    color: #555555 !important;
+}
+#ai-help:hover,
+#previous-trainer:hover,
+#next-trainer:hover,
+#reset-trainer:hover,
+#trainer-nav-help:hover,
+#trash-poke:hover,
+#clearSets:hover,
+#show-cc:hover,
+#exportL:hover,
+#exportR:hover,
+.stat-changer:hover {
+    background-color: #e3e3e3 !important;
+}
 
+/* ============================================================
+   LIGHT THEME — Gruppo bianco (#ffffff): Notes Area + Import/Export/Sync
+   ============================================================ */
+#save-notes,
+#reset-notes,
+#resetall-notes,
+#import-team-btn,
+#import,
+#export,
+#save-state,
+#load-state,
+#clear-state,
+#reset,
+#reset-all,
+.poke-import button,
+.field-info button[id*="import"],
+.field-info button[id*="sync"],
+.field-info button[id*="save"] {
+    background-color: #ffffff !important;
+    border: 1px solid #AAAAAA !important;
+    color: #222222 !important;
+}
+#save-notes:hover,
+#reset-notes:hover,
+#resetall-notes:hover,
+#import-team-btn:hover,
+#import:hover,
+#export:hover,
+#save-state:hover,
+#load-state:hover,
+#clear-state:hover,
+#reset:hover,
+#reset-all:hover,
+.poke-import button:hover,
+.field-info button[id*="import"]:hover,
+.field-info button[id*="sync"]:hover,
+.field-info button[id*="save"]:hover {
+    background-color: #f5f5f5 !important;
+}
+
+/* ============================================================
+   LIGHT THEME — Fix ombreggiatura View Learnset
+   ============================================================ */
+a.dexLink.btn {
+    box-shadow: none !important;
+    border: 1px solid #AAAAAA !important;
+}
