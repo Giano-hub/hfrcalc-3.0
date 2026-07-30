@@ -1082,21 +1082,26 @@ body.dark .exp-dropped-title {
 }
 
 /* ============================================================
-   SWITCH-IN GUIDE — Titolo EXP DROPPED (Destra)
+   SWITCH-IN GUIDE — Etichetta Exp Dropped
    ============================================================ */
 
-/* Assicura che il fieldset sia il riferimento di posizionamento */
+/* Ancoraggio preciso per l'etichetta a destra */
 fieldset.switchGuide {
     position: relative;
 }
 
 .exp-dropped-title {
-    float: right;
-    color: #ffffff !important;
-    font-weight: bold;
+    position: absolute;
+    top: 1.2rem;
+    right: 0.8rem;
+    font-weight: normal; /* Non in grassetto */
     font-size: 0.75em;
     line-height: 1.1;
     text-align: center;
-    margin-right: 0.5rem;
-    letter-spacing: 0.5px;
+    color: #333333; /* Scuro per Light Mode (si abbina agli altri testi) */
+}
+
+/* Colore bianco solo in Dark Mode */
+body.dark .exp-dropped-title {
+    color: #ffffff;
 }
