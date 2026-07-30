@@ -982,3 +982,37 @@ a.dexLink.btn:active {
     outline: none !important;
     transition: all 0.05s ease !important;
 }
+
+/* ============================================================
+   LIGHT THEME — Gruppo pulsanti "stile Field" (#e9e9e9)
+   Stesso colore dei .btn interni al pannello Field (meteo, helping hand, ecc.)
+   ============================================================ */
+#ai-help,
+#previous-trainer,
+#next-trainer,
+#reset-trainer,
+#trainer-nav-help,
+#trash-poke,
+#clearSets,
+#show-cc,
+#exportL,
+#exportR {
+    background-color: #e9e9e9 !important;
+    border: 1px solid #AAAAAA !important;
+    color: #555555 !important;
+}
+
+/* ============================================================
+   LIGHT THEME — Gruppo Notes Area (bianco come lo sfondo pagina)
+   ============================================================ */
+#save-notes,
+#reset-notes,
+#resetall-notes {
+    background-color: #ffffff !important;
+    border: 1px solid #AAAAAA !important;
+    color: #222222 !important;
+}
+
+
+
+
