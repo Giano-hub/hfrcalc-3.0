@@ -985,7 +985,7 @@ a.dexLink.btn:active {
 
 /* ============================================================
    LIGHT THEME — Gruppo pulsanti "stile Field" (#e9e9e9)
-   Stesso colore dei .btn interni al pannello Field + Pulsanti +/- Stat
+   Stesso identico colore dei pulsanti del Field + Tasti +/- Stat
    ============================================================ */
 #ai-help,
 #previous-trainer,
@@ -997,13 +997,13 @@ a.dexLink.btn:active {
 #show-cc,
 #exportL,
 #exportR,
-/* Solo i pulsanti fisici dei boost stat (+1 / -1) */
+/* Pulsanti fisici + e - per i boost delle statistiche (+1/-1) */
 .boost-btn,
 button.boost,
 .btn-boost,
-input[type="button"].boost,
-.stat-boost button,
-.boost-control button {
+select.boost + button,
+.boost-control button,
+input[type="button"].boost {
     background-color: #e9e9e9 !important;
     border: 1px solid #AAAAAA !important;
     color: #555555 !important;
