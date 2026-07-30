@@ -985,7 +985,7 @@ a.dexLink.btn:active {
 
 /* ============================================================
    LIGHT THEME — Gruppo pulsanti "stile Field" (#e9e9e9)
-   Stesso colore dei .btn interni al pannello Field + Tasti +/- Stat
+   Stesso colore dei .btn interni al pannello Field (meteo, helping hand, ecc.)
    ============================================================ */
 #ai-help,
 #previous-trainer,
@@ -996,42 +996,20 @@ a.dexLink.btn:active {
 #clearSets,
 #show-cc,
 #exportL,
-#exportR,
-/* Tasti + e - delle statistiche */
-.btn-plus,
-.btn-minus,
-.stat-changer,
-button.plus,
-button.minus,
-[class*="plus"],
-[class*="minus"] {
+#exportR {
     background-color: #e9e9e9 !important;
     border: 1px solid #AAAAAA !important;
     color: #555555 !important;
 }
 
 /* ============================================================
-   LIGHT THEME — Gruppo SFONDO BIANCO (#ffffff)
-   Pannello Notes Area + Pannello Import / Export / Sync
+   LIGHT THEME — Gruppo Notes Area (bianco come lo sfondo pagina)
    ============================================================ */
-/* Notes Area */
 #save-notes,
 #reset-notes,
-#resetall-notes,
-/* Pannello Import / Export / Sync / Upload Save */
-#import,
-#sync,
-#upload-save,
-#save-state,
-#load-state,
-#clear-state,
-.import-export-btn,
-[id*="import"] button,
-[id*="export"] button,
-[id*="sync"] {
+#resetall-notes {
     background-color: #ffffff !important;
     border: 1px solid #AAAAAA !important;
     color: #222222 !important;
 }
-
 
