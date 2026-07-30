@@ -386,8 +386,10 @@ a.dexLink.btn,
 #trainer-nav-help,
 #trash-poke,
 #clearSets,
-#show-cc {
-    background-color: var(--button-color, #353535) !important;
+#show-cc,
+#exportL,
+#exportR {   
+	 background-color: var(--button-color, #353535) !important;
     border: 1px solid #AAAAAA !important;
     color: var(--text) !important;
 }
