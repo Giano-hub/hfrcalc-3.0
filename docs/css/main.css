@@ -996,12 +996,11 @@ body:not(.dark) #clearSets,
 body:not(.dark) #show-cc,
 body:not(.dark) #exportL,
 body:not(.dark) #exportR,
-body:not(.dark) .boost-btn,
-body:not(.dark) button.boost,
-body:not(.dark) .btn-boost,
-body:not(.dark) select.boost + button,
-body:not(.dark) .boost-control button,
-body:not(.dark) input[type="button"].boost {
+body:not(.dark) .boost-btn:not(.active),
+body:not(.dark) button.boost:not(.active),
+body:not(.dark) .btn-boost:not(.active),
+body:not(.dark) select.boost + button:not(.active),
+body:not(.dark) .boost-control button:not(.active) {
     background-color: #e9e9e9 !important;
     border: 1px solid #AAAAAA !important;
     color: #555555 !important;
@@ -1019,13 +1018,10 @@ body:not(.dark) #upload-save,
 body:not(.dark) #save-state,
 body:not(.dark) #load-state,
 body:not(.dark) #clear-state,
-body:not(.dark) .import-export-btn,
-body:not(.dark) [id*="import"] button,
-body:not(.dark) [id*="export"] button {
+body:not(.dark) .import-export-btn {
     background-color: #ffffff !important;
     border: 1px solid #AAAAAA !important;
     color: #222222 !important;
 }
-
 
 
