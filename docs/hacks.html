@@ -1324,23 +1324,21 @@
             </fieldset>
         </div>
         <div role="region">
-            <fieldset>
-                <legend align="center">Notes Area</legend>
-                <div>
-                    <form>
-                        <textarea class="notes-team-text" id="notesArea"></textarea>
-                        
-                    </form>
-                    <form>
-                        <div style="display: flex !important; flex-direction: row !important; gap: 4px !important; margin-top: 6px !important;">
-                            <button type="button" id="save-notes" style="float: none !important; margin: 0 !important;">Save</button>
-                            <button type="button" id="reset-notes" style="float: none !important; margin: 0 !important;">Reset</button>
-                            <button type="button" id="resetall-notes" style="float: none !important; margin: 0 !important;">Reset All</button>
-                        </div>
-                    </form>
-                   
-                </div>
-            </fieldset>
+            <fieldset class="poke-import">
+    <legend align="center">Notes Area</legend>
+    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+        <form style="margin-bottom: 6px; width: 100%;">
+            <textarea class="notes-team-text" id="notesArea"></textarea>
+        </form>
+        <form>
+            <div style="display: flex; flex-direction: row; gap: 4px;">
+                <button type="button" id="save-notes">Save</button>
+                <button type="button" id="reset-notes">Reset</button>
+                <button type="button" id="resetall-notes">Reset All</button>
+            </div>
+        </form>
+    </div>
+</fieldset>
         </div>
     </div>
     <div aria-label="Pok&eacute;mon 2" role="region" class="panel">
