@@ -405,4 +405,64 @@ a.dexLink.btn,
     color: var(--text) !important;
 }
 
+/* ============================================================
+   FIX DARK MODE HOVER — Previene il contenuto/sfondo bianco all'hover
+   ============================================================ */
 
+/* 1. HOVER PULSANTI "STILE FIELD" & NAVIGAZIONE TRAINER (#353535) */
+#ai-help:hover,
+#previous-trainer:hover,
+#next-trainer:hover,
+#reset-trainer:hover,
+#trainer-nav-help:hover,
+#trash-poke:hover,
+#clearSets:hover,
+#show-cc:hover,
+#exportL:hover,
+#exportR:hover,
+.stat-changer:hover,
+a.dexLink.btn:hover {
+    background-color: #353535 !important;
+    background: #353535 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+/* 2. HOVER ICONE / IMMAGINI NEI PULSANTI DI NAVIGAZIONE */
+#ai-help:hover *,
+#previous-trainer:hover *,
+#next-trainer:hover *,
+#reset-trainer:hover *,
+#trainer-nav-help:hover *,
+#trash-poke:hover *,
+#clearSets:hover *,
+#show-cc:hover *,
+#exportL:hover *,
+#exportR:hover * {
+    color: #ffffff !important;
+    fill: #ffffff !important; /* Per eventuali icone SVG */
+}
+
+/* 3. HOVER UTILITY PANELS (Notes, Import, Sync, Save/Reset) */
+#save-notes:hover,
+#reset-notes:hover,
+#resetall-notes:hover,
+#import-team-btn:hover,
+#import:hover,
+#export:hover,
+#sync:hover,
+#upload-save:hover,
+#save-state:hover,
+#load-state:hover,
+#clear-state:hover,
+#reset:hover,
+#reset-all:hover,
+.poke-import button:hover,
+.field-info button[id*="import"]:hover,
+.field-info button[id*="sync"]:hover,
+.field-info button[id*="save"]:hover {
+    background-color: #353535 !important;
+    background: #353535 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
