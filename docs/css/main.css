@@ -998,7 +998,7 @@ a.dexLink.btn:active {
 #exportR,
 .stat-changer {
     background-color: #e9e9e9 !important;
-    border: 1px solid #AAAAAA !important;
+	 border: 1px solid #AAAAAA !important;
     color: #555555 !important;
 }
 #ai-help:hover,
@@ -1013,6 +1013,7 @@ a.dexLink.btn:active {
 #exportR:hover,
 .stat-changer:hover {
     background-color: #e3e3e3 !important;
+    color: #555555 !important;
 }
 
 /* ============================================================
