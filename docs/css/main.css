@@ -511,7 +511,7 @@ table.field {
   clear: right;
 }
 
-.import-team-text {
+.import-team-text, .notes-team-text {
     min-width: 27em;
     min-height: 10em;
     resize: vertical;
