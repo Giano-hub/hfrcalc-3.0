@@ -64,7 +64,16 @@
             <input class="visually-hidden" type="radio" name="switchOut" value="On" id="switchOutOn" checked="checked" /><label class="btn btn-left" for="switchOutOn">Enabled</label>
             <input class="visually-hidden" type="radio" name="switchOut" value="Off" id="switchOutOff" /><label class="btn btn-right" for="switchOutOff">Disabled</label>
         </span>
-    </fieldset>
+        <hr />
+        <legend align="center">Theme</legend>
+        <span class="themeSelection" aria-labelledby="selectThemeInstruction" role="radiogroup" title="Select the calculator theme.">
+            <span class="visually-hidden" id="selectThemeInstruction">Select the calculator theme.</span>
+            <input class="visually-hidden" type="radio" name="theme" value="Dark" id="themeDark" />
+            <label class="btn btn-left" for="themeDark">Dark</label>
+            <input class="visually-hidden" type="radio" name="theme" value="Light" id="themeLight" />
+            <label class="btn btn-right" for="themeLight">Light</label>
+        </span>
+	 </fieldset>
 </div>
 
 <nav hidden><div class="header"><div class="header-inner">
@@ -2051,7 +2060,6 @@
 	 <li><a href="https://github.com/rayrge/hfrcalc/graphs/contributors?from=14%2F03%2F2026" class="links-lighten" target="_blank">Contributors</a></li>
 </ul>
  
-	<button type="button" id="dark-theme-toggle"></button>
     <script type="text/javascript" src="./js/dark-theme-toggle.js?1f6b71e6"></script>
 </div> 
 
