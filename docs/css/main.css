@@ -1063,18 +1063,3 @@ a.dexLink.btn {
     border: 1px solid #AAAAAA !important;
 }
 
-/* Seleziona il form che contiene il pulsante delle note */
-form:has(#save-notes) {
-    display: flex !important;
-    flex-direction: row !important;
-    gap: 4px !important;
-    margin-top: 6px !important;
-    align-items: center !important;
-}
-
-/* Resetta eventuali float o margini strani sui 3 pulsanti */
-#save-notes, #reset-notes, #resetall-notes {
-    display: inline-block !important;
-    float: none !important;
-    margin: 0 !important;
-}
