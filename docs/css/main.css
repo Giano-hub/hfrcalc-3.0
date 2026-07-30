@@ -1065,53 +1065,46 @@ a.dexLink.btn {
 }
 
 /* ============================================================
-   CHIP DAMAGE TABLE — Stile Pulito e Immediato
+   CHIP DAMAGE — Versione Orizzontale Ultra-Snella
    ============================================================ */
 
-/* Struttura della tabella */
 div[name="chip-damage"] table {
     width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 3px; /* Separa leggermente le righe */
+    border-spacing: 0;
+    margin: 4px 0;
 }
 
-div[name="chip-damage"] tr {
-    height: 24px;
-}
-
-/* Colonna Centrale (Frazione) */
-div[name="chip-damage"] th:nth-child(2) {
-    font-size: 0.8em;
+/* Rimpicciolisce il font e riduce gli spazi verticali */
+div[name="chip-damage"] th {
+    font-size: 0.78em;
+    padding: 2px 4px !important;
     font-weight: normal;
-    color: inherit;
-    opacity: 0.75;
-    text-align: center;
+    white-space: nowrap;
 }
 
-/* Colonna Player (Sinistra - Blu) */
+/* Colonna Frazione (Centro): testo piccolo e discreto */
+div[name="chip-damage"] th:nth-child(2) {
+    color: #888;
+    font-size: 0.72em;
+    text-transform: uppercase;
+}
+
+/* Giocatore (Sinistra): Blu */
 div[name="chip-damage"] th:first-child {
+    color: #2b6cb0 !important;
+    font-weight: bold;
     text-align: right;
-    padding-right: 8px;
-    font-weight: bold;
-    color: #2b6cb0 !important; /* Blu in Light Mode */
 }
 
-/* Colonna Opponent (Destra - Rosso) */
+/* Avversario (Destra): Rosso */
 div[name="chip-damage"] th:last-child {
-    text-align: left;
-    padding-left: 8px;
+    color: #c53030 !important;
     font-weight: bold;
-    color: #c53030 !important; /* Rosso in Light Mode */
+    text-align: left;
 }
 
-/* --- Adattamento Automatico per Dark Mode --- */
-body.dark div[name="chip-damage"] th:first-child {
-    color: #63b3ed !important; /* Azzurro brillante in Dark Mode */
-}
-
-body.dark div[name="chip-damage"] th:last-child {
-    color: #fc8181 !important; /* Rosso chiaro in Dark Mode */
-}
-
+/* Colorazione Dark Mode automatica */
+body.dark div[name="chip-damage"] th:first-child { color: #63b3ed !important; }
+body.dark div[name="chip-damage"] th:last-child { color: #fc8181 !important; }
 
 
