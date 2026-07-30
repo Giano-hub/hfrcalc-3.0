@@ -363,3 +363,32 @@ input.select2-input {
     color: var(--text);
     background: url('../js/vendor/select2/select2.png') no-repeat 100% -22px, var(--background);
 }
+
+/* ============================================================
+   GRUPPO NERO — Notes Area (Save / Reset / Reset All)
+   ============================================================ */
+#save-notes,
+#reset-notes,
+#resetall-notes {
+    background-color: var(--background) !important;
+    border: 1px solid #AAAAAA !important;
+    color: var(--text) !important;
+}
+
+/* ============================================================
+   GRUPPO GRIGIO CAMPO — stesso grigio dei pulsanti del Field (#353535)
+   ============================================================ */
+a.dexLink.btn,
+#ai-help,
+#previous-trainer,
+#next-trainer,
+#reset-trainer,
+#trainer-nav-help,
+#trash-poke,
+#clearSets,
+#show-cc {
+    background-color: var(--button-color, #353535) !important;
+    border: 1px solid #AAAAAA !important;
+    color: var(--text) !important;
+}
+
