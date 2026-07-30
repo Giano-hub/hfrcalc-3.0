@@ -1080,3 +1080,23 @@ a.dexLink.btn {
 body.dark .exp-dropped-title {
     color: #cbd5e0;
 }
+
+/* ============================================================
+   SWITCH-IN GUIDE — Titolo EXP DROPPED (Destra)
+   ============================================================ */
+
+/* Assicura che il fieldset sia il riferimento di posizionamento */
+fieldset.switchGuide {
+    position: relative;
+}
+
+.exp-dropped-title {
+    float: right;
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 0.75em;
+    line-height: 1.1;
+    text-align: center;
+    margin-right: 0.5rem;
+    letter-spacing: 0.5px;
+}
