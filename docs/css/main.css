@@ -1065,46 +1065,58 @@ a.dexLink.btn {
 }
 
 /* ============================================================
-   CHIP DAMAGE — Versione Orizzontale Ultra-Snella
+   CHIP DAMAGE — Griglia Compatta e Snella (Safe JS)
    ============================================================ */
+
+/* Riduce l'ingombro del contenitore */
+div[name="chip-damage"] {
+    margin: 4px 0;
+    padding: 2px;
+}
 
 div[name="chip-damage"] table {
     width: 100%;
-    border-spacing: 0;
-    margin: 4px 0;
+    border-collapse: collapse;
 }
 
-/* Rimpicciolisce il font e riduce gli spazi verticali */
+/* Rende le righe molto più sottili */
+div[name="chip-damage"] tr {
+    height: 18px; /* Ridotto drasticamente per occupare meno spazio verticalmente */
+}
+
+/* Stile del testo generale */
 div[name="chip-damage"] th {
-    font-size: 0.78em;
-    padding: 2px 4px !important;
+    font-size: 0.75em;
     font-weight: normal;
-    white-space: nowrap;
+    padding: 1px 4px !important;
+    border: none !important; /* Zero linee di griglia */
 }
 
-/* Colonna Frazione (Centro): testo piccolo e discreto */
+/* Frazione al centro (grigia, piccola) */
 div[name="chip-damage"] th:nth-child(2) {
-    color: #888;
-    font-size: 0.72em;
-    text-transform: uppercase;
+    color: #777;
+    font-size: 0.7em;
+    text-align: center;
+    width: 34%;
 }
 
-/* Giocatore (Sinistra): Blu */
+/* Giocatore (Sinistra - Blu) */
 div[name="chip-damage"] th:first-child {
     color: #2b6cb0 !important;
-    font-weight: bold;
+    font-weight: 600;
     text-align: right;
+    width: 33%;
 }
 
-/* Avversario (Destra): Rosso */
+/* Avversario (Destra - Rosso) */
 div[name="chip-damage"] th:last-child {
     color: #c53030 !important;
-    font-weight: bold;
+    font-weight: 600;
     text-align: left;
+    width: 33%;
 }
 
-/* Colorazione Dark Mode automatica */
+/* Supporto Dark Mode */
 body.dark div[name="chip-damage"] th:first-child { color: #63b3ed !important; }
 body.dark div[name="chip-damage"] th:last-child { color: #fc8181 !important; }
-
-
+body.dark div[name="chip-damage"] th:nth-child(2) { color: #aaa; }
