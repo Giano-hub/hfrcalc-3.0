@@ -1063,3 +1063,12 @@ a.dexLink.btn {
     border: 1px solid #AAAAAA !important;
 }
 
+.teambox-searchbar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 5px 0;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+}
