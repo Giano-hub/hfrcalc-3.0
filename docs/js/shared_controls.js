@@ -2547,10 +2547,15 @@ Proceed with caution.`;
 	$('.last-move-used > select.move-selector').change();
 	$('#advanced-bait').prop("checked", false);
 	$('#advanced-bait').change(() => {
-		if ($("#advanced-bait").is(":checked")) $(".last-move-used").show();
-		else $(".last-move-used").hide();
-		predictSwitchOrder();
-	});
+    if ($("#advanced-bait").is(":checked")) {
+        $(".last-move-used").show();
+        $("#expDroppedLabel").hide();
+    } else {
+        $(".last-move-used").hide();
+        $("#expDroppedLabel").show();
+    }
+    predictSwitchOrder();
+});
 
 	for (let dropzone of document.getElementsByClassName("dropzone")){
 		dropzone.ondragenter=handleDragEnter;
