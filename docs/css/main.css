@@ -573,13 +573,12 @@ table.field {
 }
 
 .trainer-poke, .trainer-poke-switch {
-    height: 36px;               /* <-- Forza la grandezza ottimale (puoi regolarlo a 32px o 40px) */
-    width: auto;                /* Mantiene le proporzioni corrette del Pokémon */
-    margin: 0 10px 4px 0;       /* Spazio a destra (10px) e un piccolo stacco sotto (4px) per la seconda riga */
+    height: 36px;         /* Dimensione grande invariata */
+    width: auto;          /* Mantiene le proporzioni */
+    margin: 0 3px 4px 0;  /* Spazio compatto a destra (3px) e piccolo distacco se si va a capo (4px) */
     cursor: pointer;
     box-sizing: border-box;
 }
-
 .trainer-poke:hover {
     outline: 2px solid;
     outline-color: #1abc9c;
