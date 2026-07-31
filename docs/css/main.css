@@ -780,12 +780,10 @@ table.field {
     object-fit: contain;
     vertical-align: middle;
     
-    /* Sposta l'immagine visivamente verso l'alto di 6px senza muovere la barra sotto */
-    position: relative;
-    top: -6px; 
-    
-    /* Mantiene solo il margine a sinistra dal testo del nome */
-    margin: 0 0 0 5px; 
+    /* Margine negativo in basso: consuma lo spazio vuoto e TIRA SU la barra di ricerca */
+    margin-top: -6px;
+    margin-bottom: -10px; 
+    margin-left: 5px;
 }
 
 #builtin-calculator {
