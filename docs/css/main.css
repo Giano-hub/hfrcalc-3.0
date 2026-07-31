@@ -775,11 +775,11 @@ table.field {
 
 #p1mon, #p2mon {
     display: inline-block;
-    width: 40px;            /* larghezza sprite */
-    height: 40px;           /* altezza sprite */
-    object-fit: contain;    /* mantiene proporzioni */
-    vertical-align: middle; /* allinea con il testo */
-    margin-left: 5px;       /* spazio tra immagine e nome */
+    height: 36px;           /* Stessa altezza degli sprite nel Team/Box */
+    width: auto;            /* Mantiene le proporzioni naturali senza deformare la sprite */
+    object-fit: contain;    /* Sicurezza per le proporzioni dell'immagine */
+    vertical-align: middle; /* Mantiene la sprite ben allineata al testo del nome */
+    margin-left: 5px;       /* Spazio tra immagine e nome */
 }
 
 #builtin-calculator {
