@@ -579,7 +579,7 @@ table.field {
 .trainer-poke, .trainer-poke-switch {
     height: 100%;
     width: auto;
-    margin-right: 10px;
+    margin: 0.4em 10px 0.4em 0;
     cursor: pointer;
     box-sizing: border-box;
 }
@@ -759,7 +759,7 @@ table.field {
     background: linear-gradient(to right, #daff08 50%, #dd0b0b 0%);
 }
 .box-poke, .trainer-poke-list-opposing, .tag-poke-list-opposing {
-    min-height: 30px;
+    min-height: 50px;
 }
 
 .deadzone:hover{
