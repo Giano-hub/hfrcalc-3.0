@@ -1064,8 +1064,8 @@ a.dexLink.btn {
 }
 
 .teambox-searchbar {
-    width: 373px;
-    box-sizing: border-box;
+    width: 100% !important;
+    box-sizing: border-box !important;
     padding: 5px;
     padding-left: 10px;
     margin: 5px 0;
