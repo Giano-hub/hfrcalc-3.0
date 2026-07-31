@@ -785,7 +785,7 @@ table.field {
     
     margin-bottom: -4px;  /* era -8px: riduci quanto "tiri su" la barra sotto, 
                               per non lasciare troppo spazio vuoto */
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
 #builtin-calculator {
