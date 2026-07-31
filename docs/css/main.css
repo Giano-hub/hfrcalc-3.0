@@ -575,7 +575,7 @@ table.field {
 .trainer-poke, .trainer-poke-switch {
     height: 36px;         /* Dimensione grande invariata */
     width: auto;          /* Mantiene le proporzioni */
-    margin: 0 5px 4px 0;  /* Spazio compatto a destra (3px) e piccolo distacco se si va a capo (4px) */
+    margin: 0 9px 4px 0;  /* Spazio compatto a destra (3px) e piccolo distacco se si va a capo (4px) */
     cursor: pointer;
     box-sizing: border-box;
 }
