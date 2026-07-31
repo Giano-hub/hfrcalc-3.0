@@ -1071,3 +1071,13 @@ a.dexLink.btn {
     border: 1px solid #AAAAAA;
     border-radius: 5px;
 }
+
+/* Soluzione CSS universale */
+.gender {
+    display: inline-block !important;
+}
+div.hide:has(.gender),
+.poke-info .hide:has(.gender) {
+    display: block !important;
+}
+
