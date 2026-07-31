@@ -778,8 +778,14 @@ table.field {
     height: 36px;
     width: auto;
     object-fit: contain;
-    vertical-align: middle;  /* Centra l'icona rispetto al testo */
-    margin: -6px 0 -6px 5px; /* Margini verticali negativi: compattano l'altezza extra dell'icona */
+    vertical-align: middle;
+    
+    /* Sposta l'immagine visivamente verso l'alto di 6px senza muovere la barra sotto */
+    position: relative;
+    top: -6px; 
+    
+    /* Mantiene solo il margine a sinistra dal testo del nome */
+    margin: 0 0 0 5px; 
 }
 
 #builtin-calculator {
