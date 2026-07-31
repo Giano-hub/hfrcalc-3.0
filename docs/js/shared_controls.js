@@ -2563,7 +2563,8 @@ Proceed with caution.`;
 		var term = $(this).val().toLowerCase();
 		if (term) {
 			$("#box-poke-list .trainer-poke, #box-poke-list2 .trainer-poke").each(function() {
-				if ($(this).attr("data-id").toLowerCase().includes(term)) $(this).show();
+				var speciesName = $(this).attr("data-id").split(" (")[0];
+				if (speciesName.toLowerCase().includes(term)) $(this).show();
 				else $(this).hide();
 			});
 		} else {
