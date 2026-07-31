@@ -781,9 +781,9 @@ table.field {
     vertical-align: middle;
     
     position: relative;
-    top: -12px;        /* era -5px: sposta lo sprite più in alto */
+    top: -8px;        /* era -5px: sposta lo sprite più in alto */
     
-    margin-bottom: -3px;  /* era -8px: riduci quanto "tiri su" la barra sotto, 
+    margin-bottom: -4px;  /* era -8px: riduci quanto "tiri su" la barra sotto, 
                               per non lasciare troppo spazio vuoto */
     margin-left: 5px;
 }
