@@ -576,14 +576,13 @@ table.field {
     flex-wrap: wrap;
 }
 
-.trainer-poke, .trainer-poke-switch {
+..trainer-poke, .trainer-poke-switch {
     height: 100%;
     width: auto;
-    margin-right: 10px;
+    margin: 0.4em 0.6em 0.4em 0;
     cursor: pointer;
     box-sizing: border-box;
 }
-
 .trainer-poke:hover {
     outline: 2px solid;
     outline-color: #1abc9c;
