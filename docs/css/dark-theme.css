@@ -457,4 +457,27 @@ a.dexLink.btn:hover {
     border-color: #ffffff !important;
 }
 
+/* ============================================================
+   FIX DARK MODE — Sfondo scuro per l'input della calcolatrice
+   ============================================================ */
 
+/* 1. Campo di input dove si scrive il calcolo */
+#calc-input,
+#calculator-input,
+input.calc-input,
+.calc-field input,
+#calc-display-input {
+    background-color: #181818 !important;
+    background: #181818 !important;
+    color: #ffffff !important;
+    border: 1px solid #444444 !important;
+}
+
+/* 2. Se l'input è contenuto dentro una wrapper / popup specifico */
+.calculator-wrapper input,
+.calc-wrapper input,
+#calc-box input[type="text"] {
+    background-color: #181818 !important;
+    background: #181818 !important;
+    color: #ffffff !important;
+}
