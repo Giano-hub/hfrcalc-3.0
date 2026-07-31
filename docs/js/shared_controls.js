@@ -2559,8 +2559,21 @@ Proceed with caution.`;
 		dropzone.ondragover=allowDrop;
 	}
 
+	$(".teambox-searchbar").on("input", function() {
+		var term = $(this).val().toLowerCase();
+		if (term) {
+			$("#box-poke-list .trainer-poke, #box-poke-list2 .trainer-poke").each(function() {
+				if ($(this).attr("data-id").toLowerCase().includes(term)) $(this).show();
+				else $(this).hide();
+			});
+		} else {
+			$("#box-poke-list .trainer-poke, #box-poke-list2 .trainer-poke").show();
+		}
+	}).val("");
+
 	READY = true;
 });
+	
 
 /* Click-to-copy function */
 $("#mainResult").click(function () {
