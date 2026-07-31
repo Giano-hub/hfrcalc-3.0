@@ -780,12 +780,11 @@ table.field {
     object-fit: contain;
     vertical-align: middle;
     
-    /* 1. Alza la sprite in alto SENZA influenzare la riga (niente abbassamenti) */
     position: relative;
-    top: -5px; 
+    top: -12px;        /* era -5px: sposta lo sprite più in alto */
     
-    /* 2. Tira su la barra di ricerca sottostante eliminando l'ingombro vuoto */
-    margin-bottom: -8px; 
+    margin-bottom: -3px;  /* era -8px: riduci quanto "tiri su" la barra sotto, 
+                              per non lasciare troppo spazio vuoto */
     margin-left: 5px;
 }
 
