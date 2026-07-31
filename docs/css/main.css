@@ -577,9 +577,11 @@ table.field {
 }
 
 .trainer-poke, .trainer-poke-switch {
-    height: 100%;
-    width: auto;
-    margin: 0.8em 10px 0 0; /* <-- Margine SOLO SOPRA (top), zero sotto (bottom) */
+    height: auto;
+    max-height: 100%;
+    margin-right: 10px; /* Mantieni solo lo spazio a destra */
+    margin-top: 0;
+    margin-bottom: 0;
     cursor: pointer;
     box-sizing: border-box;
 }
@@ -760,6 +762,8 @@ table.field {
 }
 .box-poke, .trainer-poke-list-opposing, .tag-poke-list-opposing {
     min-height: 50px;
+    display: flex;
+    align-items: flex-end; /* <-- Questo incolla le sprite in fondo! */
 }
 
 .deadzone:hover{
