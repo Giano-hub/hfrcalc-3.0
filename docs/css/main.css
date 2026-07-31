@@ -845,7 +845,7 @@ td:has(input.evs) {
 
 /* Abbassa SOLO il pannello Field usando il fieldset interno */
 fieldset.field-info {
-    margin-top: 10px !important;
+    margin-top: 6px !important;
 }
 
 /* --- OVERRIDE GLOBALE ANGOLI ARROTONDATI --- */
