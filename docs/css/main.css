@@ -579,7 +579,7 @@ table.field {
 .trainer-poke, .trainer-poke-switch {
     height: 100%;
     width: auto;
-    margin: 0.4em 10px 0.4em 0;
+    margin: 0.8em 10px 0 0; /* <-- Margine SOLO SOPRA (top), zero sotto (bottom) */
     cursor: pointer;
     box-sizing: border-box;
 }
