@@ -567,21 +567,15 @@ table.field {
     width: 100%;
 }
 
-
-
-
-
 .trainer-poke-list, .trainer-poke-list-opposing, .tag-poke-list-opposing {
     display: flex;
     flex-wrap: wrap;
 }
 
 .trainer-poke, .trainer-poke-switch {
-    height: auto;
-    max-height: 100%;
-    margin-right: 10px; /* Mantieni solo lo spazio a destra */
-    margin-top: 0;
-    margin-bottom: 0;
+    height: 36px;               /* <-- Forza la grandezza ottimale (puoi regolarlo a 32px o 40px) */
+    width: auto;                /* Mantiene le proporzioni corrette del Pokémon */
+    margin: 0 10px 4px 0;       /* Spazio a destra (10px) e un piccolo stacco sotto (4px) per la seconda riga */
     cursor: pointer;
     box-sizing: border-box;
 }
@@ -761,11 +755,13 @@ table.field {
     background: linear-gradient(to right, #daff08 50%, #dd0b0b 0%);
 }
 .box-poke, .trainer-poke-list-opposing, .tag-poke-list-opposing {
-    min-height: 50px;
+    min-height: 50px;           /* Dà respiro e distanza tra le sezioni */
     display: flex;
-    align-items: flex-end; /* <-- Questo incolla le sprite in fondo! */
+    flex-wrap: wrap;            /* Manda a capo i Pokémon se superano lo spazio (niente più pannelli giganti) */
+    align-items: flex-end;      /* Incolla gli sprite in basso sulla linea spaziatrice */
+    max-width: 100%;            /* Impedisce alla colonna di espandersi all'infinito */
+    box-sizing: border-box;
 }
-
 .deadzone:hover{
     background: #722323;
 }
