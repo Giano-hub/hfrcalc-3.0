@@ -2179,31 +2179,32 @@ function hideShowCCSettings() {
 }
 
 function colorCodeUpdate() {
-	var speCheck = document.getElementById("cc-spe-border").checked;
-	var ohkoCheck = document.getElementById("cc-ohko-color").checked;
-	var advancedCC = document.getElementById("cc-advanced").checked;
-	if (!speCheck && !ohkoCheck){
-		return
-	}
-	var pMons = document.getElementsByClassName("trainer-poke left-side");
-	// i calc here to alleviate some calculation
-	var p2info = $("#p2");
-	var p2 = createPokemon(p2info);
-	for (let i = 0; i < pMons.length; i++) {
-		let set = pMons[i].getAttribute("data-id");
-		let idColor = calculationsColors(set, p2, advancedCC);
-		if (speCheck && ohkoCheck){
-			pMons[i].className = `trainer-poke left-side mon-speed-${idColor.speed} mon-dmg-${idColor.code}`;
-		}
-		else if (speCheck){
-			pMons[i].className = `trainer-poke left-side mon-speed-${idColor.speed}`;
-		}
-		else if (ohkoCheck){
-			pMons[i].className = `trainer-poke left-side mon-dmg-${idColor.code}`;
-		}
-	}
-}
+    var speCheck = document.getElementById("cc-spe-border").checked;
+    var ohkoCheck = document.getElementById("cc-ohko-color").checked;
+    var advancedCC = document.getElementById("cc-advanced").checked;
+    var pMons = document.getElementsByClassName("trainer-poke left-side");
 
+    if (!speCheck && !ohkoCheck) {
+        for (let i = 0; i < pMons.length; i++) {
+            pMons[i].className = "trainer-poke left-side";
+        }
+        return;
+    }
+
+    var p2info = $("#p2");
+    var p2 = createPokemon(p2info);
+    for (let i = 0; i < pMons.length; i++) {
+        let set = pMons[i].getAttribute("data-id");
+        let idColor = calculationsColors(set, p2, advancedCC);
+        if (speCheck && ohkoCheck) {
+            pMons[i].className = `trainer-poke left-side mon-speed-${idColor.speed} mon-dmg-${idColor.code}`;
+        } else if (speCheck) {
+            pMons[i].className = `trainer-poke left-side mon-speed-${idColor.speed}`;
+        } else if (ohkoCheck) {
+            pMons[i].className = `trainer-poke left-side mon-dmg-${idColor.code}`;
+        }
+    }
+}
 function showColorCodes() {
 	colorCodeUpdate();
 	hideShowCCSettings();
@@ -2446,9 +2447,9 @@ $(document).ready(function () {
 	$('#next-trainer').click(nextTrainer);
 	$('#previous-trainer').click(previousTrainer);
 	$('#reset-trainer').click(resetTrainer);
-	$('#cc-spe-border').change(speedBorderSetsChange);
-	$('#cc-ohko-color').change(refreshColorCode);
-	$('#cc-advanced').change(colorCodeUpdate);
+	$('#cc-spe-border').change(refreshColorCode);
+   $('#cc-ohko-color').change(refreshColorCode);
+   $('#cc-advanced').change(refreshColorCode);
 	$('#save-notes').click(saveNotes);
 	$('#reset-notes').click(resetNotes);
 	$('#resetall-notes').click(resetAllNotes);
