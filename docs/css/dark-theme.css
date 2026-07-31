@@ -457,13 +457,4 @@ a.dexLink.btn:hover {
     border-color: #ffffff !important;
 }
 
-/* Input e barra di calcolo per il tool calcolatrice in Dark Mode */
-#calculator input,
-#calc-display,
-.calculator-input,
-.calc-display {
-    background-color: var(--background, #1b1b1b) !important;
-    color: var(--text, #e4e4e4) !important;
-    border: 1px solid #444444 !important;
-}
 
