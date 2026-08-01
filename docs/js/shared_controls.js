@@ -2144,6 +2144,7 @@ $(document).on('click', '.trainer-poke.right-side', function() {
 
 	$('.opposing').change();
 	$('.opposing .select2-chosen').text(set);
+	maybeRefreshColorCode();
 })
 
 $(document).on('click', '.left-side', function() {
@@ -2208,6 +2209,12 @@ function colorCodeUpdate() {
 function showColorCodes() {
 	colorCodeUpdate();
 	hideShowCCSettings();
+}
+
+function maybeRefreshColorCode() {
+	if (document.getElementById("cc-auto-refr").checked && $("#show-cc").is(":hidden")) {
+		window.refreshColorCode();
+	}
 }
 
 function refreshColorCode() {
@@ -2286,6 +2293,7 @@ function nextTrainer() {
 			$(".opposing").val(setName);
 			$(".opposing").change();
 			$(".opposing .select2-chosen").text(setName);
+		   maybeRefreshColorCode();
 		}
 	}
 
@@ -2306,6 +2314,7 @@ function previousTrainer() {
 			$(".opposing").val(setName);
 			$(".opposing").change();
 			$(".opposing .select2-chosen").text(setName);
+		   maybeRefreshColorCode();
 		}
 	}
 }
@@ -2322,6 +2331,7 @@ function resetTrainer() {
 	$(".opposing").val(setName);
 	$(".opposing").change();
 	$(".opposing .select2-chosen").text(setName);
+   maybeRefreshColorCode();
 }
 
 function allowDrop(ev) {
