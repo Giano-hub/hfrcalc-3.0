@@ -2212,8 +2212,15 @@ function showColorCodes() {
 }
 
 function maybeRefreshColorCode() {
+	console.log(
+		"[DEBUG] auto-refr checked:", document.getElementById("cc-auto-refr").checked,
+		"| show-cc hidden:", $("#show-cc").is(":hidden")
+	);
 	if (document.getElementById("cc-auto-refr").checked && $("#show-cc").is(":hidden")) {
+		console.log("[DEBUG] → chiamo refreshColorCode()");
 		window.refreshColorCode();
+	} else {
+		console.log("[DEBUG] → condizione falsa, NON aggiorno");
 	}
 }
 
