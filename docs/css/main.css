@@ -1087,8 +1087,9 @@ div.hide:has(.gender),
     display: block !important;
 }
 
-#show-cc {
-    margin-top: 20px; /* aumenta o riduci questo valore secondo il gusto */
+#show-cc,
+#hide-cc {
+    margin-top: 20px;
     display: inline-block;
 }
 
