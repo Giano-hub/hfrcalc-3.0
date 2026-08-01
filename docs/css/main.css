@@ -1113,61 +1113,44 @@ div.hide:has(.gender),
     top: -2px; /* prova con piccoli valori: 1px, 2px, 3px... */
 }
 
-/* 1. Centra i pulsanti all'interno della sezione Trash */
-#trash-box + #trash-poke,
-#trash-box ~ #clearSets,
-#trash-box ~ button {
-    text-align: center;
-}
-
-/* Forza il contenitore genitore a centrare gli elementi al suo interno */
-#trash-box + #trash-poke {
-    margin-left: auto;
-}
-
-/* 2. Stile base, font più grande e trasformazione in "Pillola" */
+/* 1. Centra la riga dei pulsanti nel contenitore Trash */
 #trash-poke, 
 #clearSets {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px 0;
-    padding: 6px 14px;          /* Aumentato lo spazio interno per dare respiro alla pillola */
-    font-size: 12px;            /* Font reso leggermente più grande e leggibile */
-    font-weight: bold;          /* Stile testo robusto tipo Showdown */
-    color: #333;
-    background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%); /* Sfumatura tipica dei bottoni Showdown */
-    border: 1px solid #aaaaaa;
-    cursor: pointer;
-    outline: none;
-    box-sizing: border-box;
+    text-align: center !important;
 }
 
-/* 3. Nasconde il <br /> per mantenerli affiancati */
+/* Forziamo il contenitore genitore a centrare il contenuto inline */
+#trash-poke, #clearSets {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    
+    /* Dimensione testo più grande */
+    font-size: 13px !important;
+    padding: 6px 14px !important;
+}
+
+/* 2. Nasconde il <br /> per far stare i pulsanti sulla stessa riga */
 #trash-poke + br {
-    display: none;
+    display: none !important;
 }
 
-/* 4. Pulsante SINISTRO (Clear Trash): Curva accentuata ad OVALE a sinistra */
+/* 3. PULSANTE SINISTRO: Ovale perfetto a sinistra */
 #trash-poke {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-right: 1px solid #cccccc; /* Separatore centrale pulito */
+    border-top-left-radius: 9999px !important;
+    border-bottom-left-radius: 9999px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: 1px solid #aaa !important; /* Linea divisoria al centro */
 }
 
-/* 5. Pulsante DESTRO (Clear All Boxes): Curva accentuata ad OVALE a destra */
+/* 4. PULSANTE DESTRO: Ovale perfetto a destra */
 #clearSets {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 9999px !important;
+    border-bottom-right-radius: 9999px !important;
 }
-
-/* 6. Effetto Hover stile Showdown */
-#trash-poke:hover, 
-#clearSets:hover {
-    background: linear-gradient(to bottom, #e6e6e6 0%, #cccccc 100%);
-    border-color: #888888;
-}
-
