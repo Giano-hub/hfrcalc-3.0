@@ -2171,14 +2171,6 @@ function selectFirstMon() {
 	$('.player .select2-chosen').text(set);
 }
 
-function hideShowCCSettings() {
-	$('#show-cc')[0].toggleAttribute("hidden");
-	$('#hide-cc')[0].toggleAttribute("hidden");
-	$('#refr-cc')[0].toggleAttribute("hidden");
-	$('#info-cc')[0].toggleAttribute("hidden");
-	$('#cc-sets')[0].toggleAttribute("hidden");
-}
-
 function colorCodeUpdate() {
     var speCheck = document.getElementById("cc-spe-border").checked;
     var ohkoCheck = document.getElementById("cc-ohko-color").checked;
@@ -2206,21 +2198,18 @@ function colorCodeUpdate() {
         }
     }
 }
+
 function showColorCodes() {
 	colorCodeUpdate();
-	hideShowCCSettings();
+	$('#show-cc')[0].hidden = true;
+	$('#hide-cc')[0].hidden = false;
+	$('#refr-cc')[0].hidden = false;
+	$('#info-cc')[0].hidden = false;
+	$('#cc-sets')[0].hidden = false;
 }
-
 function maybeRefreshColorCode() {
-	console.log(
-		"[DEBUG] auto-refr checked:", document.getElementById("cc-auto-refr").checked,
-		"| show-cc hidden:", $("#show-cc").is(":hidden")
-	);
 	if (document.getElementById("cc-auto-refr").checked && $("#show-cc").is(":hidden")) {
-		console.log("[DEBUG] → chiamo refreshColorCode()");
 		window.refreshColorCode();
-	} else {
-		console.log("[DEBUG] → condizione falsa, NON aggiorno");
 	}
 }
 
@@ -2233,7 +2222,12 @@ function hideColorCodes() {
 	for (let i = 0; i < pMons.length; i++) {
 		pMons[i].className = "trainer-poke left-side";
 	}
-	hideShowCCSettings();
+	$('#show-cc')[0].hidden = false;
+	$('#hide-cc')[0].hidden = true;
+	$('#refr-cc')[0].hidden = true;
+	$('#info-cc')[0].hidden = true;
+	$('#cc-sets')[0].hidden = true;
+	document.getElementById("info-cc-field").hidden = true;
 }
 
 function toggleInfoColorCode(){
