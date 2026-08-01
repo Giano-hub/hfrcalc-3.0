@@ -1222,40 +1222,4 @@ div.hide:has(.gender),
     border-bottom-right-radius: 9999px !important;
 }
 
-fieldset.poke-info > .game-specific.gm1 {
-    text-align: center;
-}
-
-#previous-trainer,
-#next-trainer,
-#reset-trainer,
-#trainer-nav-help {
-    display: inline-block !important;
-    vertical-align: middle !important;
-
-    font-family: Verdana, sans-serif !important;
-    font-size: 13.3px !important;
-    font-weight: normal !important;
-
-    padding: 4px 8px !important;
-    min-width: 6.5em !important;
-    text-align: center !important;
-    box-sizing: border-box !important;
-
-    border-radius: 0 !important;
-    margin: 10px -2px !important;
-    cursor: pointer !important;
-}
-
-#previous-trainer {
-    border-top-left-radius: 9999px !important;
-    border-bottom-left-radius: 9999px !important;
-    border-right: 1px solid #aaaaaa !important;
-}
-
-#trainer-nav-help {
-    border-top-right-radius: 9999px !important;
-    border-bottom-right-radius: 9999px !important;
-}
-
 
