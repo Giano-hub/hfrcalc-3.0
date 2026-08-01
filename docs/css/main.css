@@ -370,9 +370,6 @@ th {
     }
 }
 
-#settings-container[style*="display: block"] {
-    display: block !important;
-}
 /* header */
 .move-result-group {
     min-width: 50em;
@@ -478,7 +475,7 @@ table.field {
 }
 
 [hidden], .hide {
-    display: none !important;
+    display: none;
 }
 
 /* select2 overrides */
