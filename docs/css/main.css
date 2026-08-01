@@ -475,7 +475,7 @@ table.field {
 }
 
 [hidden], .hide {
-    display: none;
+    display: none !important;
 }
 
 /* select2 overrides */
