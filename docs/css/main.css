@@ -1113,31 +1113,37 @@ div.hide:has(.gender),
     top: -2px; /* prova con piccoli valori: 1px, 2px, 3px... */
 }
 
-/* Stile base unificato - Testo a 14px, no grassetto, padding bilanciato */
 #trash-poke, 
 #clearSets {
     display: inline-block !important;
     vertical-align: middle !important;
     
-    /* TESTO: Pulito, 14px e peso normale */
-    font-size: 14px !important;
+    /* Font e dimensioni esatte dal calcolatore originale */
+    font-family: Verdana, sans-serif !important;
+    font-size: 13.3px !important;     /* Corrisponde esattamente a 10pt */
     font-weight: normal !important;
     
-    /* SPAZIATURA: Aderente al punto giusto */
-    padding: 4px 13px !important;    /* 13px laterali: compatto ma non stretto */
-    margin: 10px 0 !important;
+    /* Geometria e spessori basati sul CSS inviato */
+    padding: 4px 8px !important;
+    min-width: 6.5em !important;      /* Proporzione dinamica in em */
+    text-align: center !important;
+    box-sizing: border-box !important;
+    
+    /* Margine negativo per unire perfettamente i due pulsanti */
+    margin: 10px -2px !important;
+    cursor: pointer !important;
 }
 
-/* PULSANTE SINISTRO: Ovale a sinistra e linea divisoria */
+/* PULSANTE SINISTRO: Sagoma a pillola a sinistra */
 #trash-poke {
     border-top-left-radius: 9999px !important;
     border-bottom-left-radius: 9999px !important;
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    border-right: 1px solid #aaa !important;
+    border-right: 1px solid #aaaaaa !important;
 }
 
-/* PULSANTE DESTRO: Ovale a destra */
+/* PULSANTE DESTRO: Sagoma a pillola a destra */
 #clearSets {
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
