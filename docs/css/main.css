@@ -1113,3 +1113,50 @@ div.hide:has(.gender),
     top: -2px; /* prova con piccoli valori: 1px, 2px, 3px... */
 }
 
+/* 1. Stile base unificato e allineamento orizzontale */
+#trash-poke, 
+#clearSets {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 8px 0 0 0;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-family: inherit;
+    color: #222;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* 2. Nasconde il <br /> per permettere l'affiancamento sulla stessa riga */
+#trash-poke + br {
+    display: none;
+}
+
+/* 3. Pulsante Sinistro (Clear Trash): Arrotondato a SINISTRA, senza bordo destro */
+#trash-poke {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+/* 4. Pulsante Destro (Clear All Boxes): Arrotondato a DESTRA */
+#clearSets {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* 5. Effetto al passaggio del mouse */
+#trash-poke:hover, 
+#clearSets:hover {
+    background-color: #e0e0e0;
+    border-color: #aaa;
+}
+
+
