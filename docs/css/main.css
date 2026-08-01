@@ -1113,59 +1113,27 @@ div.hide:has(.gender),
     top: -2px; /* prova con piccoli valori: 1px, 2px, 3px... */
 }
 
-/* 1. Centra i due pulsanti agendo sul contenitore genitore del Trash */
-#trash-box ~ button,
-#trash-box + button,
-#trash-poke, 
-#clearSets {
-    /* Centra gli elementi inline nel genitore */
-    text-align: center;
-}
-
-/* Applica la centratura forzata al div contenitore originale */
-#trash-box,
-#trash-box + #trash-poke {
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-/* Imposta il blocco per essere centrato come gruppo */
-#trash-poke {
-    margin-left: auto !important;
-}
-
-/* 2. Stile e Unione dei due pulsanti */
+/* Stile base unificato */
 #trash-poke, 
 #clearSets {
     display: inline-block !important;
     vertical-align: middle !important;
     font-size: 13px !important;
     padding: 6px 14px !important;
-    
-    /* ELIMINA LO SPAZIO TRA I DUE PULSANTI: margini laterali azzerati */
-    margin-left: 0 !important;
-    margin-right: -4px !important; /* Il margine negativo elide lo spazio vuoto HTML */
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
+    margin: 10px 0 !important;
 }
 
-/* Nasconde l'a capo del <br /> */
-#trash-poke + br {
-    display: none !important;
-}
-
-/* 3. PULSANTE SINISTRO (Clear Trash) */
+/* PULSANTE SINISTRO: Ovale a sinistra e bordo divisorio */
 #trash-poke {
     border-top-left-radius: 9999px !important;
     border-bottom-left-radius: 9999px !important;
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    border-right: 1px solid #999 !important; /* Linea divisoria centrale ben visibile */
+    border-right: 1px solid #aaa !important;
 }
 
-/* 4. PULSANTE DESTRO (Clear All Boxes) */
+/* PULSANTE DESTRO: Ovale a destra */
 #clearSets {
-    margin-left: 0 !important;
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
     border-top-right-radius: 9999px !important;
