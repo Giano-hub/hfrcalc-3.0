@@ -1113,50 +1113,61 @@ div.hide:has(.gender),
     top: -2px; /* prova con piccoli valori: 1px, 2px, 3px... */
 }
 
-/* 1. Stile base unificato e allineamento orizzontale */
+/* 1. Centra i pulsanti all'interno della sezione Trash */
+#trash-box + #trash-poke,
+#trash-box ~ #clearSets,
+#trash-box ~ button {
+    text-align: center;
+}
+
+/* Forza il contenitore genitore a centrare gli elementi al suo interno */
+#trash-box + #trash-poke {
+    margin-left: auto;
+}
+
+/* 2. Stile base, font più grande e trasformazione in "Pillola" */
 #trash-poke, 
 #clearSets {
     display: inline-block;
     vertical-align: middle;
-    margin: 8px 0 0 0;
-    padding: 4px 10px;
-    font-size: 11px;
-    font-family: inherit;
-    color: #222;
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 6px 14px;          /* Aumentato lo spazio interno per dare respiro alla pillola */
+    font-size: 12px;            /* Font reso leggermente più grande e leggibile */
+    font-weight: bold;          /* Stile testo robusto tipo Showdown */
+    color: #333;
+    background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%); /* Sfumatura tipica dei bottoni Showdown */
+    border: 1px solid #aaaaaa;
     cursor: pointer;
     outline: none;
     box-sizing: border-box;
 }
 
-/* 2. Nasconde il <br /> per permettere l'affiancamento sulla stessa riga */
+/* 3. Nasconde il <br /> per mantenerli affiancati */
 #trash-poke + br {
     display: none;
 }
 
-/* 3. Pulsante Sinistro (Clear Trash): Arrotondato a SINISTRA, senza bordo destro */
+/* 4. Pulsante SINISTRO (Clear Trash): Curva accentuata ad OVALE a sinistra */
 #trash-poke {
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    border-right: none;
+    border-right: 1px solid #cccccc; /* Separatore centrale pulito */
 }
 
-/* 4. Pulsante Destro (Clear All Boxes): Arrotondato a DESTRA */
+/* 5. Pulsante DESTRO (Clear All Boxes): Curva accentuata ad OVALE a destra */
 #clearSets {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-/* 5. Effetto al passaggio del mouse */
+/* 6. Effetto Hover stile Showdown */
 #trash-poke:hover, 
 #clearSets:hover {
-    background-color: #e0e0e0;
-    border-color: #aaa;
+    background: linear-gradient(to bottom, #e6e6e6 0%, #cccccc 100%);
+    border-color: #888888;
 }
-
 
