@@ -1150,3 +1150,13 @@ div.hide:has(.gender),
     border-top-right-radius: 9999px !important;
     border-bottom-right-radius: 9999px !important;
 }
+
+#show-cc[hidden],
+#hide-cc[hidden],
+#refr-cc[hidden],
+#info-cc[hidden],
+#cc-sets[hidden] {
+    display: none !important;
+}
+
+
