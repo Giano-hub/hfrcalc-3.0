@@ -156,11 +156,12 @@ function parseSaveFile(data) {
 			var sectionId = section[0xFF4];
 			sections[sectionId] = section;
 		}
-		var partySize = sections[1][0x234];
-		for (var i = 0; i < partySize; i++) {
-			var pokemon = parsePokemon(sections[1].slice(0x0238 + 0x64 * i, 0x0238 + 0x64 * (i + 1)));
-			paste += pokemon;
-		}
+		var partySize = sections[1][0x034];
+      for (var i = 0; i < partySize; i++) {
+          var pokemon = parsePokemon(sections[1].slice(0x038 + 0x64 * i, 0x038 + 0x64 * (i + 1)));
+          if (!pokemon) continue;  // aggiungo anche questo controllo per sicurezza, come nel box
+          paste += pokemon;
+      }
 		var pcBuffer = [];
 		for (var i = 5; i < 14; i++) {
 			pcBuffer = pcBuffer.concat(sections[i].slice(0x0, 0xF80));
