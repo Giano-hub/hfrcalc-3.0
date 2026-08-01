@@ -1113,14 +1113,20 @@ div.hide:has(.gender),
     top: -2px; /* prova con piccoli valori: 1px, 2px, 3px... */
 }
 
-/* Stile base unificato */
+/* Stile base unificato - AGGIORNATO per testo più grande */
 #trash-poke, 
 #clearSets {
     display: inline-block !important;
     vertical-align: middle !important;
-    font-size: 13px !important;
-    padding: 6px 14px !important;
-    margin: 10px 0 !important;
+    
+    /* TESTO: Aumentato e reso più robusto */
+    font-size: 15px !important;       /* Da 13px a 15px per visibilità */
+    font-weight: bold !important;    /* Grassetto stile Showdown */
+    letter-spacing: 0.3px !important; /* Leggera spaziatura per leggibilità */
+    
+    /* SPAZIATURA: Bilanciata per il nuovo font */
+    padding: 5px 16px !important;    /* Meno verticale, più orizzontale */
+    margin: 12px 0 !important;
 }
 
 /* PULSANTE SINISTRO: Ovale a sinistra e bordo divisorio */
@@ -1129,7 +1135,7 @@ div.hide:has(.gender),
     border-bottom-left-radius: 9999px !important;
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    border-right: 1px solid #aaa !important;
+    border-right: 1px solid #aaa !important; /* Linea divisoria centrale */
 }
 
 /* PULSANTE DESTRO: Ovale a destra */
