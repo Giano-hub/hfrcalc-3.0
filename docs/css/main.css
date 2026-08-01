@@ -859,15 +859,15 @@ fieldset,
 
 /* --- OVERRIDE STILE PULSANTI STATISTICHE (+/-) --- */
 .stat-changer {
-    background-color: var(--fieldset-color, #F1F4F9) !important;
+    background-color: var(--button-color, #e9e9e9) !important;
     border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
-    color: #FFFFFF !important; /* Simboli + e - BIANCHI senza grassetto */
+    color: #FFFFFF !important;
     cursor: pointer !important;
 }
 
 .stat-changer:hover {
-    background-color: #E2E8F0 !important;
+    background-color: var(--button-hover, #E2E8F0) !important;
     color: #FFFFFF !important;
 }
 
@@ -880,7 +880,7 @@ fieldset button,
 .field-info button,
 .poke-info button:not(.type-btn),
 #dark-theme-toggle {
-    background-color: var(--fieldset-color, #F1F4F9) !important;
+    background-color: var(--button-color, #e9e9e9) !important;
     border: 1px solid #AAAAAA !important;
     border-radius: 4px !important;
     color: inherit !important;
@@ -906,7 +906,7 @@ fieldset button:hover,
 .field-info button:hover,
 .poke-info button:not(.type-btn):hover,
 #dark-theme-toggle:hover {
-    background-color: var(--fieldset-color, #F1F4F9) !important;
+    background-color: var(--button-color, #e9e9e9) !important;
     color: inherit !important;
 }
 
@@ -919,7 +919,7 @@ fieldset button:active,
 .field-info button:active,
 .poke-info button:not(.type-btn):active,
 #dark-theme-toggle:active {
-    background-color: var(--fieldset-color, #F1F4F9) !important;
+    background-color: var(--button-color, #e9e9e9) !important;
     transform: translateY(1px) scale(0.97) !important;
     box-shadow: none !important;
 }
