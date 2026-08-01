@@ -370,8 +370,7 @@ th {
     }
 }
 
-#settings-container[style*="display: block"],
-#settings-container:not([style*="display: none"]) {
+#settings-container[style*="display: block"] {
     display: block !important;
 }
 /* header */
