@@ -2208,16 +2208,8 @@ function showColorCodes() {
 	$('#cc-sets')[0].hidden = false;
 }
 function maybeRefreshColorCode() {
-	console.log(
-		"[DEBUG] auto-refr checked:", document.getElementById("cc-auto-refr").checked,
-		"| show-cc hidden prop:", $("#show-cc")[0].hidden,
-		"| show-cc :hidden selector:", $("#show-cc").is(":hidden")
-	);
-	if (document.getElementById("cc-auto-refr").checked && $("#show-cc").is(":hidden")) {
-		console.log("[DEBUG] → chiamo refreshColorCode()");
+	if (document.getElementById("cc-auto-refr").checked && $("#show-cc")[0].hidden) {
 		window.refreshColorCode();
-	} else {
-		console.log("[DEBUG] → condizione falsa, NON aggiorno");
 	}
 }
 
