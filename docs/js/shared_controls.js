@@ -2062,7 +2062,7 @@ function updateTopSprite(fullSetName, imgId) {
     // Converte in formato Showdown: minuscolo, senza spazi/trattini/apostrofi
     const spriteId = calc.toID(cleanName);
 
-    const url = `https://play.pokemonshowdown.com/sprites/gen3/${spriteId}.png`;
+    const url = `https://play.pokemonshowdown.com/sprites/gen3frlg/${spriteId}.png`;
 
     const img = document.getElementById(imgId);
     if (img) {
