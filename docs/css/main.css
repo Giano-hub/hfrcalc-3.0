@@ -1166,7 +1166,7 @@ div.hide:has(.gender),
 
 .info-group.top {
     position: relative;
-    padding-right: 88px;
+    padding-right: 108px; /* era 88px: 100px (larghezza sprite) + 8px (margine) */
 }
 
 /* Spinge a destra il menu a tendina del Gender */
