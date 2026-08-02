@@ -1161,3 +1161,8 @@ div.hide:has(.gender),
     width: auto !important;
     white-space: nowrap !important;
 }
+
+.info-group.top {
+    overflow: hidden;
+}
+
