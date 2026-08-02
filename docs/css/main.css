@@ -774,8 +774,10 @@ table.field {
 }
 
 .poke-sprite-large {
-    float: right;
-    margin: 4px 2px 8px 8px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+    margin: 0;
 }
 
 #p1mon, #p2mon {
@@ -1163,6 +1165,7 @@ div.hide:has(.gender),
 }
 
 .info-group.top {
-    overflow: hidden;
+    position: relative;
+    padding-right: 88px;
 }
 
