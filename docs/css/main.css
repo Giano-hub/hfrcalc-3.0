@@ -782,8 +782,8 @@ table.field {
 
 #p1mon, #p2mon {
     display: block;
-    width: 80px;
-    height: 100px;
+    width: 120px;
+    height: 150px;
     object-fit: contain;
 }
 
