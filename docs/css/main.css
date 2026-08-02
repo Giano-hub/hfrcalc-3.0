@@ -843,7 +843,7 @@ td:has(input.evs) {
 
 /* Abbassa SOLO il pannello Field usando il fieldset interno */
 fieldset.field-info {
-    margin-top: 8px !important;
+    margin-top: 0px !important;
 }
 
 /* --- OVERRIDE GLOBALE ANGOLI ARROTONDATI --- */
@@ -1110,7 +1110,7 @@ div.hide:has(.gender),
 
 .field-info > legend {
     position: relative;
-    top: -2px; /* prova con piccoli valori: 1px, 2px, 3px... */
+    top: 0px; /* prova con piccoli valori: 1px, 2px, 3px... */
 }
 
 #trash-poke, 
