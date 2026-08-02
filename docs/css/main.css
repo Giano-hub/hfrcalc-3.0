@@ -773,9 +773,13 @@ table.field {
     color: rgb(15, 14, 14);
 }
 
+.poke-type-row {
+    position: relative;
+}
+
 .poke-sprite-large {
     position: absolute;
-    top: 0;
+    top: 100%;
     right: 2px;
     margin: 0;
 }
