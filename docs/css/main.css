@@ -773,19 +773,16 @@ table.field {
     color: rgb(15, 14, 14);
 }
 
+.poke-sprite-large {
+    text-align: center;
+    margin: 6px 0 10px;
+}
+
 #p1mon, #p2mon {
     display: inline-block;
-    height: 36px;
-    width: auto;
+    width: 64px;
+    height: 64px;
     object-fit: contain;
-    vertical-align: middle;
-    
-    position: relative;
-    top: -8px;        /* era -5px: sposta lo sprite più in alto */
-    
-    margin-bottom: -4px;  /* era -8px: riduci quanto "tiri su" la barra sotto, 
-                              per non lasciare troppo spazio vuoto */
-    margin-left: 0px;
 }
 
 #builtin-calculator {
