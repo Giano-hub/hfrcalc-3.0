@@ -774,14 +774,14 @@ table.field {
 }
 
 .poke-sprite-large {
-    text-align: center;
-    margin: 6px 0 10px;
+    text-align: right;
+    margin: 4px 2px 10px 0;
 }
 
 #p1mon, #p2mon {
     display: inline-block;
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 100px;
     object-fit: contain;
 }
 
@@ -1157,3 +1157,7 @@ div.hide:has(.gender),
     display: none !important;
 }
 
+#ai-help {
+    width: auto !important;
+    white-space: nowrap !important;
+}
