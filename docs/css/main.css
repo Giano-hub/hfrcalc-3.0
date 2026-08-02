@@ -774,12 +774,12 @@ table.field {
 }
 
 .poke-sprite-large {
-    text-align: right;
-    margin: 4px 2px 10px 0;
+    float: right;
+    margin: 4px 2px 8px 8px;
 }
 
 #p1mon, #p2mon {
-    display: inline-block;
+    display: block;
     width: 80px;
     height: 100px;
     object-fit: contain;
