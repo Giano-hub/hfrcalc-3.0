@@ -1179,4 +1179,8 @@ div.hide:has(.gender),
     margin-left: -4px; /* Regola i px finché non va pari con "Type" sopra */
 }
 
-
+/* Seleziona la tabella dei danni e forza le 3 colonne a occupare il 33.3% ciascuna */
+div[name="chip-damage"] table th {
+    width: 33.33%;
+    text-align: center;
+}
