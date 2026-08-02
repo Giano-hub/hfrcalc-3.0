@@ -2055,12 +2055,14 @@ function getSrcImgPokemon(poke) {
 function updateTopSprite(fullSetName, imgId) {
     if (!fullSetName) return;
 
-    // Pulisce il nome come fa l'opposing team
+    // Pulisce il nome (rimuove il set tra parentesi)
     // Es: "Gardevoir (Calm Mind)" → "Gardevoir"
     const cleanName = fullSetName.split(" (")[0].trim();
 
-    // URL sprite (identico all'opposing team)
-    const url = `https://raw.githubusercontent.com/May8th1995/sprites/master/${cleanName}.png`;
+    // Converte in formato Showdown: minuscolo, senza spazi/trattini/apostrofi
+    const spriteId = calc.toID(cleanName);
+
+    const url = `https://play.pokemonshowdown.com/sprites/gen3/${spriteId}.png`;
 
     const img = document.getElementById(imgId);
     if (img) {
