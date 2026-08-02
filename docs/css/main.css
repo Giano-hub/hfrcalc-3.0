@@ -1170,7 +1170,11 @@ div.hide:has(.gender),
 
 .info-group.top {
     position: relative;
-    padding-right: 108px; /* era 88px: 100px (larghezza sprite) + 8px (margine) */
+}
+
+.info-group.top > div:not(.poke-type-row) {
+    padding-right: 108px;
+    box-sizing: border-box;
 }
 
 /* Spinge a destra il menu a tendina del Gender */
@@ -1187,4 +1191,8 @@ div.hide:has(.gender),
 div[name="chip-damage"] table th {
     width: 33.33%;
     text-align: center;
+}
+
+.poke-info {
+    min-width: 0;
 }
