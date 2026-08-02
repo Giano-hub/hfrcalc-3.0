@@ -192,8 +192,12 @@
 	 </div>
 
     <div aria-label="Pok&eacute;mon 1" class="panel" role="region"> 
-        <fieldset class="poke-info" id="p1">
-            <input type="text" class="set-selector calc-trigger player" />
+       <fieldset class="poke-info" id="p1">
+    <legend align="center">
+        <button id="save-change" hidden>Save Changes</button>
+        Pok&eacute;mon 1
+    </legend>
+    <input type="text" class="set-selector calc-trigger player" />
             <div class="info-group top">
                 <div style="display: flex; align-items: center;">
                     <label>Type</label>
@@ -1337,7 +1341,8 @@
     </div>
     <div aria-label="Pok&eacute;mon 2" role="region" class="panel">
         <fieldset class="poke-info" id="p2">
-            <input type="text" class="set-selector calc-trigger opposing" />
+    <legend align="center">Pok&eacute;mon 2</legend>
+    <input type="text" class="set-selector calc-trigger opposing" />
             <div class="info-group top">
                 <div style="display: flex; align-items: center;">
                     <label>Type</label>
