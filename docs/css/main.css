@@ -1169,3 +1169,14 @@ div.hide:has(.gender),
     padding-right: 88px;
 }
 
+/* Spinge a destra il menu a tendina del Gender */
+.info-group.top .gender {
+    margin-left: 15px; /* Regola i px finché non va pari con "Type" sopra */
+}
+
+/* Spinge a destra il riquadro del Level */
+.info-group.top .level {
+    margin-left: 22px; /* Regola i px finché non va pari con "Type" sopra */
+}
+
+
