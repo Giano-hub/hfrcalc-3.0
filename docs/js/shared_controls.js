@@ -2062,7 +2062,7 @@ function updateTopSprite(fullSetName, imgId) {
     const spriteId = calc.toID(cleanName);
 
     // Percorso esatto puntato a docs/sprites/Front/
-    const url = `./docs/sprites/Front/${spriteId}.png`;
+    const url = `./sprites/Front/${spriteId}.png`;
 
     const img = document.getElementById(imgId);
     if (img) {
