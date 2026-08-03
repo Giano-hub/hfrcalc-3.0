@@ -2061,24 +2061,28 @@ function updateTopSprite(fullSetName, imgId) {
 
     // --- LOGICA CASTFORM ---
     if (spriteId === "castform") {
-        const weather = $('input[name="weather"]:checked').val();
+        // Legge il meteo e lo converte tutto in minuscolo
+        const weather = ($('input[name="weather"]:checked').val() || "").toLowerCase();
         
-        if (weather === "Sun") {
+        // Controlla se il valore contiene le parole chiave (es: "sun", "sunny", "rain", ecc.)
+        if (weather.includes("sun")) {
             spriteId = "castformsunny";
-        } else if (weather === "Rain") {
+        } else if (weather.includes("rain")) {
             spriteId = "castformrainy";
-        } else if (weather === "Hail") {
+        } else if (weather.includes("hail") || weather.includes("snow")) {
             spriteId = "castformsnowy";
         }
     }
-    // -----------------------
+
+    // Per testare cosa sta cercando di caricare (apri la console del browser con F12 per vederlo)
+    console.log("Sto caricando lo sprite:", spriteId);
 
     // Percorso esatto puntato a sprites/Front/
     const url = `./sprites/Front/${spriteId}.png`;
 
     const img = document.getElementById(imgId);
     if (img) {
-        // Fallback Showdown
+        // Fallback Showdown se il file locale non esiste
         img.onerror = function() {
             this.onerror = null;
             this.src = `https://play.pokemonshowdown.com/sprites/gen3/0.png`;
