@@ -789,7 +789,6 @@ table.field {
     width: 96px;                /* Ridimensionato a 96px */
     height: 96px;               /* Quadrato perfetto */
     object-fit: contain;
-    image-rendering: pixelated; /* Rende i pixel definiti e non sfocati */
 }
 
 #builtin-calculator {
