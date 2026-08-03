@@ -2058,23 +2058,48 @@ function updateTopSprite(fullSetName, imgId) {
 
     let cleanName = fullSetName.split(" (")[0].trim();
 
-    // Se è Castform, cambia nome in base al meteo attivo
+    // --- GESTIONE CASTFORM (SPRITE + TIPO) ---
     if (cleanName === "Castform") {
         var currentWeather = $("input:radio[name='weather']:checked").val();
+        var newType = "Normal";
+
         switch (currentWeather) {
             case "Sun":
                 cleanName = "Castform-Sunny";
+                newType = "Fire";
                 break;
             case "Rain":
                 cleanName = "Castform-Rainy";
+                newType = "Water";
                 break;
             case "Hail":
                 cleanName = "Castform-Snowy";
+                newType = "Ice";
                 break;
         }
-    }
 
-    // calc.toID converte "Castform-Sunny" -> "castformsunny"
+        // Troviamo il pannello (#p1 per p1mon, #p2 per p2mon)
+        var pId = (imgId === "p1mon") ? "p1" : "p2";
+        
+        var $type1 = $('#' + pId + ' .type1');
+        var $type2 = $('#' + pId + ' .type2');
+
+        // Fallback nel caso l'HTML non usi gli ID #p1/#p2
+        if (!$type1.length) {
+            var selector = (imgId === "p1mon") ? '.player' : '.opposing';
+            $type1 = $(selector).closest('div, table, form, fieldset').find('.type1');
+            $type2 = $(selector).closest('div, table, form, fieldset').find('.type2');
+        }
+
+        // Impostiamo il nuovo tipo e aggiorniamo il calcolatore
+        if ($type1.length) {
+            $type1.val(newType).trigger('change');
+            $type2.val("").trigger('change');
+        }
+    }
+    // ----------------------------------------
+
+    // Convertiamo il nome per lo sprite locale (es: "Castform-Sunny" -> "castformsunny")
     const spriteId = calc.toID(cleanName);
     const url = `./sprites/Front/${spriteId}.png`;
 
@@ -2088,48 +2113,11 @@ function updateTopSprite(fullSetName, imgId) {
     }
 }
 
-// 2. Funzione per aggiornare il Tipo di Castform
-function updateCastformType(panelSelector) {
-    var $panel = $(panelSelector);
-    
-    // Recupera il nome del Pokémon dal pannello
-    var fullSetName = $panel.find('.set-selector').val() || $panel.find('.poke-import').val() || $panel.val();
-    if (!fullSetName) return;
-
-    var cleanName = fullSetName.split(" (")[0].trim();
-
-    if (cleanName === "Castform") {
-        var currentWeather = $("input:radio[name='weather']:checked").val();
-        var newType = "Normal";
-
-        switch (currentWeather) {
-            case "Sun":
-                newType = "Fire";
-                break;
-            case "Rain":
-                newType = "Water";
-                break;
-            case "Hail":
-                newType = "Ice";
-                break;
-        }
-
-        // Cambia il Tipo 1, svuota il Tipo 2 e forza il ricalcolo dei danni
-        $panel.find('.type1').val(newType).trigger('change');
-        $panel.find('.type2').val("");
-    }
-}
-
-// 3. Event Listener sul cambio Meteo (aggiorna sia Sprite che Tipo)
 $(document).on('change', 'input[name="weather"]', function() {
-    // Aggiorna gli sprite dei due Pokémon
     updateTopSprite($('.player').val(), "p1mon");
     updateTopSprite($('.opposing').val(), "p2mon");
-
-    // Aggiorna i tipi di Castform nei due pannelli
-    updateCastformType('.player');
-    updateCastformType('.opposing');
 });
+
 
 ///////////////////////////////////////////////////////////
 //  LISTENER PLAYER 1
