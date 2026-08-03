@@ -1196,28 +1196,3 @@ div[name="chip-damage"] table th {
 .poke-info {
     min-width: 0;
 }
-
-#ai-help {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    box-sizing: border-box;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: normal;
-}
-
-#ai-help::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-
-.select2-container .select2-choice,
-.select2-container.select2-container-active .select2-choice,
-.select2-choice:focus,
-.select2-container a,
-.select2-container a:focus,
-.select2-drop-active {
-    outline: none !important;
-    box-shadow: none !important;
-}
