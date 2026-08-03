@@ -786,9 +786,10 @@ table.field {
 
 #p1mon, #p2mon {
     display: block;
-    width: 100px;
-    height: 120px;
+    width: 96px;                /* Ridimensionato a 96px */
+    height: 96px;               /* Quadrato perfetto */
     object-fit: contain;
+    image-rendering: pixelated; /* Rende i pixel definiti e non sfocati */
 }
 
 #builtin-calculator {
@@ -1173,7 +1174,7 @@ div.hide:has(.gender),
 }
 
 .info-group.top > div:not(.poke-type-row) {
-    padding-right: 108px;
+    padding-right: 104px;
     box-sizing: border-box;
 }
 
