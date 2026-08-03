@@ -2055,17 +2055,23 @@ function getSrcImgPokemon(poke) {
 function updateTopSprite(fullSetName, imgId) {
     if (!fullSetName) return;
 
-    // Pulisce il nome (rimuove il set tra parentesi)
-    // Es: "Gardevoir (Calm Mind)" → "Gardevoir"
+    // Pulizia del nome del set (es: "Gardevoir (Calm Mind)" → "Gardevoir")
     const cleanName = fullSetName.split(" (")[0].trim();
 
-    // Converte in formato Showdown: minuscolo, senza spazi/trattini/apostrofi
+    // Converte in minuscolo e rimuove caratteri speciali (es: "Gardevoir" → "gardevoir")
     const spriteId = calc.toID(cleanName);
 
-    const url = `https://play.pokemonshowdown.com/sprites/gen3frlg/${spriteId}.png`;
+    // Percorso esatto puntato a docs/sprites/Front/
+    const url = `./docs/sprites/Front/${spriteId}.png`;
 
     const img = document.getElementById(imgId);
     if (img) {
+        // Fallback di sicurezza: se la sprite non esiste, carica il punto interrogativo di Showdown
+        img.onerror = function() {
+            this.onerror = null;
+            this.src = `https://play.pokemonshowdown.com/sprites/gen3/0.png`;
+        };
+
         img.src = url;
     }
 }
