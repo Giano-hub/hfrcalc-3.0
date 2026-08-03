@@ -2055,18 +2055,30 @@ function getSrcImgPokemon(poke) {
 function updateTopSprite(fullSetName, imgId) {
     if (!fullSetName) return;
 
-    // Pulizia del nome del set (es: "Gardevoir (Calm Mind)" → "Gardevoir")
+    // Pulizia del nome del set 
     const cleanName = fullSetName.split(" (")[0].trim();
+    let spriteId = calc.toID(cleanName);
 
-    // Converte in minuscolo e rimuove caratteri speciali (es: "Gardevoir" → "gardevoir")
-    const spriteId = calc.toID(cleanName);
+    // --- LOGICA CASTFORM ---
+    if (spriteId === "castform") {
+        const weather = $('input[name="weather"]:checked').val();
+        
+        if (weather === "Sun") {
+            spriteId = "castformsunny";
+        } else if (weather === "Rain") {
+            spriteId = "castformrainy";
+        } else if (weather === "Hail") {
+            spriteId = "castformsnowy";
+        }
+    }
+    // -----------------------
 
-    // Percorso esatto puntato a docs/sprites/Front/
+    // Percorso esatto puntato a sprites/Front/
     const url = `./sprites/Front/${spriteId}.png`;
 
     const img = document.getElementById(imgId);
     if (img) {
-        // Fallback di sicurezza: se la sprite non esiste, carica il punto interrogativo di Showdown
+        // Fallback Showdown
         img.onerror = function() {
             this.onerror = null;
             this.src = `https://play.pokemonshowdown.com/sprites/gen3/0.png`;
