@@ -375,7 +375,12 @@ function autosetWeather(ability, i) {
 		$("input:radio[name='weather'][value='" + newWeather + "']").prop("checked", true);
 		break;
 	}
-}
+   // FIX: .prop() non genera 'change', quindi aggiorniamo lo sprite manualmente
+	if (typeof updateTopSprite === "function") {
+		updateTopSprite($('.player').val(), "p1mon");
+		updateTopSprite($('.opposing').val(), "p2mon");
+	}
+} 
 
 $("input[name='terrain']").change(function () {
 	var allPokemon = $('.poke-info');
