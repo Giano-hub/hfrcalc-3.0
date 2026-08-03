@@ -781,13 +781,13 @@ table.field {
     position: absolute;
     top: 100%;
     right: 2px;
-    margin-top: 8px; /* <-- Sposta lo sprite in basso di 8px staccandolo dal pannello sopra */
+    margin-top: 0px; /* <-- Sposta lo sprite in basso di 8px staccandolo dal pannello sopra */
 }
 
 #p1mon, #p2mon {
     display: block;
-    width: 96px;
-    height: 96px;
+    width: 80px;
+    height: 80px;
     object-fit: contain;
 }
 
@@ -1173,7 +1173,7 @@ div.hide:has(.gender),
 }
 
 .info-group.top > div:not(.poke-type-row) {
-    padding-right: 104px;
+    padding-right: 88px;
     box-sizing: border-box;
 }
 
