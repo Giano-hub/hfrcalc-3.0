@@ -781,14 +781,15 @@ table.field {
     position: absolute;
     top: 100%;
     right: 2px;
-    margin: 0;
+    margin-top: 8px; /* <-- Sposta lo sprite in basso di 8px staccandolo dal pannello sopra */
 }
 
 #p1mon, #p2mon {
     display: block;
-    width: 96px;                /* Ridimensionato a 96px */
-    height: 96px;               /* Quadrato perfetto */
+    width: 96px;
+    height: 96px;
     object-fit: contain;
+    image-rendering: pixelated;
 }
 
 #builtin-calculator {
