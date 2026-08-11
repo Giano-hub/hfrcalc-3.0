@@ -2014,7 +2014,7 @@ var ADV_PATCH = {
     Donphan: { abilities: { 0: 'Rock Head' } },
     Dunsparce: { abilities: { 0: 'Serene Grace' } },
     Elekid: { abilities: { 0: 'Static' } },
-    Entei: { abilities: { 0: 'Inner Focus' } },
+    Entei: { abilities: { 0: 'Battle Armor' } },
     Espeon: { abilities: { 0: 'Synchronize' } },
     Feraligatr: { abilities: { 0: 'Torrent' } },
     Flaaffy: { abilities: { 0: 'Static' } },
@@ -2060,7 +2060,7 @@ var ADV_PATCH = {
     Quagsire: { abilities: { 0: 'Oblivious' } },
     Quilava: { abilities: { 0: 'Flame Body' } },
     Qwilfish: { abilities: { 0: 'Intimidate' } },
-    Raikou: { abilities: { 0: 'Pressure' } },
+    Raikou: { abilities: { 0: 'Battle Armor' } },
     Remoraid: { abilities: { 0: 'Hustle' } },
     Scizor: { abilities: { 0: 'Swarm' } },
     Sentret: { abilities: { 0: 'Run Away' } },
@@ -2077,7 +2077,7 @@ var ADV_PATCH = {
     Stantler: { abilities: { 0: 'Intimidate' } },
     Steelix: { abilities: { 0: 'Rock Head' } },
     Sudowoodo: { abilities: { 0: 'Sturdy' } },
-    Suicune: { abilities: { 0: 'Pressure' } },
+    Suicune: { abilities: { 0: 'Battle Armor' } },
     Sunflora: { abilities: { 0: 'Chlorophyll' } },
     Sunkern: { abilities: { 0: 'Chlorophyll' } },
     Swinub: { abilities: { 0: 'Oblivious' } },
@@ -2793,7 +2793,7 @@ var ADV_PATCH = {
     bs: {hp: 80, at: 50, df: 100, sa: 100, sd: 200, sp: 50},
     weightkg: 175,
     gender: 'N',
-    abilities: {0: 'Clear Body'},
+    abilities: {0: 'Battle Armor'},
     expYield: 216,
   },
   Regirock: {
@@ -2801,7 +2801,7 @@ var ADV_PATCH = {
     bs: {hp: 80, at: 100, df: 200, sa: 50, sd: 100, sp: 50},
     weightkg: 230,
     gender: 'N',
-    abilities: {0: 'Clear Body'},
+    abilities: {0: 'Battle Armor'},
     expYield: 217,
   },
   Registeel: {
@@ -2809,7 +2809,7 @@ var ADV_PATCH = {
     bs: {hp: 80, at: 75, df: 150, sa: 75, sd: 150, sp: 50},
     weightkg: 205,
     gender: 'N',
-    abilities: {0: 'Clear Body'},
+    abilities: {0: 'Battle Armor'},
     expYield: 215,
   },
   Relicanth: {
@@ -3772,7 +3772,7 @@ var EK_PATCH = {
         bs: { hp: 60, at: 60, df: 60, sa: 105, sd: 105, sp: 105 }
     },
     Unown: {
-        bs: { hp: 166, at: 166, df: 166, sa: 166, sd: 166, sp: 169 }
+        bs: { hp: 128, at: 128, df: 128, sa: 128, sd: 128, sp: 137 }
     },
     Wobbuffet: {
         bs: { hp: 190, at: 35, df: 60, sa: 35, sd: 60, sp: 33 }
