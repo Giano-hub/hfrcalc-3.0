@@ -2183,14 +2183,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Kingdra",
 		"Castform"
 	],
-	"Psychic Dario": [
-		"Registeel",
-		"Skarmory",
-		"Ampharos",
-		"Aggron",
-		"Metagross",
-		"Steelix"
-	],
 	"Young Couple Eve & Jon": [
 		"Gardevoir",
 		"Alakazam",
