@@ -2874,7 +2874,7 @@ var ADV_PATCH = {
     types: ['Water', 'Dark'],
     bs: {hp: 70, at: 120, df: 40, sa: 95, sd: 40, sp: 95},
     weightkg: 88.8,
-    abilities: {0: 'Rough Skin'},
+    abilities: {0: 'Swift Swim'},
     expYield: 175,
   },
   Shedinja: {
@@ -3104,7 +3104,7 @@ var ADV_PATCH = {
     types: ['Water'],
     bs: {hp: 170, at: 90, df: 45, sa: 90, sd: 45, sp: 60},
     weightkg: 398,
-    abilities: {0: 'Water Veil'},
+    abilities: {0: 'Rain Dish'},
     expYield: 206,
   },
   Walrein: {
