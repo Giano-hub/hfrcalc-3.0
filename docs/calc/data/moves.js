@@ -283,7 +283,7 @@ var GSC_PATCH = {
     'Rock Smash': { bp: 40, type: 'Fighting' },
     'Spider Web': { bp: 0, category: 'Status', type: 'Bug' },
     Whirlpool: { bp: 15, type: 'Water' },
-    'Zap Cannon': { bp: 100, type: 'Electric' },
+    'Zap Cannon': { bp: 155, type: 'Electric' },
     'Cotton Spore': { bp: 0, category: 'Status', type: 'Grass' },
     'Extreme Speed': { bp: 100, type: 'Normal', priority: 1 },
     'Fury Cutter': { bp: 10, type: 'Bug' },
