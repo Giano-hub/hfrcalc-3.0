@@ -678,25 +678,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Sassy"
 		},
-      "Cooltrainer Night": {
-			"ability": "Inner Focus",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Psychic",
-				"Thunder Wave",
-				"Recover"
-			],
-			"nature": "Rash"
-      },	 
 		"Picnicker Yuzu": {
 			"ability": "Inner Focus",
 			"item": "Twisted Spoon",
@@ -1601,26 +1582,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Arcanine": {
-		"Aroma Lady Aura": {
-			"ability": "Intimidate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 64,
-			"moves": [
-				"Overheat",
-				"Solar Beam",
-				"Sunny Day",
-				"Hidden Power Ice"
-			],
-			"nature": "Bashful"
-		},
 		"Beauty Lola": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
@@ -4029,25 +3990,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Castform": {
-		"Aroma Lady Aura": {
-			"ability": "Forecast",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 65,
-			"moves": [
-				"Weather Ball",
-				"Thunder",
-				"Hydro Pump"
-			],
-			"nature": "Hardy"
-		},
 		"Lass Andrea": {
 			"ability": "Forecast",
 			"item": "Lum Berry",
@@ -4232,26 +4174,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Cooltrainer Night": {
-			"ability": "Natural Cure",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Thunder Wave",
-				"Soft-Boiled",
-				"Ice Beam",
-				"Thunderbolt"
-			],
-			"nature": "Lax"
-      },		
 		"Cooltrainer Mary": {
 			"ability": "Natural Cure",
 			"item": "Leftovers",
@@ -4783,26 +4705,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Claydol": {
-		"Aroma Lady Aura": {
-			"ability": "Levitate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 64,
-			"moves": [
-				"Sunny Day",
-				"Self-Destruct",
-				"Psychic",
-				"Shadow Ball"
-			],
-			"nature": "Modest"
-		},
 		"Burglar Simon": {
 			"ability": "Levitate",
 			"item": "Bright Powder",
@@ -5445,7 +5347,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"X-Scissor",
 				"Crabhammer",
@@ -6614,7 +6516,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 33,
+			"level": 32,
 			"moves": [
 				"Draco Meteor",
 				"Thunderbolt",
@@ -6656,7 +6558,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 71,
+			"level": 70,
 			"moves": [
 				"Surf",
 				"Earthquake",
@@ -8552,44 +8454,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Lax"	
 		},
-      "Cooltrainer Night": {
-			"ability": "Chlorophyll",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Sleep Powder",
-				"Stun Spore",
-				"Psychic"
-			],
-			"nature": "Naughty"
-      },
-      "Cooltrainer Day": {
-			"ability": "Chlorophyll",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 88,
-			"moves": [
-				"Sleep Powder",
-				"Stun Spore",
-				"Psychic"
-			],
-			"nature": "Bold"
-      },		
 		"Channeler Karina": {
 			"ability": "Chlorophyll",
 			"item": "Lum Berry",
@@ -9164,7 +9028,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Hydro Pump",
 				"Dragon Dance",
@@ -11449,7 +11313,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Sky Attack"
 			],
@@ -11723,7 +11587,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 94,
+			"level": 92,
 			"moves": [
 				"Aeroblast",
 				"Earthquake",
@@ -12038,7 +11902,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Cooltrainer Celdaon": {
+		"Cooltrainer Celadon": {
 			"ability": "Swarm",
 			"item": "Silver Powder",
 			"ivs": {
@@ -12558,7 +12422,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Pursuit",
 				"Crunch",
@@ -13151,25 +13015,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Naive"
 		},
-      "Cooltrainer Day": {
-			"ability": "Insomnia",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 88,
-			"moves": [
-				"Psychic",
-				"Hypnosis",
-				"Thunder Wave"
-			],
-			"nature": "Serious"
-      },		
 		"Cooltrainer Saffron": {
 			"ability": "Insomnia",
 			"item": "Lum Berry",
@@ -13477,26 +13322,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Brave"
 		},
-      "Cooltrainer Day": {
-			"ability": "Static",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 88,
-			"moves": [
-				"Thunder Wave",
-				"Sand Attack",
-				"Thunderbolt",
-				"Body Slam"
-			],
-			"nature": "Careful"
-      },		
 		"Swimmer-F Connie": {
 			"ability": "Static",
 			"item": "Magnet",
@@ -13508,7 +13333,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 71,
+			"level": 70,
 			"moves": [
 				"Thunder",
 				"Hidden Power Grass"
@@ -13877,7 +13702,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Rash"
 		},
-		"Cooltrainer Celdaon": {
+		"Cooltrainer Celadon": {
 			"ability": "Chlorophyll",
 			"item": "Lum Berry",
 			"ivs": {
@@ -13979,25 +13804,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-      "Cooltrainer Night": {
-			"ability": "Oblivious",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Psychic",
-				"Lovely Kiss",
-				"Blizzard"
-			],
-			"nature": "Hardy"
-      },
 		"Cooltrainer Saffron": {
 			"ability": "Oblivious",
 			"item": "Twisted Spoon",
@@ -14455,7 +14261,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 72,
+			"level": 71,
 			"moves": [
 				"Return",
 				"Shadow Ball",
@@ -14596,7 +14402,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 71,
+			"level": 70,
 			"moves": [
 				"Surf",
 				"Ice Beam",
@@ -15896,7 +15702,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 71,
+			"level": 70,
 			"moves": [
 				"Surf",
 				"Giga Drain",
@@ -16139,7 +15945,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 43,
+			"level": 44,
 			"moves": [
 				"Ancientpower",
 				"Psychic",
@@ -16181,7 +15987,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 75,
+			"level": 74,
 			"moves": [
 				"Hydro Pump",
 				"Blizzard",
@@ -17489,7 +17295,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Modest"
 		},
-		"Cooltrainer Celdaon": {
+		"Cooltrainer Celadon": {
 			"ability": "Thick Fat",
 			"item": "Leppa Berry",
 			"ivs": {
@@ -17713,7 +17519,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Meteor Mash",
 				"Rock Slide",
@@ -20622,7 +20428,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Cooltrainer Fuschia": {
 			"ability": "Speed Boost",
-			"item": "Bright Powder",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -21997,26 +21803,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Pinsir": {
-		"Pokemon Trainer Shyohei": {
-			"ability": "Intimidate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 64,
-			"moves": [
-				"Rock Slide",
-				"Swords Dance",
-				"Megahorn",
-				"Superpower"
-			],
-			"nature": "Docile"
-		},
 		"Bug Catcher Brent": {
 			"ability": "Intimidate",
 			"item": "Lum Berry",
@@ -22689,26 +22475,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Primeape": {
-		"Pokemon Trainer Shyohei": {
-			"ability": "Vital Spirit",
-			"item": "Choice Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 64,
-			"moves": [
-				"Rock Slide",
-				"Hidden Power Ghost",
-				"Earthquake",
-				"Superpower"
-			],
-			"nature": "Impish"
-		},
 		"Biker Jared": {
 			"ability": "Vital Spirit",
 			"item": "Lum Berry",
@@ -23166,7 +22932,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Thunder",
 				"Surf",
@@ -23279,26 +23045,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Rapidash": {
-		"Youngster Modnar": {
-			"ability": "Flame Body",
-			"item": "Choice Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 63,
-			"moves": [
-				"Hidden Power Grass",
-				"Double-Edge",
-				"Superpower",
-				"Psychic"
-			],
-			"nature": "Docile"
-		},
 		"Beauty Tamia": {
 			"ability": "Flame Body",
 			"item": "Lum Berry",
@@ -23747,25 +23493,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Impish"
 		},
-      "Cooltrainer Day": {
-			"ability": "Rock Head",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 88,
-			"moves": [
-				"Body Slam",
-				"Earthquake",
-				"Rock Slide"
-			],
-			"nature": "Lonely"
-      },		
 		"Rocket Boss Giovanni": {
 			"ability": "Rock Head",
 			"item": "Quick Claw",
@@ -25149,7 +24876,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Flash Cannon",
 				"X-Scissor",
@@ -25754,7 +25481,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Crunch",
 				"Hydro Pump",
@@ -27211,28 +26938,8 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Lax"
 		}
 	},
-	"Snorlax": {
-		"Youngster Modnar": {
-			"ability": "Thick Fat",
-			"item": "Soul Dew",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 64,
-			"moves": [
-				"Body Slam",
-				"Earthquake",
-				"Shadow Ball",
-				"Fire Blast"
-			],
-			"nature": "Impish"
-		},
-		"Crush Girl Makoto": {
+	"Snorlax": {	
+	   "Crush Girl Makoto": {
 			"ability": "Thick Fat",
 			"item": "Leftovers",
 			"ivs": {
@@ -27292,7 +26999,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Quirky"
 		},
-		"Cooltrainer Celdaon": {
+		"Cooltrainer Celadon": {
 			"ability": "Thick Fat",
 			"item": "Leftovers",
 			"ivs": {
@@ -27703,31 +27410,11 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 71,
+			"level": 70,
 			"moves": [
 				"Hydro Pump",
 				"Psycho Boost",
 				"Thunder",
-				"Blizzard"
-			],
-			"nature": "Careful"
-		},
-		"Cooltrainer Day": {
-			"ability": "Natural Cure",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 88,
-			"moves": [
-				"Recover",
-				"Thunderbolt",
-				"Thunder Wave",
 				"Blizzard"
 			],
 			"nature": "Careful"
@@ -28621,26 +28308,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Sunflora": {
-		"Aroma Lady Aura": {
-			"ability": "Chlorophyll",
-			"item": "Quick Claw",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 67,
-			"moves": [
-				"Sacred Fire",
-				"Petal Dance",
-				"Hidden Power Ice",
-				"Tail Glow"
-			],
-			"nature": "Quiet"
-		},
 		"Lass Kay": {
 			"ability": "Chlorophyll",
 			"item": "Sitrus Berry",
@@ -29102,7 +28769,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Timid"
 		},
-		"Cooltrainer Celdaon": {
+		"Cooltrainer Celadon": {
 			"ability": "Chlorophyll",
 			"item": "Lum Berry",
 			"ivs": {
@@ -29224,44 +28891,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Relaxed"
 		},
-      "Cooltrainer Night": {
-			"ability": "Intimidate",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Body Slam",
-				"Hyper Beam",
-				"Earthquake"
-			],
-			"nature": "Quiet"
-      },
-      "Cooltrainer Day": {
-			"ability": "Intimidate",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 88,
-			"moves": [
-				"Body Slam",
-				"Hyper Beam",
-				"Earthquake"
-			],
-			"nature": "Bashful"
-      },		
 		"Crush Kin Mik & Kia": {
 			"ability": "Intimidate",
 			"item": "White Herb",
@@ -29418,7 +29047,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 72,
+			"level": 71,
 			"moves": [
 				"Surf",
 				"Gunk Shot",
@@ -29938,46 +29567,6 @@ var CUSTOMHACKSETDEX_EK = {
 		}
 	},
 	"Tyranitar": {
-		"Pokemon Trainer Shyohei": {
-			"ability": "Intimidate",
-			"item": "Black Glasses",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 64,
-			"moves": [
-				"Rock Slide",
-				"Hidden Power Ground",
-				"Pursuit",
-				"Body Slam"
-			],
-			"nature": "Naughty"
-		},
-		"Youngster Modnar": {
-			"ability": "Intimidate",
-			"item": "Black Glasses",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 63,
-			"moves": [
-				"Pursuit",
-				"Dragon Dance",
-				"Hidden Power Rock",
-				"Earthquake"
-			],
-			"nature": "Quiet"
-		},
 		"Picnicker Yuzu": {
 			"ability": "Intimidate",
 			"item": "Leftovers",
@@ -30752,26 +30341,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Sing"
 			],
 			"nature": "Naughty"
-		},
-   	"Cooltrainer Night": {
-			"ability": "Swift Swim",
-			"item": "Lax Incense",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 86,
-			"moves": [
-				"Sand Attack",
-				"Hydro Pump",
-				"Body Slam",
-				"Blizzard"
-			],
-			"nature": "Lonely"
 		},		
 		"Lady Gillian": {
 			"ability": "Swift Swim",
@@ -31039,7 +30608,7 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Jolly"
 		},
-		"Cooltrainer Celdaon": {
+		"Cooltrainer Celadon": {
 			"ability": "Overgrow",
 			"item": "Lum Berry",
 			"ivs": {
@@ -32406,7 +31975,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 73,
+			"level": 72,
 			"moves": [
 				"Muddy Water",
 				"Earthquake",
@@ -33057,7 +32626,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 42,
+			"level": 41,
 			"moves": [
 				"Hyper Beam"
 			],
