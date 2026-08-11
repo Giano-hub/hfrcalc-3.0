@@ -554,26 +554,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Psychic Dario": {
-			"ability": "Rock Head",
-			"item": "Quick Claw",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 100,
-			"moves": [
-				"Head Smash",
-				"Earthquake",
-				"Superpower",
-				"Flash Cannon"
-			],
-			"nature": "Bashful"
-		},
 		"Rocket Grunt Route 7": {
 			"ability": "Rock Head",
 			"item": "Quick Claw",
@@ -1474,26 +1454,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Tail Glow"
 			],
 			"nature": "Hasty"
-		},
-		"Psychic Dario": {
-			"ability": "Static",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 100,
-			"moves": [
-				"Tail Glow",
-				"Thunder",
-				"Flamethrower",
-				"Hidden Power Ice"
-			],
-			"nature": "Jolly"
 		},
 		"Rocket Grunt 3 Silph": {
 			"ability": "Static",
@@ -8330,7 +8290,7 @@ var CUSTOMHACKSETDEX_EK = {
 	},
 	"Entei": {
 		"Cooltrainer Tierra": {
-			"ability": "Flame Body",
+			"ability": "Battle Armor",
 			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
@@ -8350,7 +8310,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Naive"
 		},
 		"Elite Four Bruno R2": {
-			"ability": "Flame Body",
+			"ability": "Battle Armor",
 			"item": "Hard Stone",
 			"ivs": {
 				"at": 31,
@@ -8370,7 +8330,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Adamant"
 		},
 		"Leader Blaine": {
-			"ability": "Flame Body",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -8390,7 +8350,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Bold"
 		},
 		"Rocket Admin Petrel 4": {
-			"ability": "Flame Body",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -17982,26 +17942,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Calm"
 		},
-		"Psychic Dario": {
-			"ability": "Clear Body",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 100,
-			"moves": [
-				"Agility",
-				"Ancientpower",
-				"Meteor Mash",
-				"Earthquake"
-			],
-			"nature": "Lonely"
-		},
 		"Pokemon Trainer Rival R22 Charmander": {
 			"ability": "Clear Body",
 			"item": "Lum Berry",
@@ -23318,7 +23258,7 @@ var CUSTOMHACKSETDEX_EK = {
 	},
 	"Raikou": {
 		"Rocket Admin Proton 4": {
-			"ability": "Static",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -23626,7 +23566,7 @@ var CUSTOMHACKSETDEX_EK = {
 	},
 	"Regice": {
 		"Elite Four Lorelei R2": {
-			"ability": "Clear Body",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -23646,7 +23586,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Rash"
 		},
 		"Gamer Pryce": {
-			"ability": "Clear Body",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -23666,7 +23606,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Gentle"
 		},
 		"Rocket Admin Ariana 3": {
-			"ability": "Clear Body",
+			"ability": "Battle Armor",
 			"item": "Leftovers",
 			"ivs": {
 				"at": 31,
@@ -23688,7 +23628,7 @@ var CUSTOMHACKSETDEX_EK = {
 	},
 	"Regirock": {
 		"Elite Four Bruno R1": {
-			"ability": "Clear Body",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -23707,7 +23647,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Hasty"
 		},
 		"Rocket Admin Proton 3": {
-			"ability": "Clear Body",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -23729,7 +23669,7 @@ var CUSTOMHACKSETDEX_EK = {
 	},
 	"Registeel": {
 		"Lady Jasmine": {
-			"ability": "Clear Body",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -23748,28 +23688,8 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Psychic Dario": {
-			"ability": "Clear Body",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 100,
-			"moves": [
-				"Earthquake",
-				"Ancientpower",
-				"Explosion",
-				"Flash Cannon"
-			],
-			"nature": "Quiet"
-		},
 		"Rocket Admin Petrel 3": {
-			"ability": "Clear Body",
+			"ability": "Battle Armor",
 			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
@@ -26495,26 +26415,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Bashful"
 		},
-		"Psychic Dario": {
-			"ability": "Keen Eye",
-			"item": "Focus Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 100,
-			"moves": [
-				"Sky Attack",
-				"Spikes",
-				"Flash Cannon",
-				"Drill Run"
-			],
-			"nature": "Brave"
-		},
 		"Rocket Grunt 2 Five Island": {
 			"ability": "Keen Eye",
 			"item": "Quick Claw",
@@ -28495,26 +28395,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Iron Tail"
 			],
 			"nature": "Naughty"
-		},
-		"Psychic Dario": {
-			"ability": "Rock Head",
-			"item": "Focus Band",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 100,
-			"moves": [
-				"Earthquake",
-				"Flash Cannon",
-				"Ancientpower",
-				"Explosion"
-			],
-			"nature": "Naive"
 		},
 		"Rocket Admin Archer": {
 			"ability": "Rock Head",
