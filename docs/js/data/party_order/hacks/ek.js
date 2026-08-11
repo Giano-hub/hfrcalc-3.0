@@ -156,7 +156,7 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Flygon",
 		"Tyranitar"
 	],
-	"Cooltrainer Celdaon": [
+	"Cooltrainer Celadon": [
 		"Tangela",
 		"Jumpluff",
 		"Heracross",
@@ -1700,22 +1700,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Togetic",
 		"Sneasel"
 	],
-   "Cooltrainer Night": [
-		"Jynx",
-		"Exeggutor",
-		"Tauros",
-		"Alakazam",
-		"Chansey",
-		"Vaporeon"
-	],
-	"Cooltrainer Day": [
-		"Hypno",
-		"Jolteon",
-		"Starmie",
-		"Rhydon",
-		"Exeggutor",
-		"Tauros"
-   ],	
 	"Gamer Slick": [
 		"Dodrio",
 		"Wobbuffet",
@@ -1740,22 +1724,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Hitmontop",
 		"Feraligatr",
 		"Flareon"
-	],
-	"Pokemon Trainer Shyohei": [
-		"Primeape",
-		"Tyranitar",
-		"Pinsir"
-	],
-	"Aroma Lady Aura": [
-		"Claydol",
-		"Arcanine",
-		"Sunflora",
-		"Castform"
-	],
-	"Youngster Modnar": [
-		"Rapidash",
-		"Tyranitar",
-		"Snorlax"
 	],
 	"Cool Couple Tama & Shi": [
 		"Latios",
