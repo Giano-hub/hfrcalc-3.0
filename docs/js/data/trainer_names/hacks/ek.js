@@ -209,9 +209,7 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Leader Koga",
 	// Back to Lavender
 	"Picnicker Becky",
-	"Youngster Modnar",
-	"Aroma Lady Aura",
-	"Pokemon Trainer Shyohei",
+	
 
 	"Bird Keeper Robert",
 	"Picnicker Alma",
@@ -333,7 +331,7 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Cooltrainer Pewter",
 	"Cooltrainer Cerulean",
 	"Cooltrainer Vermillion",
-	"Cooltrainer Celdaon",
+	"Cooltrainer Celadon",
 	"Cooltrainer Fuschia",
 	"Cooltrainer Saffron",
 	"Cooltrainer Cinnebar",
@@ -346,8 +344,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	"Cooltrainer Caroline",
 	"Cooltrainer Yuri",
 	"Cool Couple Ray & Tyra",
-	"Cooltrainer Night",
-	"Cooltrainer Day",
 	"Pokemon Trainer Brendan 2",
 	
 	// Route 17 Balling Route
