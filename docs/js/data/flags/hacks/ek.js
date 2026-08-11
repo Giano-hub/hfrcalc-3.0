@@ -268,9 +268,6 @@ var CUSTOMHACKFLAGS_EK = {
         "balanceBadge": [
             // Back to Lavender
             "Picnicker Becky",
-            "Youngster Modnar",
-	        "Aroma Lady Aura",
-        	"Pokemon Trainer Shyohei",
             "Bird Keeper Robert",
             "Picnicker Alma",
             "Pokemon Trainer May 2",
@@ -390,7 +387,7 @@ var CUSTOMHACKFLAGS_EK = {
             "Cooltrainer Pewter",
             "Cooltrainer Cerulean",
             "Cooltrainer Vermillion",
-            "Cooltrainer Celdaon",
+            "Cooltrainer Celadon",
             "Cooltrainer Fuschia",
             "Cooltrainer Saffron",
             "Cooltrainer Cinnebar",
@@ -403,8 +400,6 @@ var CUSTOMHACKFLAGS_EK = {
             "Cooltrainer Caroline",
             "Cooltrainer Yuri",
             "Cool Couple Ray & Tyra",
-			   "Cooltrainer Night",
-			   "Cooltrainer Day",
             "Pokemon Trainer Brendan 2",
 	  
             // Route 17 Balling Route
@@ -564,7 +559,6 @@ var CUSTOMHACKFLAGS_EK = {
             ["Burglar Simon", "Scientist Braydon"],
             ["Burglar Lewis", "Scientist Ivan"],
             ["Tuber Amira", "Tuber Alexis"],
-			   ["Cooltrainer Night", "Cooltrainer Day"],
             ["Cue Ball Jamal", "Cue Ball Zeek"],
             ["Swimmer-M Samir", "Swimmer-F Denise"],
             ["Juggler Edward", "Hiker Earl"],
