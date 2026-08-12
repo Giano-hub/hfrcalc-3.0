@@ -1579,6 +1579,7 @@ $(".gen").change(function () {
    
 	$(".set-selector").val(getFirstValidSetOption().id);
 	$(".set-selector").change();
+   preloadAllSprites();
 });
 
 function getFirstValidSetOption() {
@@ -2147,6 +2148,24 @@ $(document).ready(function() {
     updateTopSprite($('.player').val(), "p1mon");
     updateTopSprite($('.opposing').val(), "p2mon");
 });
+
+///////////////////////////////////////////////////////////
+//  PRECARICAMENTO SPRITE — evita il ritardo alla selezione
+///////////////////////////////////////////////////////////
+function preloadAllSprites() {
+	if (!pokedex) return;
+	var speciesNames = Object.keys(pokedex);
+	for (var i = 0; i < speciesNames.length; i++) {
+		var spriteId = calc.toID(speciesNames[i]);
+		var img = new Image();
+		img.src = `./sprites/Front/${spriteId}.png`;
+	}
+	// Precarica anche le forme di Castform legate al meteo
+	["castformsunny", "castformrainy", "castformsnowy"].forEach(function (id) {
+		var img = new Image();
+		img.src = `./sprites/Front/${id}.png`;
+	});
+}
 
 function getTrainerPokemon(trainerName) {
 	var innerContent = trainerName.substring(trainerName.indexOf("(") + 1, trainerName.lastIndexOf(")")).replaceAll("*", "").trim();
