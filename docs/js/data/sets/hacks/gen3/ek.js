@@ -15279,26 +15279,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Adamant"
 		},
-		"Picnicker Saya": {
-			"ability": "Shell Armor",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 80,
-			"moves": [
-				"Hydro Pump",
-				"Thunder",
-				"Blizzard",
-				"Hypnosis"
-			],
-			"nature": "Brave"
-		},
 		"Pokemon Ranger Beth": {
 			"ability": "Shell Armor",
 			"item": "Lum Berry",
@@ -16845,26 +16825,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Hardy"
 		},
-		"Picnicker Saya": {
-			"ability": "Intimidate",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 80,
-			"moves": [
-				"Flamethrower",
-				"Hidden Power Water",
-				"Thunderbolt",
-				"Tail Glow"
-			],
-			"nature": "Hasty"
-		},
 		"Pokemon Trainer Brendan": {
 			"ability": "Intimidate",
 			"item": "Berry Juice",
@@ -17354,26 +17314,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Leaf Blade"
 			],
 			"nature": "Modest"
-		},
-		"Picnicker Saya": {
-			"ability": "Thick Fat",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 80,
-			"moves": [
-				"Ancientpower",
-				"Leaf Blade",
-				"Hidden Power Fire",
-				"Earthquake"
-			],
-			"nature": "Hasty"
 		},
 		"Pokemon Breeder Allison": {
 			"ability": "Thick Fat",
@@ -20267,26 +20207,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Wild Charge"
 			],
 			"nature": "Adamant"
-		},
-		"Picnicker Saya": {
-			"ability": "Pressure",
-			"item": "Charcoal",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 80,
-			"moves": [
-				"Flamethrower",
-				"Hidden Power Grass",
-				"Hypnosis",
-				"Will-O-Wisp"
-			],
-			"nature": "Naive"
 		},
 		"Picnicker Tina": {
 			"ability": "Pressure",
@@ -32451,26 +32371,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Hidden Power Fire"
 			],
 			"nature": "Gentle"
-		},
-		"Picnicker Saya": {
-			"ability": "Early Bird",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 82,
-			"moves": [
-				"Psychic",
-				"Calm Mind",
-				"Hidden Power Electric",
-				"Giga Drain"
-			],
-			"nature": "Hasty"
 		},
 		"Psychic Preston": {
 			"ability": "Early Bird",
