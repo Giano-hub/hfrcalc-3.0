@@ -438,7 +438,6 @@ var CUSTOMHACKFLAGS_EK = {
 			  // Ruin Valley
 			   "Picnicker Yuzu",
 			   "Black Belt Breaker",
-			   "Black Belt Chuck",
 			   "Hiker Dusty",
 			   "Pokemaniac Hector",
 			   "Cooltrainer Shinu",
@@ -505,8 +504,9 @@ var CUSTOMHACKFLAGS_EK = {
 
             // Green Path
             "Psychic Jaclyn",
+            "Black Belt Chuck",
             
-            // Outcast Island
+			   // Outcast Island
             "Ruin Maniac Tim",
             "Fisherman Tylor",
             
