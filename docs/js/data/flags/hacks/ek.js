@@ -358,7 +358,6 @@ var CUSTOMHACKFLAGS_EK = {
 			  
             // Sevii Isles - Kindle Road
             "Swimmer-F Abigail",
-            "Picnicker Saya",
             "Crush Girl Tanya",
             "Camper Bryce",
             "Crush Kin Mik & Kia",
