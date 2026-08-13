@@ -1930,13 +1930,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Tangela",
 		"Electrode"
 	],
-	"Picnicker Saya": [
-		"Meganium",
-		"Xatu",
-		"Manectric",
-		"Ninetales",
-		"Lapras"
-	],
 	"Crush Kin Mik & Kia": [
 		"Machamp",
 		"Dugtrio",
