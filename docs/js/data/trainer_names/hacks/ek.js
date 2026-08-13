@@ -382,7 +382,6 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 	// Ruin Valley
 	"Picnicker Yuzu",
 	"Black Belt Breaker",
-	"Black Belt Chuck",
 	"Hiker Dusty",
 	"Pokemaniac Hector",
 	"Cooltrainer Shinu",
@@ -449,8 +448,9 @@ var CUSTOMHACKTRAINERNAMES_EK = [
 
    // Green Path
    "Psychic Jaclyn",
-            
-   // Outcast Island
+   "Black Belt Chuck",        
+   
+	// Outcast Island
    "Ruin Maniac Tim",
    "Fisherman Tylor",
 	
