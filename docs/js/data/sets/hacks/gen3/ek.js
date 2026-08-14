@@ -32596,7 +32596,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Champion Rival R2": {
 			"ability": "Rough Skin",
-			"item": "Lum Berry",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
