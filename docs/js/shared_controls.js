@@ -574,7 +574,7 @@ function smogonAnalysis(pokemonName) {
 	return "https://smogon.com/dex/" + generation + "/pokemon/" + pokemonName.toLowerCase() + "/";
 }
 
-var HFR_DEX_SHEET_URL = "https://docs.google.com/spreadsheets/d/1fyE2aWS_gJhl1Nk3X36SE1PnxlEItppv-1fhniM0MKw/edit?usp=sharing";
+var HFR_DEX_SHEET_URL = "https://docs.google.com/spreadsheets/d/1fyE2aWS_gJhl1Nk3X36SE1PnxlEItppv-1fhniM0MKw/edit?usp=sharing&gid=26288773";
 
 function hfrDexLink(pokemonName) {
 	var col = HFR_DEX_COLUMNS[pokemonName];
