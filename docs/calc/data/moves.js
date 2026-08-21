@@ -519,7 +519,7 @@ var ADV_PATCH = {
     'Mud Sport': { bp: 0, category: 'Status', type: 'Ground' },
     Recycle: { bp: 0, category: 'Status', type: 'Normal' },
     'Secret Power': { bp: 70, type: 'Normal' },
-    'Sky Uppercut': { bp: 85, type: 'Fighting', makesContact: true },
+    'Sky Uppercut': { bp: 90, type: 'Fighting', makesContact: true },
     'Slack Off': { bp: 0, category: 'Status', type: 'Normal' },
     Snatch: { bp: 0, category: 'Status', type: 'Dark', priority: 4 },
     'Tail Glow': { bp: 0, category: 'Status', type: 'Bug' },
