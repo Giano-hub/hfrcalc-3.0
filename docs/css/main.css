@@ -1197,20 +1197,24 @@ div[name="chip-damage"] table th {
     min-width: 0;
 }
 
-/* Rende il bottone compatto e aderente all'icona da 20px */
+/* Trasforma i bottoni in riquadri quadrati e compatti adatti alle icone da 20px */
 label[for="stoneBadge"],
 label[for="dynamoBadge"],
 label[for="balanceBadge"],
 label[for="mindBadge"] {
-    padding: 4px 8px !important;    /* Rimpicciolisce l'area cliccabile intorno all'icona */
-    min-width: unset !important;   /* Elimina la larghezza minima ereditata dal testo */
-    width: auto !important;
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 2px !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
+    box-sizing: border-box !important;
 }
 
-/* Imposta le immagini a 20x20px, grigie e sbiadite di default */
+/* Forza le immagini a 20x20px, grigie e sbiadite di default, perfettamente centrate */
 label[for="stoneBadge"] img,
 label[for="dynamoBadge"] img,
 label[for="balanceBadge"] img,
@@ -1220,11 +1224,10 @@ label[for="mindBadge"] img {
     opacity: 0.4 !important; 
     width: 20px !important;
     height: 20px !important;
-    vertical-align: middle;
     transition: all 0.2s ease;
 }
 
-/* Ripristina i colori originali a 20px quando la medaglia è attivata */
+/* Ripristina i colori originali quando la medaglia è attivata */
 input#stoneBadge:checked + label img,
 input#dynamoBadge:checked + label img,
 input#balanceBadge:checked + label img,
@@ -1232,6 +1235,4 @@ input#mindBadge:checked + label img {
     -webkit-filter: grayscale(0%) !important;
     filter: grayscale(0%) !important;
     opacity: 1 !important;
-    width: 20px !important;
-    height: 20px !important;
 }
