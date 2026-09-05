@@ -1199,15 +1199,15 @@ div[name="chip-damage"] table th {
 
 /* Effetto bianco e nero e sbiadito quando la medaglia è inattiva */
 .badge-icon {
-    filter: grayscale(100%);
-    opacity: 0.5; 
+    filter: grayscale(100%) !important;
+    opacity: 0.4 !important; 
     transition: all 0.2s ease;
 }
 
 /* Ripristina i colori originali quando la medaglia è attivata */
 input.calc-trigger:checked + label .badge-icon {
-    filter: grayscale(0%);
-    opacity: 1;
+    filter: grayscale(0%) !important;
+    opacity: 1 !important;
 }
 
 
