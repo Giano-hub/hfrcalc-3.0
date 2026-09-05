@@ -460,7 +460,7 @@ var ADV_PATCH = {
     'Earth Power': { bp: 90, type: 'Ground' },
     'Gunk Shot': { bp: 120, type: 'Poison' },
     'Head Smash': { bp: 150, type: 'Rock', recoil: [1, 3] },
-    'Wild Charge': { bp: 85, type: 'Electric', recoil: [1, 3] },
+    'Wild Charge': { bp: 85, type: 'Electric', recoil: [1, 4] },
     'Draco Meteor': { bp: 120, type: 'Dragon', recoil: [1, 3] },
     'Force Palm': { bp: 60, type: 'Fighting' },
     'Shadow Sneak': { bp: 40, type: 'Ghost' },
@@ -542,7 +542,7 @@ var ADV_PATCH = {
     Howl: { bp: 10, type: 'Dark' },
     'Luster Purge': { bp: 100, type: 'Psychic' },
     'Mist Ball': { bp: 100, type: 'Psychic' },
-    'Psycho Boost': { bp: 140, type: 'Psychic', recoil: [1, 4] },
+    'Psycho Boost': { bp: 140, type: 'Psychic', recoil: [1, 3] },
     Refresh: { bp: 0, category: 'Status', type: 'Normal' },
     'Signal Beam': { bp: 75, type: 'Bug' },
     'Silver Wind': { bp: 80, type: 'Bug' },
@@ -571,14 +571,14 @@ var ADV_PATCH = {
     'Shock Wave': { bp: 60, type: 'Electric' },
     Superpower: { bp: 120, type: 'Fighting', recoil: [1, 3], makesContact: true },
     'Water Pulse': { bp: 80, type: 'Water' },
-    'Water Spout': { bp: 150, type: 'Water', target: 'allAdjacentFoes', recoil: [1, 4] },
+    'Water Spout': { bp: 150, type: 'Water', target: 'allAdjacentFoes', recoil: [1, 3] },
     Yawn: { bp: 0, category: 'Status', type: 'Normal' }
 };
 var ADV = (0, util_1.extend)(true, {}, GSC, ADV_PATCH);
 var EK_PATCH = {};
 var EK = (0, util_1.extend)(true, {}, ADV, EK_PATCH);
 EK['Overheat'] = { bp: 120, type: 'Fire', makesContact: true, recoil: [1, 3] };
-EK['Psycho Boost'] = { bp: 140, type: 'Psychic', recoil: [1, 4] };
+EK['Psycho Boost'] = { bp: 140, type: 'Psychic', recoil: [1, 3] };
 EK['Superpower'] = { bp: 120, type: 'Fighting', recoil: [1, 3], makesContact: true };
 EK['Bone Rush'] = { bp: 100, type: 'Ground' };
 EK['Eruption'] = { bp: 150, type: 'Fire', recoil: [1, 3] };
