@@ -1224,7 +1224,16 @@ input#mindBadge:checked + label img {
     height: 20px !important;
 }
 
-
+/* ============================================================
+   SFONDO INTERNO DEI PANNELLI BADGE — combacia col background pagina
+   (Dark: var(--background) = nero pagina; Light: fallback bianco)
+   ============================================================ */
+label[for="stoneBadge"],
+label[for="dynamoBadge"],
+label[for="balanceBadge"],
+label[for="mindBadge"] {
+    background-color: var(--background, #ffffff) !important;
+}
 
 
 
