@@ -1197,18 +1197,25 @@ div[name="chip-damage"] table th {
     min-width: 0;
 }
 
-/* Effetto bianco e nero e sbiadito quando la medaglia è inattiva */
-.badge-icon {
+/* Rende le immagini grigie di default (colpisce direttamente le label delle medaglie) */
+label[for="stoneBadge"] img,
+label[for="dynamoBadge"] img,
+label[for="balanceBadge"] img,
+label[for="mindBadge"] img {
+    -webkit-filter: grayscale(100%) !important; /* Per compatibilità browser */
     filter: grayscale(100%) !important;
     opacity: 0.4 !important; 
     transition: all 0.2s ease;
 }
 
-/* Ripristina i colori originali quando la medaglia è attivata */
-input.calc-trigger:checked + label .badge-icon {
+/* Ripristina i colori quando l'input collegato viene spuntato */
+input#stoneBadge:checked + label img,
+input#dynamoBadge:checked + label img,
+input#balanceBadge:checked + label img,
+input#mindBadge:checked + label img {
+    -webkit-filter: grayscale(0%) !important;
     filter: grayscale(0%) !important;
     opacity: 1 !important;
 }
-
 
 
