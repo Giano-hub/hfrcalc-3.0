@@ -1196,3 +1196,19 @@ div[name="chip-damage"] table th {
 .poke-info {
     min-width: 0;
 }
+
+/* Effetto bianco e nero e sbiadito quando la medaglia è inattiva */
+.badge-icon {
+    filter: grayscale(100%);
+    opacity: 0.5; 
+    transition: all 0.2s ease;
+}
+
+/* Ripristina i colori originali quando la medaglia è attivata */
+input.calc-trigger:checked + label .badge-icon {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+
+
