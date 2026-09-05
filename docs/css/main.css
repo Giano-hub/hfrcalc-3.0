@@ -1224,24 +1224,7 @@ input#mindBadge:checked + label img {
     height: 20px !important;
 }
 
-/* Forza il testo nero per le scritte interne ai bottoni (sovrascrive eventuali tag span interni) */
-#save-notes *,
-#reset-notes *,
-#resetall-notes *,
-#import-team-btn *,
-#import *,
-#export *,
-#save-state *,
-#load-state *,
-#clear-state *,
-#reset *,
-#reset-all *,
-.poke-import button *,
-.field-info button[id*="import"] *,
-.field-info button[id*="sync"] *,
-.field-info button[id*="save"] * {
-    color: #000000 !important;
-}
+
 
 
 
