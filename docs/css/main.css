@@ -1193,11 +1193,10 @@ div[name="chip-damage"] table {
     table-layout: fixed;
     width: 100%;
 }
+
 div[name="chip-damage"] table th {
     width: 33.33%;
     text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
     font-variant-numeric: tabular-nums;
 }
 
