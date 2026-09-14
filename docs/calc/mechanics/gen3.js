@@ -184,7 +184,7 @@ function calculateBasePowerADV(attacker, defender, move, desc, game, hit) {
             break;
         case 'Eruption':
         case 'Water Spout':
-            if (game != 'Hellfire Red') {
+            if (game != 'Calculator') {
                 bp = Math.max(1, Math.floor((150 * attacker.curHP()) / attacker.maxHP()));
                 desc.moveBP = bp;
             }
