@@ -32070,7 +32070,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Cooltrainer Alexa": {
 			"ability": "Shadow Tag",
-			"item": "Quick Claw",
+			"item": "Lum Berry",
 			"ivs": {
 				"at": 31,
 				"df": 31,
@@ -32082,7 +32082,7 @@ var CUSTOMHACKSETDEX_EK = {
 			"level": 90,
 			"moves": [
 				"Counter",
-				"Mirror Move",
+				"Mirror Coat",
 				"Destiny Bond",
 				"Safeguard"
 			],
