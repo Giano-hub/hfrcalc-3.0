@@ -1642,6 +1642,9 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Delcatty",
 		"Gorebyss"
 	],
+	"Picnicker Dana": [
+		"Blissey"
+	],
 	"Picnicker Ariana": [
 		"Altaria",
 		"Bellossom",
