@@ -363,11 +363,6 @@ var CUSTOMHACKPARTYORDER_EK = {
 		"Bagon",
 		"Vigoroth"
 	],
-	"Lass Robin": [
-		"Chansey",
-		"Nidorina",
-		"Togetic"
-	],
 	"Lass Iris": [
 		"Vulpix",
 		"Clefairy",
