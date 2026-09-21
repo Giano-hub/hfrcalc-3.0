@@ -3503,26 +3503,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Jolly"
 		},
-		"Picnicker Dana": {
-			"ability": "Natural Cure",
-			"item": "Leppa Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 99,
-			"moves": [
-				"Soft-Boiled",
-				"Recover",
-				"Rest",
-				"Refresh"
-			],
-			"nature": "Serious"
-		},
 		"Pokemon Breeder Allison": {
 			"ability": "Natural Cure",
 			"item": "Leftovers",
