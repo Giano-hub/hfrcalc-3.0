@@ -77,7 +77,6 @@ var CUSTOMHACKFLAGS_EK = {
             "Youngster Ben",
             "Youngster Calvin",
             "Pokemaniac Cray",
-            "Lass Robin",
             "Bug Catcher James",
             "Pokemon Trainer Brendan",
 
