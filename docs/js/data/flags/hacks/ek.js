@@ -171,8 +171,9 @@ var CUSTOMHACKFLAGS_EK = {
             "Hiker Eric",
             "Picnicker Ariana",
             "Pokemaniac Ashton",
-
-            // Rt 10
+            "Picnicker Dana",
+            
+			   // Rt 10
             "Pokemon Trainer May",
 
             // Rt 8
