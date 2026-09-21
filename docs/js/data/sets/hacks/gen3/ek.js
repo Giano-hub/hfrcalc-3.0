@@ -4194,26 +4194,6 @@ var CUSTOMHACKSETDEX_EK = {
 			],
 			"nature": "Serious"
 		},
-		"Lass Robin": {
-			"ability": "Natural Cure",
-			"item": "Lum Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 16,
-			"moves": [
-				"Thunder Shock",
-				"Water Gun",
-				"Powder Snow",
-				"Sing"
-			],
-			"nature": "Timid"
-		},
 		"Picnicker Kelsey": {
 			"ability": "Natural Cure",
 			"item": "Leftovers",
@@ -19961,28 +19941,6 @@ var CUSTOMHACKSETDEX_EK = {
 			"nature": "Calm"
 		}
 	},
-	"Nidorina": {
-		"Lass Robin": {
-			"ability": "Poison Point",
-			"item": "Oran Berry",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 17,
-			"moves": [
-				"Sludge Bomb",
-				"Aerial Ace",
-				"Double Kick",
-				"Quick Attack"
-			],
-			"nature": "Calm"
-		}
-	},
 	"Nidorino": {
 		"Youngster Ben": {
 			"ability": "Poison Point",
@@ -25335,7 +25293,7 @@ var CUSTOMHACKSETDEX_EK = {
 				"sd": 31,
 				"sp": 31
 			},
-			"level": 21,
+			"level": 20,
 			"moves": [
 				"Hidden Power Water",
 				"Super Fang",
@@ -29171,23 +29129,6 @@ var CUSTOMHACKSETDEX_EK = {
 				"Sand Attack"
 			],
 			"nature": "Modest"
-		},
-		"Lass Robin": {
-			"ability": "Serene Grace",
-			"item": "Leftovers",
-			"ivs": {
-				"at": 31,
-				"df": 31,
-				"hp": 31,
-				"sa": 31,
-				"sd": 31,
-				"sp": 31
-			},
-			"level": 17,
-			"moves": [
-				"Air Slash"
-			],
-			"nature": "Lax"
 		},
 		"Swimmer-F Abigail": {
 			"ability": "Serene Grace",
