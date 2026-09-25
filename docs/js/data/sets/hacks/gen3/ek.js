@@ -3086,7 +3086,7 @@ var CUSTOMHACKSETDEX_EK = {
 		},
 		"Crush Girl Cyndy": {
 			"ability": "Hyper Cutter",
-			"item": "Lum Berry",
+			"item": "Focus Band",
 			"ivs": {
 				"at": 31,
 				"df": 31,
